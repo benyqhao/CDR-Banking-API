@@ -1,0 +1,188 @@
+{
+    "productId": "22",
+    "effectiveFrom": "2013-08-25T14:30:00.0000000Z",
+    "lastUpdated": "2023-05-17T08:00:39.2187342Z",
+    "productCategory": "RESIDENTIAL_MORTGAGES",
+    "name": "Premier HL Fixed Interest Rate",
+    "description": "Our most popular loan product.",
+    "brand": "Dnister",
+    "applicationUri": "https://www.dnister.com.au/wp-content/uploads/2020/08/L1-0820-Consumer-Loan-Overdraft-Application.pdf",
+    "isTailored": false,
+    "additionalInformation": {
+        "overviewUri": "https://www.dnister.com.au/portfolio-items/premier-home-loan/",
+        "feesAndPricingUri": "https://www.dnister.com.au/portfolio-items/premier-home-loan/"
+    },
+    "features": [
+        {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "Access your accounts 24/7 with our Mobile App and Online Banking."
+        },
+        {
+            "featureType": "NPP_ENABLED",
+            "additionalInfo": "This product can receive Osko payments in realtime."
+        },
+        {
+            "featureType": "OFFSET",
+            "additionalInfo": "Offset facility available up to $50,000."
+        },
+        {
+            "featureType": "OTHER",
+            "additionalInfo": "Weekly, fortnightly or monthly repayments options."
+        },
+        {
+            "featureType": "REDRAW",
+            "additionalInfo": "Redraw facility availble up to $50,000, redraw fees may apply.",
+            "additionalInfoUri": "https://www.dnister.com.au/fees-and-charges/"
+        }
+    ],
+    "constraints": [
+        {
+            "constraintType": "MIN_LIMIT",
+            "additionalValue": "150000.00",
+            "additionalInfo": "Minimum loan amount is $150,000."
+        }
+    ],
+    "eligibility": [
+        {
+            "eligibilityType": "BUSINESS"
+        }
+    ],
+    "fees": [
+        {
+            "name": "Company Search",
+            "feeType": "UPFRONT",
+            "amount": "50.00",
+            "currency": "AUD"
+        },
+        {
+            "name": "Title Search",
+            "feeType": "UPFRONT",
+            "amount": "49.50",
+            "currency": "AUD"
+        },
+        {
+            "name": "Bank Production",
+            "feeType": "UPFRONT",
+            "amount": "150.00",
+            "currency": "AUD"
+        },
+        {
+            "name": "Withdrawal of Caveat",
+            "feeType": "UPFRONT",
+            "amount": "100.00",
+            "currency": "AUD"
+        },
+        {
+            "name": "ASIC Lodgement",
+            "feeType": "UPFRONT",
+            "amount": "50.00",
+            "currency": "AUD"
+        },
+        {
+            "name": "Bank Cheque",
+            "feeType": "UPFRONT",
+            "amount": "15.00",
+            "currency": "AUD"
+        },
+        {
+            "name": "Discharge of Mortgage",
+            "feeType": "UPFRONT",
+            "amount": "200.00",
+            "currency": "AUD"
+        },
+        {
+            "name": "Redraw Fee",
+            "feeType": "TRANSACTION",
+            "amount": "0.00",
+            "currency": "AUD"
+        },
+        {
+            "name": "Loan Establishment Fee",
+            "feeType": "UPFRONT",
+            "amount": "250.00",
+            "currency": "AUD"
+        }
+    ],
+    "lendingRates": [
+        {
+            "lendingRateType": "FIXED",
+            "rate": "0.0582",
+            "comparisonRate": "0.0677",
+            "interestPaymentDue": "IN_ARREARS",
+            "additionalValue": "P1Y",
+            "additionalInfo": "Investor Rate - 1 year"
+        },
+        {
+            "lendingRateType": "FIXED",
+            "rate": "0.0591",
+            "comparisonRate": "0.0666",
+            "interestPaymentDue": "IN_ARREARS",
+            "additionalValue": "P2Y",
+            "additionalInfo": "Investor Rate - 2 years"
+        },
+        {
+            "lendingRateType": "FIXED",
+            "rate": "0.0539",
+            "comparisonRate": "0.0647",
+            "interestPaymentDue": "IN_ARREARS",
+            "additionalValue": "P3Y",
+            "additionalInfo": "Investor Rate - 3 years"
+        },
+        {
+            "lendingRateType": "FIXED",
+            "rate": "0.0632",
+            "comparisonRate": "0.067",
+            "interestPaymentDue": "IN_ARREARS",
+            "additionalValue": "P4Y",
+            "additionalInfo": "Investor Rate - 4 years"
+        },
+        {
+            "lendingRateType": "FIXED",
+            "rate": "0.0647",
+            "comparisonRate": "0.0673",
+            "interestPaymentDue": "IN_ARREARS",
+            "additionalValue": "P5Y",
+            "additionalInfo": "Investor Rate - 5 years"
+        },
+        {
+            "lendingRateType": "FIXED",
+            "rate": "0.0572",
+            "comparisonRate": "0.0625",
+            "interestPaymentDue": "IN_ARREARS",
+            "additionalValue": "P1Y",
+            "additionalInfo": "Owner Occupier Rate - 1 year"
+        },
+        {
+            "lendingRateType": "FIXED",
+            "rate": "0.0583",
+            "comparisonRate": "0.0621",
+            "interestPaymentDue": "IN_ARREARS",
+            "additionalValue": "P2Y",
+            "additionalInfo": "Owner Occupier Rate - 2 years"
+        },
+        {
+            "lendingRateType": "FIXED",
+            "rate": "0.0529",
+            "comparisonRate": "0.0603",
+            "interestPaymentDue": "IN_ARREARS",
+            "additionalValue": "P3Y",
+            "additionalInfo": "Owner Occupier Rate - 3 years"
+        },
+        {
+            "lendingRateType": "FIXED",
+            "rate": "0.0599",
+            "comparisonRate": "0.0621",
+            "interestPaymentDue": "IN_ARREARS",
+            "additionalValue": "P4Y",
+            "additionalInfo": "Owner Occupier Rate - 4 years"
+        },
+        {
+            "lendingRateType": "FIXED",
+            "rate": "0.0631",
+            "comparisonRate": "0.0633",
+            "interestPaymentDue": "IN_ARREARS",
+            "additionalValue": "P5Y",
+            "additionalInfo": "Owner Occupier Rate - 5 years"
+        }
+    ]
+}

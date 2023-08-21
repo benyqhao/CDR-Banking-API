@@ -1,0 +1,43 @@
+{
+    "productId": "133",
+    "effectiveFrom": "2020-04-07T14:30:00.0000000Z",
+    "lastUpdated": "2023-07-13T22:00:38.1604079Z",
+    "productCategory": "TERM_DEPOSITS",
+    "name": "55 Term Deposit - 6M Mthly",
+    "description": "Term Deposit for over 55s 6 Months",
+    "brand": "BCU",
+    "brandName": "bcu",
+    "isTailored": false,
+    "additionalInformation": {
+        "overviewUri": "https://www.bcu.com.au/termdeposits/55-td",
+        "termsUri": "https://www.bcu.com.au/important-documents",
+        "feesAndPricingUri": "https://www.bcu.com.au/important-documents"
+    },
+    "features": [
+        {
+            "featureType": "DIGITAL_BANKING"
+        }
+    ],
+    "constraints": [
+        {
+            "constraintType": "MIN_BALANCE",
+            "additionalValue": "5000.00"
+        }
+    ],
+    "eligibility": [
+        {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "55"
+        }
+    ],
+    "depositRates": [
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.0475",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "additionalValue": "P1M",
+            "additionalInfo": "Interest paid monthly"
+        }
+    ]
+}

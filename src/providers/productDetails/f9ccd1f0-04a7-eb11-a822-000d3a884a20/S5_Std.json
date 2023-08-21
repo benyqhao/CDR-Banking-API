@@ -1,0 +1,109 @@
+{
+    "features": [
+        {
+            "featureType": "NPP_ENABLED",
+            "additionalInfo": "",
+            "additionalInfoUri": "https://www.cmcu.com.au/about_cmcu/disclosure_statements"
+        }
+    ],
+    "fees": [
+        {
+            "name": "CORPORATE_CHEQUE",
+            "feeType": "EVENT",
+            "amount": "15.00",
+            "accrualFrequency": "",
+            "currency": "AUD",
+            "additionalInfo": "",
+            "additionalInfoUri": "https://www.cmcu.com.au/savings__investments/fees_charges_rewards"
+        },
+        {
+            "name": "FUTURE_DATED_BPAY",
+            "feeType": "TRANSACTION",
+            "amount": "0.50",
+            "accrualFrequency": "P1M",
+            "currency": "AUD",
+            "additionalInfo": "",
+            "additionalInfoUri": "https://www.cmcu.com.au/savings__investments/fees_charges_rewards"
+        },
+        {
+            "name": "FUTURE_DATED_EFT_-_EXTERNAL",
+            "feeType": "TRANSACTION",
+            "amount": "0.50",
+            "accrualFrequency": "",
+            "currency": "AUD",
+            "additionalInfo": "",
+            "additionalInfoUri": "https://www.cmcu.com.au/savings__investments/fees_charges_rewards"
+        },
+        {
+            "name": "FUTURE_DATED_OSKO",
+            "feeType": "TRANSACTION",
+            "amount": "0.20",
+            "accrualFrequency": "",
+            "currency": "AUD",
+            "additionalInfo": "",
+            "additionalInfoUri": "https://www.cmcu.com.au/savings__investments/fees_charges_rewards"
+        },
+        {
+            "name": "OTC_BPAY",
+            "feeType": "TRANSACTION",
+            "amount": "0.50",
+            "accrualFrequency": "",
+            "currency": "AUD",
+            "additionalInfo": "",
+            "additionalInfoUri": "https://www.cmcu.com.au/savings__investments/fees_charges_rewards"
+        },
+        {
+            "name": "OTC_CASH_WITHDRAWAL",
+            "feeType": "TRANSACTION",
+            "amount": "2.50",
+            "accrualFrequency": "",
+            "currency": "AUD",
+            "additionalInfo": "",
+            "additionalInfoUri": "https://www.cmcu.com.au/savings__investments/fees_charges_rewards"
+        },
+        {
+            "name": "OTC_EFT_EXTERNAL",
+            "feeType": "TRANSACTION",
+            "amount": "0.50",
+            "accrualFrequency": "",
+            "currency": "AUD",
+            "additionalInfo": "",
+            "additionalInfoUri": "https://www.cmcu.com.au/savings__investments/fees_charges_rewards"
+        },
+        {
+            "name": "OTC_TRANSFERS",
+            "feeType": "TRANSACTION",
+            "amount": "2.50",
+            "accrualFrequency": "",
+            "currency": "AUD",
+            "additionalInfo": "",
+            "additionalInfoUri": "https://www.cmcu.com.au/savings__investments/fees_charges_rewards"
+        }
+    ],
+    "depositRates": [
+        {
+            "depositRateType": "VARIABLE",
+            "rate": "0.008",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P12Y",
+            "additionalInfo": "",
+            "additionalInfoUri": "https://www.cmcu.com.au/about_cmcu/disclosure_statements"
+        }
+    ],
+    "productId": "S5_Std",
+    "lastUpdated": "2023-02-16T09:39:36.000+11:00",
+    "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+    "name": "CHRISTMAS CLUB ACCOUNT",
+    "description": "CHRISTMAS CLUB ACCOUNT",
+    "brand": "CENTRAL MURRAY CREDIT UNION LIMITED",
+    "brandName": "CENTRAL MURRAY CREDIT UNION LIMITED",
+    "applicationUri": "",
+    "isTailored": false,
+    "additionalInformation": {
+        "overviewUri": "https://www.cmcu.com.au/savings__investments/christmas_club/",
+        "termsUri": "https://www.cmcu.com.au/about_cmcu/disclosure_statements",
+        "eligibilityUri": "https://www.cmcu.com.au/about_cmcu/disclosure_statements",
+        "feesAndPricingUri": "https://www.cmcu.com.au/about_cmcu/disclosure_statements",
+        "bundleUri": ""
+    }
+}

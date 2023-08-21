@@ -1,0 +1,42 @@
+{
+    "productId": "bb2fb3c7-05da-4fc3-b2e7-71794b8abad7",
+    "lastUpdated": "2021-04-26T23:59:59+10:00",
+    "productCategory": "LEASES",
+    "name": "NAB Finance Lease",
+    "description": "Rent the vehicle or equipment your business needs and return it at the end of the lease.",
+    "brand": "NAB",
+    "isTailored": true,
+    "additionalInformation": {
+        "overviewUri": "https://www.nab.com.au/business/loans-and-finance/vehicle-or-equipment/finance-lease",
+        "eligibilityUri": "https://www.nab.com.au/business/loans-and-finance/vehicle-or-equipment/finance-lease",
+        "feesAndPricingUri": "https://www.nab.com.au/business/tools/rates-fees-and-charges/business-banking-fees-and-charges"
+    },
+    "eligibility": [
+        {
+            "eligibilityType": "BUSINESS",
+            "additionalInfoUri": "https://www.nab.com.au/business/loans-and-finance/vehicle-or-equipment/finance-lease"
+        }
+    ],
+    "fees": [
+        {
+            "name": "Documentation and Settlement fee (inc GST)",
+            "feeType": "UPFRONT",
+            "amount": "522.50",
+            "balanceRate": null,
+            "transactionRate": null,
+            "accruedRate": null,
+            "currency": "AUD",
+            "additionalInfoUri": "https://www.nab.com.au/business/loans-and-finance/vehicle-or-equipment/vehicle-and-equipment-loan"
+        },
+        {
+            "name": "Personal Properties Securities Registration (PPSR) Registration & Maintenance fee (inc GST)",
+            "feeType": "UPFRONT",
+            "amount": "27.50",
+            "balanceRate": null,
+            "transactionRate": null,
+            "accruedRate": null,
+            "currency": "AUD",
+            "additionalInfoUri": "https://www.nab.com.au/business/loans-and-finance/vehicle-or-equipment/vehicle-and-equipment-loan"
+        }
+    ]
+}

@@ -1,0 +1,352 @@
+{
+    "features": [
+        {
+            "featureType": "CARD_ACCESS",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "featureType": "DIGITAL_WALLET",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "featureType": "NPP_PAYID",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "featureType": "NPP_ENABLED",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "featureType": "NOTIFICATIONS",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        }
+    ],
+    "eligibility": [
+        {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "13",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "eligibilityType": "MAX_AGE",
+            "additionalValue": "24",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalInfo": "Australian Residents",
+            "additionalInfoUri": ""
+        },
+        {
+            "eligibilityType": "NATURAL_PERSON",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        }
+    ],
+    "fees": [
+        {
+            "name": "EFTPOS_FEE",
+            "feeType": "TRANSACTION",
+            "amount": "0.50",
+            "accrualFrequency": "P1M",
+            "currency": "AUD",
+            "additionalInfo": "",
+            "additionalInfoUri": "",
+            "discounts": [
+                {
+                    "description": "EFTPOS Transaction Exemptions",
+                    "discountType": "ELIGIBILITY_ONLY",
+                    "amount": "0.50",
+                    "eligibility": [
+                        {
+                            "discountEligibilityType": "MAX_AGE",
+                            "additionalValue": "21",
+                            "additionalInfo": "",
+                            "additionalInfoUri": ""
+                        },
+                        {
+                            "discountEligibilityType": "INTRODUCTORY",
+                            "additionalValue": "P3M",
+                            "additionalInfo": "",
+                            "additionalInfoUri": ""
+                        },
+                        {
+                            "discountEligibilityType": "OTHER",
+                            "additionalInfo": "If you have a mortgage at First Option you will not be charged this fee",
+                            "additionalInfoUri": ""
+                        },
+                        {
+                            "discountEligibilityType": "OTHER",
+                            "additionalInfo": "Maintain an aggregate balance over $25,000 across all your accounts",
+                            "additionalInfoUri": ""
+                        }
+                    ],
+                    "additionalInfo": "",
+                    "additionalInfoUri": ""
+                }
+            ]
+        },
+        {
+            "name": "BANK@POST_WDL",
+            "feeType": "TRANSACTION",
+            "amount": "3.00",
+            "accrualFrequency": "P1M",
+            "currency": "AUD",
+            "additionalInfo": "",
+            "additionalInfoUri": "",
+            "discounts": [
+                {
+                    "description": "Bank@Post withdrawal",
+                    "discountType": "ELIGIBILITY_ONLY",
+                    "amount": "3.00",
+                    "eligibility": [
+                        {
+                            "discountEligibilityType": "MAX_AGE",
+                            "additionalValue": "21",
+                            "additionalInfo": "",
+                            "additionalInfoUri": ""
+                        },
+                        {
+                            "discountEligibilityType": "INTRODUCTORY",
+                            "additionalValue": "P3M",
+                            "additionalInfo": "",
+                            "additionalInfoUri": ""
+                        },
+                        {
+                            "discountEligibilityType": "OTHER",
+                            "additionalInfo": "If you have a mortgage at First Option you will not be charged this fee",
+                            "additionalInfoUri": ""
+                        },
+                        {
+                            "discountEligibilityType": "OTHER",
+                            "additionalInfo": "Maintain an aggregate balance > $25,000 across all your accounts",
+                            "additionalInfoUri": ""
+                        }
+                    ],
+                    "additionalInfo": "",
+                    "additionalInfoUri": ""
+                }
+            ]
+        },
+        {
+            "name": "MEMBERSHIP_ADMIN_FEE",
+            "feeType": "PERIODIC",
+            "amount": "5.00",
+            "accrualFrequency": "P1M",
+            "currency": "AUD",
+            "additionalValue": "P1M",
+            "additionalInfo": "",
+            "additionalInfoUri": "",
+            "discounts": [
+                {
+                    "description": "Membership Admin Fee",
+                    "discountType": "ELIGIBILITY_ONLY",
+                    "amount": "5.00",
+                    "eligibility": [
+                        {
+                            "discountEligibilityType": "MAX_AGE",
+                            "additionalValue": "21",
+                            "additionalInfo": "",
+                            "additionalInfoUri": ""
+                        },
+                        {
+                            "discountEligibilityType": "INTRODUCTORY",
+                            "additionalValue": "P3M",
+                            "additionalInfo": "",
+                            "additionalInfoUri": ""
+                        },
+                        {
+                            "discountEligibilityType": "OTHER",
+                            "additionalInfo": "If you have a credit card at First Option you will not be charged this fee",
+                            "additionalInfoUri": ""
+                        },
+                        {
+                            "discountEligibilityType": "OTHER",
+                            "additionalInfo": "Maintain an aggregate balance over $1,000 across all your accounts",
+                            "additionalInfoUri": ""
+                        }
+                    ],
+                    "additionalInfo": "",
+                    "additionalInfoUri": ""
+                }
+            ]
+        },
+        {
+            "name": "OVERSEAS_ATM_WDL",
+            "feeType": "TRANSACTION",
+            "amount": "3.50",
+            "accrualFrequency": "P1M",
+            "currency": "AUD",
+            "additionalInfo": "",
+            "additionalInfoUri": "",
+            "discounts": [
+                {
+                    "description": "Overseas ATM withdrawal",
+                    "discountType": "BALANCE",
+                    "amount": "3.50",
+                    "eligibility": [
+                        {
+                            "discountEligibilityType": "MAX_AGE",
+                            "additionalValue": "21",
+                            "additionalInfo": "",
+                            "additionalInfoUri": ""
+                        },
+                        {
+                            "discountEligibilityType": "INTRODUCTORY",
+                            "additionalValue": "P3M",
+                            "additionalInfo": "",
+                            "additionalInfoUri": ""
+                        },
+                        {
+                            "discountEligibilityType": "OTHER",
+                            "additionalInfo": "If you have a mortgage at First Option you will not be charged this fee",
+                            "additionalInfoUri": ""
+                        },
+                        {
+                            "discountEligibilityType": "OTHER",
+                            "additionalInfo": "Maintain an aggregate balance over $25,000 across all your accounts",
+                            "additionalInfoUri": ""
+                        }
+                    ],
+                    "additionalInfo": "",
+                    "additionalInfoUri": ""
+                }
+            ]
+        },
+        {
+            "name": "STAFF_ASSIST_FEE",
+            "feeType": "TRANSACTION",
+            "amount": "5.00",
+            "accrualFrequency": "P1M",
+            "currency": "AUD",
+            "additionalInfo": "",
+            "additionalInfoUri": "https://firstoptionbank.com.au/disclosure-statements/",
+            "discounts": [
+                {
+                    "description": "Staff=assisted transfer fee",
+                    "discountType": "ELIGIBILITY_ONLY",
+                    "amount": "5.00",
+                    "eligibility": [
+                        {
+                            "discountEligibilityType": "MAX_AGE",
+                            "additionalValue": "21",
+                            "additionalInfo": "",
+                            "additionalInfoUri": ""
+                        },
+                        {
+                            "discountEligibilityType": "MIN_AGE",
+                            "additionalValue": "65",
+                            "additionalInfo": "",
+                            "additionalInfoUri": ""
+                        },
+                        {
+                            "discountEligibilityType": "INTRODUCTORY",
+                            "additionalValue": "P3M",
+                            "additionalInfo": "",
+                            "additionalInfoUri": ""
+                        },
+                        {
+                            "discountEligibilityType": "OTHER",
+                            "additionalInfo": "If you have a mortgage at First Option you will not be charged this fee",
+                            "additionalInfoUri": ""
+                        },
+                        {
+                            "discountEligibilityType": "OTHER",
+                            "additionalInfo": "Maintain an aggregate balance over $25,000 across all your accounts",
+                            "additionalInfoUri": ""
+                        }
+                    ],
+                    "additionalInfo": "",
+                    "additionalInfoUri": ""
+                }
+            ]
+        },
+        {
+            "name": "PAPER_STAT_FEE",
+            "feeType": "PERIODIC",
+            "amount": "2.50",
+            "accrualFrequency": "P1M",
+            "currency": "AUD",
+            "additionalValue": "P1M",
+            "additionalInfo": "",
+            "additionalInfoUri": "",
+            "discounts": [
+                {
+                    "description": "Paper Statement Fee",
+                    "discountType": "ELIGIBILITY_ONLY",
+                    "amount": "2.50",
+                    "eligibility": [
+                        {
+                            "discountEligibilityType": "MAX_AGE",
+                            "additionalValue": "21",
+                            "additionalInfo": "",
+                            "additionalInfoUri": ""
+                        },
+                        {
+                            "discountEligibilityType": "MIN_AGE",
+                            "additionalValue": "65",
+                            "additionalInfo": "",
+                            "additionalInfoUri": ""
+                        },
+                        {
+                            "discountEligibilityType": "INTRODUCTORY",
+                            "additionalValue": "P3M",
+                            "additionalInfo": "",
+                            "additionalInfoUri": ""
+                        },
+                        {
+                            "discountEligibilityType": "OTHER",
+                            "additionalInfo": "If you have a mortgage at First Option you will not be charged this fee",
+                            "additionalInfoUri": ""
+                        },
+                        {
+                            "discountEligibilityType": "OTHER",
+                            "additionalInfo": "Maintain an aggregate balance over $25,000 across all your accounts",
+                            "additionalInfoUri": ""
+                        }
+                    ],
+                    "additionalInfo": "",
+                    "additionalInfoUri": ""
+                }
+            ]
+        }
+    ],
+    "depositRates": [
+        {
+            "depositRateType": "VARIABLE",
+            "rate": "0.001",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "additionalInfo": "",
+            "additionalInfoUri": "https://firstoptionbank.com.au/disclosure-statements/"
+        }
+    ],
+    "productId": "SMART_START_ACCESS_SAVER",
+    "lastUpdated": "2023-03-15T11:25:26.000+11:00",
+    "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+    "name": "Smart Start Access Saver",
+    "description": "SMART START ACCESS SAV",
+    "brand": "FIRST OPTION BANK LTD",
+    "brandName": "FIRST OPTION BANK",
+    "applicationUri": "",
+    "isTailored": false,
+    "additionalInformation": {
+        "overviewUri": "",
+        "termsUri": "https://firstoptionbank.com.au/disclosure-statements/",
+        "eligibilityUri": "https://firstoptionbank.com.au/disclosure-statements/",
+        "feesAndPricingUri": "https://firstoptionbank.com.au/disclosure-statements/",
+        "bundleUri": ""
+    }
+}

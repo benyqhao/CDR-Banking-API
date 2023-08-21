@@ -1,0 +1,224 @@
+{
+    "features": [
+        {
+            "featureType": "BILL_PAYMENT",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "featureType": "NPP_PAYID",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "featureType": "NPP_ENABLED",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        }
+    ],
+    "eligibility": [
+        {
+            "eligibilityType": "BUSINESS",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        }
+    ],
+    "fees": [
+        {
+            "name": "ARCHIVE_SEARCH_FEE",
+            "feeType": "PAYMENT",
+            "amount": "50.00",
+            "accrualFrequency": "P1D",
+            "currency": "AUD",
+            "additionalInfo": "50.00 per hour",
+            "additionalInfoUri": "https://www.wawcu.com.au/Support/Disclosure-Documents/Savings-Transaction-Accounts"
+        },
+        {
+            "name": "BANK_AUDIT_CERTIFICATE_FEE",
+            "feeType": "EVENT",
+            "amount": "30.00",
+            "accrualFrequency": "P1D",
+            "currency": "AUD",
+            "additionalInfo": "",
+            "additionalInfoUri": "https://www.wawcu.com.au/Support/Disclosure-Documents/Savings-Transaction-Accounts"
+        },
+        {
+            "name": "BPAY_ONLINE",
+            "feeType": "TRANSACTION",
+            "amount": "0.40",
+            "accrualFrequency": "P1M",
+            "currency": "AUD",
+            "additionalInfo": "",
+            "additionalInfoUri": "https://www.wawcu.com.au/Support/Disclosure-Documents/Savings-Transaction-Accounts"
+        },
+        {
+            "name": "CORPORATE_CHEQUE_FEE",
+            "feeType": "EVENT",
+            "amount": "2.00",
+            "accrualFrequency": "P1D",
+            "currency": "AUD",
+            "additionalInfo": "",
+            "additionalInfoUri": "https://www.wawcu.com.au/Support/Disclosure-Documents/Savings-Transaction-Accounts"
+        },
+        {
+            "name": "DIRECT_DEBITS",
+            "feeType": "TRANSACTION",
+            "amount": "0.40",
+            "accrualFrequency": "P1M",
+            "currency": "AUD",
+            "additionalInfo": "",
+            "additionalInfoUri": "https://www.wawcu.com.au/Support/Disclosure-Documents/Savings-Transaction-Accounts"
+        },
+        {
+            "name": "DISHONOUR_FEE.",
+            "feeType": "EVENT",
+            "amount": "10.00",
+            "accrualFrequency": "P1D",
+            "currency": "AUD",
+            "additionalInfo": "",
+            "additionalInfoUri": "https://www.wawcu.com.au/Support/Disclosure-Documents/Savings-Transaction-Accounts"
+        },
+        {
+            "name": "ELECTRONIC_PAYMENT_TRACE",
+            "feeType": "EVENT",
+            "amount": "30.00",
+            "accrualFrequency": "P1D",
+            "currency": "AUD",
+            "additionalInfo": "",
+            "additionalInfoUri": "https://www.wawcu.com.au/Support/Disclosure-Documents/Savings-Transaction-Accounts"
+        },
+        {
+            "name": "FOREIGN_CASH",
+            "feeType": "PURCHASE",
+            "transactionRate": "0.01",
+            "accrualFrequency": "P1D",
+            "currency": "AUD",
+            "additionalInfo": "",
+            "additionalInfoUri": "https://www.wawcu.com.au/Support/Disclosure-Documents/Savings-Transaction-Accounts"
+        },
+        {
+            "name": "LARGE_CASH_WITHDRAWAL",
+            "feeType": "PAYMENT",
+            "transactionRate": "0.0",
+            "accrualFrequency": "P1D",
+            "currency": "AUD",
+            "additionalInfo": "Price on Application",
+            "additionalInfoUri": "https://www.wawcu.com.au/Support/Disclosure-Documents/Savings-Transaction-Accounts"
+        },
+        {
+            "name": "OVERDRAWN_ACCOUNT_FEE",
+            "feeType": "EVENT",
+            "amount": "10.00",
+            "accrualFrequency": "P1D",
+            "currency": "AUD",
+            "additionalInfo": "",
+            "additionalInfoUri": "https://www.wawcu.com.au/Support/Disclosure-Documents/Savings-Transaction-Accounts"
+        },
+        {
+            "name": "OVER_COUNTER_STAFF_ASSISTED",
+            "feeType": "WITHDRAWAL",
+            "amount": "2.00",
+            "accrualFrequency": "P1M",
+            "currency": "AUD",
+            "additionalInfo": "Over counter, Cash Withdrawal, External Transfer and Bpay",
+            "additionalInfoUri": "https://www.wawcu.com.au/Support/Disclosure-Documents/Savings-Transaction-Accounts"
+        },
+        {
+            "name": "STATEMENT_REQUEST",
+            "feeType": "EVENT",
+            "amount": "2.00",
+            "accrualFrequency": "P1D",
+            "currency": "AUD",
+            "additionalInfo": "",
+            "additionalInfoUri": "https://www.wawcu.com.au/Support/Disclosure-Documents/Savings-Transaction-Accounts"
+        },
+        {
+            "name": "STOP_PAYMENT",
+            "feeType": "EVENT",
+            "amount": "5.00",
+            "accrualFrequency": "P1D",
+            "currency": "AUD",
+            "additionalInfo": "",
+            "additionalInfoUri": "https://www.wawcu.com.au/Support/Disclosure-Documents/Savings-Transaction-Accounts"
+        },
+        {
+            "name": "SWIFT_INWARD_TRANSFER",
+            "feeType": "EVENT",
+            "amount": "10.00",
+            "accrualFrequency": "P1D",
+            "currency": "AUD",
+            "additionalInfo": "",
+            "additionalInfoUri": "https://www.bankwaw.com.au/Support/Disclosure-Documents/Savings-Transaction-Accounts"
+        },
+        {
+            "name": "SWIFT_OUTWARD_PAYMENT",
+            "feeType": "EVENT",
+            "amount": "15.00",
+            "accrualFrequency": "P1D",
+            "currency": "AUD",
+            "additionalInfo": "",
+            "additionalInfoUri": "https://www.bankwaw.com.au/Support/Disclosure-Documents/Savings-Transaction-Accounts"
+        }
+    ],
+    "depositRates": [
+        {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0001",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "tiers": [
+                {
+                    "name": "WAW Business Saver_Tier_1",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 0.0,
+                    "maximumValue": 9999.99,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalInfo": "",
+            "additionalInfoUri": "https://www.bankwaw.com.au/Links/Interest-Rates"
+        },
+        {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0205",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "tiers": [
+                {
+                    "name": "WAW Business Saver_Tier_2",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 10000.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalInfo": "",
+            "additionalInfoUri": "https://www.bankwaw.com.au/Links/Interest-Rates"
+        }
+    ],
+    "productId": "WAW_Business_Saver",
+    "lastUpdated": "2023-04-01T11:35:23.000+11:00",
+    "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+    "name": "WAW Business Saver",
+    "description": "WAW Business Saver",
+    "brand": "WAW CREDIT UNION CO-OPERATIVE LTD",
+    "brandName": "BankWAW",
+    "applicationUri": "https://www.bankwaw.com.au/Links/Apply?type=saving-investing",
+    "isTailored": false,
+    "additionalInformation": {
+        "overviewUri": "https://www.wawcu.com.au/Save/For-Your-Business/Business-Saver",
+        "termsUri": "https://www.bankwaw.com.au/Support/Disclosure-Documents",
+        "eligibilityUri": "https://www.wawcu.com.au/Save/For-Your-Business/Business-Saver",
+        "feesAndPricingUri": "https://www.bankwaw.com.au/Support/Disclosure-Documents/Savings-Transaction-Accounts",
+        "bundleUri": ""
+    }
+}

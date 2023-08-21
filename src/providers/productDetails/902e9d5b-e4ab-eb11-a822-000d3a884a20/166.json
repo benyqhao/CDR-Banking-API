@@ -1,0 +1,119 @@
+{
+    "productId": "166",
+    "effectiveFrom": "2020-04-15T14:30:00.0000000Z",
+    "lastUpdated": "2023-06-20T16:00:39.7448099Z",
+    "productCategory": "OVERDRAFTS",
+    "name": "All-In-One",
+    "description": "Owner Occupied Line of Credit",
+    "brand": "BCU",
+    "brandName": "bcu",
+    "isTailored": false,
+    "additionalInformation": {
+        "overviewUri": "https://www.bcu.com.au/home-loans/owner-occupied/owner-occupied-line-of-credit",
+        "termsUri": "https://www.bcu.com.au/important-documents",
+        "feesAndPricingUri": "https://www.bcu.com.au/home-loans/owner-occupied/owner-occupied-line-of-credit"
+    },
+    "features": [
+        {
+            "featureType": "BILL_PAYMENT"
+        },
+        {
+            "featureType": "CARD_ACCESS",
+            "additionalValue": "Visa Debit card available"
+        },
+        {
+            "featureType": "DIGITAL_BANKING"
+        },
+        {
+            "featureType": "NPP_ENABLED"
+        },
+        {
+            "featureType": "OVERDRAFT"
+        },
+        {
+            "featureType": "UNLIMITED_TXNS"
+        }
+    ],
+    "fees": [
+        {
+            "name": "Referral Fee",
+            "feeType": "EVENT",
+            "amount": "3.50",
+            "currency": "AUD",
+            "additionalInfo": "Where an account has insufficient available funds to cover a cheque or direct debit transaction, and the transaction is honoured by bcu",
+            "additionalInfoUri": "https://www.bcu.com.au/help-support/fees-charges"
+        },
+        {
+            "name": "Dishonour Fee",
+            "feeType": "EVENT",
+            "amount": "6.00",
+            "currency": "AUD",
+            "additionalInfo": "Where a direct debit or cheque is dishonoured due to insufficient funds",
+            "additionalInfoUri": "https://www.bcu.com.au/help-support/fees-charges"
+        },
+        {
+            "name": "Auto Transfer Dishonour Fee",
+            "feeType": "EVENT",
+            "amount": "6.00",
+            "currency": "AUD",
+            "additionalInfo": "Charged where there are insufficient funds in your account when an external auto transfer payment is due to be made",
+            "additionalInfoUri": "https://www.bcu.com.au/help-support/fees-charges"
+        },
+        {
+            "name": "Foreign Currency Conversion Fee",
+            "feeType": "TRANSACTION",
+            "amount": "0.00",
+            "transactionRate": "0.03",
+            "currency": "AUD",
+            "additionalInfo": "Payable for all transactions made in a foreign currency or if the merchant is located outside Australia",
+            "additionalInfoUri": "https://www.bcu.com.au/help-support/fees-charges"
+        },
+        {
+            "name": "Establishment Fee",
+            "feeType": "UPFRONT",
+            "amount": "600.00",
+            "currency": "AUD"
+        },
+        {
+            "name": "Discharge of Mortgage Fee",
+            "feeType": "EVENT",
+            "amount": "395.00",
+            "currency": "AUD",
+            "additionalInfoUri": "https://www.bcu.com.au/help-support/fees-charges"
+        },
+        {
+            "name": "Over Limit Account Fee",
+            "feeType": "PERIODIC",
+            "amount": "10.00",
+            "currency": "AUD",
+            "additionalValue": "P1M",
+            "additionalInfo": "Charged if a Line of Credit account exceeds the approved limit by more than $50 within the calendar month",
+            "additionalInfoUri": "https://www.bcu.com.au/help-support/fees-charges",
+            "discounts": [
+                {
+                    "description": "On a fee for maintaining a set balance",
+                    "discountType": "BALANCE",
+                    "feeRate": "1.0",
+                    "additionalValue": "50.00"
+                }
+            ]
+        }
+    ],
+    "depositRates": [
+        {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M"
+        }
+    ],
+    "lendingRates": [
+        {
+            "lendingRateType": "VARIABLE",
+            "rate": "0.0749",
+            "calculationFrequency": "P1D",
+            "interestPaymentDue": "IN_ARREARS",
+            "additionalInfo": "Owner occupied"
+        }
+    ]
+}

@@ -1,0 +1,292 @@
+{
+    "features": [
+        {
+            "featureType": "CARD_ACCESS",
+            "additionalValue": "Visa Debit Card",
+            "additionalInfo": "",
+            "additionalInfoUri": "https://geelongbank.com.au/access/visa-debit-card/"
+        },
+        {
+            "featureType": "ADDITIONAL_CARDS",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "featureType": "DIGITAL_WALLET",
+            "additionalValue": "Apple Pay",
+            "additionalInfo": "",
+            "additionalInfoUri": "https://geelongbank.com.au/access/apple-pay-google-pay/"
+        },
+        {
+            "featureType": "DIGITAL_WALLET",
+            "additionalValue": "Google Pay",
+            "additionalInfo": "",
+            "additionalInfoUri": "https://geelongbank.com.au/access/apple-pay-google-pay/"
+        },
+        {
+            "featureType": "NPP_PAYID",
+            "additionalInfo": "",
+            "additionalInfoUri": "https://geelongbank.com.au/access/real-time-payments/"
+        },
+        {
+            "featureType": "NPP_ENABLED",
+            "additionalInfo": "",
+            "additionalInfoUri": "https://geelongbank.com.au/access/real-time-payments/"
+        },
+        {
+            "featureType": "BILL_PAYMENT",
+            "additionalValue": "BPAY",
+            "additionalInfo": "BPAYVIEW",
+            "additionalInfoUri": ""
+        },
+        {
+            "featureType": "NOTIFICATIONS",
+            "additionalValue": "Track credits with SMS and email alerts",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "featureType": "OTHER",
+            "additionalInfo": "Our sweep service automatically transfers funds from certain savings accounts to cover most transactions which would otherwise exceed your transasction account's available balance.",
+            "additionalInfoUri": ""
+        },
+        {
+            "featureType": "OTHER",
+            "additionalInfo": "No fees for accessing your account online or via phone banking.",
+            "additionalInfoUri": ""
+        },
+        {
+            "featureType": "OTHER",
+            "additionalInfo": "No monthly access fee.",
+            "additionalInfoUri": "https://geelongbank.com.au/about-us/disclosures-publications/"
+        },
+        {
+            "featureType": "OTHER",
+            "additionalInfo": "Earn interest for balances $2,000 and over.",
+            "additionalInfoUri": ""
+        },
+        {
+            "featureType": "OTHER",
+            "additionalInfo": "No minimum balance.",
+            "additionalInfoUri": ""
+        },
+        {
+            "featureType": "OTHER",
+            "additionalInfo": "Salary must be deposited into Affinity Saver",
+            "additionalInfoUri": ""
+        },
+        {
+            "featureType": "OTHER",
+            "additionalInfo": "24hr Phone Banking",
+            "additionalInfoUri": ""
+        },
+        {
+            "featureType": "OTHER",
+            "additionalInfo": "eStatements available",
+            "additionalInfoUri": ""
+        },
+        {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        }
+    ],
+    "constraints": [
+        {
+            "constraintType": "MIN_BALANCE",
+            "additionalValue": "2000.00",
+            "additionalInfo": "Earn interest for balances $2,000 and over.",
+            "additionalInfoUri": "https://geelongbank.com.au/savings-loans/home-loans/affinity-home-loan/affinity-saver-account/"
+        }
+    ],
+    "eligibility": [
+        {
+            "eligibilityType": "OTHER",
+            "additionalInfo": "You must be a member and resident of Australia",
+            "additionalInfoUri": "https://geelongbank.com.au/about-us/why-join-geelong-bank/"
+        },
+        {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalValue": "Individuals must be citizens or permanent residents of Australia.",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "eligibilityType": "OTHER",
+            "additionalInfo": "This account must receive your whole of pay",
+            "additionalInfoUri": ""
+        }
+    ],
+    "fees": [
+        {
+            "name": "ATM/EFTPOS_DECLINE_FEE",
+            "feeType": "TRANSACTION",
+            "amount": "1.20",
+            "accrualFrequency": "P1M",
+            "currency": "AUD",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "name": "CHQ_DEP_DISH_FEE",
+            "feeType": "EVENT",
+            "amount": "10.00",
+            "accrualFrequency": "",
+            "currency": "AUD",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "name": "DIRECT_DR_DISH_FEE",
+            "feeType": "EVENT",
+            "amount": "10.00",
+            "accrualFrequency": "",
+            "currency": "AUD",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "name": "DORMANT_ADMIN_FEE",
+            "feeType": "PERIODIC",
+            "amount": "5.00",
+            "accrualFrequency": "P1M",
+            "currency": "AUD",
+            "additionalValue": "P1M",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "name": "FOREIGN_CHEQUE_DEPOSIT_FEE_<_$25,000",
+            "feeType": "EVENT",
+            "amount": "5.00",
+            "accrualFrequency": "",
+            "currency": "AUD",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "name": "FOREIGN_CHEQUE_DEPOSIT_FEE_>_$25,000",
+            "feeType": "EVENT",
+            "amount": "50.00",
+            "accrualFrequency": "",
+            "currency": "AUD",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "name": "INTERNATIONAL_DRAFTS",
+            "feeType": "EVENT",
+            "amount": "12.50",
+            "accrualFrequency": "",
+            "currency": "AUD",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "name": "OVERDRAWN_ACC_FEE",
+            "feeType": "TRANSACTION",
+            "amount": "25.00",
+            "accrualFrequency": "",
+            "currency": "AUD",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "name": "RTGS_(SWIFT)_INCOMING_FEE",
+            "feeType": "EVENT",
+            "amount": "7.58",
+            "accrualFrequency": "",
+            "currency": "AUD",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "name": "RTGS_(SWIFT)_OUTGOING_PYT_FEE",
+            "feeType": "EVENT",
+            "amount": "13.28",
+            "accrualFrequency": "",
+            "currency": "AUD",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "name": "TELEGRAPHIC_TSF_FEE_STAFF_ASSISTED_FEE",
+            "feeType": "EVENT",
+            "amount": "30.00",
+            "accrualFrequency": "",
+            "currency": "AUD",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "name": "TELEGRAPHIC_TSF_ONLINE_FEE",
+            "feeType": "EVENT",
+            "amount": "15.00",
+            "accrualFrequency": "",
+            "currency": "AUD",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "name": "ATM/EFTPOS_DECLINE_FEE",
+            "feeType": "TRANSACTION",
+            "amount": "1.20",
+            "accrualFrequency": "P1M",
+            "currency": "AUD",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        }
+    ],
+    "depositRates": [
+        {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "tiers": [
+                {
+                    "name": "Affinity Savers_Tier_1",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 0.0,
+                    "maximumValue": 1999.99,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "depositRateType": "VARIABLE",
+            "rate": "0.041",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "tiers": [
+                {
+                    "name": "Affinity Savers_Tier_2",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 2000.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        }
+    ],
+    "productId": "S8",
+    "effectiveFrom": "2020-09-30T00:00:00.000+10:00",
+    "lastUpdated": "2023-08-21T11:41:58.000+10:00",
+    "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+    "name": "Affinity Savers",
+    "description": "Earn interest with this everyday transaction account",
+    "brand": "FORD COOPERATIVE CREDIT SOCIETY",
+    "brandName": "GEELONG BANK",
+    "applicationUri": "https://forms.geelongbank.com.au/form.php?f=904",
+    "isTailored": false,
+    "additionalInformation": {
+        "overviewUri": "https://geelongbank.com.au/savings-loans/home-loans/affinity-home-loan/affinity-saver-account/",
+        "termsUri": "https://geelongbank.com.au/about-us/disclosures-publications/",
+        "eligibilityUri": "https://geelongbank.com.au/about-us/why-join-geelong-bank/",
+        "feesAndPricingUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-interest-rates/",
+        "bundleUri": ""
+    }
+}

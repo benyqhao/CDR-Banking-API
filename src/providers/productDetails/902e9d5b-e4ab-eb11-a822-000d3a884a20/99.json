@@ -1,0 +1,37 @@
+{
+    "productId": "99",
+    "effectiveFrom": "2020-04-07T14:30:00.0000000Z",
+    "lastUpdated": "2023-05-17T00:00:37.9930940Z",
+    "productCategory": "TERM_DEPOSITS",
+    "name": "2 Month Term Deposit",
+    "description": "Standard Term Deposit 2 Months",
+    "brand": "BCU",
+    "brandName": "bcu",
+    "isTailored": false,
+    "additionalInformation": {
+        "overviewUri": "https://www.bcu.com.au/termdeposits/standard-term-deposits",
+        "termsUri": "https://www.bcu.com.au/important-documents",
+        "feesAndPricingUri": "https://www.bcu.com.au/important-documents"
+    },
+    "features": [
+        {
+            "featureType": "DIGITAL_BANKING"
+        }
+    ],
+    "constraints": [
+        {
+            "constraintType": "MIN_BALANCE",
+            "additionalValue": "1000.00"
+        }
+    ],
+    "depositRates": [
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.0175",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P2M",
+            "additionalValue": "P2M",
+            "additionalInfo": "Interest paid at maturity"
+        }
+    ]
+}

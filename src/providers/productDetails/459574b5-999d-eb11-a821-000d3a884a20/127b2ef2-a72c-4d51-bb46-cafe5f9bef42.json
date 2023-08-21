@@ -1,0 +1,143 @@
+{
+    "eligibility": [
+        {
+            "additionalValue": "Employment Status",
+            "additionalInfo": "Available to retirees over 55 years of age who are either a self-funded retiree or a recipient of a Centrelink aged pension of Department of Veterans\u2019 Affairs (DVA) administered pension.",
+            "eligibilityType": "EMPLOYMENT_STATUS"
+        },
+        {
+            "additionalValue": "55",
+            "eligibilityType": "MIN_AGE"
+        }
+    ],
+    "lendingRates": [],
+    "bundles": [],
+    "brand": "BENDIGO",
+    "name": "Bendigo Easy Retirement Account",
+    "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+    "lastUpdated": "2023-08-01T03:36:40.872Z",
+    "isTailored": false,
+    "brandName": "Bendigo Bank",
+    "applicationUri": "https://www.bendigobank.com.au/personal/transaction-accounts/easy-retirement-account/",
+    "features": [
+        {
+            "featureType": "UNLIMITED_TXNS"
+        },
+        {
+            "featureType": "DIGITAL_BANKING"
+        },
+        {
+            "featureType": "NPP_ENABLED"
+        },
+        {
+            "additionalValue": "A card is available for the product to access funds",
+            "featureType": "CARD_ACCESS"
+        }
+    ],
+    "productId": "127b2ef2-a72c-4d51-bb46-cafe5f9bef42",
+    "depositRates": [
+        {
+            "applicationFrequency": "P1M",
+            "tiers": [
+                {
+                    "rateApplicationMethod": "PER_TIER",
+                    "minimumValue": 0,
+                    "maximumValue": 9999.99,
+                    "name": "$0 < $9,999.99",
+                    "unitOfMeasure": "DOLLAR"
+                }
+            ],
+            "depositRateType": "VARIABLE",
+            "rate": "0.0085000000000000",
+            "calculationFrequency": "P1D"
+        },
+        {
+            "applicationFrequency": "P1M",
+            "tiers": [
+                {
+                    "rateApplicationMethod": "PER_TIER",
+                    "minimumValue": 10000,
+                    "maximumValue": 49999.99,
+                    "name": "$10,000 < $49,999.99",
+                    "unitOfMeasure": "DOLLAR"
+                }
+            ],
+            "depositRateType": "VARIABLE",
+            "rate": "0.0170000000000000",
+            "calculationFrequency": "P1D"
+        },
+        {
+            "applicationFrequency": "P1M",
+            "tiers": [
+                {
+                    "rateApplicationMethod": "PER_TIER",
+                    "minimumValue": 50000,
+                    "maximumValue": 249999.99,
+                    "name": "$50,000 < $249,999.99",
+                    "unitOfMeasure": "DOLLAR"
+                }
+            ],
+            "depositRateType": "VARIABLE",
+            "rate": "0.0220000000000000",
+            "calculationFrequency": "P1D"
+        },
+        {
+            "applicationFrequency": "P1M",
+            "tiers": [
+                {
+                    "rateApplicationMethod": "PER_TIER",
+                    "minimumValue": 250000,
+                    "maximumValue": 0,
+                    "name": "$250,000 plus",
+                    "unitOfMeasure": "DOLLAR"
+                }
+            ],
+            "depositRateType": "VARIABLE",
+            "rate": "0.0250000000000000",
+            "calculationFrequency": "P1D"
+        }
+    ],
+    "cardArt": [],
+    "additionalInformation": {
+        "eligibilityUri": "https://www.bendigobank.com.au/disclosure-documents/",
+        "overviewUri": "https://www.bendigobank.com.au/personal/transaction-accounts/easy-retirement-account/",
+        "feesAndPricingUri": "https://www.bendigobank.com.au/disclosure-documents/",
+        "termsUri": "https://www.bendigobank.com.au/disclosure-documents/"
+    },
+    "constraints": [],
+    "description": "A transaction account designed to make life easier for retirees and pensioners.",
+    "fees": [
+        {
+            "discounts": [],
+            "feeType": "TRANSACTION",
+            "amount": "4.000000",
+            "name": "Bank@Post transaction fee"
+        },
+        {
+            "discounts": [],
+            "feeType": "TRANSACTION",
+            "amount": "10.000000",
+            "name": "Bank cheque withdrawal"
+        },
+        {
+            "discounts": [],
+            "feeType": "TRANSACTION",
+            "amount": "4.000000",
+            "name": "EFT Credit Transfer"
+        },
+        {
+            "discounts": [],
+            "name": "Periodical payment by cheque",
+            "additionalInfo": "Existing accounts only.  Cheque facilities and Cheque books are not available on new accounts opened from 1 August 2023.) ",
+            "feeType": "TRANSACTION",
+            "amount": "3.750000"
+        },
+        {
+            "discounts": [],
+            "name": "Periodical payment to other financial institution",
+            "additionalInfo": "Existing accounts only.  Cheque facilities and Cheque books are not available on new accounts opened from 1 August 2023.) ",
+            "feeType": "TRANSACTION",
+            "amount": "3.750000"
+        }
+    ]
+}

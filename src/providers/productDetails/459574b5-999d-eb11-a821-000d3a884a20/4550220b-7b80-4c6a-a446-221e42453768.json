@@ -1,0 +1,244 @@
+{
+    "eligibility": [
+        {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "18 years old",
+            "additionalInfo": "Additional cardholders must be 16 years old"
+        },
+        {
+            "eligibilityType": "NATURAL_PERSON"
+        },
+        {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalValue": "Must be an Australian Resident"
+        }
+    ],
+    "depositRates": [],
+    "lastUpdated": "2023-02-28T23:27:38.973Z",
+    "name": "Platinum Rewards Credit Card",
+    "productCategory": "CRED_AND_CHRG_CARDS",
+    "fees": [
+        {
+            "additionalInfoUri": "https://www.bendigobank.com.au/personal/credit-cards/platinum-rewards/",
+            "additionalInfo": "Payable on the day before we issue the first Statement of Account for your Account and annually thereafter.",
+            "discounts": [],
+            "name": "Annual fee",
+            "feeType": "PERIODIC",
+            "additionalValue": "P1Y",
+            "currency": "AUD",
+            "amount": "89.000000"
+        },
+        {
+            "additionalInfoUri": "https://www.bendigobank.com.au/personal/credit-cards/my-card/common-credit-card-fees/",
+            "discounts": [],
+            "name": "International Transaction Fee",
+            "feeType": "TRANSACTION",
+            "additionalInfo": "International Transaction Fee \u2013 [3% of the Transaction amount (in AUD)] An International Transaction Fee of 3% of the Transaction amount (in AUD) payable for each Transaction which is conducted in a currency other than Australian dollars (AUD) or in Australian dollars (AUD) but with or using a merchant, payment processor, financial institution or other entity (including an online merchant) who is outside of Australia. Note: It may not always be apparent to you that an online merchant is located outside of Australia.",
+            "currency": "AUD",
+            "transactionRate": "0.0300000000000000"
+        },
+        {
+            "additionalInfoUri": "https://www.bendigobank.com.au/personal/credit-cards/my-card/common-credit-card-fees/",
+            "discounts": [],
+            "name": "Balance Transfer Fee",
+            "feeType": "EVENT",
+            "additionalInfo": "Balance Transfer Fee \u2013 [2% of the balance transferred] Payable each time we agree to transfer the balance owing by you in respect of a different credit card facility to your Bendigo Bank Credit Card as a Promotional Balance Transfer.",
+            "currency": "AUD",
+            "transactionRate": "0.0200000000000000"
+        },
+        {
+            "additionalInfoUri": "https://www.bendigobank.com.au/personal/credit-cards/my-card/common-credit-card-fees/",
+            "discounts": [],
+            "name": "Late Payment Fee",
+            "feeType": "EVENT",
+            "additionalInfo": "Payable each time you fail to pay your Minimum Repayment as stated on a Statement of Account by its due date.",
+            "currency": "AUD",
+            "amount": "15.000000"
+        },
+        {
+            "additionalInfoUri": "https://www.bendigobank.com.au/personal/credit-cards/my-card/common-credit-card-fees/",
+            "additionalInfo": "Cash Advance Fee \u2013 $[3.00 or 3% of Transaction amount, whichever is greater] Payable each time we provide credit in the form of cash or you perform a Transaction we treat as being equivalent to cash.",
+            "discounts": [],
+            "name": "Cash Advance Fee",
+            "feeType": "WITHDRAWAL",
+            "currency": "AUD",
+            "amount": "3.000000",
+            "transactionRate": "0.0300000000000000"
+        },
+        {
+            "additionalInfoUri": "https://www.bendigobank.com.au/personal/credit-cards/my-card/common-credit-card-fees/",
+            "discounts": [],
+            "name": "International ATM Withdrawal",
+            "feeType": "TRANSACTION",
+            "additionalInfo": "Payable whenever you make a cash withdrawal outside of Australia at a non-Bendigo Bank ATM (in addition to the Cash Advance Fee.",
+            "currency": "AUD",
+            "amount": "5.000000"
+        },
+        {
+            "additionalInfoUri": "https://www.bendigobank.com.au/personal/credit-cards/my-card/common-credit-card-fees/",
+            "discounts": [],
+            "name": "International ATM Inquiry",
+            "feeType": "TRANSACTION",
+            "additionalInfo": "Payable whenever you make an Account inquiry outside of Australia at a non-Bendigo Bank ATM.",
+            "currency": "AUD",
+            "amount": "1.500000"
+        },
+        {
+            "additionalInfoUri": "https://www.bendigobank.com.au/personal/credit-cards/my-card/common-credit-card-fees/",
+            "discounts": [],
+            "name": "Replacement Card Fee",
+            "feeType": "EVENT",
+            "additionalInfo": "Payable whenever we issue you a replacement, reissue or redirection card other than by standard post at your request.",
+            "currency": "AUD",
+            "amount": "15.000000"
+        },
+        {
+            "discounts": [],
+            "name": "Bank@Post withdrawal",
+            "feeType": "TRANSACTION",
+            "additionalInfo": "At time of transaction.",
+            "currency": "AUD",
+            "amount": "4.000000"
+        },
+        {
+            "discounts": [],
+            "name": "Bank@Post deposit",
+            "feeType": "TRANSACTION",
+            "additionalInfo": "At time of transaction.",
+            "currency": "AUD",
+            "amount": "4.000000"
+        },
+        {
+            "discounts": [],
+            "name": "Bank cheque withdrawal",
+            "feeType": "WITHDRAWAL",
+            "additionalInfo": "At time of transaction. ",
+            "currency": "AUD",
+            "amount": "10.000000"
+        },
+        {
+            "discounts": [],
+            "name": "EFT Credit Transfer",
+            "feeType": "TRANSACTION",
+            "additionalInfo": "At time of transaction.",
+            "currency": "AUD",
+            "amount": "4.000000"
+        },
+        {
+            "discounts": [],
+            "name": "Periodic payment by cheque",
+            "feeType": "WITHDRAWAL",
+            "additionalInfo": "At time of transaction.",
+            "currency": "AUD",
+            "amount": "3.750000"
+        },
+        {
+            "discounts": [],
+            "name": "Periodical payment to other financial institution",
+            "feeType": "TRANSACTION",
+            "additionalInfo": "At time of transaction.",
+            "currency": "AUD",
+            "amount": "3.750000"
+        }
+    ],
+    "features": [
+        {
+            "additionalValue": "With Bendigo Bank you can turn your phone or smart watch into your wallet.",
+            "featureType": "DIGITAL_WALLET",
+            "additionalInfoUri": "https://www.bendigobank.com.au/personal/credit-cards/my-card/digital-wallets/"
+        },
+        {
+            "additionalValue": "No fee for additional cardholder",
+            "featureType": "ADDITIONAL_CARDS"
+        },
+        {
+            "additionalValue": "Bendigo Bank Rewards",
+            "featureType": "LOYALTY_PROGRAM",
+            "additionalInfoUri": "https://rewards.bendigobank.com.au/rewards/phoenix/Bendigo_Rewards",
+            "additionalInfo": "Earn 1.5 Bendigo Bank Rewards points for every dollar spent"
+        },
+        {
+            "additionalValue": "International Travel Insurance",
+            "featureType": "INSURANCE",
+            "additionalInfoUri": "https://www.bendigobank.com.au/personal/credit-cards/my-card/benefits-and-rewards/travel-insurance/",
+            "additionalInfo": "90 consecutive days insurance cover when at least $500 of prepaid travel costs are purchased using your card. Terms, conditions, limits and exclusions apply, refer to link below for further information. "
+        },
+        {
+            "additionalValue": "Extended Warranty Insurance",
+            "featureType": "INSURANCE",
+            "additionalInfoUri": "https://www.bendigobank.com.au/personal/credit-cards/my-card/benefits-and-rewards/extended-warranty-insurance/",
+            "additionalInfo": "Cover is activated when you purchase the full value of the covered item with your card"
+        },
+        {
+            "additionalValue": "Purchase Protection Insurance",
+            "featureType": "INSURANCE",
+            "additionalInfoUri": "https://www.bendigobank.com.au/personal/credit-cards/my-card/benefits-and-rewards/purchase-protection-insurance/",
+            "additionalInfo": "For up to 90 days on stolen or accidentally damaged purchases when the total cost is charged to your credit card"
+        },
+        {
+            "additionalValue": "Interstate Flight Inconvenience Insurance ",
+            "featureType": "INSURANCE",
+            "additionalInfoUri": "https://www.bendigobank.com.au/personal/credit-cards/my-card/benefits-and-rewards/domestic-flight-inconvenience-insurance/",
+            "additionalInfo": "Purchase the total value of your return domestic travel ticket (and your spouse\u2019s and dependants\u2019 if they\u2019re travelling with you) on your card. You may have cover if your interstate flight is delayed, your luggage is lost or you\u2019ve had to cancel your trip due to illness, injury or death of a relative."
+        },
+        {
+            "additionalValue": "Rental Vehicle Excess Insurance",
+            "featureType": "INSURANCE",
+            "additionalInfoUri": "https://www.bendigobank.com.au/personal/credit-cards/my-card/benefits-and-rewards/global-hire-car-excess-waiver-cover/",
+            "additionalInfo": "The cover is activated when you take legal control of the hire car and the entire rental cost is charged to your card"
+        },
+        {
+            "additionalValue": "Overseas Transit Accident Insurance ",
+            "featureType": "INSURANCE",
+            "additionalInfoUri": "https://www.bendigobank.com.au/personal/credit-cards/my-card/benefits-and-rewards/transit-accident-insurance/",
+            "additionalInfo": "You must have paid for the full cost of that transportation with your card"
+        }
+    ],
+    "brandName": "Bendigo Bank",
+    "constraints": [
+        {
+            "constraintType": "MIN_LIMIT",
+            "additionalValue": "3,000"
+        },
+        {
+            "constraintType": "MAX_LIMIT",
+            "additionalValue": "50,000"
+        }
+    ],
+    "isTailored": false,
+    "bundles": [],
+    "brand": "BENDIGO",
+    "description": "Platinum Rewards Credit Card lets you earn points as you shop, which you can redeem online for a huge range of goods and services. With a range of added insurances, purchase protections, plus access to Mastercard Priceless Cities exclusive experiences and special offers, it's the only card you'll need. Plus you'll receive up to 55 days interest free on purchases. ",
+    "productId": "4550220b-7b80-4c6a-a446-221e42453768",
+    "lendingRates": [
+        {
+            "tiers": [],
+            "additionalInfo": "Calculated daily, charged monthly ",
+            "rate": "0.1999000000000000",
+            "calculationFrequency": "P1D",
+            "lendingRateType": "PURCHASE",
+            "applicationFrequency": "P1M"
+        },
+        {
+            "tiers": [],
+            "additionalInfo": "Calculated daily, charged monthly ",
+            "rate": "0.2199000000000000",
+            "calculationFrequency": "P1D",
+            "lendingRateType": "CASH_ADVANCE",
+            "applicationFrequency": "P1M"
+        }
+    ],
+    "additionalInformation": {
+        "termsUri": "https://www.bendigobank.com.au/disclosure-documents/#CreditCards",
+        "eligibilityUri": "https://www.bendigobank.com.au/personal/credit-cards/check-my-eligibility/?ccproduct=platinumrewards",
+        "overviewUri": "https://www.bendigobank.com.au/personal/credit-cards/platinum-rewards-mastercard/",
+        "feesAndPricingUri": "https://www.bendigobank.com.au/globalassets/documents/disclosures/schedule-of-fees-charges-and-transaction-account-rebates.pdf"
+    },
+    "applicationUri": "https://applynow.bendigobank.com.au/apply/#/apply/new/creditCards/loanDetails/productSelection?productCode=RCA-M1-PRM-PRM",
+    "cardArt": [
+        {
+            "imageUri": "https://www.bendigobank.com.au/siteassets/personal/creditcards/platinumrewards/contentplatinumrewardscard.png",
+            "title": "Platinum Rewards Credit Card"
+        }
+    ]
+}

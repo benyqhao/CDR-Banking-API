@@ -1,0 +1,74 @@
+{
+    "additionalInformation": {
+        "feesAndPricingUri": "https://www.ruralbank.com.au/disclosure-documents",
+        "overviewUri": "https://www.ruralbank.com.au/loans-for-farmers/equipment-finance/",
+        "termsUri": "https://www.ruralbank.com.au/disclosure-documents"
+    },
+    "brand": "Rural Bank",
+    "brandName": "Rural Bank",
+    "description": "You own the asset and purchase it with a loan, using the equipment as security. Usually no deposit is required. As you own the asset, you may be entitled to claim GST input tax credits, depreciation and interest expenses. Flexible and tailored repayment structures depending on your cash flow needs. A balloon payment may be included at the end of the term depending on the asset age and type.",
+    "isTailored": true,
+    "lastUpdated": "2022-12-16T02:39:48.176Z",
+    "name": "Equipment Loan",
+    "productCategory": "BUSINESS_LOANS",
+    "productId": "1d6680a1-938e-4a49-b79a-e1bc5bae8f67",
+    "fees": [
+        {
+            "amount": "450.00",
+            "additionalInfoUri": "https://www.ruralbank.com.au/disclosure-documents",
+            "name": "Documentation Fee",
+            "additionalInfo": "Fee may vary based on the complexity of the facility and the security taken",
+            "currency": "AUD",
+            "feeType": "UPFRONT"
+        },
+        {
+            "amount": "100.00",
+            "additionalInfoUri": "https://www.ruralbank.com.au/disclosure-documents",
+            "name": "Private Sales, Sale & Buy Bank and Refinance from other Financial Institutions",
+            "additionalInfo": "Plus GST if applicable",
+            "currency": "AUD",
+            "feeType": "UPFRONT"
+        },
+        {
+            "amount": "0.00",
+            "additionalInfoUri": "https://www.ruralbank.com.au/disclosure-documents",
+            "name": "PPSR Fees",
+            "additionalInfo": "At cost",
+            "currency": "AUD",
+            "feeType": "UPFRONT"
+        },
+        {
+            "amount": "15.00",
+            "additionalInfoUri": "https://www.ruralbank.com.au/disclosure-documents",
+            "name": "Dishonour Fee",
+            "additionalInfo": "Charged for each dishonour",
+            "currency": "AUD",
+            "feeType": "EVENT"
+        },
+        {
+            "amount": "250.00",
+            "additionalInfoUri": "https://www.ruralbank.com.au/disclosure-documents",
+            "name": "Early Termination Fee",
+            "additionalInfo": "Plus GST if applicable",
+            "currency": "AUD",
+            "feeType": "EXIT"
+        }
+    ],
+    "eligibility": [
+        {
+            "additionalInfo": "Must be a primary producer",
+            "eligibilityType": "BUSINESS"
+        },
+        {
+            "additionalInfo": "Equipment must be for farming business purposes",
+            "eligibilityType": "BUSINESS"
+        }
+    ],
+    "constraints": [
+        {
+            "constraintType": "MIN_LIMIT",
+            "additionalValue": "20,000",
+            "additionalInfoUri": "https://www.ruralbank.com.au/loans-for-farmers/equipment-finance/compare-options/"
+        }
+    ]
+}

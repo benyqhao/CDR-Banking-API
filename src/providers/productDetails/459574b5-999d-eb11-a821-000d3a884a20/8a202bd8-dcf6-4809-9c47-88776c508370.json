@@ -1,0 +1,61 @@
+{
+    "description": "You own the asset and purchase it with a loan, using the equipment as security. Usually no deposit is required. As you own the asset, you may be entitled to claim GST input tax credits, depreciation and interest expenses. Flexible and tailored repayment structures depending on your cash flow needs. A balloon payment may be included at the end of the term depending on the asset age and type.",
+    "fees": [
+        {
+            "additionalInfoUri": "https://www.bendigobank.com.au/disclosure-documents/",
+            "additionalInfo": "Business fees and charges",
+            "discounts": [],
+            "name": "Documentation Fee",
+            "amount": "450.000000",
+            "feeType": "PURCHASE"
+        },
+        {
+            "additionalInfoUri": "https://www.bendigobank.com.au/disclosure-documents/",
+            "additionalInfo": "Business fees and charges",
+            "discounts": [],
+            "name": "Early Termination Fee",
+            "amount": "250.000000",
+            "feeType": "EXIT"
+        },
+        {
+            "additionalInfoUri": "https://www.bendigobank.com.au/disclosure-documents/",
+            "additionalInfo": "Business fees and charges",
+            "discounts": [],
+            "name": "Private Sales, Sale & Buy Bank and Refinance from other Financial Institutions ",
+            "amount": "100.000000",
+            "feeType": "PURCHASE"
+        }
+    ],
+    "brand": "BENDIGO",
+    "lastUpdated": "2021-07-25T23:28:51.072Z",
+    "productCategory": "BUSINESS_LOANS",
+    "brandName": "Bendigo Bank",
+    "features": [],
+    "applicationUri": "https://www.bendigobank.com.au/business/loans-and-finance/equipment-finance/equipment-finance-quote-enquiry/",
+    "name": "Equipment Loan",
+    "isTailored": true,
+    "bundles": [],
+    "cardArt": [],
+    "additionalInformation": {
+        "overviewUri": "https://www.bendigobank.com.au/business/loans-and-finance/equipment-finance/",
+        "termsUri": "https://www.bendigobank.com.au/disclosure-documents/",
+        "feesAndPricingUri": "https://www.bendigobank.com.au/disclosure-documents/"
+    },
+    "productId": "8a202bd8-dcf6-4809-9c47-88776c508370",
+    "depositRates": [],
+    "constraints": [
+        {
+            "constraintType": "OPENING_BALANCE",
+            "additionalInfo": "Minimum finance amount",
+            "additionalValue": "10000.00"
+        }
+    ],
+    "eligibility": [
+        {
+            "additionalValue": "10000",
+            "additionalInfo": "Minimum finance amount",
+            "eligibilityType": "BUSINESS"
+        }
+    ],
+    "lendingRates": []
+}

@@ -1,0 +1,661 @@
+{
+    "productId": "CC75CA93-A728-45ED-AEB3-9804977252FC",
+    "lastUpdated": "2023-08-05T06:00:14.23Z",
+    "productCategory": "RESIDENTIAL_MORTGAGES",
+    "name": "Home Loan Banking Package",
+    "description": "More than just a home loan, the package allows you to manage your finances in one place with the help of a dedicated financial specialist. It combines a home loan with a credit card and an everyday bank account",
+    "brand": "BOQS",
+    "brandName": "Bank Of QueenslandS",
+    "applicationUri": "https://www.boqspecialist.com.au/contact",
+    "isTailored": false,
+    "additionalInformation": {
+        "overviewUri": "https://www.boqspecialist.com.au/personal-banking/home-loans/banking-package-homeloan",
+        "termsUri": "https://www.boqspecialist.com.au/content/dam/boq-specialist/files/products/home-loans/BOQS001099-Home-loan-banking-package-terms-and-conditions-.pdf",
+        "eligibilityUri": "https://www.boqspecialist.com.au/about",
+        "feesAndPricingUri": "https://www.boqspecialist.com.au/content/dam/boq-specialist/files/products/home-loans/BOQS001099-Home-loan-banking-package-terms-and-conditions-.pdf"
+    },
+    "features": [
+        {
+            "featureType": "OTHER",
+            "additionalValue": "Fixed & Variable Rates",
+            "additionalInfo": "Choose between a variable or a fixed rate home loan",
+            "additionalInfoUri": "https://www.boqspecialist.com.au/personal-banking/home-loans/banking-package-homeloan"
+        },
+        {
+            "featureType": "OTHER",
+            "additionalValue": "LVR & LMI",
+            "additionalInfo": "Borrow up to 90% LVR with no LMI",
+            "additionalInfoUri": "https://www.boqspecialist.com.au/personal-banking/home-loans/banking-package-homeloan"
+        },
+        {
+            "featureType": "OTHER",
+            "additionalValue": "Offset Transaction Account",
+            "additionalInfo": "Optional offset transaction account with the variable rate home loan to reduce interest payments",
+            "additionalInfoUri": "https://www.boqspecialist.com.au/personal-banking/home-loans/banking-package-homeloan"
+        },
+        {
+            "featureType": "OTHER",
+            "additionalValue": "Platinum Credit Card",
+            "additionalInfo": "A Platinum credit card that comes with premium rewards and benefits",
+            "additionalInfoUri": "https://www.boqspecialist.com.au/personal-banking/home-loans/banking-package-homeloan"
+        },
+        {
+            "featureType": "OTHER",
+            "additionalValue": "Multiple loan splits",
+            "additionalInfo": "Up to 5 loans in the one package, to easily manage your finances in one location",
+            "additionalInfoUri": "https://www.boqspecialist.com.au/personal-banking/home-loans/banking-package-homeloan"
+        },
+        {
+            "featureType": "OTHER",
+            "additionalValue": "Borrower Types",
+            "additionalInfo": "Individuals, Companies and Trusts",
+            "additionalInfoUri": "https://www.boqspecialist.com.au/personal-banking/home-loans/banking-package-homeloan"
+        },
+        {
+            "featureType": "OTHER",
+            "additionalValue": "Everyday Banking",
+            "additionalInfo": "Everyday banking with the One Account, featuring a favourable interest rate on credit balances in your account, and an optional overdraft should you need it",
+            "additionalInfoUri": "https://www.boqspecialist.com.au/personal-banking/home-loans/banking-package-homeloan"
+        }
+    ],
+    "eligibility": [
+        {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "18"
+        },
+        {
+            "eligibilityType": "OTHER",
+            "additionalValue": "Professional",
+            "additionalInfo": "Product is offered to medical, dental ,veterinary & accounting professionals only",
+            "additionalInfoUri": "https://www.boqspecialist.com.au/about"
+        },
+        {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalValue": "Resident or Citizen"
+        }
+    ],
+    "fees": [
+        {
+            "feeType": "PERIODIC",
+            "name": "Annual Fee",
+            "amount": "495.0000",
+            "currency": "AUD",
+            "additionalValue": "P1Y",
+            "additionalInfoUri": "https://www.boqspecialist.com.au/personal-banking/home-loans"
+        }
+    ],
+    "lendingRates": [
+        {
+            "rate": "0.0659000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "additionalValue": "P1Y",
+            "additionalInfo": "Sub 80% LVR 1 Year Fixed",
+            "additionalInfoUri": "https://www.boqspecialist.com.au/personal-banking/home-loans/basic-homeloan",
+            "lendingRateType": "FIXED",
+            "repaymentType": "PRINCIPAL_AND_INTEREST",
+            "loanPurpose": "INVESTMENT"
+        },
+        {
+            "rate": "0.0669000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "additionalValue": "P1Y",
+            "additionalInfo": "Sub 90% LVR 1 Year Fixed",
+            "additionalInfoUri": "https://www.boqspecialist.com.au/personal-banking/home-loans/basic-homeloan",
+            "lendingRateType": "FIXED",
+            "repaymentType": "PRINCIPAL_AND_INTEREST",
+            "loanPurpose": "INVESTMENT"
+        },
+        {
+            "rate": "0.0649000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "additionalValue": "P2Y",
+            "additionalInfo": "Sub 80% LVR 2 Year Fixed",
+            "additionalInfoUri": "https://www.boqspecialist.com.au/personal-banking/home-loans/basic-homeloan",
+            "lendingRateType": "FIXED",
+            "repaymentType": "PRINCIPAL_AND_INTEREST",
+            "loanPurpose": "INVESTMENT"
+        },
+        {
+            "rate": "0.0659000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "additionalValue": "P2Y",
+            "additionalInfo": "Sub 90% LVR 2 Year Fixed",
+            "additionalInfoUri": "https://www.boqspecialist.com.au/personal-banking/home-loans/basic-homeloan",
+            "lendingRateType": "FIXED",
+            "repaymentType": "PRINCIPAL_AND_INTEREST",
+            "loanPurpose": "INVESTMENT"
+        },
+        {
+            "rate": "0.0639000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "additionalValue": "P3Y",
+            "additionalInfo": "Sub 80% LVR 3 Year Fixed",
+            "additionalInfoUri": "https://www.boqspecialist.com.au/personal-banking/home-loans/basic-homeloan",
+            "lendingRateType": "FIXED",
+            "repaymentType": "PRINCIPAL_AND_INTEREST",
+            "loanPurpose": "INVESTMENT"
+        },
+        {
+            "rate": "0.0649000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "additionalValue": "P3Y",
+            "additionalInfo": "Sub 90% LVR 3 Year Fixed",
+            "additionalInfoUri": "https://www.boqspecialist.com.au/personal-banking/home-loans/basic-homeloan",
+            "lendingRateType": "FIXED",
+            "repaymentType": "PRINCIPAL_AND_INTEREST",
+            "loanPurpose": "INVESTMENT"
+        },
+        {
+            "rate": "0.0649000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "additionalValue": "P4Y",
+            "additionalInfo": "Sub 80% LVR 4 Year Fixed",
+            "additionalInfoUri": "https://www.boqspecialist.com.au/personal-banking/home-loans/basic-homeloan",
+            "lendingRateType": "FIXED",
+            "repaymentType": "PRINCIPAL_AND_INTEREST",
+            "loanPurpose": "INVESTMENT"
+        },
+        {
+            "rate": "0.0659000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "additionalValue": "P4Y",
+            "additionalInfo": "Sub 90% LVR 4 Year Fixed",
+            "additionalInfoUri": "https://www.boqspecialist.com.au/personal-banking/home-loans/basic-homeloan",
+            "lendingRateType": "FIXED",
+            "repaymentType": "PRINCIPAL_AND_INTEREST",
+            "loanPurpose": "INVESTMENT"
+        },
+        {
+            "rate": "0.0639000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "additionalValue": "P5Y",
+            "additionalInfo": "Sub 80% LVR 5 Year Fixed",
+            "additionalInfoUri": "https://www.boqspecialist.com.au/personal-banking/home-loans/basic-homeloan",
+            "lendingRateType": "FIXED",
+            "repaymentType": "PRINCIPAL_AND_INTEREST",
+            "loanPurpose": "INVESTMENT"
+        },
+        {
+            "rate": "0.0649000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "additionalValue": "P5Y",
+            "additionalInfo": "Sub 90% LVR 5 Year Fixed",
+            "additionalInfoUri": "https://www.boqspecialist.com.au/personal-banking/home-loans/basic-homeloan",
+            "lendingRateType": "FIXED",
+            "repaymentType": "PRINCIPAL_AND_INTEREST",
+            "loanPurpose": "INVESTMENT"
+        },
+        {
+            "rate": "0.0679000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "additionalValue": "P1Y",
+            "additionalInfo": "Sub 80% LVR 1 Year Fixed",
+            "additionalInfoUri": "https://www.boqspecialist.com.au/personal-banking/home-loans/basic-homeloan",
+            "lendingRateType": "FIXED",
+            "repaymentType": "INTEREST_ONLY",
+            "loanPurpose": "INVESTMENT"
+        },
+        {
+            "rate": "0.0689000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "additionalValue": "P1Y",
+            "additionalInfo": "Sub 90% LVR 1 Year Fixed",
+            "additionalInfoUri": "https://www.boqspecialist.com.au/personal-banking/home-loans/basic-homeloan",
+            "lendingRateType": "FIXED",
+            "repaymentType": "INTEREST_ONLY",
+            "loanPurpose": "INVESTMENT"
+        },
+        {
+            "rate": "0.0659000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "additionalValue": "P2Y",
+            "additionalInfo": "Sub 80% LVR 2 Year Fixed",
+            "additionalInfoUri": "https://www.boqspecialist.com.au/personal-banking/home-loans/basic-homeloan",
+            "lendingRateType": "FIXED",
+            "repaymentType": "INTEREST_ONLY",
+            "loanPurpose": "INVESTMENT"
+        },
+        {
+            "rate": "0.0669000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "additionalValue": "P2Y",
+            "additionalInfo": "Sub 90% LVR 2 Year Fixed",
+            "additionalInfoUri": "https://www.boqspecialist.com.au/personal-banking/home-loans/basic-homeloan",
+            "lendingRateType": "FIXED",
+            "repaymentType": "INTEREST_ONLY",
+            "loanPurpose": "INVESTMENT"
+        },
+        {
+            "rate": "0.0669000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "additionalValue": "P3Y",
+            "additionalInfo": "Sub 80% LVR 3 Year Fixed",
+            "additionalInfoUri": "https://www.boqspecialist.com.au/personal-banking/home-loans/basic-homeloan",
+            "lendingRateType": "FIXED",
+            "repaymentType": "INTEREST_ONLY",
+            "loanPurpose": "INVESTMENT"
+        },
+        {
+            "rate": "0.0679000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "additionalValue": "P3Y",
+            "additionalInfo": "Sub 90% LVR 3 Year Fixed",
+            "additionalInfoUri": "https://www.boqspecialist.com.au/personal-banking/home-loans/basic-homeloan",
+            "lendingRateType": "FIXED",
+            "repaymentType": "INTEREST_ONLY",
+            "loanPurpose": "INVESTMENT"
+        },
+        {
+            "rate": "0.0675000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "additionalValue": "P4Y",
+            "additionalInfo": "Sub 80% LVR 4 Year Fixed",
+            "additionalInfoUri": "https://www.boqspecialist.com.au/personal-banking/home-loans/basic-homeloan",
+            "lendingRateType": "FIXED",
+            "repaymentType": "INTEREST_ONLY",
+            "loanPurpose": "INVESTMENT"
+        },
+        {
+            "rate": "0.0685000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "additionalValue": "P4Y",
+            "additionalInfo": "Sub 90% LVR 4 Year Fixed",
+            "additionalInfoUri": "https://www.boqspecialist.com.au/personal-banking/home-loans/basic-homeloan",
+            "lendingRateType": "FIXED",
+            "repaymentType": "INTEREST_ONLY",
+            "loanPurpose": "INVESTMENT"
+        },
+        {
+            "rate": "0.0679000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "additionalValue": "P5Y",
+            "additionalInfo": "Sub 80% LVR 5 Year Fixed",
+            "additionalInfoUri": "https://www.boqspecialist.com.au/personal-banking/home-loans/basic-homeloan",
+            "lendingRateType": "FIXED",
+            "repaymentType": "INTEREST_ONLY",
+            "loanPurpose": "INVESTMENT"
+        },
+        {
+            "rate": "0.0689000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "additionalValue": "P5Y",
+            "additionalInfo": "Sub 90% LVR 5 Year Fixed",
+            "additionalInfoUri": "https://www.boqspecialist.com.au/personal-banking/home-loans/basic-homeloan",
+            "lendingRateType": "FIXED",
+            "repaymentType": "INTEREST_ONLY",
+            "loanPurpose": "INVESTMENT"
+        },
+        {
+            "rate": "0.0649000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "additionalValue": "P1Y",
+            "additionalInfo": "Sub 80% LVR 1 Year Fixed",
+            "additionalInfoUri": "https://www.boqspecialist.com.au/personal-banking/home-loans/basic-homeloan",
+            "lendingRateType": "FIXED",
+            "repaymentType": "PRINCIPAL_AND_INTEREST",
+            "loanPurpose": "OWNER_OCCUPIED"
+        },
+        {
+            "rate": "0.0659000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "additionalValue": "P1Y",
+            "additionalInfo": "Sub 90% LVR 1 Year Fixed",
+            "additionalInfoUri": "https://www.boqspecialist.com.au/personal-banking/home-loans/basic-homeloan",
+            "lendingRateType": "FIXED",
+            "repaymentType": "PRINCIPAL_AND_INTEREST",
+            "loanPurpose": "OWNER_OCCUPIED"
+        },
+        {
+            "rate": "0.0629000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "additionalValue": "P2Y",
+            "additionalInfo": "Sub 80% LVR 2 Year Fixed",
+            "additionalInfoUri": "https://www.boqspecialist.com.au/personal-banking/home-loans/basic-homeloan",
+            "lendingRateType": "FIXED",
+            "repaymentType": "PRINCIPAL_AND_INTEREST",
+            "loanPurpose": "OWNER_OCCUPIED"
+        },
+        {
+            "rate": "0.0639000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "additionalValue": "P2Y",
+            "additionalInfo": "Sub 90% LVR 2 Year Fixed",
+            "additionalInfoUri": "https://www.boqspecialist.com.au/personal-banking/home-loans/basic-homeloan",
+            "lendingRateType": "FIXED",
+            "repaymentType": "PRINCIPAL_AND_INTEREST",
+            "loanPurpose": "OWNER_OCCUPIED"
+        },
+        {
+            "rate": "0.0639000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "additionalValue": "P3Y",
+            "additionalInfo": "Sub 80% LVR 3 Year Fixed",
+            "additionalInfoUri": "https://www.boqspecialist.com.au/personal-banking/home-loans/basic-homeloan",
+            "lendingRateType": "FIXED",
+            "repaymentType": "PRINCIPAL_AND_INTEREST",
+            "loanPurpose": "OWNER_OCCUPIED"
+        },
+        {
+            "rate": "0.0649000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "additionalValue": "P3Y",
+            "additionalInfo": "Sub 90% LVR 3 Year Fixed",
+            "additionalInfoUri": "https://www.boqspecialist.com.au/personal-banking/home-loans/basic-homeloan",
+            "lendingRateType": "FIXED",
+            "repaymentType": "PRINCIPAL_AND_INTEREST",
+            "loanPurpose": "OWNER_OCCUPIED"
+        },
+        {
+            "rate": "0.0644000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "additionalValue": "P4Y",
+            "additionalInfo": "Sub 80% LVR 4 Year Fixed",
+            "additionalInfoUri": "https://www.boqspecialist.com.au/personal-banking/home-loans/basic-homeloan",
+            "lendingRateType": "FIXED",
+            "repaymentType": "PRINCIPAL_AND_INTEREST",
+            "loanPurpose": "OWNER_OCCUPIED"
+        },
+        {
+            "rate": "0.0654000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "additionalValue": "P4Y",
+            "additionalInfo": "Sub 90% LVR 4 Year Fixed",
+            "additionalInfoUri": "https://www.boqspecialist.com.au/personal-banking/home-loans/basic-homeloan",
+            "lendingRateType": "FIXED",
+            "repaymentType": "PRINCIPAL_AND_INTEREST",
+            "loanPurpose": "OWNER_OCCUPIED"
+        },
+        {
+            "rate": "0.0629000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "additionalValue": "P5Y",
+            "additionalInfo": "Sub 80% LVR 5 Year Fixed",
+            "additionalInfoUri": "https://www.boqspecialist.com.au/personal-banking/home-loans/basic-homeloan",
+            "lendingRateType": "FIXED",
+            "repaymentType": "PRINCIPAL_AND_INTEREST",
+            "loanPurpose": "OWNER_OCCUPIED"
+        },
+        {
+            "rate": "0.0639000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "additionalValue": "P5Y",
+            "additionalInfo": "Sub 90% LVR 5 Year Fixed",
+            "additionalInfoUri": "https://www.boqspecialist.com.au/personal-banking/home-loans/basic-homeloan",
+            "lendingRateType": "FIXED",
+            "repaymentType": "PRINCIPAL_AND_INTEREST",
+            "loanPurpose": "OWNER_OCCUPIED"
+        },
+        {
+            "rate": "0.0669000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "additionalValue": "P1Y",
+            "additionalInfo": "Sub 80% LVR 1 Year Fixed",
+            "additionalInfoUri": "https://www.boqspecialist.com.au/personal-banking/home-loans/basic-homeloan",
+            "lendingRateType": "FIXED",
+            "repaymentType": "INTEREST_ONLY",
+            "loanPurpose": "OWNER_OCCUPIED"
+        },
+        {
+            "rate": "0.0679000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "additionalValue": "P1Y",
+            "additionalInfo": "Sub 90% LVR 1 Year Fixed",
+            "additionalInfoUri": "https://www.boqspecialist.com.au/personal-banking/home-loans/basic-homeloan",
+            "lendingRateType": "FIXED",
+            "repaymentType": "INTEREST_ONLY",
+            "loanPurpose": "OWNER_OCCUPIED"
+        },
+        {
+            "rate": "0.0669000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "additionalValue": "P2Y",
+            "additionalInfo": "Sub 80% LVR 2 Year Fixed",
+            "additionalInfoUri": "https://www.boqspecialist.com.au/personal-banking/home-loans/basic-homeloan",
+            "lendingRateType": "FIXED",
+            "repaymentType": "INTEREST_ONLY",
+            "loanPurpose": "OWNER_OCCUPIED"
+        },
+        {
+            "rate": "0.0679000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "additionalValue": "P2Y",
+            "additionalInfo": "Sub 90% LVR 2 Year Fixed",
+            "additionalInfoUri": "https://www.boqspecialist.com.au/personal-banking/home-loans/basic-homeloan",
+            "lendingRateType": "FIXED",
+            "repaymentType": "INTEREST_ONLY",
+            "loanPurpose": "OWNER_OCCUPIED"
+        },
+        {
+            "rate": "0.0679000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "additionalValue": "P3Y",
+            "additionalInfo": "Sub 80% LVR 3 Year Fixed",
+            "additionalInfoUri": "https://www.boqspecialist.com.au/personal-banking/home-loans/basic-homeloan",
+            "lendingRateType": "FIXED",
+            "repaymentType": "INTEREST_ONLY",
+            "loanPurpose": "OWNER_OCCUPIED"
+        },
+        {
+            "rate": "0.0689000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "additionalValue": "P3Y",
+            "additionalInfo": "Sub 90% LVR 3 Year Fixed",
+            "additionalInfoUri": "https://www.boqspecialist.com.au/personal-banking/home-loans/basic-homeloan",
+            "lendingRateType": "FIXED",
+            "repaymentType": "INTEREST_ONLY",
+            "loanPurpose": "OWNER_OCCUPIED"
+        },
+        {
+            "rate": "0.0689000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "additionalValue": "P4Y",
+            "additionalInfo": "Sub 80% LVR 4 Year Fixed",
+            "additionalInfoUri": "https://www.boqspecialist.com.au/personal-banking/home-loans/basic-homeloan",
+            "lendingRateType": "FIXED",
+            "repaymentType": "INTEREST_ONLY",
+            "loanPurpose": "OWNER_OCCUPIED"
+        },
+        {
+            "rate": "0.0699000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "additionalValue": "P4Y",
+            "additionalInfo": "Sub 90% LVR 4 Year Fixed",
+            "additionalInfoUri": "https://www.boqspecialist.com.au/personal-banking/home-loans/basic-homeloan",
+            "lendingRateType": "FIXED",
+            "repaymentType": "INTEREST_ONLY",
+            "loanPurpose": "OWNER_OCCUPIED"
+        },
+        {
+            "rate": "0.0699000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "additionalValue": "P5Y",
+            "additionalInfo": "Sub 80% LVR 5 Year Fixed",
+            "additionalInfoUri": "https://www.boqspecialist.com.au/personal-banking/home-loans/basic-homeloan",
+            "lendingRateType": "FIXED",
+            "repaymentType": "INTEREST_ONLY",
+            "loanPurpose": "OWNER_OCCUPIED"
+        },
+        {
+            "rate": "0.0709000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "additionalValue": "P5Y",
+            "additionalInfo": "Sub 90% LVR 5 Year Fixed",
+            "additionalInfoUri": "https://www.boqspecialist.com.au/personal-banking/home-loans/basic-homeloan",
+            "lendingRateType": "FIXED",
+            "repaymentType": "INTEREST_ONLY",
+            "loanPurpose": "OWNER_OCCUPIED"
+        },
+        {
+            "rate": "0.0634000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "additionalValue": "N/A",
+            "additionalInfo": "Sub 60% LVR",
+            "additionalInfoUri": "https://www.boqspecialist.com.au/personal-banking/home-loans/basic-homeloan",
+            "lendingRateType": "VARIABLE",
+            "repaymentType": "PRINCIPAL_AND_INTEREST",
+            "loanPurpose": "INVESTMENT"
+        },
+        {
+            "rate": "0.0644000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "additionalValue": "N/A",
+            "additionalInfo": "Sub 80% LVR",
+            "additionalInfoUri": "https://www.boqspecialist.com.au/personal-banking/home-loans/basic-homeloan",
+            "lendingRateType": "VARIABLE",
+            "repaymentType": "PRINCIPAL_AND_INTEREST",
+            "loanPurpose": "INVESTMENT"
+        },
+        {
+            "rate": "0.0654000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "additionalValue": "N/A",
+            "additionalInfo": "Sub 90% LVR",
+            "additionalInfoUri": "https://www.boqspecialist.com.au/personal-banking/home-loans/basic-homeloan",
+            "lendingRateType": "VARIABLE",
+            "repaymentType": "PRINCIPAL_AND_INTEREST",
+            "loanPurpose": "INVESTMENT"
+        },
+        {
+            "rate": "0.0664000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "additionalValue": "N/A",
+            "additionalInfo": "Sub 60% LVR",
+            "additionalInfoUri": "https://www.boqspecialist.com.au/personal-banking/home-loans/basic-homeloan",
+            "lendingRateType": "VARIABLE",
+            "repaymentType": "INTEREST_ONLY",
+            "loanPurpose": "INVESTMENT"
+        },
+        {
+            "rate": "0.0619000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "additionalValue": "N/A",
+            "additionalInfo": "Sub 60% LVR",
+            "additionalInfoUri": "https://www.boqspecialist.com.au/personal-banking/home-loans/basic-homeloan",
+            "lendingRateType": "VARIABLE",
+            "repaymentType": "PRINCIPAL_AND_INTEREST",
+            "loanPurpose": "OWNER_OCCUPIED"
+        },
+        {
+            "rate": "0.0619000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "additionalValue": "N/A",
+            "additionalInfo": "Sub 80% LVR",
+            "additionalInfoUri": "https://www.boqspecialist.com.au/personal-banking/home-loans/basic-homeloan",
+            "lendingRateType": "VARIABLE",
+            "repaymentType": "PRINCIPAL_AND_INTEREST",
+            "loanPurpose": "OWNER_OCCUPIED"
+        },
+        {
+            "rate": "0.0629000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "additionalValue": "N/A",
+            "additionalInfo": "Sub 90% LVR",
+            "additionalInfoUri": "https://www.boqspecialist.com.au/personal-banking/home-loans/basic-homeloan",
+            "lendingRateType": "VARIABLE",
+            "repaymentType": "PRINCIPAL_AND_INTEREST",
+            "loanPurpose": "OWNER_OCCUPIED"
+        },
+        {
+            "rate": "0.0684000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "additionalValue": "N/A",
+            "additionalInfo": "Sub 60% LVR",
+            "additionalInfoUri": "https://www.boqspecialist.com.au/personal-banking/home-loans/basic-homeloan",
+            "lendingRateType": "VARIABLE",
+            "repaymentType": "INTEREST_ONLY",
+            "loanPurpose": "OWNER_OCCUPIED"
+        },
+        {
+            "rate": "0.0694000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "additionalValue": "N/A",
+            "additionalInfo": "Sub 80% LVR",
+            "additionalInfoUri": "https://www.boqspecialist.com.au/personal-banking/home-loans/basic-homeloan",
+            "lendingRateType": "VARIABLE",
+            "repaymentType": "INTEREST_ONLY",
+            "loanPurpose": "OWNER_OCCUPIED"
+        },
+        {
+            "rate": "0.0704000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "additionalValue": "N/A",
+            "additionalInfo": "Sub 90% LVR",
+            "additionalInfoUri": "https://www.boqspecialist.com.au/personal-banking/home-loans/basic-homeloan",
+            "lendingRateType": "VARIABLE",
+            "repaymentType": "INTEREST_ONLY",
+            "loanPurpose": "OWNER_OCCUPIED"
+        },
+        {
+            "rate": "0.0674000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "additionalValue": "N/A",
+            "additionalInfo": "Sub 80% LVR",
+            "additionalInfoUri": "https://www.boqspecialist.com.au/personal-banking/home-loans/basic-homeloan",
+            "lendingRateType": "VARIABLE",
+            "repaymentType": "INTEREST_ONLY",
+            "loanPurpose": "INVESTMENT"
+        },
+        {
+            "rate": "0.0684000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "additionalValue": "N/A",
+            "additionalInfo": "Sub 90% LVR",
+            "additionalInfoUri": "https://www.boqspecialist.com.au/personal-banking/home-loans/basic-homeloan",
+            "lendingRateType": "VARIABLE",
+            "repaymentType": "INTEREST_ONLY",
+            "loanPurpose": "INVESTMENT"
+        }
+    ]
+}

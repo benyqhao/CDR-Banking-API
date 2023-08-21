@@ -1,0 +1,81 @@
+{
+    "productId": "19",
+    "effectiveFrom": "2014-09-30T14:30:00.0000000Z",
+    "lastUpdated": "2023-05-10T08:00:07.3834583Z",
+    "productCategory": "PERS_LOANS",
+    "name": "Used Car Loan",
+    "description": "Loan available for the purchase of any used vehicle- no deposit required.",
+    "brand": "First Choice Credit Union",
+    "applicationUri": "https://www.firstchoicecu.com.au/online-application.html",
+    "isTailored": true,
+    "additionalInformation": {
+        "overviewUri": "https://www.firstchoicecu.com.au/car-loans.html"
+    },
+    "features": [
+        {
+            "featureType": "DIGITAL_BANKING"
+        },
+        {
+            "featureType": "NOTIFICATIONS",
+            "additionalValue": "SMS Notifications"
+        },
+        {
+            "featureType": "REDRAW"
+        }
+    ],
+    "constraints": [
+        {
+            "constraintType": "MIN_LIMIT",
+            "additionalValue": "2000.00"
+        }
+    ],
+    "eligibility": [
+        {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "18"
+        }
+    ],
+    "fees": [
+        {
+            "name": "Personal Loan Redraw Fee",
+            "feeType": "EVENT",
+            "amount": "25.00",
+            "currency": "AUD"
+        },
+        {
+            "name": "Loan Approval Fee",
+            "feeType": "UPFRONT",
+            "amount": "100.00",
+            "currency": "AUD"
+        },
+        {
+            "name": "Equifax - Credit Check",
+            "feeType": "UPFRONT",
+            "amount": "14.18",
+            "currency": "AUD"
+        },
+        {
+            "name": "Personal Property Security Reg",
+            "feeType": "UPFRONT",
+            "amount": "6.80",
+            "currency": "AUD"
+        },
+        {
+            "name": "Loan Security Fee",
+            "feeType": "UPFRONT",
+            "amount": "7.50",
+            "currency": "AUD"
+        }
+    ],
+    "lendingRates": [
+        {
+            "lendingRateType": "VARIABLE",
+            "rate": "0.1275",
+            "comparisonRate": "0.1295",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "interestPaymentDue": "IN_ARREARS",
+            "additionalInfoUri": "https://www.firstchoicecu.com.au/loan-interet-rates.html"
+        }
+    ]
+}

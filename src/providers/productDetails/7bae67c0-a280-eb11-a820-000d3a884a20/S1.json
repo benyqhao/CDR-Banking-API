@@ -1,0 +1,420 @@
+{
+    "features": [
+        {
+            "featureType": "CARD_ACCESS",
+            "additionalValue": "Visa Debit Card",
+            "additionalInfo": "",
+            "additionalInfoUri": "https://geelongbank.com.au/access/visa-debit-card/"
+        },
+        {
+            "featureType": "ADDITIONAL_CARDS",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "featureType": "OVERDRAFT",
+            "additionalInfo": "You can apply to have an overdraft linked to the Everyday Direct account. All applications for credit are subject to responsible lending criteria and fees and charges apply. For full details visit our website.",
+            "additionalInfoUri": "https://geelongbank.com.au/access/overdraft/"
+        },
+        {
+            "featureType": "DIGITAL_WALLET",
+            "additionalValue": "Apple Pay",
+            "additionalInfo": "",
+            "additionalInfoUri": "https://geelongbank.com.au/access/apple-pay-google-pay/"
+        },
+        {
+            "featureType": "DIGITAL_WALLET",
+            "additionalValue": "Google Pay",
+            "additionalInfo": "",
+            "additionalInfoUri": "https://geelongbank.com.au/access/apple-pay-google-pay/"
+        },
+        {
+            "featureType": "NPP_PAYID",
+            "additionalInfo": "",
+            "additionalInfoUri": "https://geelongbank.com.au/access/real-time-payments/"
+        },
+        {
+            "featureType": "NPP_ENABLED",
+            "additionalInfo": "",
+            "additionalInfoUri": "https://geelongbank.com.au/access/real-time-payments/"
+        },
+        {
+            "featureType": "BILL_PAYMENT",
+            "additionalValue": "BPAY",
+            "additionalInfo": "BPAYVIEW",
+            "additionalInfoUri": ""
+        },
+        {
+            "featureType": "NOTIFICATIONS",
+            "additionalValue": "Track credits with SMS and email alerts",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "featureType": "OTHER",
+            "additionalInfo": "Our sweep service automatically transfers funds from certain savings accounts to cover most transactions which would otherwise exceed your transasction account's available balance.",
+            "additionalInfoUri": ""
+        },
+        {
+            "featureType": "UNLIMITED_TXNS",
+            "additionalInfo": "No fees for banking relationship over $50,000",
+            "additionalInfoUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-fees-charges/"
+        },
+        {
+            "featureType": "FREE_TXNS",
+            "additionalValue": "4",
+            "additionalInfo": "ATM withdrawls for banking relationship under $20,000",
+            "additionalInfoUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-fees-charges/"
+        },
+        {
+            "featureType": "FREE_TXNS",
+            "additionalValue": "4",
+            "additionalInfo": "Over the counter wdls for banking relationship under $20,000",
+            "additionalInfoUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-fees-charges/"
+        },
+        {
+            "featureType": "UNLIMITED_TXNS",
+            "additionalInfo": "EFTPOS transactions",
+            "additionalInfoUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-fees-charges/"
+        },
+        {
+            "featureType": "OTHER",
+            "additionalInfo": "eStatements available",
+            "additionalInfoUri": ""
+        },
+        {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        }
+    ],
+    "eligibility": [
+        {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalValue": "Individuals must be citizens or permanent residents of Australia.",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "eligibilityType": "OTHER",
+            "additionalInfo": "You must be a member and resident of Australia",
+            "additionalInfoUri": "https://geelongbank.com.au/about-us/why-join-geelong-bank/"
+        }
+    ],
+    "fees": [
+        {
+            "name": "BPAY_TRAN_FEE",
+            "feeType": "TRANSACTION",
+            "amount": "0.50",
+            "accrualFrequency": "P1M",
+            "currency": "AUD",
+            "additionalInfo": "Unlimited and free if banking relationship is greater than $50,000",
+            "additionalInfoUri": ""
+        },
+        {
+            "name": "CHQ_DEP_DISH_FEE",
+            "feeType": "EVENT",
+            "amount": "10.00",
+            "accrualFrequency": "",
+            "currency": "AUD",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "name": "PERSONAL_CHQ_COPY",
+            "feeType": "EVENT",
+            "amount": "40.00",
+            "accrualFrequency": "",
+            "currency": "AUD",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "name": "DIRECT_DR_DISH_FEE",
+            "feeType": "EVENT",
+            "amount": "10.00",
+            "accrualFrequency": "",
+            "currency": "AUD",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "name": "DIRECT_DR_FEE",
+            "feeType": "TRANSACTION",
+            "amount": "0.50",
+            "accrualFrequency": "",
+            "currency": "AUD",
+            "additionalInfo": "Unlimited free if banking relationship is greater than $50,000",
+            "additionalInfoUri": ""
+        },
+        {
+            "name": "DORMANT_ADMIN_FEE",
+            "feeType": "PERIODIC",
+            "amount": "5.00",
+            "accrualFrequency": "P1M",
+            "currency": "AUD",
+            "additionalValue": "P1M",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "name": "EFT_FEE_ONLINE",
+            "feeType": "TRANSACTION",
+            "amount": "0.50",
+            "accrualFrequency": "",
+            "currency": "AUD",
+            "additionalInfo": "Unlimited free if banking relationship is greater than $50,",
+            "additionalInfoUri": ""
+        },
+        {
+            "name": "EFT_STAFF_ASSISTED_FEE",
+            "feeType": "TRANSACTION",
+            "amount": "2.50",
+            "accrualFrequency": "P1M",
+            "currency": "AUD",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "name": "ATM_EXCESS_USAGE_FEE",
+            "feeType": "TRANSACTION",
+            "amount": "1.20",
+            "accrualFrequency": "P1M",
+            "currency": "AUD",
+            "additionalInfo": "Unlimited free if banking relationship is greater than $20,000",
+            "additionalInfoUri": ""
+        },
+        {
+            "name": "EFTPOS_EXCESS_USAGE_FEE",
+            "feeType": "TRANSACTION",
+            "amount": "0.60",
+            "accrualFrequency": "P1M",
+            "currency": "AUD",
+            "additionalInfo": "Unlimited free for S1 account",
+            "additionalInfoUri": ""
+        },
+        {
+            "name": "MONTHLY_ACCOUNT_FEE",
+            "feeType": "PERIODIC",
+            "amount": "5.00",
+            "accrualFrequency": "",
+            "currency": "AUD",
+            "additionalValue": "P1M",
+            "additionalInfo": "S1 account only if balance falls under $20,000",
+            "additionalInfoUri": ""
+        },
+        {
+            "name": "OTC_EXCESS_WITHDRAWL_FEE",
+            "feeType": "WITHDRAWAL",
+            "amount": "2.00",
+            "accrualFrequency": "P1M",
+            "currency": "AUD",
+            "additionalInfo": "Unlimited free if banking relationship is greater than $20,000",
+            "additionalInfoUri": ""
+        },
+        {
+            "name": "OVERDRAWN_ACC_FEE",
+            "feeType": "TRANSACTION",
+            "amount": "25.00",
+            "accrualFrequency": "",
+            "currency": "AUD",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "name": "PERIODICAL_PYT_OTC",
+            "feeType": "TRANSACTION",
+            "amount": "2.50",
+            "accrualFrequency": "",
+            "currency": "AUD",
+            "additionalInfo": "Unlimited free if banking relationship is over $50,000",
+            "additionalInfoUri": ""
+        },
+        {
+            "name": "PERSONAL_CHQ_DISH",
+            "feeType": "EVENT",
+            "amount": "25.00",
+            "accrualFrequency": "",
+            "currency": "AUD",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "name": "PERSONAL_CHQ_COPY",
+            "feeType": "EVENT",
+            "amount": "40.00",
+            "accrualFrequency": "",
+            "currency": "AUD",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "name": "PERSONAL_CHQ_FEE",
+            "feeType": "TRANSACTION",
+            "amount": "0.50",
+            "accrualFrequency": "",
+            "currency": "AUD",
+            "additionalInfo": "Unlimited free if banking relationship is greater than $50,000",
+            "additionalInfoUri": ""
+        },
+        {
+            "name": "PERSONAL_CHQ_SPECIAL_CLEARANCE_FEE",
+            "feeType": "EVENT",
+            "amount": "15.00",
+            "accrualFrequency": "",
+            "currency": "AUD",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "name": "STATEMENT_REPL_FEE",
+            "feeType": "EVENT",
+            "amount": "5.00",
+            "accrualFrequency": "",
+            "currency": "AUD",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "name": "FOREIGN_CHEQUE_DEPOSIT_FEE_<_$25,000",
+            "feeType": "EVENT",
+            "amount": "5.00",
+            "accrualFrequency": "",
+            "currency": "AUD",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "name": "FOREIGN_CHEQUE_DEPOSIT_FEE_>_$25,000",
+            "feeType": "EVENT",
+            "amount": "50.00",
+            "accrualFrequency": "",
+            "currency": "AUD",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "name": "RTGS_(SWIFT)_INCOMING_FEE",
+            "feeType": "EVENT",
+            "amount": "7.58",
+            "accrualFrequency": "",
+            "currency": "AUD",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "name": "RTGS_(SWIFT)_OUTGOING_PYT_FEE",
+            "feeType": "EVENT",
+            "amount": "13.28",
+            "accrualFrequency": "",
+            "currency": "AUD",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "name": "INTERNATIONAL_DRAFTS",
+            "feeType": "EVENT",
+            "amount": "12.50",
+            "accrualFrequency": "",
+            "currency": "AUD",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "name": "PERIODICAL_PYT_VARIATION_FEE",
+            "feeType": "EVENT",
+            "amount": "3.50",
+            "accrualFrequency": "",
+            "currency": "AUD",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "name": "PERSONAL_CHQ_STOP_PYT",
+            "feeType": "EVENT",
+            "amount": "40.00",
+            "accrualFrequency": "",
+            "currency": "AUD",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "name": "TELEGRAPHIC_TSF_FEE_STAFF_ASSISTED_FEE",
+            "feeType": "EVENT",
+            "amount": "30.00",
+            "accrualFrequency": "",
+            "currency": "AUD",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "name": "TELEGRAPHIC_TSF_ONLINE_FEE",
+            "feeType": "EVENT",
+            "amount": "15.00",
+            "accrualFrequency": "",
+            "currency": "AUD",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "name": "COMPANY_SEARCH_FEE",
+            "feeType": "EVENT",
+            "amount": "15.00",
+            "accrualFrequency": "",
+            "currency": "AUD",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "name": "NAB_DEP_BOOK",
+            "feeType": "EVENT",
+            "amount": "5.00",
+            "accrualFrequency": "",
+            "currency": "AUD",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "name": "ATM/EFTPOS_DECLINE_FEE",
+            "feeType": "TRANSACTION",
+            "amount": "1.20",
+            "accrualFrequency": "P1M",
+            "currency": "AUD",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        }
+    ],
+    "depositRates": [
+        {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        }
+    ],
+    "productId": "S1",
+    "effectiveFrom": "2020-09-30T00:00:00.000+10:00",
+    "lastUpdated": "2023-08-21T12:36:07.000+10:00",
+    "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+    "name": "Total Access account",
+    "description": "Your everyday transaction account with Visa Debit card access",
+    "brand": "FORD COOPERATIVE CREDIT SOCIETY",
+    "brandName": "GEELONG BANK",
+    "applicationUri": "https://forms.geelongbank.com.au/form.php?f=904",
+    "isTailored": false,
+    "additionalInformation": {
+        "overviewUri": "https://geelongbank.com.au/savings-loans/savings-investment-accounts/total-access-account/",
+        "termsUri": "https://geelongbank.com.au/about-us/disclosures-publications/",
+        "eligibilityUri": "https://geelongbank.com.au/about-us/why-join-geelong-bank/",
+        "feesAndPricingUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-interest-rates/",
+        "bundleUri": ""
+    },
+    "cardArt": [
+        {
+            "title": "Visa Debit Card",
+            "imageUri": "https://online.geelongbank.com.au/mvpgeelonguat/Content/CardImages/"
+        }
+    ]
+}

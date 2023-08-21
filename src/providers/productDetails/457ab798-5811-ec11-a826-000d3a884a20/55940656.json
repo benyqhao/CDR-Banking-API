@@ -1,0 +1,69 @@
+{
+    "productId": "55940656",
+    "effectiveFrom": "2021-07-01T10:00:00.000+10:00",
+    "effectiveTo": "2023-09-30T10:00:00.000+10:00",
+    "lastUpdated": "2023-07-01T10:00:00.000+10:00",
+    "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+    "name": "Online Saver Statement",
+    "description": "Online Saver Statement",
+    "brand": "BCA",
+    "brandName": "Bank of China",
+    "isTailored": false,
+    "additionalInformation": [
+        {
+            "overviewUri": "https://www.bankofchina.com/au/en/pbservice/pb1/201712/t20171214_10912637.html",
+            "termsUri": "https://www.bankofchina.com/au/en/bocinfo/bi3/201906/t20190627_15531087.html",
+            "eligibilityUri": "https://www.bankofchina.com/au/en/pbservice/pb1/201906/t20190627_15530997.html",
+            "feesAndPricingUri": "https://www.bankofchina.com/au/en/bocinfo/bi2/201706/t20170629_10963936.html"
+        }
+    ],
+    "bundles": [],
+    "features": [
+        {
+            "featureType": "DIGITAL_BANKING"
+        }
+    ],
+    "constraints": [
+        {
+            "constraintType": "OPENING_BALANCE",
+            "additionalValue": "1"
+        }
+    ],
+    "eligibility": [
+        {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "16",
+            "additionalInfo": "accepted visa required"
+        }
+    ],
+    "fees": [
+        {
+            "name": "Over the counter withdrawals at branches",
+            "feeType": "WITHDRAWAL",
+            "amount": "5.00",
+            "currency": "AUD",
+            "additionalValue": "once-off"
+        }
+    ],
+    "depositRates": [
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.0005",
+            "calculationFrequency": "P1D",
+            "additionalValue": "base rate for balance < $3,000 or =$5,000,000."
+        },
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.023",
+            "calculationFrequency": "P1D",
+            "additionalValue": "base rate for balance between $3,000 and $4,999,999.99."
+        },
+        {
+            "depositRateType": "BONUS",
+            "rate": "0.032",
+            "calculationFrequency": "P1D",
+            "additionalValue": "new account bonus rate 3.20% for first 3 months for balance $3,000 to $499,999.99, only new customer can enjoy this bonus rate."
+        }
+    ],
+    "lendingRates": []
+}

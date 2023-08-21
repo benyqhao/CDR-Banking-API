@@ -1,0 +1,68 @@
+{
+    "features": [
+        {
+            "featureType": "OFFSET",
+            "additionalInfo": "It comes with a 100% offset account to make your home loan repayments while reducing the interest you pay on your home loan.",
+            "additionalInfoUri": ""
+        },
+        {
+            "featureType": "REDRAW",
+            "additionalInfo": "Easy access to your cash with our redraw facility.",
+            "additionalInfoUri": ""
+        }
+    ],
+    "eligibility": [
+        {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "18",
+            "additionalInfo": "The minimum age to open a Loan account is 18.",
+            "additionalInfoUri": ""
+        },
+        {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalInfo": "You must be an Australian citizen or permanent resident to apply.",
+            "additionalInfoUri": ""
+        }
+    ],
+    "lendingRates": [
+        {
+            "lendingRateType": "FIXED",
+            "rate": "0.059",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "additionalValue": "P12M",
+            "additionalInfo": "",
+            "additionalInfoUri": "https://www.illawarracu.com.au/rates-fees",
+            "interestPaymentDue": "IN_ARREARS",
+            "repaymentType": "PRINCIPAL_AND_INTEREST",
+            "loanPurpose": "OWNER_OCCUPIED"
+        },
+        {
+            "lendingRateType": "VARIABLE",
+            "rate": "0.065",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "additionalInfo": "",
+            "additionalInfoUri": "https://www.illawarracu.com.au/rates-fees",
+            "interestPaymentDue": "IN_ARREARS",
+            "repaymentType": "PRINCIPAL_AND_INTEREST",
+            "loanPurpose": "OWNER_OCCUPIED"
+        }
+    ],
+    "productId": "L12-WORKS-PI-OO-V",
+    "lastUpdated": "2023-07-26T10:33:21.000+10:00",
+    "productCategory": "RESIDENTIAL_MORTGAGES",
+    "name": "The Works Package Home Loan Owner Occupied Variable Principal & Interest",
+    "description": "Everything you need in an easy to manage home loan package.",
+    "brand": "Illawarra Credit Union Ltd",
+    "brandName": "Illawarra Credit Union Ltd",
+    "applicationUri": "https://www.illawarracu.com.au/application-home-loan",
+    "isTailored": false,
+    "additionalInformation": {
+        "overviewUri": "https://www.illawarracu.com.au/home-loans/works-variable-package",
+        "termsUri": "",
+        "eligibilityUri": "",
+        "feesAndPricingUri": "https://www.illawarracu.com.au/credit-fees-and-charges-brochure/",
+        "bundleUri": ""
+    }
+}

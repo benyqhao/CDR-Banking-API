@@ -1,0 +1,76 @@
+{
+    "features": [
+        {
+            "featureType": "REDRAW",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "featureType": "OTHER",
+            "additionalInfo": "Weekly, fortnightly or monthly repayment options",
+            "additionalInfoUri": ""
+        }
+    ],
+    "constraints": [
+        {
+            "constraintType": "OPENING_BALANCE",
+            "additionalValue": "5000.00",
+            "additionalInfo": "Minimum loan amount $5,000",
+            "additionalInfoUri": ""
+        },
+        {
+            "constraintType": "MAX_BALANCE",
+            "additionalValue": "25000.00",
+            "additionalInfo": "Maximum loan amount $25,000",
+            "additionalInfoUri": ""
+        }
+    ],
+    "eligibility": [
+        {
+            "eligibilityType": "OTHER",
+            "additionalInfo": "Loan Purpose - Personal",
+            "additionalInfoUri": ""
+        }
+    ],
+    "fees": [
+        {
+            "name": "PERSONAL_LOAN_ESTABLISHMENT_FEE",
+            "feeType": "UPFRONT",
+            "amount": "150.00",
+            "accrualFrequency": "",
+            "currency": "AUD",
+            "additionalInfo": "",
+            "additionalInfoUri": "https://movebank.com.au/quick-links/fees-charges/"
+        }
+    ],
+    "lendingRates": [
+        {
+            "lendingRateType": "VARIABLE",
+            "rate": "0.1374",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "additionalInfo": "",
+            "additionalInfoUri": "https://movebank.com.au/quick-links/interest-rates/",
+            "interestPaymentDue": "IN_ADVANCE",
+            "comparisonRate": "0.148",
+            "repaymentType": "PRINCIPAL_AND_INTEREST"
+        }
+    ],
+    "productId": "Personal_Loan",
+    "effectiveFrom": "2021-02-01T00:00:00.000+10:00",
+    "lastUpdated": "2023-06-02T14:05:33.000+10:00",
+    "productCategory": "PERS_LOANS",
+    "name": "Personal Variable Loan",
+    "description": "Personal Variable Loan",
+    "brand": "MOVE Bank (Railways Credit Union Lt",
+    "brandName": "MOVE Bank (Railways Credit Union Lt",
+    "applicationUri": "https://movebank.com.au/products/personal-loans/personal-loan/",
+    "isTailored": false,
+    "additionalInformation": {
+        "overviewUri": "https://movebank.com.au/products/personal-loans/personal-loan/",
+        "termsUri": "",
+        "eligibilityUri": "",
+        "feesAndPricingUri": "https://movebank.com.au/quick-links/fees-charges/",
+        "bundleUri": ""
+    }
+}

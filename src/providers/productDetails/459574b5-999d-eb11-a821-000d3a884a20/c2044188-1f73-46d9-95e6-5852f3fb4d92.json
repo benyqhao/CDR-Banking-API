@@ -1,0 +1,81 @@
+{
+    "description": "Earn an attractive interest rate no matter how much you save or how much you transact.",
+    "brand": "BENDIGO",
+    "eligibility": [],
+    "fees": [
+        {
+            "amount": "1.750000",
+            "discounts": [],
+            "feeType": "TRANSACTION",
+            "name": "Branch transaction"
+        },
+        {
+            "amount": "10.000000",
+            "discounts": [],
+            "feeType": "TRANSACTION",
+            "name": "Bank cheque withdrawal"
+        },
+        {
+            "amount": "4.000000",
+            "discounts": [],
+            "feeType": "TRANSACTION",
+            "name": "EFT Credit Transfer"
+        },
+        {
+            "additionalInfo": "Existing accounts only.  Cheque facilities and Cheque books are not available on new accounts opened from 1 August 2023.) ",
+            "feeType": "TRANSACTION",
+            "name": "Periodical payment by cheque",
+            "amount": "3.750000",
+            "discounts": []
+        },
+        {
+            "amount": "3.750000",
+            "discounts": [],
+            "feeType": "TRANSACTION",
+            "name": "Periodical payment to other financial institution"
+        }
+    ],
+    "lastUpdated": "2023-08-02T01:16:25.053Z",
+    "constraints": [],
+    "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+    "additionalInformation": {
+        "overviewUri": "https://www.bendigobank.com.au/personal/savings-accounts/easysaver-account/",
+        "feesAndPricingUri": "https://www.bendigobank.com.au/disclosure-documents/",
+        "termsUri": "https://www.bendigobank.com.au/disclosure-documents/",
+        "eligibilityUri": "https://www.bendigobank.com.au/disclosure-documents/"
+    },
+    "lendingRates": [],
+    "depositRates": [
+        {
+            "depositRateType": "VARIABLE",
+            "tiers": [],
+            "rate": "0.0350000000000000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M"
+        }
+    ],
+    "productId": "c2044188-1f73-46d9-95e6-5852f3fb4d92",
+    "applicationUri": "https://applynow.bendigobank.com.au/apply/#/apply/new/depositAccounts/productSelection?productCode=SAV-V5-CME",
+    "name": "Bendigo EasySaver",
+    "isTailored": false,
+    "bundles": [],
+    "cardArt": [],
+    "features": [
+        {
+            "featureType": "UNLIMITED_TXNS",
+            "additionalInfo": "Unlimited free e-banking transactions."
+        },
+        {
+            "additionalInfo": "Two free in branch cash withdrawals/transfers per month.",
+            "featureType": "FREE_TXNS",
+            "additionalValue": "2"
+        },
+        {
+            "featureType": "DIGITAL_BANKING"
+        },
+        {
+            "featureType": "NPP_ENABLED"
+        }
+    ],
+    "brandName": "Bendigo Bank"
+}

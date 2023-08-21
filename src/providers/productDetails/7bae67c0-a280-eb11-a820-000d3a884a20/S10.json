@@ -1,0 +1,205 @@
+{
+    "features": [
+        {
+            "featureType": "UNLIMITED_TXNS",
+            "additionalInfo": "",
+            "additionalInfoUri": "https://geelongbank.com.au/about-us/disclosures-publications/"
+        },
+        {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "featureType": "NPP_PAYID",
+            "additionalInfo": "",
+            "additionalInfoUri": "https://geelongbank.com.au/access/real-time-payments/"
+        },
+        {
+            "featureType": "NPP_ENABLED",
+            "additionalInfo": "",
+            "additionalInfoUri": "https://geelongbank.com.au/access/real-time-payments/"
+        },
+        {
+            "featureType": "BILL_PAYMENT",
+            "additionalValue": "BPAY",
+            "additionalInfo": "BPAYVIEW",
+            "additionalInfoUri": ""
+        },
+        {
+            "featureType": "NOTIFICATIONS",
+            "additionalValue": "Track credits with SMS and email alerts",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "featureType": "OTHER",
+            "additionalInfo": "No monthly access fee",
+            "additionalInfoUri": "https://geelongbank.com.au/about-us/disclosures-publications/"
+        },
+        {
+            "featureType": "OTHER",
+            "additionalInfo": "eStatements available",
+            "additionalInfoUri": ""
+        },
+        {
+            "featureType": "OFFSET",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "featureType": "OTHER",
+            "additionalInfo": "24hr Phone Banking",
+            "additionalInfoUri": ""
+        }
+    ],
+    "eligibility": [
+        {
+            "eligibilityType": "OTHER",
+            "additionalInfo": "You must be a member and resident of Australia",
+            "additionalInfoUri": "https://geelongbank.com.au/about-us/why-join-geelong-bank/"
+        },
+        {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalInfo": "Individuals must be citizens or permanent residents of Australia.",
+            "additionalInfoUri": ""
+        }
+    ],
+    "fees": [
+        {
+            "name": "BPAY_TRAN_FEE",
+            "feeType": "TRANSACTION",
+            "amount": "0.50",
+            "accrualFrequency": "P1M",
+            "currency": "AUD",
+            "additionalInfo": "Unlimited and free if banking relationship is greater than $50,000",
+            "additionalInfoUri": ""
+        },
+        {
+            "name": "DIRECT_DR_DISH_FEE",
+            "feeType": "EVENT",
+            "amount": "10.00",
+            "accrualFrequency": "",
+            "currency": "AUD",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "name": "DIRECT_DR_FEE",
+            "feeType": "TRANSACTION",
+            "amount": "0.50",
+            "accrualFrequency": "",
+            "currency": "AUD",
+            "additionalInfo": "Unlimited free if banking relationship is greater than $50,000",
+            "additionalInfoUri": ""
+        },
+        {
+            "name": "DORMANT_ADMIN_FEE",
+            "feeType": "PERIODIC",
+            "amount": "5.00",
+            "accrualFrequency": "P1M",
+            "currency": "AUD",
+            "additionalValue": "P1M",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "name": "EFT_FEE_ONLINE",
+            "feeType": "TRANSACTION",
+            "amount": "0.50",
+            "accrualFrequency": "",
+            "currency": "AUD",
+            "additionalInfo": "Unlimited free if banking relationship is greater than $50,",
+            "additionalInfoUri": ""
+        },
+        {
+            "name": "EFT_STAFF_ASSISTED_FEE",
+            "feeType": "TRANSACTION",
+            "amount": "2.50",
+            "accrualFrequency": "P1M",
+            "currency": "AUD",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "name": "OTC_EXCESS_WITHDRAWL_FEE",
+            "feeType": "WITHDRAWAL",
+            "amount": "2.00",
+            "accrualFrequency": "P1M",
+            "currency": "AUD",
+            "additionalInfo": "Unlimited free if banking relationship is greater than $20,000",
+            "additionalInfoUri": ""
+        },
+        {
+            "name": "OVERDRAWN_ACC_FEE",
+            "feeType": "TRANSACTION",
+            "amount": "25.00",
+            "accrualFrequency": "",
+            "currency": "AUD",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "name": "PERIODICAL_PYT_OTC",
+            "feeType": "TRANSACTION",
+            "amount": "2.50",
+            "accrualFrequency": "",
+            "currency": "AUD",
+            "additionalInfo": "Unlimited free if banking relationship is over $50,000",
+            "additionalInfoUri": ""
+        },
+        {
+            "name": "STATEMENT_REPL_FEE",
+            "feeType": "EVENT",
+            "amount": "5.00",
+            "accrualFrequency": "",
+            "currency": "AUD",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "name": "TELEGRAPHIC_TSF_FEE_STAFF_ASSISTED_FEE",
+            "feeType": "EVENT",
+            "amount": "30.00",
+            "accrualFrequency": "",
+            "currency": "AUD",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "name": "TELEGRAPHIC_TSF_ONLINE_FEE",
+            "feeType": "EVENT",
+            "amount": "15.00",
+            "accrualFrequency": "",
+            "currency": "AUD",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "name": "STATEMENT_REPL_FEE",
+            "feeType": "EVENT",
+            "amount": "5.00",
+            "accrualFrequency": "",
+            "currency": "AUD",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        }
+    ],
+    "productId": "S10",
+    "effectiveFrom": "2020-09-30T00:00:00.000+10:00",
+    "lastUpdated": "2023-04-26T17:11:39.000+10:00",
+    "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+    "name": "Mortgage Offset Account",
+    "description": "A 100% Offset account is a great way to reduce the interest you pay on your home loan",
+    "brand": "FORD COOPERATIVE CREDIT SOCIETY",
+    "brandName": "GEELONG BANK",
+    "applicationUri": "https://forms.geelongbank.com.au/form.php?f=904",
+    "isTailored": false,
+    "additionalInformation": {
+        "overviewUri": "https://geelongbank.com.au/savings-loans/home-loans/mortgage-offset-account/",
+        "termsUri": "https://geelongbank.com.au/savings-loans/home-loans/mortgage-offset-account/",
+        "eligibilityUri": "https://geelongbank.com.au/about-us/why-join-geelong-bank/",
+        "feesAndPricingUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-interest-rates/",
+        "bundleUri": ""
+    }
+}

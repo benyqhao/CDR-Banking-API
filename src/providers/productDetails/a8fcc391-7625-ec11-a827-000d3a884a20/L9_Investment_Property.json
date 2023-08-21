@@ -1,0 +1,88 @@
+{
+    "features": [
+        {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "featureType": "REDRAW",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "featureType": "OTHER",
+            "additionalInfo": "Maximum term 25 years",
+            "additionalInfoUri": ""
+        }
+    ],
+    "eligibility": [
+        {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "18",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalValue": "Australian Residency only",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "eligibilityType": "BUSINESS",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        }
+    ],
+    "fees": [
+        {
+            "name": "MORTGAGE_LOAN_ESTABLISHMENT_FEE",
+            "feeType": "UPFRONT",
+            "amount": "1001.40",
+            "accrualFrequency": "P1D",
+            "currency": "AUD",
+            "additionalInfo": "On establishment of loan",
+            "additionalInfoUri": ""
+        },
+        {
+            "name": "MORTGAGE_DISCHARGE_FEE",
+            "feeType": "EXIT",
+            "amount": "509.94",
+            "accrualFrequency": "",
+            "currency": "AUD",
+            "additionalInfo": "Discharge fees are paid on discharge",
+            "additionalInfoUri": ""
+        }
+    ],
+    "lendingRates": [
+        {
+            "lendingRateType": "VARIABLE",
+            "rate": "0.079",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "additionalInfo": "",
+            "additionalInfoUri": "",
+            "interestPaymentDue": "IN_ARREARS",
+            "comparisonRate": "0.0798",
+            "repaymentType": "PRINCIPAL_AND_INTEREST"
+        }
+    ],
+    "productId": "L9_Investment_Property",
+    "effectiveFrom": "2021-03-25T00:00:00.000+11:00",
+    "lastUpdated": "2023-06-29T08:45:20.000+10:00",
+    "productCategory": "BUSINESS_LOANS",
+    "name": "Investment Property Loan (non residential)",
+    "description": "For customers who want to purchase commercial premises for investment purposes",
+    "brand": "CENTRAL WEST CREDIT UNION LTD",
+    "brandName": "CENTRAL WEST CREDIT UNION LTD",
+    "applicationUri": "https://www.cwcu.com.au/lending/apply-for-a-loan",
+    "isTailored": false,
+    "additionalInformation": {
+        "overviewUri": "",
+        "termsUri": "https://www.cwcu.com.au/disclosure-documents/conditions-of-use",
+        "eligibilityUri": "",
+        "feesAndPricingUri": "",
+        "bundleUri": ""
+    }
+}

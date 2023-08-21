@@ -1,0 +1,47 @@
+{
+    "eligibility": [
+        {
+            "eligibilityType": "BUSINESS",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        }
+    ],
+    "lendingRates": [
+        {
+            "lendingRateType": "VARIABLE",
+            "rate": "0.0985",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "additionalInfo": "",
+            "additionalInfoUri": "https://www.illawarracu.com.au/rates-fees",
+            "interestPaymentDue": "IN_ARREARS",
+            "repaymentType": "INTEREST_ONLY"
+        },
+        {
+            "lendingRateType": "VARIABLE",
+            "rate": "0.0885",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "additionalInfo": "",
+            "additionalInfoUri": "https://www.illawarracu.com.au/rates-fees",
+            "interestPaymentDue": "IN_ARREARS",
+            "repaymentType": "INTEREST_ONLY"
+        }
+    ],
+    "productId": "L7-BUS-PI-COM-F36M",
+    "lastUpdated": "2023-06-20T17:32:43.000+10:00",
+    "productCategory": "BUSINESS_LOANS",
+    "name": "Business Secured (Comm) Principal and Interest 3 year fixed",
+    "description": "Business Secured (Comm) Principal and Interest 3 year fixed",
+    "brand": "Illawarra Credit Union Ltd",
+    "brandName": "Illawarra Credit Union Ltd",
+    "applicationUri": "",
+    "isTailored": false,
+    "additionalInformation": {
+        "overviewUri": "",
+        "termsUri": "",
+        "eligibilityUri": "",
+        "feesAndPricingUri": "https://www.illawarracu.com.au/credit-fees-and-charges-brochure/",
+        "bundleUri": ""
+    }
+}

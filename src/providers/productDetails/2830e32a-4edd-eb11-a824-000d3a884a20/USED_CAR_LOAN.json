@@ -1,0 +1,91 @@
+{
+    "features": [
+        {
+            "featureType": "REDRAW",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "featureType": "OTHER",
+            "additionalInfo": "No penalty for extra repayments",
+            "additionalInfoUri": ""
+        },
+        {
+            "featureType": "INSURANCE",
+            "additionalInfo": "get 20% off your first year   s premium (capped at $200)",
+            "additionalInfoUri": ""
+        }
+    ],
+    "constraints": [
+        {
+            "constraintType": "MIN_LIMIT",
+            "additionalValue": "1000.00",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        }
+    ],
+    "eligibility": [
+        {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "18",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        }
+    ],
+    "fees": [
+        {
+            "name": "PERSONAL_LOAN_FUNDING_FEE",
+            "feeType": "UPFRONT",
+            "amount": "195.00",
+            "accrualFrequency": "",
+            "currency": "AUD",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "name": "PERSONAL_LOAN_MONTHLY_ACCOUNT_FEE",
+            "feeType": "PERIODIC",
+            "amount": "5.00",
+            "accrualFrequency": "P1M",
+            "currency": "AUD",
+            "additionalInfo": "This fee will be charged at the end of each month.",
+            "additionalInfoUri": ""
+        },
+        {
+            "name": "PAPER_REDRAW_FEE",
+            "feeType": "EVENT",
+            "amount": "25.00",
+            "accrualFrequency": "",
+            "currency": "AUD",
+            "additionalInfo": "Payable at each manual redraw; electronic redraws are free via QBANK Internet Banking",
+            "additionalInfoUri": ""
+        }
+    ],
+    "lendingRates": [
+        {
+            "lendingRateType": "VARIABLE",
+            "rate": "0.0849",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "additionalInfo": "",
+            "additionalInfoUri": "",
+            "repaymentType": "PRINCIPAL_AND_INTEREST"
+        }
+    ],
+    "productId": "USED_CAR_LOAN",
+    "lastUpdated": "2023-06-22T08:01:12.000+10:00",
+    "productCategory": "PERS_LOANS",
+    "name": "Car Loan (5 To 10 Years Old)",
+    "description": "Car Loan (5 To 10 Years Old)",
+    "brand": "QBANK",
+    "brandName": "QBANK",
+    "applicationUri": "https://www.qbank.com.au/apply-online",
+    "isTailored": false,
+    "additionalInformation": {
+        "overviewUri": "https://qbank.com.au/loans-products/car-loans/",
+        "termsUri": "https://www.qbank.com.au/other-content/general-information-terms-conditions/",
+        "eligibilityUri": "https://www.qbank.com.au/membership/who-can-join/",
+        "feesAndPricingUri": "https://www.qbank.com.au/rates-fees",
+        "bundleUri": ""
+    }
+}

@@ -1,0 +1,101 @@
+{
+    "depositRates": [],
+    "effectiveFrom": "2020-01-01T13:00:00.000Z",
+    "lastUpdated": "2023-04-20T14:31:23.308Z",
+    "productCategory": "PERS_LOANS",
+    "lendingRates": [
+        {
+            "rate": "0.0679000000000000",
+            "interestPaymentDue": "IN_ARREARS",
+            "tiers": [],
+            "additionalInfo": "Secured  ",
+            "lendingRateType": "FIXED",
+            "calculationFrequency": "P1D",
+            "additionalValue": "P7Y",
+            "comparisonRate": "0.0695000000000000"
+        }
+    ],
+    "fees": [
+        {
+            "amount": "20.000000",
+            "currency": "AUD",
+            "discounts": [],
+            "name": "Early Repayment Fee ",
+            "feeType": "EXIT"
+        },
+        {
+            "amount": "110.000000",
+            "currency": "AUD",
+            "additionalInfo": "Incorporates all standard upfront fees into this amount (That is, Documentation Fee $100, Security Processing Fee $10)",
+            "discounts": [],
+            "name": "Establishment Fee",
+            "feeType": "UPFRONT"
+        },
+        {
+            "amount": "35.000000",
+            "currency": "AUD",
+            "discounts": [],
+            "name": "Default Fee",
+            "feeType": "EVENT"
+        }
+    ],
+    "applicationUri": "https://apply.bendigobank.com.au/bendigoapply/servlet/SmartForm.html?formCode=personal-loan&applicationType=carLoan",
+    "isTailored": true,
+    "cardArt": [
+        {
+            "imageUri": "https://www.bendigobank.com.au/gl",
+            "title": "Personal Loan"
+        }
+    ],
+    "additionalInformation": {
+        "termsUri": "https://www.bendigobank.com.au/globalassets/documents/disclosures/bendigo-personal-loan-terms-conditions.pdf",
+        "feesAndPricingUri": "https://www.bendigobank.com.au/globalassets/documents/disclosures/lending-fees-and-charges.pdf",
+        "overviewUri": "https://www.bendigobank.com.au/personal/loans/secured-student/",
+        "eligibilityUri": "https://www.bendigobank.com.au/personal/loans/secured-student/"
+    },
+    "name": "Bendigo Secured Student Personal Loan ",
+    "constraints": [
+        {
+            "additionalValue": "1",
+            "constraintType": "MIN_BALANCE"
+        },
+        {
+            "additionalValue": "2000",
+            "constraintType": "OPENING_BALANCE"
+        }
+    ],
+    "productId": "b130635c-a966-42d4-a65f-079ed65ea917",
+    "description": "Perfect for higher education students and apprentices looking to buy a new or used car, or refinance an existing one.",
+    "eligibility": [
+        {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "18"
+        },
+        {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalValue": "Australian Resident"
+        },
+        {
+            "eligibilityType": "STUDENT",
+            "additionalValue": "Student"
+        },
+        {
+            "eligibilityType": "EMPLOYMENT_STATUS",
+            "additionalValue": "Employed"
+        }
+    ],
+    "brand": "BENDIGO",
+    "bundles": [],
+    "features": [
+        {
+            "featureType": "REDRAW",
+            "additionalValue": "New Value",
+            "additionalInfo": "Online redraw available"
+        },
+        {
+            "additionalInfo": "Weekly, fortnightly or monthly repayments",
+            "featureType": "OTHER"
+        }
+    ],
+    "brandName": "Bendigo Bank"
+}

@@ -1,0 +1,75 @@
+{
+    "features": [
+        {
+            "featureType": "REDRAW",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        }
+    ],
+    "constraints": [
+        {
+            "constraintType": "MIN_LIMIT",
+            "additionalValue": "2000.00",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "constraintType": "MAX_LIMIT",
+            "additionalValue": "50000.00",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        }
+    ],
+    "eligibility": [
+        {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "18",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalValue": "Must be an Australian citizen or permanent resident",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        }
+    ],
+    "fees": [
+        {
+            "name": "PERSONAL_LOAN_ESTABLISHMENT_FEE",
+            "feeType": "EVENT",
+            "amount": "250.00",
+            "accrualFrequency": "",
+            "currency": "AUD",
+            "additionalInfo": "",
+            "additionalInfoUri": "https://www.orangecu.com.au/everyday-banking/rates-and-fees/fees-and-charges"
+        }
+    ],
+    "lendingRates": [
+        {
+            "lendingRateType": "VARIABLE",
+            "rate": "0.1399",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "additionalInfo": "",
+            "additionalInfoUri": "",
+            "comparisonRate": "0.1498"
+        }
+    ],
+    "productId": "UNSECURED_PERSONAL_LOAN",
+    "lastUpdated": "2022-12-15T12:07:06.000+11:00",
+    "productCategory": "PERS_LOANS",
+    "name": "Unsecured Personal Loan",
+    "description": "PERSONAL LOAN",
+    "brand": "ORANGE CREDIT UNION LTD",
+    "brandName": "ORANGE CREDIT UNION LTD",
+    "applicationUri": "https://forms.orangecu.com.au/form.php?f=70",
+    "isTailored": false,
+    "additionalInformation": {
+        "overviewUri": "https://www.orangecu.com.au/borrow/personal-loans/unsecured-loan",
+        "termsUri": "https://www.orangecu.com.au/disclosure-documents",
+        "eligibilityUri": "https://www.orangecu.com.au/disclosure-documents",
+        "feesAndPricingUri": "https://www.orangecu.com.au/everyday-banking/rates-and-fees/fees-and-charges",
+        "bundleUri": "https://www.orangecu.com.au/everyday-banking/rates-and-fees/fees-and-charges"
+    }
+}

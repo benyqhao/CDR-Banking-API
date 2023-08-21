@@ -1,0 +1,134 @@
+{
+    "productId": "39",
+    "effectiveFrom": "2016-08-23T14:30:00.0000000Z",
+    "lastUpdated": "2023-07-11T00:00:21.2060531Z",
+    "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+    "name": "& Retirement Account",
+    "description": "& Retirement Account",
+    "brand": "PNB",
+    "brandName": "P&N Bank",
+    "isTailored": false,
+    "additionalInformation": {
+        "overviewUri": "https://www.pnbank.com.au/personal-banking/savings-accounts/and-retirement-account/",
+        "termsUri": "https://www.pnbank.com.au/legal/terms-conditions/everyday-and-savings-accounts/",
+        "feesAndPricingUri": "https://www.pnbank.com.au/personal-banking/savings-accounts/and-retirement-account/"
+    },
+    "features": [
+        {
+            "featureType": "BILL_PAYMENT"
+        },
+        {
+            "featureType": "CARD_ACCESS",
+            "additionalValue": "Visa Debit card available"
+        },
+        {
+            "featureType": "DIGITAL_BANKING"
+        },
+        {
+            "featureType": "DIGITAL_WALLET",
+            "additionalValue": "Apple Pay, Google Pay & Samsung Pay"
+        },
+        {
+            "featureType": "NPP_ENABLED"
+        },
+        {
+            "featureType": "NPP_PAYID"
+        },
+        {
+            "featureType": "OTHER",
+            "additionalInfo": "& Retirement Term Deposit - gives you security of a fixed interest rate better than the standard 3 month P&N Term Deposit rates, when you hold the & Retirement Account"
+        },
+        {
+            "featureType": "UNLIMITED_TXNS"
+        }
+    ],
+    "eligibility": [
+        {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "55",
+            "additionalInfo": "Must be a minimum age of 55"
+        }
+    ],
+    "fees": [
+        {
+            "name": "Bank@Post Withdrawal Fee",
+            "feeType": "TRANSACTION",
+            "amount": "3.00",
+            "currency": "AUD"
+        },
+        {
+            "name": "Overseas Withdrawal Fee",
+            "feeType": "TRANSACTION",
+            "amount": "5.00",
+            "currency": "AUD",
+            "additionalInfo": "Applies to overseas ATM withdrawals",
+            "additionalInfoUri": "https://www.pnbank.com.au/help-support/fees-charges/"
+        },
+        {
+            "name": "Statement Retrieval",
+            "feeType": "EVENT",
+            "amount": "6.00",
+            "currency": "AUD",
+            "additionalInfo": "Statement retrieval fee applies for statements over 12 months old. 1st page $6, and $1.50 for each subsequent page",
+            "additionalInfoUri": "https://www.pnbank.com.au/help-support/fees-charges/"
+        },
+        {
+            "name": "Referral Fee",
+            "feeType": "EVENT",
+            "amount": "3.50",
+            "currency": "AUD",
+            "additionalInfo": "Where an account has insufficient available funds to cover a cheque or direct debit transaction, and the transaction is honoured by P&N",
+            "additionalInfoUri": "https://www.pnbank.com.au/help-support/fees-charges/"
+        },
+        {
+            "name": "Dishonour Fee",
+            "feeType": "EVENT",
+            "amount": "6.00",
+            "currency": "AUD",
+            "additionalInfo": "Where a direct debit or cheque is dishonoured due to insufficient funds",
+            "additionalInfoUri": "https://www.pnbank.com.au/help-support/fees-charges/"
+        },
+        {
+            "name": "Auto Transfer Dishonour Fee",
+            "feeType": "EVENT",
+            "amount": "6.00",
+            "currency": "AUD",
+            "additionalInfo": "Charged where there are insufficient funds in your account when an internal or external auto transfer or BPAY payment is due to be made",
+            "additionalInfoUri": "https://www.pnbank.com.au/help-support/fees-charges/"
+        },
+        {
+            "name": "Overdrawn Acct Management Fee",
+            "feeType": "PERIODIC",
+            "amount": "10.00",
+            "currency": "AUD",
+            "additionalValue": "P1M",
+            "additionalInfo": "A fee of $10 payable in relation to any month where we allow you to overdraw your account by more than $50",
+            "additionalInfoUri": "https://www.pnbank.com.au/help-support/fees-charges/",
+            "discounts": [
+                {
+                    "description": "On a fee for maintaining a set balance",
+                    "discountType": "BALANCE",
+                    "feeRate": "1.0",
+                    "additionalValue": "50.00"
+                }
+            ]
+        },
+        {
+            "name": "Foreign Currency Conversion Fee",
+            "feeType": "TRANSACTION",
+            "amount": "0.00",
+            "transactionRate": "0.03",
+            "currency": "AUD",
+            "additionalInfo": "Payable for all transactions made in a foreign currency or if the merchant is located outside Australia",
+            "additionalInfoUri": "https://www.pnbank.com.au/help-support/fees-charges/"
+        }
+    ],
+    "depositRates": [
+        {
+            "depositRateType": "VARIABLE",
+            "rate": "0.021",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M"
+        }
+    ]
+}

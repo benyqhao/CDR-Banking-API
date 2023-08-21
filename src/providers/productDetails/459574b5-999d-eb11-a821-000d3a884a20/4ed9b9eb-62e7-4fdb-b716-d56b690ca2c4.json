@@ -1,0 +1,80 @@
+{
+    "lastUpdated": "2020-12-08T13:00:22.369Z",
+    "productCategory": "TERM_DEPOSITS",
+    "constraints": [
+        {
+            "additionalValue": "2000",
+            "constraintType": "OPENING_BALANCE"
+        }
+    ],
+    "productId": "4ed9b9eb-62e7-4fdb-b716-d56b690ca2c4",
+    "brandName": "Bendigo Bank",
+    "name": "Gold Term Deposit",
+    "applicationUri": "https://www.bendigobank.com.au/personal/term-deposits/term-deposit-enquiry/",
+    "eligibility": [],
+    "isTailored": false,
+    "bundles": [],
+    "cardArt": [],
+    "depositRates": [
+        {
+            "depositRateType": "FIXED",
+            "calculationFrequency": "P1D",
+            "tiers": [
+                {
+                    "rateApplicationMethod": "WHOLE_BALANCE",
+                    "minimumValue": 0,
+                    "maximumValue": 1999.99,
+                    "name": "$0 - $1,999",
+                    "unitOfMeasure": "DOLLAR"
+                }
+            ],
+            "applicationFrequency": "P3M",
+            "rate": "0.0005000000000000",
+            "additionalValue": "P1Y"
+        },
+        {
+            "depositRateType": "FIXED",
+            "calculationFrequency": "P1D",
+            "tiers": [
+                {
+                    "rateApplicationMethod": "WHOLE_BALANCE",
+                    "minimumValue": 2000,
+                    "maximumValue": 5000000,
+                    "name": "$2000 - $5,000,000",
+                    "unitOfMeasure": "DOLLAR"
+                }
+            ],
+            "applicationFrequency": "P3M",
+            "rate": "0.0005000000000000",
+            "additionalValue": "P1Y"
+        }
+    ],
+    "lendingRates": [],
+    "features": [
+        {
+            "featureType": "DIGITAL_BANKING"
+        }
+    ],
+    "description": "Bendigo Bank\u2019s range of term deposits offer great rates so you can watch your money grow.  Additional deposits at any time and withdrawals of up to 25% of your original deposit if you need to at any Bendigo Branch.",
+    "fees": [
+        {
+            "discounts": [],
+            "feeType": "TRANSACTION",
+            "amount": "10.000000",
+            "name": "Bank cheque withdrawal"
+        },
+        {
+            "discounts": [],
+            "feeType": "TRANSACTION",
+            "amount": "4.000000",
+            "name": "EFT Credit Transfer"
+        }
+    ],
+    "brand": "BENDIGO",
+    "additionalInformation": {
+        "overviewUri": "https://www.bendigobank.com.au/personal/term-deposits/",
+        "feesAndPricingUri": "https://www.bendigobank.com.au/disclosure-documents/",
+        "termsUri": "https://www.bendigobank.com.au/disclosure-documents/",
+        "eligibilityUri": "https://www.bendigobank.com.au/disclosure-documents/"
+    }
+}

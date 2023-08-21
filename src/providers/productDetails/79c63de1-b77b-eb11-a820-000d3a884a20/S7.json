@@ -1,0 +1,60 @@
+{
+    "features": [
+        {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "Restricted to transfer (by Internet Banking) to a nominated Cairns Bank transaction acount",
+            "additionalInfoUri": "https://cairnsbank.com.au/information-and-support/disclosure/terms-conditions"
+        }
+    ],
+    "depositRates": [
+        {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "tiers": [
+                {
+                    "name": "Internet Saver account_Tier_1",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 0.0,
+                    "maximumValue": 1999.99,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalInfo": "",
+            "additionalInfoUri": "https://cairnsbank.com.au/banking/personal-banking/rates"
+        },
+        {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0275",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "tiers": [
+                {
+                    "name": "Internet Saver account_Tier_2",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 2000.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalInfo": "",
+            "additionalInfoUri": "https://cairnsbank.com.au/banking/personal-banking/rates"
+        }
+    ],
+    "productId": "S7",
+    "lastUpdated": "2023-06-19T09:29:14.000+10:00",
+    "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+    "name": "Internet Saver account",
+    "description": "An internet only savings account attached to your transaction account",
+    "brand": "CAIRNS PENNY SAVINGS LOANS LTD",
+    "brandName": "Cairns Bank",
+    "applicationUri": "",
+    "isTailored": false,
+    "additionalInformation": {
+        "overviewUri": "https://cairnsbank.com.au/banking/personal-banking/savings-accounts",
+        "termsUri": "https://cairnsbank.com.au/information-and-support/disclosure/terms-conditions",
+        "eligibilityUri": "",
+        "feesAndPricingUri": "https://cairnsbank.com.au/information-and-support/disclosure/fees-and-charges",
+        "bundleUri": ""
+    }
+}

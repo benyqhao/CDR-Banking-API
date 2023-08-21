@@ -1,0 +1,304 @@
+{
+    "features": [
+        {
+            "featureType": "CARD_ACCESS",
+            "additionalValue": "Debit Card",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "featureType": "DIGITAL_WALLET",
+            "additionalValue": "Apple Pay, Samsung Pay, Google Pay",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "featureType": "NPP_PAYID",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "featureType": "NPP_ENABLED",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "featureType": "NOTIFICATIONS",
+            "additionalValue": "Delivered via SMS, Email, Internet Banking",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "featureType": "OTHER",
+            "additionalInfo": "Branch over the counter access",
+            "additionalInfoUri": ""
+        },
+        {
+            "featureType": "OTHER",
+            "additionalInfo": "Daily Bank Feeds - Xero, MYOB Banklink",
+            "additionalInfoUri": ""
+        },
+        {
+            "featureType": "OTHER",
+            "additionalInfo": "Funds available - at call",
+            "additionalInfoUri": ""
+        },
+        {
+            "featureType": "OTHER",
+            "additionalInfo": "Direct Debits and Direct Credits",
+            "additionalInfoUri": ""
+        },
+        {
+            "featureType": "OTHER",
+            "additionalInfo": "Business Banking - create user profiles eg. data entry, create batch payments, compatibility with accounting packages, higher daily transfer limits",
+            "additionalInfoUri": ""
+        },
+        {
+            "featureType": "OTHER",
+            "additionalInfo": "Deposits up to $250,000 per account holder are guaranteed by the Federal Government under the Financial Claims Scheme.",
+            "additionalInfoUri": ""
+        }
+    ],
+    "eligibility": [
+        {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalValue": "Australian citizen or permanent resident",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "eligibilityType": "OTHER",
+            "additionalInfo": "As a Customer Owned Bank, customers must become a shareholder of Unity Bank to open an account.",
+            "additionalInfoUri": ""
+        }
+    ],
+    "fees": [
+        {
+            "name": "BANK_AUDIT_CERTIFICATE",
+            "feeType": "EVENT",
+            "amount": "50.00",
+            "accrualFrequency": "",
+            "currency": "AUD",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "name": "BANK_CHEQUES",
+            "feeType": "EVENT",
+            "amount": "15.00",
+            "accrualFrequency": "",
+            "currency": "AUD",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "name": "COPIES_OF_PREVIOUS_STATEMENTS",
+            "feeType": "EVENT",
+            "amount": "2.50",
+            "accrualFrequency": "",
+            "currency": "AUD",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "name": "CORPORATE_CHEQUE",
+            "feeType": "EVENT",
+            "amount": "3.00",
+            "accrualFrequency": "",
+            "currency": "AUD",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "name": "DIRECT_DEBIT_DISHONOUR_FEE",
+            "feeType": "EVENT",
+            "amount": "17.00",
+            "accrualFrequency": "",
+            "currency": "AUD",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "name": "DIRECT_DEBIT_HONOUR_FEE",
+            "feeType": "EVENT",
+            "amount": "17.00",
+            "accrualFrequency": "",
+            "currency": "AUD",
+            "additionalInfo": "Interest at the applicable rate will be charged on the overdrawn/over limit amount",
+            "additionalInfoUri": ""
+        },
+        {
+            "name": "DORMANT_ACCOUNT_KEEPING_FEE",
+            "feeType": "PERIODIC",
+            "amount": "20.00",
+            "accrualFrequency": "P1Y",
+            "currency": "AUD",
+            "additionalValue": "P1Y",
+            "additionalInfo": "Or the prevailing maximum amount determined by legislation",
+            "additionalInfoUri": ""
+        },
+        {
+            "name": "FOREIGN_CHEQUE_DEPOSITS",
+            "feeType": "DEPOSIT",
+            "amount": "15.00",
+            "accrualFrequency": "",
+            "currency": "AUD",
+            "additionalInfo": "Plus other bank charges at cost",
+            "additionalInfoUri": ""
+        },
+        {
+            "name": "FREQUENT_STATEMENT_FEE",
+            "feeType": "PERIODIC",
+            "amount": "2.00",
+            "accrualFrequency": "P1M",
+            "currency": "AUD",
+            "additionalValue": "P1M",
+            "additionalInfo": "",
+            "additionalInfoUri": "",
+            "discounts": [
+                {
+                    "description": "Business account discount",
+                    "discountType": "ELIGIBILITY_ONLY",
+                    "feeRate": "1.0",
+                    "eligibility": [
+                        {
+                            "discountEligibilityType": "OTHER",
+                            "additionalInfo": "Must hold a business account",
+                            "additionalInfoUri": ""
+                        }
+                    ],
+                    "additionalInfo": "",
+                    "additionalInfoUri": ""
+                }
+            ]
+        },
+        {
+            "name": "INCOMING_SWIFT_&_TELEGRAPHIC_TRANSFER_DEPOSITS",
+            "feeType": "TRANSACTION",
+            "amount": "10.00",
+            "accrualFrequency": "",
+            "currency": "AUD",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "name": "MEMBER_CHEQUE_DISHONOUR_FEE",
+            "feeType": "EVENT",
+            "amount": "17.00",
+            "accrualFrequency": "",
+            "currency": "AUD",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "name": "MEMBER_CHEQUE_HONOURING_FEE",
+            "feeType": "EVENT",
+            "amount": "17.00",
+            "accrualFrequency": "",
+            "currency": "AUD",
+            "additionalInfo": "Fee per transaction will apply, and interest at the applicable rate will be charged on the overdrawn/over limit amount",
+            "additionalInfoUri": ""
+        },
+        {
+            "name": "OVERDRAWN_ACCOUNT_FEE",
+            "feeType": "EVENT",
+            "amount": "21.00",
+            "accrualFrequency": "P1M",
+            "currency": "AUD",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "name": "SPECIAL_CLEARANCE_FEE",
+            "feeType": "EVENT",
+            "amount": "45.00",
+            "accrualFrequency": "",
+            "currency": "AUD",
+            "additionalInfo": "Any fee charged by National Australia Bank will apply",
+            "additionalInfoUri": ""
+        },
+        {
+            "name": "SWIFT_TRANSACTION_(WITHIN_AUSTRALIA)",
+            "feeType": "TRANSACTION",
+            "amount": "30.00",
+            "accrualFrequency": "",
+            "currency": "AUD",
+            "additionalInfo": "",
+            "additionalInfoUri": "",
+            "discounts": [
+                {
+                    "description": "First Home Buyers and FHLDS Discounts",
+                    "discountType": "ELIGIBILITY_ONLY",
+                    "feeRate": "1.0",
+                    "eligibility": [
+                        {
+                            "discountEligibilityType": "OTHER",
+                            "additionalInfo": "Fees waived for first home buyers and FHLDS eligible members",
+                            "additionalInfoUri": ""
+                        }
+                    ],
+                    "additionalInfo": "",
+                    "additionalInfoUri": ""
+                }
+            ]
+        },
+        {
+            "name": "VISA_CARD_CHARGEBACK",
+            "feeType": "EVENT",
+            "amount": "23.00",
+            "accrualFrequency": "",
+            "currency": "AUD",
+            "additionalInfo": "The fee will apply where evidence suggests you participated and or authorised the transaction, or failed to sufficiently protect your card details.",
+            "additionalInfoUri": ""
+        },
+        {
+            "name": "VISA_CARD_VOUCHER_RETRIEVAL",
+            "feeType": "EVENT",
+            "amount": "18.00",
+            "accrualFrequency": "",
+            "currency": "AUD",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "name": "VISA_EMERGENCY_TRANSACTIONS",
+            "feeType": "EVENT",
+            "amount": "350.00",
+            "accrualFrequency": "",
+            "currency": "AUD",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        }
+    ],
+    "depositRates": [
+        {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P3M",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        }
+    ],
+    "productId": "MyGST_-_RELIANCE",
+    "lastUpdated": "2022-07-08T16:03:34.000+10:00",
+    "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+    "name": "MyGST Account - RELIANCE",
+    "description": "Account designed to assist meeting your GST obligations with a range of payment services and access options available",
+    "brand": "R",
+    "brandName": "Reliance Bank",
+    "applicationUri": "https://www.reliancebank.com.au/apply-online-apply-for-a-savings-account.html",
+    "isTailored": false,
+    "additionalInformation": {
+        "overviewUri": "https://www.reliancebank.com.au/small-business-business-accounts-my-gst-account.html",
+        "termsUri": "https://asset.reliancebank.com.au/files/disclosure_documents/AccountAccessFacilityConditionsofUse.pdf",
+        "eligibilityUri": "https://www.reliancebank.com.au/small-business-business-accounts-my-gst-account.html",
+        "feesAndPricingUri": "https://asset.reliancebank.com.au/files/Rates%20and%20Fees/FeesandCharges.pdf",
+        "bundleUri": ""
+    }
+}

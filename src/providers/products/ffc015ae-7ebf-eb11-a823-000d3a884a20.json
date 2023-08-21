@@ -1,0 +1,808 @@
+{
+    "products": [
+        {
+            "productId": "I2_TD_6Months",
+            "lastUpdated": "2023-07-24T16:47:11.000+10:00",
+            "productCategory": "TERM_DEPOSITS",
+            "name": "6 Month Term Deposit",
+            "description": "6 Month Term Deposit",
+            "brand": "South West Slopes Credit Union",
+            "brandName": "South West Slopes Credit Union",
+            "applicationUri": "https://forms.sharedservices.com.au/form.php?c=165&f=56",
+            "isTailored": false,
+            "additionalInformation": {
+                "overviewUri": "https://www.swscu.com.au/Products/SavingsAccountsTermDeposits/TermDeposits",
+                "termsUri": "",
+                "eligibilityUri": "",
+                "feesAndPricingUri": "",
+                "bundleUri": "",
+                "additionalOverviewUris": [
+                    {
+                        "description": "Term Deposit",
+                        "additionalInfoUri": "https://www.swscu.com.au/savings/term-deposits/term-deposit-account/"
+                    }
+                ]
+            }
+        },
+        {
+            "productId": "I4_TD_12Months",
+            "lastUpdated": "2023-07-13T17:08:17.000+10:00",
+            "productCategory": "TERM_DEPOSITS",
+            "name": "12 Month Term Deposit",
+            "description": "12 Month Term Deposit",
+            "brand": "South West Slopes Credit Union",
+            "brandName": "South West Slopes Credit Union",
+            "applicationUri": "https://forms.sharedservices.com.au/form.php?c=165&f=56",
+            "isTailored": false,
+            "additionalInformation": {
+                "overviewUri": "https://www.swscu.com.au/Products/SavingsAccountsTermDeposits/TermDeposits",
+                "termsUri": "",
+                "eligibilityUri": "",
+                "feesAndPricingUri": "",
+                "bundleUri": "",
+                "additionalOverviewUris": [
+                    {
+                        "description": "Term Deposit",
+                        "additionalInfoUri": "https://www.swscu.com.au/savings/term-deposits/term-deposit-account/"
+                    }
+                ]
+            }
+        },
+        {
+            "productId": "I3_TD_9Months",
+            "lastUpdated": "2023-07-13T17:05:08.000+10:00",
+            "productCategory": "TERM_DEPOSITS",
+            "name": "9 Month Term Deposit",
+            "description": "9 Month Term Deposit",
+            "brand": "South West Slopes Credit Union",
+            "brandName": "South West Slopes Credit Union",
+            "applicationUri": "https://forms.sharedservices.com.au/form.php?c=165&f=56",
+            "isTailored": false,
+            "additionalInformation": {
+                "overviewUri": "https://www.swscu.com.au/Products/SavingsAccountsTermDeposits/TermDeposits",
+                "termsUri": "",
+                "eligibilityUri": "",
+                "feesAndPricingUri": "",
+                "bundleUri": "",
+                "additionalOverviewUris": [
+                    {
+                        "description": "Term Deposit",
+                        "additionalInfoUri": "https://www.swscu.com.au/savings/term-deposits/term-deposit-account/"
+                    }
+                ]
+            }
+        },
+        {
+            "productId": "I6_TD_24Months",
+            "lastUpdated": "2023-07-13T17:05:07.000+10:00",
+            "productCategory": "TERM_DEPOSITS",
+            "name": "24 Month Term Deposit",
+            "description": "24 Month Term Deposit",
+            "brand": "South West Slopes Credit Union",
+            "brandName": "South West Slopes Credit Union",
+            "applicationUri": "https://forms.sharedservices.com.au/form.php?c=165&f=56",
+            "isTailored": false,
+            "additionalInformation": {
+                "overviewUri": "https://www.swscu.com.au/savings/term-deposits/term-deposit-account/",
+                "termsUri": "",
+                "eligibilityUri": "",
+                "feesAndPricingUri": "",
+                "bundleUri": ""
+            }
+        },
+        {
+            "productId": "I3_TD_3Months",
+            "lastUpdated": "2023-07-13T17:00:49.000+10:00",
+            "productCategory": "TERM_DEPOSITS",
+            "name": "3 Month Term Deposit",
+            "description": "3 Month Term Deposit",
+            "brand": "South West Slopes Credit Union",
+            "brandName": "South West Slopes Credit Union",
+            "applicationUri": "https://forms.sharedservices.com.au/form.php?c=165&f=56",
+            "isTailored": false,
+            "additionalInformation": {
+                "overviewUri": "https://www.swscu.com.au/Products/SavingsAccountsTermDeposits/TermDeposits",
+                "termsUri": "",
+                "eligibilityUri": "",
+                "feesAndPricingUri": "",
+                "bundleUri": "",
+                "additionalOverviewUris": [
+                    {
+                        "description": "Term Deposit",
+                        "additionalInfoUri": "https://www.swscu.com.au/savings/term-deposits/term-deposit-account/"
+                    }
+                ]
+            }
+        },
+        {
+            "productId": "L49_3Y_FRINV",
+            "lastUpdated": "2023-07-07T09:51:02.000+10:00",
+            "productCategory": "RESIDENTIAL_MORTGAGES",
+            "name": "Optimum Investor 3 Year Fixed Rate Home Loan",
+            "description": "Optimum Investor 3 Year Fixed Rate Home Loan",
+            "brand": "South West Slopes Credit Union",
+            "brandName": "South West Slopes Credit Union",
+            "applicationUri": "https://forms.sharedservices.com.au/form.php?c=165&f=49",
+            "isTailored": true,
+            "additionalInformation": {
+                "overviewUri": "https://www.swscu.com.au/loans/investor-home-loans/optimum-investor-3-year-fixed-rate-home-loan/",
+                "termsUri": "",
+                "eligibilityUri": "",
+                "feesAndPricingUri": "",
+                "bundleUri": ""
+            }
+        },
+        {
+            "productId": "L48_2Y_FRINV",
+            "lastUpdated": "2023-07-07T09:50:26.000+10:00",
+            "productCategory": "RESIDENTIAL_MORTGAGES",
+            "name": "Optimum Investor 2 Year Fixed Rate Home Loan",
+            "description": "Optimum Investor 2 Year Fixed Rate Home Loan",
+            "brand": "South West Slopes Credit Union",
+            "brandName": "South West Slopes Credit Union",
+            "applicationUri": "https://forms.sharedservices.com.au/form.php?c=165&f=49",
+            "isTailored": true,
+            "additionalInformation": {
+                "overviewUri": "https://www.swscu.com.au/loans/investor-home-loans/optimum-investor-2-year-fixed-rate-home-loan/",
+                "termsUri": "",
+                "eligibilityUri": "",
+                "feesAndPricingUri": "",
+                "bundleUri": ""
+            }
+        },
+        {
+            "productId": "L47_1Y_FRINV",
+            "lastUpdated": "2023-07-07T09:49:56.000+10:00",
+            "productCategory": "RESIDENTIAL_MORTGAGES",
+            "name": "Optimum Investor 1 Year Fixed Rate Home Loan",
+            "description": "Optimum Investor 1 Year Fixed Rate Home Loan",
+            "brand": "South West Slopes Credit Union",
+            "brandName": "South West Slopes Credit Union",
+            "applicationUri": "https://forms.sharedservices.com.au/form.php?c=165&f=49",
+            "isTailored": true,
+            "additionalInformation": {
+                "overviewUri": "https://www.swscu.com.au/loans/investor-home-loans/optimum-investor-1-year-fixed-rate-home-loan/",
+                "termsUri": "",
+                "eligibilityUri": "",
+                "feesAndPricingUri": "",
+                "bundleUri": ""
+            }
+        },
+        {
+            "productId": "L44_3Y_FROO",
+            "lastUpdated": "2023-07-07T09:49:02.000+10:00",
+            "productCategory": "RESIDENTIAL_MORTGAGES",
+            "name": "Optimum 3 Year Fixed Rate Home Loan",
+            "description": "Optimum 3 Year Fixed Rate Home Loan",
+            "brand": "South West Slopes Credit Union",
+            "brandName": "South West Slopes Credit Union",
+            "applicationUri": "https://forms.sharedservices.com.au/form.php?c=165&f=49",
+            "isTailored": true,
+            "additionalInformation": {
+                "overviewUri": "https://www.swscu.com.au/loans/owner-occupied-home-loans/optimum-3-year-fixed-rate-home-loan/",
+                "termsUri": "",
+                "eligibilityUri": "",
+                "feesAndPricingUri": "",
+                "bundleUri": ""
+            }
+        },
+        {
+            "productId": "L43_2Y_FROO",
+            "lastUpdated": "2023-07-07T09:48:00.000+10:00",
+            "productCategory": "RESIDENTIAL_MORTGAGES",
+            "name": "Optimum 2 Year Fixed Rate Home Loan",
+            "description": "Optimum 2 Year Fixed Rate Home Loan",
+            "brand": "South West Slopes Credit Union",
+            "brandName": "South West Slopes Credit Union",
+            "applicationUri": "https://forms.sharedservices.com.au/form.php?c=165&f=49",
+            "isTailored": true,
+            "additionalInformation": {
+                "overviewUri": "https://www.swscu.com.au/loans/owner-occupied-home-loans/optimum-2-year-fixed-rate-home-loan/",
+                "termsUri": "",
+                "eligibilityUri": "",
+                "feesAndPricingUri": "",
+                "bundleUri": ""
+            }
+        },
+        {
+            "productId": "L42_1Y_FROO",
+            "lastUpdated": "2023-07-07T09:47:27.000+10:00",
+            "productCategory": "RESIDENTIAL_MORTGAGES",
+            "name": "Optimum 1 Year Fixed Rate Home Loan",
+            "description": "Optimum 1 Year Fixed Rate Home Loanv",
+            "brand": "South West Slopes Credit Union",
+            "brandName": "South West Slopes Credit Union",
+            "applicationUri": "https://forms.sharedservices.com.au/form.php?c=165&f=49",
+            "isTailored": true,
+            "additionalInformation": {
+                "overviewUri": "https://www.swscu.com.au/loans/owner-occupied-home-loans/optimum-1-year-fixed-rate-home-loan/",
+                "termsUri": "",
+                "eligibilityUri": "",
+                "feesAndPricingUri": "",
+                "bundleUri": ""
+            }
+        },
+        {
+            "productId": "L2_HL_OwnOccupied",
+            "lastUpdated": "2023-07-07T09:45:45.000+10:00",
+            "productCategory": "RESIDENTIAL_MORTGAGES",
+            "name": "Standard Variable Rate Home Loan",
+            "description": "Standard Variable Rate Home Loan",
+            "brand": "South West Slopes Credit Union",
+            "brandName": "South West Slopes Credit Union",
+            "applicationUri": "https://forms.sharedservices.com.au/form.php?c=165&f=49",
+            "isTailored": true,
+            "additionalInformation": {
+                "overviewUri": "https://www.swscu.com.au/loans/owner-occupied-home-loans/standard-variable-rate-home-loan/",
+                "termsUri": "",
+                "eligibilityUri": "",
+                "feesAndPricingUri": "",
+                "bundleUri": ""
+            }
+        },
+        {
+            "productId": "L25_Inv_IntOnly",
+            "lastUpdated": "2023-07-07T09:44:49.000+10:00",
+            "productCategory": "RESIDENTIAL_MORTGAGES",
+            "name": "Investment Home Loan - Interest Only",
+            "description": "Investment Home Loan - Interest Only",
+            "brand": "South West Slopes Credit Union",
+            "brandName": "South West Slopes Credit Union",
+            "applicationUri": "https://forms.sharedservices.com.au/form.php?c=165&f=49",
+            "isTailored": false,
+            "additionalInformation": {
+                "overviewUri": "https://www.swscu.com.au/loans/investor-home-loans/investment-home-loan-interest-only/",
+                "termsUri": "",
+                "eligibilityUri": "",
+                "feesAndPricingUri": "",
+                "bundleUri": ""
+            }
+        },
+        {
+            "productId": "L24_DisTOL_HL_INV",
+            "lastUpdated": "2023-07-07T09:44:03.000+10:00",
+            "productCategory": "RESIDENTIAL_MORTGAGES",
+            "name": "Investment Discounted Standard Variable Home Loan (Term of the Loan)",
+            "description": "Investment Discounted Standard Variable Home Loan (Term of the Loan)",
+            "brand": "South West Slopes Credit Union",
+            "brandName": "South West Slopes Credit Union",
+            "applicationUri": "https://forms.sharedservices.com.au/form.php?c=165&f=49",
+            "isTailored": true,
+            "additionalInformation": {
+                "overviewUri": "https://www.swscu.com.au/loans/investor-home-loans/investment-discounted-standard-variable-home-loan-term-of-the-loan/",
+                "termsUri": "",
+                "eligibilityUri": "",
+                "feesAndPricingUri": "",
+                "bundleUri": ""
+            }
+        },
+        {
+            "productId": "L24_DisHL_INV",
+            "lastUpdated": "2023-07-07T09:43:27.000+10:00",
+            "productCategory": "RESIDENTIAL_MORTGAGES",
+            "name": "Discounted Investment Standard Variable Home Loan (12 month discount)",
+            "description": "Discounted Investment Standard Variable Home Loan (12 month discount)",
+            "brand": "South West Slopes Credit Union",
+            "brandName": "South West Slopes Credit Union",
+            "applicationUri": "https://forms.sharedservices.com.au/form.php?c=165&f=49",
+            "isTailored": true,
+            "additionalInformation": {
+                "overviewUri": "https://www.swscu.com.au/loans/investor-home-loans/discounted-investment-standard-variable-home-loan-12-month-discount/",
+                "termsUri": "",
+                "eligibilityUri": "",
+                "feesAndPricingUri": "",
+                "bundleUri": ""
+            }
+        },
+        {
+            "productId": "L23_Dis_HL_OO",
+            "lastUpdated": "2023-07-07T09:43:04.000+10:00",
+            "productCategory": "RESIDENTIAL_MORTGAGES",
+            "name": "Intro Discounted Standard Variable Home Loan",
+            "description": "Intro Discounted Standard Variable Home Loan",
+            "brand": "South West Slopes Credit Union",
+            "brandName": "South West Slopes Credit Union",
+            "applicationUri": "https://forms.sharedservices.com.au/form.php?c=165&f=49",
+            "isTailored": false,
+            "additionalInformation": {
+                "overviewUri": "https://www.swscu.com.au/loans/owner-occupied-home-loans/intro-discounted-standard-variable-home-loan/",
+                "termsUri": "",
+                "eligibilityUri": "",
+                "feesAndPricingUri": "",
+                "bundleUri": ""
+            }
+        },
+        {
+            "productId": "L23_DisHL_OO",
+            "lastUpdated": "2023-07-07T09:42:45.000+10:00",
+            "productCategory": "RESIDENTIAL_MORTGAGES",
+            "name": "Discounted Standard Variable Home Loan (12 month discount)",
+            "description": "Discounted Standard Variable Home Loan (12 month discount)",
+            "brand": "South West Slopes Credit Union",
+            "brandName": "South West Slopes Credit Union",
+            "applicationUri": "https://forms.sharedservices.com.au/form.php?c=165&f=49",
+            "isTailored": false,
+            "additionalInformation": {
+                "overviewUri": "https://www.swscu.com.au/loans/owner-occupied-home-loans/discounted-standard-variable-home-loan-12-month-discount/",
+                "termsUri": "",
+                "eligibilityUri": "",
+                "feesAndPricingUri": "",
+                "bundleUri": ""
+            }
+        },
+        {
+            "productId": "L22_HL_GBR",
+            "lastUpdated": "2023-07-07T09:42:11.000+10:00",
+            "productCategory": "RESIDENTIAL_MORTGAGES",
+            "name": "Home Loan GBR",
+            "description": "Home Loan GBR",
+            "brand": "South West Slopes Credit Union",
+            "brandName": "South West Slopes Credit Union",
+            "applicationUri": "https://forms.sharedservices.com.au/form.php?c=165&f=49",
+            "isTailored": true,
+            "additionalInformation": {
+                "overviewUri": "https://www.swscu.com.au/loans/owner-occupied-home-loans/standard-variable-rate-home-loan/",
+                "termsUri": "",
+                "eligibilityUri": "",
+                "feesAndPricingUri": "",
+                "bundleUri": ""
+            }
+        },
+        {
+            "productId": "L21_HL_Inv",
+            "lastUpdated": "2023-07-07T09:41:46.000+10:00",
+            "productCategory": "RESIDENTIAL_MORTGAGES",
+            "name": "Investment Standard Variable Home Loan",
+            "description": "Investment Standard Variable Home Loan",
+            "brand": "South West Slopes Credit Union",
+            "brandName": "South West Slopes Credit Union",
+            "applicationUri": "https://forms.sharedservices.com.au/form.php?c=165&f=49",
+            "isTailored": false,
+            "additionalInformation": {
+                "overviewUri": "https://www.swscu.com.au/loans/investor-home-loans/investment-standard-variable-home-loan/",
+                "termsUri": "",
+                "eligibilityUri": "",
+                "feesAndPricingUri": "",
+                "bundleUri": ""
+            }
+        },
+        {
+            "productId": "L45_2Y_GBR_FROO",
+            "lastUpdated": "2023-07-07T09:05:58.000+10:00",
+            "productCategory": "RESIDENTIAL_MORTGAGES",
+            "name": "GBR 2YR FIXED HL",
+            "description": "GBR 2YR FIXED HL",
+            "brand": "South West Slopes Credit Union",
+            "brandName": "South West Slopes Credit Union",
+            "applicationUri": "https://forms.sharedservices.com.au/form.php?c=165&f=49",
+            "isTailored": true,
+            "additionalInformation": {
+                "overviewUri": "https://www.swscu.com.au/Products/HomeLoans",
+                "termsUri": "",
+                "eligibilityUri": "",
+                "feesAndPricingUri": "",
+                "bundleUri": ""
+            }
+        },
+        {
+            "productId": "L33_CSec_12M_Disc",
+            "lastUpdated": "2023-07-07T09:04:54.000+10:00",
+            "productCategory": "BUSINESS_LOANS",
+            "name": "Commercial Secured Discounted - 1year",
+            "description": "Commercial Secured Discounted - 1year",
+            "brand": "South West Slopes Credit Union",
+            "brandName": "South West Slopes Credit Union",
+            "applicationUri": "https://forms.sharedservices.com.au/form.php?c=165&f=49",
+            "isTailored": true,
+            "additionalInformation": {
+                "overviewUri": "https://www.swscu.com.au/loans/business-loans/all-business-loans/",
+                "termsUri": "",
+                "eligibilityUri": "",
+                "feesAndPricingUri": "",
+                "bundleUri": ""
+            }
+        },
+        {
+            "productId": "S7_7DN",
+            "lastUpdated": "2023-03-10T08:50:09.000+11:00",
+            "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+            "name": "Goal Account",
+            "description": "Goal Account",
+            "brand": "South West Slopes Credit Union",
+            "brandName": "South West Slopes Credit Union",
+            "applicationUri": "https://forms.sharedservices.com.au/form.php?c=165&f=47",
+            "isTailored": false,
+            "additionalInformation": {
+                "overviewUri": "https://www.swscu.com.au/savings/savings-accounts/goal-account/",
+                "termsUri": "",
+                "eligibilityUri": "",
+                "feesAndPricingUri": "https://www.swscu.com.au/products-rates-and-fees-fees-and-charges.html",
+                "bundleUri": ""
+            }
+        },
+        {
+            "productId": "S9_SMF",
+            "lastUpdated": "2023-03-10T08:49:13.000+11:00",
+            "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+            "name": "SMF Superannuation",
+            "description": "SMF Superannuation",
+            "brand": "South West Slopes Credit Union",
+            "brandName": "South West Slopes Credit Union",
+            "applicationUri": "https://forms.sharedservices.com.au/form.php?c=165&f=47",
+            "isTailored": false,
+            "additionalInformation": {
+                "overviewUri": "https://www.swscu.com.au/Products/SavingsAccountsTermDeposits/SuperannuationAccount",
+                "termsUri": "",
+                "eligibilityUri": "",
+                "feesAndPricingUri": "https://www.swscu.com.au/products-rates-and-fees-fees-and-charges.html",
+                "bundleUri": ""
+            }
+        },
+        {
+            "productId": "S11_OS",
+            "lastUpdated": "2023-03-10T08:48:44.000+11:00",
+            "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+            "name": "Online Saver",
+            "description": "Online Saver",
+            "brand": "South West Slopes Credit Union",
+            "brandName": "South West Slopes Credit Union",
+            "applicationUri": "https://forms.sharedservices.com.au/form.php?c=165&f=47",
+            "isTailored": false,
+            "additionalInformation": {
+                "overviewUri": "https://www.swscu.com.au/savings/savings-accounts/online-saver-account/",
+                "termsUri": "",
+                "eligibilityUri": "",
+                "feesAndPricingUri": "https://www.swscu.com.au/rates-fees/fees-and-charges/general-fees-and-charges/",
+                "bundleUri": ""
+            }
+        },
+        {
+            "productId": "S6_Teen",
+            "lastUpdated": "2023-03-10T08:48:23.000+11:00",
+            "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+            "name": "Teenager Account",
+            "description": "Teenager Account",
+            "brand": "South West Slopes Credit Union",
+            "brandName": "South West Slopes Credit Union",
+            "applicationUri": "https://forms.sharedservices.com.au/form.php?c=165&f=47",
+            "isTailored": false,
+            "additionalInformation": {
+                "overviewUri": "https://www.swscu.com.au/Products/SavingsAccountsTermDeposits/TeenageSavings",
+                "termsUri": "",
+                "eligibilityUri": "",
+                "feesAndPricingUri": "https://www.swscu.com.au/products-rates-and-fees-fees-and-charges.html",
+                "bundleUri": ""
+            }
+        },
+        {
+            "productId": "S8_SSav",
+            "lastUpdated": "2023-03-10T08:47:57.000+11:00",
+            "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+            "name": "Junior Account",
+            "description": "Junior Account",
+            "brand": "South West Slopes Credit Union",
+            "brandName": "South West Slopes Credit Union",
+            "applicationUri": "https://forms.sharedservices.com.au/form.php?c=165&f=47",
+            "isTailored": false,
+            "additionalInformation": {
+                "overviewUri": "https://www.swscu.com.au/savings/junior-accounts/junior-account/",
+                "termsUri": "",
+                "eligibilityUri": "",
+                "feesAndPricingUri": "https://www.swscu.com.au/products-rates-and-fees-fees-and-charges.html",
+                "bundleUri": ""
+            }
+        },
+        {
+            "productId": "I7_TD_4Months",
+            "lastUpdated": "2023-03-09T16:57:16.000+11:00",
+            "productCategory": "TERM_DEPOSITS",
+            "name": "4 Month Term Deposit",
+            "description": "4 Month Term Deposit",
+            "brand": "South West Slopes Credit Union",
+            "brandName": "South West Slopes Credit Union",
+            "applicationUri": "https://forms.sharedservices.com.au/form.php?c=165&f=56",
+            "isTailored": false,
+            "additionalInformation": {
+                "overviewUri": "https://www.swscu.com.au/Products/SavingsAccountsTermDeposits/TermDeposits",
+                "termsUri": "",
+                "eligibilityUri": "",
+                "feesAndPricingUri": "",
+                "bundleUri": "",
+                "additionalOverviewUris": [
+                    {
+                        "description": "Term Deposit",
+                        "additionalInfoUri": "https://www.swscu.com.au/savings/term-deposits/term-deposit-account/"
+                    }
+                ]
+            }
+        },
+        {
+            "productId": "S4_BSav",
+            "lastUpdated": "2023-02-23T09:24:51.000+11:00",
+            "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+            "name": "Budget Account",
+            "description": "Budget Account",
+            "brand": "South West Slopes Credit Union",
+            "brandName": "South West Slopes Credit Union",
+            "applicationUri": "https://forms.sharedservices.com.au/form.php?c=165&f=47",
+            "isTailored": false,
+            "additionalInformation": {
+                "overviewUri": "https://www.swscu.com.au/savings/savings-accounts/budget-account/",
+                "termsUri": "",
+                "eligibilityUri": "",
+                "feesAndPricingUri": "https://www.swscu.com.au/rates-fees/fees-and-charges/general-fees-and-charges/",
+                "bundleUri": ""
+            }
+        },
+        {
+            "productId": "S2_Sav",
+            "lastUpdated": "2023-02-23T09:24:20.000+11:00",
+            "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+            "name": "Card Free Account",
+            "description": "Card Free Account",
+            "brand": "South West Slopes Credit Union",
+            "brandName": "South West Slopes Credit Union",
+            "applicationUri": "https://forms.sharedservices.com.au/form.php?c=165&f=47",
+            "isTailored": false,
+            "additionalInformation": {
+                "overviewUri": "https://www.swscu.com.au/savings/savings-accounts/card-free-account/",
+                "termsUri": "",
+                "eligibilityUri": "",
+                "feesAndPricingUri": "https://www.swscu.com.au/products-rates-and-fees-fees-and-charges.html",
+                "bundleUri": ""
+            }
+        },
+        {
+            "productId": "S1_GS",
+            "lastUpdated": "2023-02-23T09:23:51.000+11:00",
+            "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+            "name": "Everyday Account",
+            "description": "Everyday Account",
+            "brand": "South West Slopes Credit Union",
+            "brandName": "South West Slopes Credit Union",
+            "applicationUri": "https://forms.sharedservices.com.au/form.php?c=165&f=47",
+            "isTailored": false,
+            "additionalInformation": {
+                "overviewUri": "https://www.swscu.com.au/savings/savings-accounts/everyday-account/",
+                "termsUri": "",
+                "eligibilityUri": "",
+                "feesAndPricingUri": "https://www.swscu.com.au/products-rates-and-fees-fees-and-charges.html",
+                "bundleUri": ""
+            }
+        },
+        {
+            "productId": "S5_Xmas",
+            "lastUpdated": "2023-02-23T08:51:01.000+11:00",
+            "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+            "name": "Christmas Club",
+            "description": "Christmas Club",
+            "brand": "South West Slopes Credit Union",
+            "brandName": "South West Slopes Credit Union",
+            "applicationUri": "https://forms.sharedservices.com.au/form.php?c=165&f=47",
+            "isTailored": false,
+            "additionalInformation": {
+                "overviewUri": "https://www.swscu.com.au/Products/SavingsAccountsTermDeposits/ChristmasClub",
+                "termsUri": "",
+                "eligibilityUri": "",
+                "feesAndPricingUri": "https://www.swscu.com.au/products-rates-and-fees-fees-and-charges.html",
+                "bundleUri": ""
+            }
+        },
+        {
+            "productId": "L3_CL_Secured",
+            "lastUpdated": "2023-02-22T13:28:36.000+11:00",
+            "productCategory": "BUSINESS_LOANS",
+            "name": "Commercial Secured Loans",
+            "description": "Commercial Secured Loans",
+            "brand": "South West Slopes Credit Union",
+            "brandName": "South West Slopes Credit Union",
+            "applicationUri": "https://forms.sharedservices.com.au/form.php?c=165&f=49",
+            "isTailored": false,
+            "additionalInformation": {
+                "overviewUri": "https://www.swscu.com.au/loans/business-loans/all-business-loans/",
+                "termsUri": "",
+                "eligibilityUri": "",
+                "feesAndPricingUri": "",
+                "bundleUri": ""
+            }
+        },
+        {
+            "productId": "L32_CSD_Car",
+            "lastUpdated": "2023-02-22T13:27:35.000+11:00",
+            "productCategory": "BUSINESS_LOANS",
+            "name": "Commercial Secured Discounted Car",
+            "description": "Commercial Secured Discounted Car",
+            "brand": "South West Slopes Credit Union",
+            "brandName": "South West Slopes Credit Union",
+            "applicationUri": "https://forms.sharedservices.com.au/form.php?c=165&f=49",
+            "isTailored": false,
+            "additionalInformation": {
+                "overviewUri": "https://www.swscu.com.au/loans/business-loans/all-business-loans/",
+                "termsUri": "",
+                "eligibilityUri": "",
+                "feesAndPricingUri": "",
+                "bundleUri": ""
+            }
+        },
+        {
+            "productId": "L31_CUS",
+            "lastUpdated": "2023-02-22T13:26:39.000+11:00",
+            "productCategory": "BUSINESS_LOANS",
+            "name": "Commercial Unsecured Loans",
+            "description": "Commercial Unsecured Loans",
+            "brand": "South West Slopes Credit Union",
+            "brandName": "South West Slopes Credit Union",
+            "applicationUri": "https://forms.sharedservices.com.au/form.php?c=165&f=49",
+            "isTailored": false,
+            "additionalInformation": {
+                "overviewUri": "https://www.swscu.com.au/loans/business-loans/all-business-loans/",
+                "termsUri": "",
+                "eligibilityUri": "",
+                "feesAndPricingUri": "",
+                "bundleUri": ""
+            }
+        },
+        {
+            "productId": "L1_PU",
+            "lastUpdated": "2023-02-22T13:17:30.000+11:00",
+            "productCategory": "PERS_LOANS",
+            "name": "Personal Unsecured",
+            "description": "Personal Unsecured",
+            "brand": "South West Slopes Credit Union",
+            "brandName": "South West Slopes Credit Union",
+            "applicationUri": "https://forms.sharedservices.com.au/form.php?c=165&f=49",
+            "isTailored": true,
+            "additionalInformation": {
+                "overviewUri": "https://www.swscu.com.au/Products/PersonalLoans",
+                "termsUri": "",
+                "eligibilityUri": "",
+                "feesAndPricingUri": "",
+                "bundleUri": ""
+            }
+        },
+        {
+            "productId": "L18_DNV",
+            "lastUpdated": "2023-02-22T13:17:12.000+11:00",
+            "productCategory": "PERS_LOANS",
+            "name": "3 Year Term Vehicle Loan",
+            "description": "3 Year Term Vehicle Loan",
+            "brand": "South West Slopes Credit Union",
+            "brandName": "South West Slopes Credit Union",
+            "applicationUri": "https://forms.sharedservices.com.au/form.php?c=165&f=49",
+            "isTailored": true,
+            "additionalInformation": {
+                "overviewUri": "https://www.swscu.com.au/loans/vehicle-loans/3-year-term-vehicle-loan/",
+                "termsUri": "",
+                "eligibilityUri": "",
+                "feesAndPricingUri": "",
+                "bundleUri": ""
+            }
+        },
+        {
+            "productId": "L17_Disc_NVL",
+            "lastUpdated": "2023-02-22T13:16:06.000+11:00",
+            "productCategory": "PERS_LOANS",
+            "name": "5 Year Term Vehicle Loan",
+            "description": "5 Year Term Vehicle Loan",
+            "brand": "South West Slopes Credit Union",
+            "brandName": "South West Slopes Credit Union",
+            "applicationUri": "https://forms.sharedservices.com.au/form.php?c=165&f=49",
+            "isTailored": true,
+            "additionalInformation": {
+                "overviewUri": "https://www.swscu.com.au/loans/vehicle-loans/5-year-term-vehicle-loan/",
+                "termsUri": "",
+                "eligibilityUri": "",
+                "feesAndPricingUri": "",
+                "bundleUri": ""
+            }
+        },
+        {
+            "productId": "L15_Disc_New_Car",
+            "lastUpdated": "2023-02-22T13:15:36.000+11:00",
+            "productCategory": "PERS_LOANS",
+            "name": "7 Year Term Vehicle Loan",
+            "description": "7 Year Term Vehicle Loan",
+            "brand": "South West Slopes Credit Union",
+            "brandName": "South West Slopes Credit Union",
+            "applicationUri": "https://forms.sharedservices.com.au/form.php?c=165&f=49",
+            "isTailored": true,
+            "additionalInformation": {
+                "overviewUri": "https://www.swscu.com.au/loans/vehicle-loans/7-year-term-vehicle-loan/",
+                "termsUri": "",
+                "eligibilityUri": "",
+                "feesAndPricingUri": "",
+                "bundleUri": ""
+            }
+        },
+        {
+            "productId": "L14_PS",
+            "lastUpdated": "2023-02-22T13:15:01.000+11:00",
+            "productCategory": "PERS_LOANS",
+            "name": "Personal Secured",
+            "description": "Personal Secured",
+            "brand": "South West Slopes Credit Union",
+            "brandName": "South West Slopes Credit Union",
+            "applicationUri": "https://forms.sharedservices.com.au/form.php?c=165&f=49",
+            "isTailored": true,
+            "additionalInformation": {
+                "overviewUri": "https://www.swscu.com.au/Products/PersonalLoans",
+                "termsUri": "",
+                "eligibilityUri": "",
+                "feesAndPricingUri": "",
+                "bundleUri": ""
+            }
+        },
+        {
+            "productId": "L13_PS_GBR",
+            "lastUpdated": "2023-02-22T13:14:43.000+11:00",
+            "productCategory": "PERS_LOANS",
+            "name": "Personal Secured GBR",
+            "description": "Personal Secured GBR",
+            "brand": "South West Slopes Credit Union",
+            "brandName": "South West Slopes Credit Union",
+            "applicationUri": "https://forms.sharedservices.com.au/form.php?c=165&f=49",
+            "isTailored": true,
+            "additionalInformation": {
+                "overviewUri": "https://www.swscu.com.au/Products/PersonalLoans",
+                "termsUri": "",
+                "eligibilityUri": "",
+                "feesAndPricingUri": "",
+                "bundleUri": ""
+            }
+        },
+        {
+            "productId": "L11_PU_GBR",
+            "lastUpdated": "2023-02-22T13:14:28.000+11:00",
+            "productCategory": "PERS_LOANS",
+            "name": "Personal Unsecured GBR",
+            "description": "Personal Unsecured GBR",
+            "brand": "South West Slopes Credit Union",
+            "brandName": "South West Slopes Credit Union",
+            "applicationUri": "https://forms.sharedservices.com.au/form.php?c=165&f=49",
+            "isTailored": true,
+            "additionalInformation": {
+                "overviewUri": "https://www.swscu.com.au/Products/PersonalLoans",
+                "termsUri": "",
+                "eligibilityUri": "",
+                "feesAndPricingUri": "",
+                "bundleUri": ""
+            }
+        },
+        {
+            "productId": "S10_Offset",
+            "lastUpdated": "2021-11-11T16:15:43.000+11:00",
+            "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+            "name": "Offset Account",
+            "description": "Offset Account",
+            "brand": "South West Slopes Credit Union",
+            "brandName": "South West Slopes Credit Union",
+            "applicationUri": "",
+            "isTailored": false,
+            "additionalInformation": {
+                "overviewUri": "",
+                "termsUri": "",
+                "eligibilityUri": "",
+                "feesAndPricingUri": "",
+                "bundleUri": ""
+            }
+        },
+        {
+            "productId": "S3_VC",
+            "lastUpdated": "2021-11-11T16:12:23.000+11:00",
+            "productCategory": "CRED_AND_CHRG_CARDS",
+            "name": "Visa Credit Card",
+            "description": "Visa Credit Card",
+            "brand": "South West Slopes Credit Union",
+            "brandName": "South West Slopes Credit Union",
+            "applicationUri": "https://forms.sharedservices.com.au/form.php?c=165&f=49",
+            "isTailored": false,
+            "additionalInformation": {
+                "overviewUri": "https://www.swscu.com.au/Products/CreditCard/VisaClassic",
+                "termsUri": "",
+                "eligibilityUri": "",
+                "feesAndPricingUri": "",
+                "bundleUri": ""
+            }
+        }
+    ]
+}

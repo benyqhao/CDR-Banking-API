@@ -1,0 +1,93 @@
+{
+    "productId": "164",
+    "effectiveFrom": "2020-04-15T14:30:00.0000000Z",
+    "lastUpdated": "2023-06-20T16:00:39.7448099Z",
+    "productCategory": "CRED_AND_CHRG_CARDS",
+    "name": "Rewards Credit Card",
+    "description": "Rewards Credit Card",
+    "brand": "BCU",
+    "brandName": "bcu",
+    "isTailored": false,
+    "additionalInformation": {
+        "overviewUri": "https://www.bcu.com.au/creditcards/rewards-credit-card",
+        "termsUri": "https://www.bcu.com.au/important-documents",
+        "feesAndPricingUri": "https://www.bcu.com.au/creditcards/rewards-credit-card"
+    },
+    "features": [
+        {
+            "featureType": "ADDITIONAL_CARDS"
+        },
+        {
+            "featureType": "CARD_ACCESS",
+            "additionalValue": "Visa Credit card available"
+        },
+        {
+            "featureType": "DIGITAL_BANKING"
+        },
+        {
+            "featureType": "DIGITAL_WALLET",
+            "additionalValue": "Apple Pay, Google Pay & Samsung Pay"
+        },
+        {
+            "featureType": "NPP_ENABLED"
+        },
+        {
+            "featureType": "OTHER",
+            "additionalInfo": "Cashback rewards on eligible purchases",
+            "additionalInfoUri": "https://www.bcu.com.au/important-documents"
+        },
+        {
+            "featureType": "UNLIMITED_TXNS"
+        }
+    ],
+    "constraints": [
+        {
+            "constraintType": "MIN_LIMIT",
+            "additionalValue": "500.00",
+            "additionalInfo": "Minimum credit limit of $500"
+        }
+    ],
+    "fees": [
+        {
+            "name": "Credit Card Annual Fee",
+            "feeType": "PERIODIC",
+            "amount": "89.00",
+            "currency": "AUD",
+            "additionalValue": "P1Y"
+        },
+        {
+            "name": "Late Payment Notification Fee",
+            "feeType": "EVENT",
+            "amount": "5.00",
+            "currency": "AUD",
+            "additionalInfo": "Charged when payment to a Credit Card becomes overdue by 11 and 30 days",
+            "additionalInfoUri": "https://www.bcu.com.au/help-support/fees-charges"
+        },
+        {
+            "name": "Foreign Currency Conversion Fee",
+            "feeType": "TRANSACTION",
+            "amount": "0.00",
+            "transactionRate": "0.03",
+            "currency": "AUD",
+            "additionalInfo": "Payable for all transactions made in a foreign currency or if the merchant is located outside Australia",
+            "additionalInfoUri": "https://www.bcu.com.au/help-support/fees-charges"
+        }
+    ],
+    "lendingRates": [
+        {
+            "lendingRateType": "CASH_ADVANCE",
+            "rate": "0.148",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "interestPaymentDue": "IN_ARREARS"
+        },
+        {
+            "lendingRateType": "PURCHASE",
+            "rate": "0.1305",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "interestPaymentDue": "IN_ARREARS",
+            "additionalInfo": "Up to 55 days interest free on eligible purchases"
+        }
+    ]
+}

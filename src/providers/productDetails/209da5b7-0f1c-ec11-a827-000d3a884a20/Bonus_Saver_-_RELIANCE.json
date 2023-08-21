@@ -1,0 +1,239 @@
+{
+    "features": [
+        {
+            "featureType": "UNLIMITED_TXNS",
+            "additionalInfo": "No transaction fees",
+            "additionalInfoUri": ""
+        },
+        {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "featureType": "NOTIFICATIONS",
+            "additionalValue": "Delivered via SMS, Email, Internet Banking",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "featureType": "OTHER",
+            "additionalInfo": "The bonus rate applies for a minimum deposit of $50.00 per month, no withdrawals per month and account balances under $100,000, the standard rate applies to any balance over $100,000.",
+            "additionalInfoUri": ""
+        },
+        {
+            "featureType": "OTHER",
+            "additionalInfo": "Branch over the counter access",
+            "additionalInfoUri": ""
+        },
+        {
+            "featureType": "OTHER",
+            "additionalInfo": "Funds available - at call",
+            "additionalInfoUri": ""
+        },
+        {
+            "featureType": "OTHER",
+            "additionalInfo": "Direct Credits only",
+            "additionalInfoUri": ""
+        },
+        {
+            "featureType": "OTHER",
+            "additionalInfo": "Deposits up to $250,000 per account holder are guaranteed by the Federal Government under the Financial Claims Scheme.",
+            "additionalInfoUri": ""
+        }
+    ],
+    "constraints": [
+        {
+            "constraintType": "MAX_BALANCE",
+            "additionalValue": "100000.00",
+            "additionalInfo": "Standard interest rate is paid on the portion of account balances over $100,000",
+            "additionalInfoUri": ""
+        },
+        {
+            "constraintType": "OPENING_BALANCE",
+            "additionalValue": "1.00",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        }
+    ],
+    "eligibility": [
+        {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalValue": "Australian citizen or permanent resident",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "eligibilityType": "OTHER",
+            "additionalInfo": "As a Customer Owned Bank, customers must become a shareholder of Unity Bank to open an account.",
+            "additionalInfoUri": ""
+        }
+    ],
+    "fees": [
+        {
+            "name": "COPIES_OF_PREVIOUS_STATEMENTS",
+            "feeType": "EVENT",
+            "amount": "2.50",
+            "accrualFrequency": "",
+            "currency": "AUD",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "name": "DORMANT_ACCOUNT_KEEPING_FEE",
+            "feeType": "PERIODIC",
+            "amount": "20.00",
+            "accrualFrequency": "P1Y",
+            "currency": "AUD",
+            "additionalValue": "P1Y",
+            "additionalInfo": "Or the prevailing maximum amount determined by legislation",
+            "additionalInfoUri": ""
+        },
+        {
+            "name": "FOREIGN_CHEQUE_DEPOSITS",
+            "feeType": "DEPOSIT",
+            "amount": "15.00",
+            "accrualFrequency": "",
+            "currency": "AUD",
+            "additionalInfo": "Plus other bank charges at cost",
+            "additionalInfoUri": ""
+        },
+        {
+            "name": "FREQUENT_STATEMENT_FEE",
+            "feeType": "PERIODIC",
+            "amount": "2.00",
+            "accrualFrequency": "P1M",
+            "currency": "AUD",
+            "additionalValue": "P1M",
+            "additionalInfo": "",
+            "additionalInfoUri": "",
+            "discounts": [
+                {
+                    "description": "Business account discount",
+                    "discountType": "ELIGIBILITY_ONLY",
+                    "feeRate": "1.0",
+                    "eligibility": [
+                        {
+                            "discountEligibilityType": "OTHER",
+                            "additionalInfo": "Must hold a business account",
+                            "additionalInfoUri": ""
+                        }
+                    ],
+                    "additionalInfo": "",
+                    "additionalInfoUri": ""
+                }
+            ]
+        },
+        {
+            "name": "INCOMING_SWIFT_&_TELEGRAPHIC_TRANSFER_DEPOSITS",
+            "feeType": "TRANSACTION",
+            "amount": "10.00",
+            "accrualFrequency": "",
+            "currency": "AUD",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "name": "OVERDRAWN_ACCOUNT_FEE",
+            "feeType": "EVENT",
+            "amount": "21.00",
+            "accrualFrequency": "P1M",
+            "currency": "AUD",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "name": "SPECIAL_CLEARANCE_FEE",
+            "feeType": "EVENT",
+            "amount": "45.00",
+            "accrualFrequency": "",
+            "currency": "AUD",
+            "additionalInfo": "Any fee charged by National Australia Bank will apply",
+            "additionalInfoUri": ""
+        }
+    ],
+    "depositRates": [
+        {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0001",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "tiers": [
+                {
+                    "name": "Bonus Saver Account - RELIANCE_Tier_1",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 0.0,
+                    "maximumValue": 100000.0,
+                    "rateApplicationMethod": "PER_TIER"
+                }
+            ],
+            "additionalInfo": "",
+            "additionalInfoUri": "https://www.reliancebank.com.au/rates-and-fees-savings-interest-rates.html"
+        },
+        {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0001",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "tiers": [
+                {
+                    "name": "Bonus Saver Account - RELIANCE_Tier_2",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 100000.01,
+                    "rateApplicationMethod": "PER_TIER"
+                }
+            ],
+            "additionalInfo": "",
+            "additionalInfoUri": "https://www.reliancebank.com.au/rates-and-fees-savings-interest-rates.html"
+        },
+        {
+            "depositRateType": "BONUS",
+            "rate": "0.0459",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "tiers": [
+                {
+                    "name": "Bonus Saver Account - RELIANCE_Tier_1",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 0.0,
+                    "maximumValue": 100000.0,
+                    "rateApplicationMethod": "PER_TIER"
+                }
+            ],
+            "additionalInfo": "",
+            "additionalInfoUri": "https://www.reliancebank.com.au/rates-and-fees-savings-interest-rates.html"
+        },
+        {
+            "depositRateType": "BONUS",
+            "rate": "0.0",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "tiers": [
+                {
+                    "name": "Bonus Saver Account - RELIANCE_Tier_2",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 100000.01,
+                    "rateApplicationMethod": "PER_TIER"
+                }
+            ],
+            "additionalInfo": "",
+            "additionalInfoUri": "https://www.reliancebank.com.au/rates-and-fees-savings-interest-rates.html"
+        }
+    ],
+    "productId": "Bonus_Saver_-_RELIANCE",
+    "lastUpdated": "2023-07-01T15:18:08.000+10:00",
+    "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+    "name": "Bonus Saver Account - RELIANCE",
+    "description": "A savings account offering a bonus interest rate reward",
+    "brand": "R",
+    "brandName": "Reliance Bank",
+    "applicationUri": "https://www.reliancebank.com.au/apply-online-apply-for-a-savings-account.html",
+    "isTailored": false,
+    "additionalInformation": {
+        "overviewUri": "https://www.reliancebank.com.au/savings-a-investments-bonus-saver-account.html#key-features",
+        "termsUri": "https://asset.reliancebank.com.au/files/disclosure_documents/AccountAccessFacilityConditionsofUse.pdf",
+        "eligibilityUri": "https://www.reliancebank.com.au/savings-a-investments-bonus-saver-account.html#key-features",
+        "feesAndPricingUri": "https://asset.reliancebank.com.au/files/Rates%20and%20Fees/FeesandCharges.pdf",
+        "bundleUri": ""
+    }
+}

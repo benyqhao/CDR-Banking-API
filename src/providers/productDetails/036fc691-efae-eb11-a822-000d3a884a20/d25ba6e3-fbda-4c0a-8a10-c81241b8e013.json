@@ -1,0 +1,1396 @@
+{
+    "features": [
+        {
+            "featureType": "OTHER",
+            "additionalInfo": "No account keeping fee",
+            "additionalInfoUri": ""
+        },
+        {
+            "featureType": "OTHER",
+            "additionalInfo": "A guaranteed rate for a selected period between 1 - 60 months",
+            "additionalInfoUri": ""
+        },
+        {
+            "featureType": "OTHER",
+            "additionalInfo": "If you want to withdraw your Term Deposit before it matures you'll need to give us 31 days' notice. A reduced rate of interest will apply in these circumstances. For full details refer to our Terms and Conditions",
+            "additionalInfoUri": "https://auswidebank.com.au/uploads/pdfs/lib/guide_to_term_deposits.pdf?2002"
+        },
+        {
+            "featureType": "NOTIFICATIONS",
+            "additionalInfo": "We'll send you a written renewal notice before your deposit matures.",
+            "additionalInfoUri": ""
+        },
+        {
+            "featureType": "OTHER",
+            "additionalInfo": "For deposits of $500,000 and over, rates are by negotiation.",
+            "additionalInfoUri": ""
+        }
+    ],
+    "constraints": [
+        {
+            "constraintType": "MIN_BALANCE",
+            "additionalValue": "5000.00",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        }
+    ],
+    "eligibility": [
+        {
+            "eligibilityType": "NATURAL_PERSON",
+            "additionalInfo": "Available for personal use",
+            "additionalInfoUri": ""
+        },
+        {
+            "eligibilityType": "BUSINESS",
+            "additionalInfo": "Available for business use",
+            "additionalInfoUri": ""
+        }
+    ],
+    "fees": [
+        {
+            "name": "TELEGRAPHIC_TRANSFER_$AU",
+            "feeType": "PAYMENT",
+            "amount": "50.00",
+            "accrualFrequency": "",
+            "currency": "AUD",
+            "additionalInfo": "An electronic transmission of funds to a nominated account at an overseas bank",
+            "additionalInfoUri": "https://auswidebank.com.au/help/resources/fees-and-charges/"
+        },
+        {
+            "name": "TELEGRAPHIC_TRANSFER_$FOREIGN",
+            "feeType": "PAYMENT",
+            "amount": "30.00",
+            "accrualFrequency": "",
+            "currency": "AUD",
+            "additionalInfo": "An electronic transmission of funds to a nominated account at an overseas bank",
+            "additionalInfoUri": "https://auswidebank.com.au/help/resources/fees-and-charges/"
+        },
+        {
+            "name": "RTGS_''SAME_DAY''_PAYMENT",
+            "feeType": "TRANSACTION",
+            "amount": "20.00",
+            "accrualFrequency": "",
+            "currency": "AUD",
+            "additionalInfo": "Payable when you request a high value, time critical payment from your account to another financial instituation on a real time basis for \"same day\" payment",
+            "additionalInfoUri": "https://auswidebank.com.au/help/resources/fees-and-charges/"
+        }
+    ],
+    "depositRates": [
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.043",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P12M",
+            "tiers": [
+                {
+                    "name": "12 MONTHLY INT TERM DEP_Tier_1",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 500.0,
+                    "maximumValue": 4999.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                },
+                {
+                    "name": "12 MONTHLY INT TERM DEP_Tier_1",
+                    "unitOfMeasure": "DAY",
+                    "minimumValue": 518.0,
+                    "maximumValue": 549.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "P549D",
+            "additionalInfo": "A term deposit that pays interest annually",
+            "additionalInfoUri": "https://auswidebank.com.au/help/resources/interest-rates/"
+        },
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.043",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P12M",
+            "tiers": [
+                {
+                    "name": "12 MONTHLY INT TERM DEP_Tier_2",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 4999.01,
+                    "maximumValue": 19999.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                },
+                {
+                    "name": "12 MONTHLY INT TERM DEP_Tier_2",
+                    "unitOfMeasure": "DAY",
+                    "minimumValue": 518.0,
+                    "maximumValue": 549.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "P549D",
+            "additionalInfo": "A term deposit that pays interest annually",
+            "additionalInfoUri": "https://auswidebank.com.au/help/resources/interest-rates/"
+        },
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.043",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P12M",
+            "tiers": [
+                {
+                    "name": "12 MONTHLY INT TERM DEP_Tier_3",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 19999.01,
+                    "maximumValue": 49999.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                },
+                {
+                    "name": "12 MONTHLY INT TERM DEP_Tier_3",
+                    "unitOfMeasure": "DAY",
+                    "minimumValue": 518.0,
+                    "maximumValue": 549.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "P549D",
+            "additionalInfo": "A term deposit that pays interest annually",
+            "additionalInfoUri": "https://auswidebank.com.au/help/resources/interest-rates/"
+        },
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.043",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P12M",
+            "tiers": [
+                {
+                    "name": "12 MONTHLY INT TERM DEP_Tier_4",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 49999.01,
+                    "maximumValue": 9999999.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                },
+                {
+                    "name": "12 MONTHLY INT TERM DEP_Tier_4",
+                    "unitOfMeasure": "DAY",
+                    "minimumValue": 518.0,
+                    "maximumValue": 549.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "P549D",
+            "additionalInfo": "A term deposit that pays interest annually",
+            "additionalInfoUri": "https://auswidebank.com.au/help/resources/interest-rates/"
+        },
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.04",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P12M",
+            "tiers": [
+                {
+                    "name": "12 MONTHLY INT TERM DEP_Tier_1",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 500.0,
+                    "maximumValue": 4999.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                },
+                {
+                    "name": "12 MONTHLY INT TERM DEP_Tier_1",
+                    "unitOfMeasure": "DAY",
+                    "minimumValue": 550.0,
+                    "maximumValue": 730.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "P730D",
+            "additionalInfo": "A term deposit that pays interest annually",
+            "additionalInfoUri": "https://auswidebank.com.au/help/resources/interest-rates/"
+        },
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.04",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P12M",
+            "tiers": [
+                {
+                    "name": "12 MONTHLY INT TERM DEP_Tier_2",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 4999.01,
+                    "maximumValue": 19999.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                },
+                {
+                    "name": "12 MONTHLY INT TERM DEP_Tier_2",
+                    "unitOfMeasure": "DAY",
+                    "minimumValue": 550.0,
+                    "maximumValue": 730.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "P730D",
+            "additionalInfo": "A term deposit that pays interest annually",
+            "additionalInfoUri": "https://auswidebank.com.au/help/resources/interest-rates/"
+        },
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.04",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P12M",
+            "tiers": [
+                {
+                    "name": "12 MONTHLY INT TERM DEP_Tier_3",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 19999.01,
+                    "maximumValue": 49999.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                },
+                {
+                    "name": "12 MONTHLY INT TERM DEP_Tier_3",
+                    "unitOfMeasure": "DAY",
+                    "minimumValue": 550.0,
+                    "maximumValue": 730.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "P730D",
+            "additionalInfo": "A term deposit that pays interest annually",
+            "additionalInfoUri": "https://auswidebank.com.au/help/resources/interest-rates/"
+        },
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.04",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P12M",
+            "tiers": [
+                {
+                    "name": "12 MONTHLY INT TERM DEP_Tier_4",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 49999.01,
+                    "maximumValue": 9999999.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                },
+                {
+                    "name": "12 MONTHLY INT TERM DEP_Tier_4",
+                    "unitOfMeasure": "DAY",
+                    "minimumValue": 550.0,
+                    "maximumValue": 730.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "P730D",
+            "additionalInfo": "A term deposit that pays interest annually",
+            "additionalInfoUri": "https://auswidebank.com.au/help/resources/interest-rates/"
+        },
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.04",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P12M",
+            "tiers": [
+                {
+                    "name": "12 MONTHLY INT TERM DEP_Tier_1",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 500.0,
+                    "maximumValue": 4999.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                },
+                {
+                    "name": "12 MONTHLY INT TERM DEP_Tier_1",
+                    "unitOfMeasure": "DAY",
+                    "minimumValue": 731.0,
+                    "maximumValue": 1064.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "P1064D",
+            "additionalInfo": "A term deposit that pays interest annually",
+            "additionalInfoUri": "https://auswidebank.com.au/help/resources/interest-rates/"
+        },
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.04",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P12M",
+            "tiers": [
+                {
+                    "name": "12 MONTHLY INT TERM DEP_Tier_2",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 4999.01,
+                    "maximumValue": 19999.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                },
+                {
+                    "name": "12 MONTHLY INT TERM DEP_Tier_2",
+                    "unitOfMeasure": "DAY",
+                    "minimumValue": 731.0,
+                    "maximumValue": 1064.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "P1064D",
+            "additionalInfo": "A term deposit that pays interest annually",
+            "additionalInfoUri": "https://auswidebank.com.au/help/resources/interest-rates/"
+        },
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.04",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P12M",
+            "tiers": [
+                {
+                    "name": "12 MONTHLY INT TERM DEP_Tier_3",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 19999.01,
+                    "maximumValue": 49999.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                },
+                {
+                    "name": "12 MONTHLY INT TERM DEP_Tier_3",
+                    "unitOfMeasure": "DAY",
+                    "minimumValue": 731.0,
+                    "maximumValue": 1064.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "P1064D",
+            "additionalInfo": "A term deposit that pays interest annually",
+            "additionalInfoUri": "https://auswidebank.com.au/help/resources/interest-rates/"
+        },
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.04",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P12M",
+            "tiers": [
+                {
+                    "name": "12 MONTHLY INT TERM DEP_Tier_4",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 49999.01,
+                    "maximumValue": 9999999.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                },
+                {
+                    "name": "12 MONTHLY INT TERM DEP_Tier_4",
+                    "unitOfMeasure": "DAY",
+                    "minimumValue": 731.0,
+                    "maximumValue": 1064.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "P1064D",
+            "additionalInfo": "A term deposit that pays interest annually",
+            "additionalInfoUri": "https://auswidebank.com.au/help/resources/interest-rates/"
+        },
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.04",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P12M",
+            "tiers": [
+                {
+                    "name": "12 MONTHLY INT TERM DEP_Tier_1",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 500.0,
+                    "maximumValue": 4999.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                },
+                {
+                    "name": "12 MONTHLY INT TERM DEP_Tier_1",
+                    "unitOfMeasure": "DAY",
+                    "minimumValue": 1065.0,
+                    "maximumValue": 1095.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "P1095D",
+            "additionalInfo": "A term deposit that pays interest annually",
+            "additionalInfoUri": "https://auswidebank.com.au/help/resources/interest-rates/"
+        },
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.04",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P12M",
+            "tiers": [
+                {
+                    "name": "12 MONTHLY INT TERM DEP_Tier_2",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 4999.01,
+                    "maximumValue": 19999.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                },
+                {
+                    "name": "12 MONTHLY INT TERM DEP_Tier_2",
+                    "unitOfMeasure": "DAY",
+                    "minimumValue": 1065.0,
+                    "maximumValue": 1095.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "P1095D",
+            "additionalInfo": "A term deposit that pays interest annually",
+            "additionalInfoUri": "https://auswidebank.com.au/help/resources/interest-rates/"
+        },
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.04",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P12M",
+            "tiers": [
+                {
+                    "name": "12 MONTHLY INT TERM DEP_Tier_3",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 19999.01,
+                    "maximumValue": 49999.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                },
+                {
+                    "name": "12 MONTHLY INT TERM DEP_Tier_3",
+                    "unitOfMeasure": "DAY",
+                    "minimumValue": 1065.0,
+                    "maximumValue": 1095.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "P1095D",
+            "additionalInfo": "A term deposit that pays interest annually",
+            "additionalInfoUri": "https://auswidebank.com.au/help/resources/interest-rates/"
+        },
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.04",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P12M",
+            "tiers": [
+                {
+                    "name": "12 MONTHLY INT TERM DEP_Tier_4",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 49999.01,
+                    "maximumValue": 9999999.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                },
+                {
+                    "name": "12 MONTHLY INT TERM DEP_Tier_4",
+                    "unitOfMeasure": "DAY",
+                    "minimumValue": 1065.0,
+                    "maximumValue": 1095.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "P1095D",
+            "additionalInfo": "A term deposit that pays interest annually",
+            "additionalInfoUri": "https://auswidebank.com.au/help/resources/interest-rates/"
+        },
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.04",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P12M",
+            "tiers": [
+                {
+                    "name": "12 MONTHLY INT TERM DEP_Tier_1",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 500.0,
+                    "maximumValue": 4999.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                },
+                {
+                    "name": "12 MONTHLY INT TERM DEP_Tier_1",
+                    "unitOfMeasure": "DAY",
+                    "minimumValue": 1096.0,
+                    "maximumValue": 1460.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "P1460D",
+            "additionalInfo": "A term deposit that pays interest annually",
+            "additionalInfoUri": "https://auswidebank.com.au/help/resources/interest-rates/"
+        },
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.04",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P12M",
+            "tiers": [
+                {
+                    "name": "12 MONTHLY INT TERM DEP_Tier_2",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 4999.01,
+                    "maximumValue": 19999.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                },
+                {
+                    "name": "12 MONTHLY INT TERM DEP_Tier_2",
+                    "unitOfMeasure": "DAY",
+                    "minimumValue": 1096.0,
+                    "maximumValue": 1460.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "P1460D",
+            "additionalInfo": "A term deposit that pays interest annually",
+            "additionalInfoUri": "https://auswidebank.com.au/help/resources/interest-rates/"
+        },
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.04",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P12M",
+            "tiers": [
+                {
+                    "name": "12 MONTHLY INT TERM DEP_Tier_3",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 19999.01,
+                    "maximumValue": 49999.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                },
+                {
+                    "name": "12 MONTHLY INT TERM DEP_Tier_3",
+                    "unitOfMeasure": "DAY",
+                    "minimumValue": 1096.0,
+                    "maximumValue": 1460.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "P1460D",
+            "additionalInfo": "A term deposit that pays interest annually",
+            "additionalInfoUri": "https://auswidebank.com.au/help/resources/interest-rates/"
+        },
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.04",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P12M",
+            "tiers": [
+                {
+                    "name": "12 MONTHLY INT TERM DEP_Tier_4",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 49999.01,
+                    "maximumValue": 9999999.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                },
+                {
+                    "name": "12 MONTHLY INT TERM DEP_Tier_4",
+                    "unitOfMeasure": "DAY",
+                    "minimumValue": 1096.0,
+                    "maximumValue": 1460.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "P1460D",
+            "additionalInfo": "A term deposit that pays interest annually",
+            "additionalInfoUri": "https://auswidebank.com.au/help/resources/interest-rates/"
+        },
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.04",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P12M",
+            "tiers": [
+                {
+                    "name": "12 MONTHLY INT TERM DEP_Tier_1",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 500.0,
+                    "maximumValue": 4999.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                },
+                {
+                    "name": "12 MONTHLY INT TERM DEP_Tier_1",
+                    "unitOfMeasure": "DAY",
+                    "minimumValue": 1491.0,
+                    "maximumValue": 1829.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "P1829D",
+            "additionalInfo": "A term deposit that pays interest annually",
+            "additionalInfoUri": "https://auswidebank.com.au/help/resources/interest-rates/"
+        },
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.04",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P12M",
+            "tiers": [
+                {
+                    "name": "12 MONTHLY INT TERM DEP_Tier_2",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 4999.01,
+                    "maximumValue": 19999.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                },
+                {
+                    "name": "12 MONTHLY INT TERM DEP_Tier_2",
+                    "unitOfMeasure": "DAY",
+                    "minimumValue": 1491.0,
+                    "maximumValue": 1829.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "P1829D",
+            "additionalInfo": "A term deposit that pays interest annually",
+            "additionalInfoUri": "https://auswidebank.com.au/help/resources/interest-rates/"
+        },
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.04",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P12M",
+            "tiers": [
+                {
+                    "name": "12 MONTHLY INT TERM DEP_Tier_3",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 19999.01,
+                    "maximumValue": 49999.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                },
+                {
+                    "name": "12 MONTHLY INT TERM DEP_Tier_3",
+                    "unitOfMeasure": "DAY",
+                    "minimumValue": 1491.0,
+                    "maximumValue": 1829.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "P1829D",
+            "additionalInfo": "A term deposit that pays interest annually",
+            "additionalInfoUri": "https://auswidebank.com.au/help/resources/interest-rates/"
+        },
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.04",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P12M",
+            "tiers": [
+                {
+                    "name": "12 MONTHLY INT TERM DEP_Tier_4",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 49999.01,
+                    "maximumValue": 9999999.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                },
+                {
+                    "name": "12 MONTHLY INT TERM DEP_Tier_4",
+                    "unitOfMeasure": "DAY",
+                    "minimumValue": 1491.0,
+                    "maximumValue": 1829.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "P1829D",
+            "additionalInfo": "A term deposit that pays interest annually",
+            "additionalInfoUri": "https://auswidebank.com.au/help/resources/interest-rates/"
+        },
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.043",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P12M",
+            "tiers": [
+                {
+                    "name": "12 MONTHLY INT TERM DEP_Tier_1",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 500.0,
+                    "maximumValue": 4999.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                },
+                {
+                    "name": "12 MONTHLY INT TERM DEP_Tier_1",
+                    "unitOfMeasure": "MONTH",
+                    "minimumValue": 18.0,
+                    "maximumValue": 18.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "P18M",
+            "additionalInfo": "A term deposit that pays interest annually",
+            "additionalInfoUri": "https://auswidebank.com.au/help/resources/interest-rates/"
+        },
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.043",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P12M",
+            "tiers": [
+                {
+                    "name": "12 MONTHLY INT TERM DEP_Tier_2",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 4999.01,
+                    "maximumValue": 19999.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                },
+                {
+                    "name": "12 MONTHLY INT TERM DEP_Tier_2",
+                    "unitOfMeasure": "MONTH",
+                    "minimumValue": 18.0,
+                    "maximumValue": 18.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "P18M",
+            "additionalInfo": "A term deposit that pays interest annually",
+            "additionalInfoUri": "https://auswidebank.com.au/help/resources/interest-rates/"
+        },
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.043",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P12M",
+            "tiers": [
+                {
+                    "name": "12 MONTHLY INT TERM DEP_Tier_3",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 19999.01,
+                    "maximumValue": 49999.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                },
+                {
+                    "name": "12 MONTHLY INT TERM DEP_Tier_3",
+                    "unitOfMeasure": "MONTH",
+                    "minimumValue": 18.0,
+                    "maximumValue": 18.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "P18M",
+            "additionalInfo": "A term deposit that pays interest annually",
+            "additionalInfoUri": "https://auswidebank.com.au/help/resources/interest-rates/"
+        },
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.043",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P12M",
+            "tiers": [
+                {
+                    "name": "12 MONTHLY INT TERM DEP_Tier_4",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 49999.01,
+                    "maximumValue": 9999999.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                },
+                {
+                    "name": "12 MONTHLY INT TERM DEP_Tier_4",
+                    "unitOfMeasure": "MONTH",
+                    "minimumValue": 18.0,
+                    "maximumValue": 18.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "P18M",
+            "additionalInfo": "A term deposit that pays interest annually",
+            "additionalInfoUri": "https://auswidebank.com.au/help/resources/interest-rates/"
+        },
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.04",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P12M",
+            "tiers": [
+                {
+                    "name": "12 MONTHLY INT TERM DEP_Tier_1",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 500.0,
+                    "maximumValue": 4999.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                },
+                {
+                    "name": "12 MONTHLY INT TERM DEP_Tier_1",
+                    "unitOfMeasure": "MONTH",
+                    "minimumValue": 19.0,
+                    "maximumValue": 24.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "P24M",
+            "additionalInfo": "A term deposit that pays interest annually",
+            "additionalInfoUri": "https://auswidebank.com.au/help/resources/interest-rates/"
+        },
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.04",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P12M",
+            "tiers": [
+                {
+                    "name": "12 MONTHLY INT TERM DEP_Tier_2",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 4999.01,
+                    "maximumValue": 19999.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                },
+                {
+                    "name": "12 MONTHLY INT TERM DEP_Tier_2",
+                    "unitOfMeasure": "MONTH",
+                    "minimumValue": 19.0,
+                    "maximumValue": 24.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "P24M",
+            "additionalInfo": "A term deposit that pays interest annually",
+            "additionalInfoUri": "https://auswidebank.com.au/help/resources/interest-rates/"
+        },
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.04",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P12M",
+            "tiers": [
+                {
+                    "name": "12 MONTHLY INT TERM DEP_Tier_3",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 19999.01,
+                    "maximumValue": 49999.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                },
+                {
+                    "name": "12 MONTHLY INT TERM DEP_Tier_3",
+                    "unitOfMeasure": "MONTH",
+                    "minimumValue": 19.0,
+                    "maximumValue": 24.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "P24M",
+            "additionalInfo": "A term deposit that pays interest annually",
+            "additionalInfoUri": "https://auswidebank.com.au/help/resources/interest-rates/"
+        },
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.04",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P12M",
+            "tiers": [
+                {
+                    "name": "12 MONTHLY INT TERM DEP_Tier_4",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 49999.01,
+                    "maximumValue": 9999999.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                },
+                {
+                    "name": "12 MONTHLY INT TERM DEP_Tier_4",
+                    "unitOfMeasure": "MONTH",
+                    "minimumValue": 19.0,
+                    "maximumValue": 24.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "P24M",
+            "additionalInfo": "A term deposit that pays interest annually",
+            "additionalInfoUri": "https://auswidebank.com.au/help/resources/interest-rates/"
+        },
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.04",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P12M",
+            "tiers": [
+                {
+                    "name": "12 MONTHLY INT TERM DEP_Tier_1",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 500.0,
+                    "maximumValue": 4999.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                },
+                {
+                    "name": "12 MONTHLY INT TERM DEP_Tier_1",
+                    "unitOfMeasure": "MONTH",
+                    "minimumValue": 25.0,
+                    "maximumValue": 35.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "P35M",
+            "additionalInfo": "A term deposit that pays interest annually",
+            "additionalInfoUri": "https://auswidebank.com.au/help/resources/interest-rates/"
+        },
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.04",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P12M",
+            "tiers": [
+                {
+                    "name": "12 MONTHLY INT TERM DEP_Tier_2",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 4999.01,
+                    "maximumValue": 19999.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                },
+                {
+                    "name": "12 MONTHLY INT TERM DEP_Tier_2",
+                    "unitOfMeasure": "MONTH",
+                    "minimumValue": 25.0,
+                    "maximumValue": 35.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "P35M",
+            "additionalInfo": "A term deposit that pays interest annually",
+            "additionalInfoUri": "https://auswidebank.com.au/help/resources/interest-rates/"
+        },
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.04",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P12M",
+            "tiers": [
+                {
+                    "name": "12 MONTHLY INT TERM DEP_Tier_3",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 19999.01,
+                    "maximumValue": 49999.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                },
+                {
+                    "name": "12 MONTHLY INT TERM DEP_Tier_3",
+                    "unitOfMeasure": "MONTH",
+                    "minimumValue": 25.0,
+                    "maximumValue": 35.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "P35M",
+            "additionalInfo": "A term deposit that pays interest annually",
+            "additionalInfoUri": "https://auswidebank.com.au/help/resources/interest-rates/"
+        },
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.04",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P12M",
+            "tiers": [
+                {
+                    "name": "12 MONTHLY INT TERM DEP_Tier_4",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 49999.01,
+                    "maximumValue": 9999999.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                },
+                {
+                    "name": "12 MONTHLY INT TERM DEP_Tier_4",
+                    "unitOfMeasure": "MONTH",
+                    "minimumValue": 25.0,
+                    "maximumValue": 35.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "P35M",
+            "additionalInfo": "A term deposit that pays interest annually",
+            "additionalInfoUri": "https://auswidebank.com.au/help/resources/interest-rates/"
+        },
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.04",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P12M",
+            "tiers": [
+                {
+                    "name": "12 MONTHLY INT TERM DEP_Tier_1",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 500.0,
+                    "maximumValue": 4999.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                },
+                {
+                    "name": "12 MONTHLY INT TERM DEP_Tier_1",
+                    "unitOfMeasure": "MONTH",
+                    "minimumValue": 36.0,
+                    "maximumValue": 36.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "P36M",
+            "additionalInfo": "A term deposit that pays interest annually",
+            "additionalInfoUri": "https://auswidebank.com.au/help/resources/interest-rates/"
+        },
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.04",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P12M",
+            "tiers": [
+                {
+                    "name": "12 MONTHLY INT TERM DEP_Tier_2",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 4999.01,
+                    "maximumValue": 19999.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                },
+                {
+                    "name": "12 MONTHLY INT TERM DEP_Tier_2",
+                    "unitOfMeasure": "MONTH",
+                    "minimumValue": 36.0,
+                    "maximumValue": 36.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "P36M",
+            "additionalInfo": "A term deposit that pays interest annually",
+            "additionalInfoUri": "https://auswidebank.com.au/help/resources/interest-rates/"
+        },
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.04",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P12M",
+            "tiers": [
+                {
+                    "name": "12 MONTHLY INT TERM DEP_Tier_3",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 19999.01,
+                    "maximumValue": 49999.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                },
+                {
+                    "name": "12 MONTHLY INT TERM DEP_Tier_3",
+                    "unitOfMeasure": "MONTH",
+                    "minimumValue": 36.0,
+                    "maximumValue": 36.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "P36M",
+            "additionalInfo": "A term deposit that pays interest annually",
+            "additionalInfoUri": "https://auswidebank.com.au/help/resources/interest-rates/"
+        },
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.04",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P12M",
+            "tiers": [
+                {
+                    "name": "12 MONTHLY INT TERM DEP_Tier_4",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 49999.01,
+                    "maximumValue": 9999999.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                },
+                {
+                    "name": "12 MONTHLY INT TERM DEP_Tier_4",
+                    "unitOfMeasure": "MONTH",
+                    "minimumValue": 36.0,
+                    "maximumValue": 36.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "P36M",
+            "additionalInfo": "A term deposit that pays interest annually",
+            "additionalInfoUri": "https://auswidebank.com.au/help/resources/interest-rates/"
+        },
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.04",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P12M",
+            "tiers": [
+                {
+                    "name": "12 MONTHLY INT TERM DEP_Tier_1",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 500.0,
+                    "maximumValue": 4999.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                },
+                {
+                    "name": "12 MONTHLY INT TERM DEP_Tier_1",
+                    "unitOfMeasure": "MONTH",
+                    "minimumValue": 37.0,
+                    "maximumValue": 48.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "P48M",
+            "additionalInfo": "A term deposit that pays interest annually",
+            "additionalInfoUri": "https://auswidebank.com.au/help/resources/interest-rates/"
+        },
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.04",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P12M",
+            "tiers": [
+                {
+                    "name": "12 MONTHLY INT TERM DEP_Tier_2",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 4999.01,
+                    "maximumValue": 19999.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                },
+                {
+                    "name": "12 MONTHLY INT TERM DEP_Tier_2",
+                    "unitOfMeasure": "MONTH",
+                    "minimumValue": 37.0,
+                    "maximumValue": 48.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "P48M",
+            "additionalInfo": "A term deposit that pays interest annually",
+            "additionalInfoUri": "https://auswidebank.com.au/help/resources/interest-rates/"
+        },
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.04",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P12M",
+            "tiers": [
+                {
+                    "name": "12 MONTHLY INT TERM DEP_Tier_3",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 19999.01,
+                    "maximumValue": 49999.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                },
+                {
+                    "name": "12 MONTHLY INT TERM DEP_Tier_3",
+                    "unitOfMeasure": "MONTH",
+                    "minimumValue": 37.0,
+                    "maximumValue": 48.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "P48M",
+            "additionalInfo": "A term deposit that pays interest annually",
+            "additionalInfoUri": "https://auswidebank.com.au/help/resources/interest-rates/"
+        },
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.04",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P12M",
+            "tiers": [
+                {
+                    "name": "12 MONTHLY INT TERM DEP_Tier_4",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 49999.01,
+                    "maximumValue": 9999999.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                },
+                {
+                    "name": "12 MONTHLY INT TERM DEP_Tier_4",
+                    "unitOfMeasure": "MONTH",
+                    "minimumValue": 37.0,
+                    "maximumValue": 48.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "P48M",
+            "additionalInfo": "A term deposit that pays interest annually",
+            "additionalInfoUri": "https://auswidebank.com.au/help/resources/interest-rates/"
+        },
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.04",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P12M",
+            "tiers": [
+                {
+                    "name": "12 MONTHLY INT TERM DEP_Tier_1",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 500.0,
+                    "maximumValue": 4999.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                },
+                {
+                    "name": "12 MONTHLY INT TERM DEP_Tier_1",
+                    "unitOfMeasure": "MONTH",
+                    "minimumValue": 49.0,
+                    "maximumValue": 59.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "P59M",
+            "additionalInfo": "A term deposit that pays interest annually",
+            "additionalInfoUri": "https://auswidebank.com.au/help/resources/interest-rates/"
+        },
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.04",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P12M",
+            "tiers": [
+                {
+                    "name": "12 MONTHLY INT TERM DEP_Tier_2",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 4999.01,
+                    "maximumValue": 19999.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                },
+                {
+                    "name": "12 MONTHLY INT TERM DEP_Tier_2",
+                    "unitOfMeasure": "MONTH",
+                    "minimumValue": 49.0,
+                    "maximumValue": 59.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "P59M",
+            "additionalInfo": "A term deposit that pays interest annually",
+            "additionalInfoUri": "https://auswidebank.com.au/help/resources/interest-rates/"
+        },
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.04",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P12M",
+            "tiers": [
+                {
+                    "name": "12 MONTHLY INT TERM DEP_Tier_3",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 19999.01,
+                    "maximumValue": 49999.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                },
+                {
+                    "name": "12 MONTHLY INT TERM DEP_Tier_3",
+                    "unitOfMeasure": "MONTH",
+                    "minimumValue": 49.0,
+                    "maximumValue": 59.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "P59M",
+            "additionalInfo": "A term deposit that pays interest annually",
+            "additionalInfoUri": "https://auswidebank.com.au/help/resources/interest-rates/"
+        },
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.04",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P12M",
+            "tiers": [
+                {
+                    "name": "12 MONTHLY INT TERM DEP_Tier_4",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 49999.01,
+                    "maximumValue": 9999999.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                },
+                {
+                    "name": "12 MONTHLY INT TERM DEP_Tier_4",
+                    "unitOfMeasure": "MONTH",
+                    "minimumValue": 49.0,
+                    "maximumValue": 59.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "P59M",
+            "additionalInfo": "A term deposit that pays interest annually",
+            "additionalInfoUri": "https://auswidebank.com.au/help/resources/interest-rates/"
+        },
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.04",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P12M",
+            "tiers": [
+                {
+                    "name": "12 MONTHLY INT TERM DEP_Tier_1",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 500.0,
+                    "maximumValue": 4999.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                },
+                {
+                    "name": "12 MONTHLY INT TERM DEP_Tier_1",
+                    "unitOfMeasure": "MONTH",
+                    "minimumValue": 60.0,
+                    "maximumValue": 60.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "P60M",
+            "additionalInfo": "A term deposit that pays interest annually",
+            "additionalInfoUri": "https://auswidebank.com.au/help/resources/interest-rates/"
+        },
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.04",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P12M",
+            "tiers": [
+                {
+                    "name": "12 MONTHLY INT TERM DEP_Tier_2",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 4999.01,
+                    "maximumValue": 19999.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                },
+                {
+                    "name": "12 MONTHLY INT TERM DEP_Tier_2",
+                    "unitOfMeasure": "MONTH",
+                    "minimumValue": 60.0,
+                    "maximumValue": 60.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "P60M",
+            "additionalInfo": "A term deposit that pays interest annually",
+            "additionalInfoUri": "https://auswidebank.com.au/help/resources/interest-rates/"
+        },
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.04",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P12M",
+            "tiers": [
+                {
+                    "name": "12 MONTHLY INT TERM DEP_Tier_3",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 19999.01,
+                    "maximumValue": 49999.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                },
+                {
+                    "name": "12 MONTHLY INT TERM DEP_Tier_3",
+                    "unitOfMeasure": "MONTH",
+                    "minimumValue": 60.0,
+                    "maximumValue": 60.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "P60M",
+            "additionalInfo": "A term deposit that pays interest annually",
+            "additionalInfoUri": "https://auswidebank.com.au/help/resources/interest-rates/"
+        },
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.04",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P12M",
+            "tiers": [
+                {
+                    "name": "12 MONTHLY INT TERM DEP_Tier_4",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 49999.01,
+                    "maximumValue": 9999999.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                },
+                {
+                    "name": "12 MONTHLY INT TERM DEP_Tier_4",
+                    "unitOfMeasure": "MONTH",
+                    "minimumValue": 60.0,
+                    "maximumValue": 60.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "P60M",
+            "additionalInfo": "A term deposit that pays interest annually",
+            "additionalInfoUri": "https://auswidebank.com.au/help/resources/interest-rates/"
+        }
+    ],
+    "productId": "d25ba6e3-fbda-4c0a-8a10-c81241b8e013",
+    "lastUpdated": "2023-08-18T12:29:22.000+10:00",
+    "productCategory": "TERM_DEPOSITS",
+    "name": "12 MONTHLY INT TERM DEP",
+    "description": "A term deposit that pays interest annually",
+    "brand": "AUSWIDE BANK",
+    "brandName": "AUSWIDE BANK",
+    "applicationUri": "https://apply.auswidebank.com.au/apply/#/apply/new/depositAccounts/productSelection",
+    "isTailored": false,
+    "additionalInformation": {
+        "overviewUri": "https://auswidebank.com.au/banking/savings-and-term-deposits/term-deposits/",
+        "termsUri": "https://auswidebank.com.au/help/resources/terms-and-conditions/",
+        "eligibilityUri": "https://auswidebank.com.au/help/resources/terms-and-conditions/",
+        "feesAndPricingUri": "https://auswidebank.com.au/help/resources/fees-and-charges/",
+        "bundleUri": ""
+    }
+}

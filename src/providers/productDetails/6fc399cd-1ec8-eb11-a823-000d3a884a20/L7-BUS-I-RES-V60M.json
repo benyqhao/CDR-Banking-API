@@ -1,0 +1,47 @@
+{
+    "eligibility": [
+        {
+            "eligibilityType": "BUSINESS",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        }
+    ],
+    "lendingRates": [
+        {
+            "lendingRateType": "VARIABLE",
+            "rate": "0.094",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "additionalInfo": "",
+            "additionalInfoUri": "https://www.illawarracu.com.au/rates-fees",
+            "interestPaymentDue": "IN_ARREARS",
+            "repaymentType": "INTEREST_ONLY"
+        },
+        {
+            "lendingRateType": "VARIABLE",
+            "rate": "0.084",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "additionalInfo": "",
+            "additionalInfoUri": "https://www.illawarracu.com.au/rates-fees",
+            "interestPaymentDue": "IN_ARREARS",
+            "repaymentType": "INTEREST_ONLY"
+        }
+    ],
+    "productId": "L7-BUS-I-RES-V60M",
+    "lastUpdated": "2023-06-20T17:32:43.000+10:00",
+    "productCategory": "BUSINESS_LOANS",
+    "name": "Business Secured (Resi) Interest Only Variable 5 year term",
+    "description": "Business Secured (Resi) Interest Only Variable 5 year term",
+    "brand": "Illawarra Credit Union Ltd",
+    "brandName": "Illawarra Credit Union Ltd",
+    "applicationUri": "",
+    "isTailored": false,
+    "additionalInformation": {
+        "overviewUri": "",
+        "termsUri": "",
+        "eligibilityUri": "",
+        "feesAndPricingUri": "https://www.illawarracu.com.au/credit-fees-and-charges-brochure/",
+        "bundleUri": ""
+    }
+}

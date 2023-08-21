@@ -1,0 +1,104 @@
+{
+    "productId": "38",
+    "effectiveFrom": "2006-06-08T14:30:00.0000000Z",
+    "lastUpdated": "2023-07-28T01:00:36.0468015Z",
+    "productCategory": "RESIDENTIAL_MORTGAGES",
+    "name": "Low Cost Interest Only (Home)",
+    "description": "Low Cost Home Loan Owner Occupied Interest Only",
+    "brand": "Qudos Bank",
+    "applicationUri": "https://online.qudosbank.com.au/internetlending/public/start.aspx",
+    "isTailored": false,
+    "additionalInformation": {
+        "overviewUri": "https://www.qudosbank.com.au/Products/HomeLoans/LowCostHomeLoan",
+        "termsUri": "https://www.qudosbank.com.au/Support/TheFinePrint",
+        "eligibilityUri": "https://www.qudosbank.com.au/Products/HomeLoans/LowCostHomeLoan",
+        "feesAndPricingUri": "https://www.qudosbank.com.au/Products/HomeLoans/LowCostHomeLoan"
+    },
+    "features": [
+        {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "Our secure Online Banking service means access to your accounts 24 hours a day, seven days a week.",
+            "additionalInfoUri": "https://www.qudosbank.com.au/Support/WaysToBank/OnlineBanking"
+        },
+        {
+            "featureType": "NPP_ENABLED",
+            "additionalInfo": "PayIDs can be linked with this account",
+            "additionalInfoUri": "https://www.qudosbank.com.au/real-time-payments"
+        },
+        {
+            "featureType": "NPP_PAYID",
+            "additionalInfo": "PayIDs can be linked with this account",
+            "additionalInfoUri": "https://www.qudosbank.com.au/real-time-payments"
+        },
+        {
+            "featureType": "OFFSET",
+            "additionalInfo": "100% offset available.Multiple offset available"
+        },
+        {
+            "featureType": "OTHER",
+            "additionalInfo": "Repayment option monthly only"
+        },
+        {
+            "featureType": "REDRAW"
+        }
+    ],
+    "constraints": [
+        {
+            "constraintType": "MIN_LIMIT",
+            "additionalValue": "150000.00",
+            "additionalInfo": "Minimum amount $150K"
+        }
+    ],
+    "eligibility": [
+        {
+            "eligibilityType": "EMPLOYMENT_STATUS",
+            "additionalValue": "Full time, Part Time, Casual, Self Employed"
+        },
+        {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "18",
+            "additionalInfo": "18 years and above"
+        },
+        {
+            "eligibilityType": "NATURAL_PERSON"
+        },
+        {
+            "eligibilityType": "OTHER",
+            "additionalInfo": "Minimum deposit 10%"
+        },
+        {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalValue": "Customers who are Permanent Resident or Citizens may apply for the product"
+        }
+    ],
+    "lendingRates": [
+        {
+            "lendingRateType": "VARIABLE",
+            "rate": "0.0639",
+            "comparisonRate": "0.0616",
+            "interestPaymentDue": "IN_ARREARS",
+            "additionalInfo": "Rate for LVR <70% - 6.39%",
+            "additionalInfoUri": "https://asset.qudosbank.com.au/files/factcast/InterestRates.pdf"
+        },
+        {
+            "lendingRateType": "VARIABLE",
+            "rate": "0.0679",
+            "comparisonRate": "0.0633",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "interestPaymentDue": "IN_ARREARS",
+            "additionalInfo": "Rate for LVR 80% - 90% - 6.79%\r\n",
+            "additionalInfoUri": "https://asset.qudosbank.com.au/files/factcast/InterestRates.pdf"
+        },
+        {
+            "lendingRateType": "VARIABLE",
+            "rate": "0.0649",
+            "comparisonRate": "0.062",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "interestPaymentDue": "IN_ARREARS",
+            "additionalInfo": ">70% - 80% LVR - 6.49%\r\n",
+            "additionalInfoUri": "https://asset.qudosbank.com.au/files/factcast/InterestRates.pdf"
+        }
+    ]
+}

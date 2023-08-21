@@ -1,0 +1,156 @@
+{
+    "productId": "158",
+    "effectiveFrom": "2004-08-31T14:30:00.0000000Z",
+    "lastUpdated": "2023-06-20T16:00:22.1362160Z",
+    "productCategory": "OVERDRAFTS",
+    "name": "Equity Access Account",
+    "description": "Equity Access Account",
+    "brand": "PNB",
+    "brandName": "P&N Bank",
+    "isTailored": false,
+    "additionalInformation": {
+        "overviewUri": "https://www.pnbank.com.au/home-loans/access-your-equity/equity-access/",
+        "termsUri": "https://www.pnbank.com.au/legal/terms-conditions/lending/",
+        "feesAndPricingUri": "https://www.pnbank.com.au/home-loans/access-your-equity/equity-access/#tab2"
+    },
+    "features": [
+        {
+            "featureType": "BILL_PAYMENT"
+        },
+        {
+            "featureType": "CARD_ACCESS",
+            "additionalValue": "Visa Debit card available"
+        },
+        {
+            "featureType": "DIGITAL_BANKING"
+        },
+        {
+            "featureType": "NPP_ENABLED"
+        },
+        {
+            "featureType": "OVERDRAFT"
+        }
+    ],
+    "fees": [
+        {
+            "name": "Overseas Withdrawal Fee",
+            "feeType": "TRANSACTION",
+            "amount": "5.00",
+            "currency": "AUD",
+            "additionalInfo": "Applies to overseas ATM withdrawals",
+            "additionalInfoUri": "https://www.pnbank.com.au/help-support/fees-charges/"
+        },
+        {
+            "name": "Statement Retrieval",
+            "feeType": "EVENT",
+            "amount": "6.00",
+            "currency": "AUD",
+            "additionalInfo": "Statement retrieval fee applies for statements over 12 months old. 1st page $6, and $1.50 for each subsequent page",
+            "additionalInfoUri": "https://www.pnbank.com.au/help-support/fees-charges/"
+        },
+        {
+            "name": "Discharge Mtg - Non-Settlement",
+            "feeType": "EVENT",
+            "amount": "350.00",
+            "currency": "AUD",
+            "additionalInfoUri": "https://www.pnbank.com.au/help-support/fees-charges/#home-loans"
+        },
+        {
+            "name": "Discharge Mtg - Settlement Fee",
+            "feeType": "EVENT",
+            "amount": "395.00",
+            "currency": "AUD",
+            "additionalInfoUri": "https://www.pnbank.com.au/help-support/fees-charges/#home-loans"
+        },
+        {
+            "name": "Referral Fee",
+            "feeType": "EVENT",
+            "amount": "3.50",
+            "currency": "AUD",
+            "additionalInfo": "Where an account has insufficient available funds to cover a cheque or direct debit transaction, and the transaction is honoured by P&N",
+            "additionalInfoUri": "https://www.pnbank.com.au/help-support/fees-charges/"
+        },
+        {
+            "name": "Dishonour Fee",
+            "feeType": "EVENT",
+            "amount": "6.00",
+            "currency": "AUD",
+            "additionalInfo": "Where a direct debit or cheque is dishonoured due to insufficient funds",
+            "additionalInfoUri": "https://www.pnbank.com.au/help-support/fees-charges/"
+        },
+        {
+            "name": "Auto Transfer Dishonour Fee",
+            "feeType": "EVENT",
+            "amount": "6.00",
+            "currency": "AUD",
+            "additionalInfo": "Charged where there are insufficient funds in your account when an internal or external auto transfer or BPAY payment is due to be made",
+            "additionalInfoUri": "https://www.pnbank.com.au/help-support/fees-charges/"
+        },
+        {
+            "name": "Foreign Currency Conversion Fee",
+            "feeType": "TRANSACTION",
+            "amount": "0.00",
+            "transactionRate": "0.03",
+            "currency": "AUD",
+            "additionalInfo": "Payable for all transactions made in a foreign currency or if the merchant is located outside Australia",
+            "additionalInfoUri": "https://www.pnbank.com.au/help-support/fees-charges/"
+        },
+        {
+            "name": "Over Limit Account Fee",
+            "feeType": "PERIODIC",
+            "amount": "10.00",
+            "currency": "AUD",
+            "additionalValue": "P1M",
+            "additionalInfo": "Charged if a Line of Credit account exceeds the approved limit by more than $50 within the calendar month",
+            "additionalInfoUri": "https://www.pnbank.com.au/help-support/fees-charges/#home-loans",
+            "discounts": [
+                {
+                    "description": "On a fee for maintaining a set balance",
+                    "discountType": "BALANCE",
+                    "feeRate": "1.0",
+                    "additionalValue": "50.00"
+                }
+            ]
+        }
+    ],
+    "depositRates": [
+        {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0001",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "tiers": [
+                {
+                    "name": "Floating Balance Tier 1",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 0.0,
+                    "maximumValue": 99999.99,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ]
+        },
+        {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0005",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "tiers": [
+                {
+                    "name": "Floating Balance Tier 2",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 100000.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ]
+        }
+    ],
+    "lendingRates": [
+        {
+            "lendingRateType": "VARIABLE",
+            "rate": "0.0887",
+            "calculationFrequency": "P1D",
+            "interestPaymentDue": "IN_ARREARS",
+            "additionalInfo": "Owner occupied"
+        }
+    ]
+}

@@ -1,0 +1,122 @@
+{
+    "productId": "21",
+    "effectiveFrom": "1999-01-06T13:30:00.0000000Z",
+    "lastUpdated": "2023-07-20T02:00:32.1756909Z",
+    "productCategory": "RESIDENTIAL_MORTGAGES",
+    "name": "L25 Firefighter Package",
+    "description": "Firefighter Home Loan",
+    "brand": "Fire Service Credit Union",
+    "applicationUri": "https://www.fscu.com.au/loans/home-loans/firefighter-home-loan/",
+    "isTailored": false,
+    "additionalInformation": {
+        "overviewUri": "https://www.fscu.com.au/loans/home-loans/firefighter-home-loan/",
+        "termsUri": "https://www.fscu.com.au/loans/home-loans/firefighter-home-loan/",
+        "eligibilityUri": "https://www.fscu.com.au/loans/home-loans/firefighter-home-loan/",
+        "feesAndPricingUri": "https://www.fscu.com.au/loans/home-loans/firefighter-home-loan/"
+    },
+    "features": [
+        {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "View the balance of the account and transfer extra funds whenever you like for free",
+            "additionalInfoUri": "https://www.fscu.com.au/online-banking/"
+        },
+        {
+            "featureType": "OFFSET"
+        },
+        {
+            "featureType": "REDRAW",
+            "additionalInfo": "Minimum redraw amount $1,000 - capped at $20,000"
+        },
+        {
+            "featureType": "UNLIMITED_TXNS",
+            "additionalInfo": "Extra repayments accepted without penalty"
+        }
+    ],
+    "constraints": [
+        {
+            "constraintType": "MIN_LIMIT",
+            "additionalValue": "150000.00"
+        }
+    ],
+    "eligibility": [
+        {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "18"
+        },
+        {
+            "eligibilityType": "NATURAL_PERSON"
+        },
+        {
+            "eligibilityType": "OTHER",
+            "additionalInfo": "Membership - You must be or become a FSCU member",
+            "additionalInfoUri": "https://www.fscu.com.au/about-us/Membership/"
+        },
+        {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalValue": "Australian Residents only"
+        }
+    ],
+    "fees": [
+        {
+            "name": "Home Loan Redraw",
+            "feeType": "EVENT",
+            "amount": "0.00",
+            "currency": "AUD"
+        },
+        {
+            "name": "Home Loan 1st Mortgage Application Fee",
+            "feeType": "UPFRONT",
+            "amount": "300.00",
+            "currency": "AUD"
+        },
+        {
+            "name": "Existing Mortgage Increase Application Fee",
+            "feeType": "UPFRONT",
+            "amount": "150.00",
+            "currency": "AUD"
+        },
+        {
+            "name": "Annual Service Fee",
+            "feeType": "EVENT",
+            "amount": "300.00",
+            "currency": "AUD"
+        },
+        {
+            "name": "Discharge of Mortgage Amin Fee",
+            "feeType": "EVENT",
+            "amount": "150.00",
+            "currency": "AUD"
+        },
+        {
+            "name": "Mortgage Discharge Doc Fee ##",
+            "feeType": "EVENT",
+            "amount": "235.75",
+            "currency": "AUD"
+        },
+        {
+            "name": "LTO Mortgage Discharge ##",
+            "feeType": "EVENT",
+            "amount": "187.00",
+            "currency": "AUD"
+        }
+    ],
+    "lendingRates": [
+        {
+            "lendingRateType": "VARIABLE",
+            "rate": "0.0584",
+            "comparisonRate": "0.0612",
+            "calculationFrequency": "P1M",
+            "interestPaymentDue": "IN_ARREARS",
+            "additionalInfo": "New Money for owner occupied with a LVR not exceeding 80% or greater than 80% with LMI"
+        },
+        {
+            "lendingRateType": "VARIABLE",
+            "rate": "0.0539",
+            "comparisonRate": "0.0568",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "interestPaymentDue": "IN_ARREARS",
+            "additionalInfo": "New Money for Owner occupied with a LVR not exceeding 60%"
+        }
+    ]
+}

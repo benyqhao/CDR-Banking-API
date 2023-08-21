@@ -1,0 +1,37 @@
+{
+    "productId": "105",
+    "effectiveFrom": "2020-04-07T14:30:00.0000000Z",
+    "lastUpdated": "2023-06-26T22:00:38.0391523Z",
+    "productCategory": "TERM_DEPOSITS",
+    "name": "9 Month Term Deposit",
+    "description": "Standard Term Deposit 9 Months",
+    "brand": "BCU",
+    "brandName": "bcu",
+    "isTailored": false,
+    "additionalInformation": {
+        "overviewUri": "https://www.bcu.com.au/termdeposits/standard-term-deposits",
+        "termsUri": "https://www.bcu.com.au/important-documents",
+        "feesAndPricingUri": "https://www.bcu.com.au/important-documents"
+    },
+    "features": [
+        {
+            "featureType": "DIGITAL_BANKING"
+        }
+    ],
+    "constraints": [
+        {
+            "constraintType": "MIN_BALANCE",
+            "additionalValue": "1000.00"
+        }
+    ],
+    "depositRates": [
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.05",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P9M",
+            "additionalValue": "P9M",
+            "additionalInfo": "Interest paid at maturity"
+        }
+    ]
+}

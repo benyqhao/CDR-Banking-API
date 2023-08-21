@@ -1,0 +1,195 @@
+{
+    "productId": "5eb62ffc-51f0-6ac0-2abf-d81b260ee260",
+    "bundles": [],
+    "features": [
+        {
+            "featureType": "CARD_ACCESS",
+            "additionalValue": "Any ANZ card"
+        },
+        {
+            "additionalInfo": "Access using ANZ Internet Banking or ANZ App",
+            "additionalInfoUri": "https://www.anz.com.au/ways-to-bank/internet-banking/personal/?CID=af:obank:tv",
+            "featureType": "DIGITAL_BANKING"
+        },
+        {
+            "additionalInfoUri": "https://www.anz.com.au/ways-to-bank/more/pay-id/?CID=af:obank:tv",
+            "featureType": "NPP_PAYID"
+        },
+        {
+            "additionalInfoUri": "https://institutional.anz.com/content/dam/Institutional/en/documents/NEW%20PAYMENTS%20PLATFORM%20T&C.pdf?CID=af:obank:tv",
+            "featureType": "NPP_ENABLED"
+        },
+        {
+            "featureType": "DIGITAL_WALLET",
+            "additionalInfoUri": "https://mobilepayments.anz.com/?CID=af:obank:tv",
+            "additionalValue": "Apple Pay"
+        },
+        {
+            "featureType": "DIGITAL_WALLET",
+            "additionalInfoUri": "https://mobilepayments.anz.com/?CID=af:obank:tv",
+            "additionalValue": "Google Pay"
+        },
+        {
+            "featureType": "DIGITAL_WALLET",
+            "additionalInfoUri": "https://mobilepayments.anz.com/?CID=af:obank:tv",
+            "additionalValue": "Samsung Pay"
+        },
+        {
+            "featureType": "DIGITAL_WALLET",
+            "additionalInfoUri": "https://mobilepayments.anz.com/?CID=af:obank:tv",
+            "additionalValue": "Fitbit Pay"
+        },
+        {
+            "featureType": "DIGITAL_WALLET",
+            "additionalInfoUri": "https://mobilepayments.anz.com/?CID=af:obank:tv",
+            "additionalValue": "Garmin Pay"
+        },
+        {
+            "featureType": "BILL_PAYMENT",
+            "additionalInfoUri": "https://www.anz.com.au/ways-to-bank/more/bpay/?CID=af:obank:tv",
+            "additionalValue": "BPAY"
+        },
+        {
+            "additionalInfo": "Unlimited ANZ transactions available using ANZ Internet Banking, ANZ Phone Banking, ANZ ATMs, ANZ Business Visa Debit and EFTPOS. Also includes any deposit, withdrawal or transfer at ANZ branches, cheques drawn by you and any cheque or manual merchant slip deposited to your account.",
+            "additionalInfoUri": "https://www.anz.com.au/content/dam/anzcomau/documents/pdf/personal-account-fees-charges.pdf?CID=af:obank:tv",
+            "featureType": "UNLIMITED_TXNS"
+        },
+        {
+            "featureType": "FRAUD_PROTECTION"
+        }
+    ],
+    "description": "An everyday account with easy and secure banking, unlimited ANZ Transactions and Visa Debit card",
+    "additionalInformation": {
+        "termsUri": "https://www.anz.com.au/content/dam/anzcomau/documents/pdf/saving-transaction-products-tcs.pdf",
+        "eligibilityUri": "https://www.anz.com.au/personal/bank-accounts/everyday-accounts/access-advantage/",
+        "overviewUri": "https://www.anz.com.au/personal/bank-accounts/everyday-accounts/access-advantage/",
+        "feesAndPricingUri": "https://www.anz.com.au/content/dam/anzcomau/documents/pdf/personal-account-fees-charges.pdf?MOD=AJPERES"
+    },
+    "depositRates": [
+        {
+            "depositRateType": "VARIABLE",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "tiers": [
+                {
+                    "name": "Balance",
+                    "unitOfMeasure": "DOLLAR",
+                    "applicabilityConditions": {
+                        "additionalInfo": "Balance between $1 and $49,999"
+                    },
+                    "maximumValue": 49999,
+                    "rateApplicationMethod": "WHOLE_BALANCE",
+                    "minimumValue": 1
+                }
+            ],
+            "rate": "0.00"
+        },
+        {
+            "depositRateType": "VARIABLE",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "tiers": [
+                {
+                    "name": "Balance",
+                    "unitOfMeasure": "DOLLAR",
+                    "applicabilityConditions": {
+                        "additionalInfo": "Balance between $50,000 and $99,999"
+                    },
+                    "maximumValue": 99999,
+                    "rateApplicationMethod": "WHOLE_BALANCE",
+                    "minimumValue": 50000
+                }
+            ],
+            "rate": "0.0001"
+        },
+        {
+            "depositRateType": "VARIABLE",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "tiers": [
+                {
+                    "name": "Balance",
+                    "unitOfMeasure": "DOLLAR",
+                    "applicabilityConditions": {
+                        "additionalInfo": "Balance $100,000 or more"
+                    },
+                    "rateApplicationMethod": "WHOLE_BALANCE",
+                    "minimumValue": 100000
+                }
+            ],
+            "rate": "0.0002"
+        }
+    ],
+    "lendingRates": [],
+    "applicationUri": "https://applyapp.anz.com/?producttype=aa&sourcecode_1=QMV&schema=sola",
+    "eligibility": [
+        {
+            "additionalInfo": "You must be 12 years of age or older to apply",
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "12"
+        },
+        {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalValue": "You must be an Australian resident with an Australian residential and mailing address."
+        }
+    ],
+    "brand": "ANZ",
+    "name": "ANZ Access Advantage",
+    "cardArt": [],
+    "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+    "effectiveFrom": "2019-06-30T14:00:00.000Z",
+    "fees": [
+        {
+            "feeType": "PERIODIC",
+            "additionalInfo": "No monthly account service fee if you deposit at least $2,000 a month, are under 25 and meet our other eligibility criteria",
+            "name": "Account Service",
+            "additionalValue": "P1M",
+            "amount": "5.00",
+            "discounts": [
+                {
+                    "additionalInfo": "Account holders may apply to waive the monthly account service fee on one nominated ANZ Access Advantage account if you meet the eligibility criteria",
+                    "description": "Account Service waiver",
+                    "discountType": "ELIGIBILITY_ONLY",
+                    "amount": "5.00",
+                    "eligibility": [
+                        {
+                            "discountEligibilityType": "PENSION_RECIPIENT",
+                            "additionalInfo": "Receive a disability support pension or mobility allowance from Centrelink"
+                        },
+                        {
+                            "additionalInfo": "Over 60 years of age",
+                            "discountEligibilityType": "MIN_AGE",
+                            "additionalValue": "60"
+                        },
+                        {
+                            "additionalInfo": "Under 25 years of age",
+                            "discountEligibilityType": "MAX_AGE",
+                            "additionalValue": "25"
+                        },
+                        {
+                            "discountEligibilityType": "STUDENT",
+                            "additionalInfo": "A full-time student at an Australian educational institution"
+                        },
+                        {
+                            "discountEligibilityType": "OTHER",
+                            "additionalInfo": "Deposit $2,000 or more by the last business day of the calendar month. You must satisfy this requirement to be eligible for the waiver in a particular month.  "
+                        },
+                        {
+                            "discountEligibilityType": "OTHER",
+                            "additionalInfo": "Have an ANZ Home Loan, ANZ Residential Investment Loan or ANZ Portfolio Facility and have your salary paid into your account. Loans not eligible include ANZ Simplicity PLUS, ANZ Money Saver (no longer sold), ANZ Easy Start (no longer sold) and ANZ Interest-in-Advance Residential Investment Loans."
+                        },
+                        {
+                            "discountEligibilityType": "OTHER",
+                            "additionalInfo": "Have a combined deposit balance of $50,000 in one or more of the following ANZ accounts: ANZ Access Advantage, Access Select, Premium Cash Management, Online Saver, Progress Saver, ANZ term deposits, V2 Plus, Passbook Savings, Premier Cheque"
+                        }
+                    ]
+                }
+            ],
+            "additionalInfoUri": "https://www.anz.com.au/content/dam/anzcomau/documents/pdf/personal-account-fees-charges.pdf?CID=af:obank:tv",
+            "currency": "AUD"
+        }
+    ],
+    "isTailored": false,
+    "lastUpdated": "2023-06-29T20:00:00.000Z",
+    "constraints": []
+}

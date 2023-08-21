@@ -1,0 +1,83 @@
+{
+    "features": [
+        {
+            "featureType": "BILL_PAYMENT",
+            "additionalValue": "BPAY",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "featureType": "OTHER",
+            "additionalInfo": "Up to 9 Sub Accounts",
+            "additionalInfoUri": ""
+        },
+        {
+            "featureType": "NPP_ENABLED",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "featureType": "NPP_PAYID",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        }
+    ],
+    "eligibility": [
+        {
+            "eligibilityType": "NATURAL_PERSON",
+            "additionalInfo": "Available for personal use only",
+            "additionalInfoUri": ""
+        }
+    ],
+    "fees": [
+        {
+            "name": "REJECT_FEE",
+            "feeType": "EVENT",
+            "amount": "15.00",
+            "accrualFrequency": "",
+            "currency": "AUD",
+            "additionalInfo": "Payable when you arrange for a payment to another account or by direct debit and there are insufficient clear funds in your account.",
+            "additionalInfoUri": "https://auswidebank.com.au/help/resources/fees-and-charges/"
+        }
+    ],
+    "depositRates": [
+        {
+            "depositRateType": "BONUS",
+            "rate": "0.035",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "additionalValue": "VARIABLE",
+            "additionalInfo": "",
+            "additionalInfoUri": "https://auswidebank.com.au/help/resources/interest-rates/"
+        },
+        {
+            "depositRateType": "VARIABLE",
+            "rate": "0.015",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "additionalInfo": "",
+            "additionalInfoUri": "https://auswidebank.com.au/help/resources/interest-rates/"
+        }
+    ],
+    "productId": "4bc606d6-2ed5-4ff4-8404-5f48609536e8",
+    "lastUpdated": "2023-08-18T12:36:52.000+10:00",
+    "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+    "name": "ONLINE SAVER",
+    "description": "An online savings account",
+    "brand": "AUSWIDE BANK",
+    "brandName": "AUSWIDE BANK",
+    "applicationUri": "https://apply.auswidebank.com.au/apply/#/apply/new/depositAccounts/productSelection",
+    "isTailored": false,
+    "additionalInformation": {
+        "overviewUri": "https://auswidebank.com.au/banking/savings-and-term-deposits/",
+        "termsUri": "https://auswidebank.com.au/help/resources/terms-and-conditions/",
+        "eligibilityUri": "https://auswidebank.com.au/help/resources/terms-and-conditions/",
+        "feesAndPricingUri": "https://auswidebank.com.au/help/resources/fees-and-charges/",
+        "bundleUri": ""
+    }
+}

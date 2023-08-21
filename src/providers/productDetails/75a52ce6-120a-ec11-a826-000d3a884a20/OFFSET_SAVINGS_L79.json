@@ -1,0 +1,52 @@
+{
+    "features": [
+        {
+            "featureType": "OFFSET",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        }
+    ],
+    "eligibility": [
+        {
+            "eligibilityType": "NATURAL_PERSON",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        }
+    ],
+    "depositRates": [
+        {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        }
+    ],
+    "lendingRates": [
+        {
+            "lendingRateType": "VARIABLE",
+            "rate": "0.0",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        }
+    ],
+    "productId": "OFFSET_SAVINGS_L79",
+    "lastUpdated": "2020-09-29T15:40:10.000+10:00",
+    "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+    "name": "OFFSET SAVINGS - L79",
+    "description": "OFFSET SAVINGS - L79",
+    "brand": "TRANSPORT MUTUAL CREDIT UNION LTD",
+    "brandName": "TRANSPORT MUTUAL CREDIT UNION LTD",
+    "applicationUri": "",
+    "isTailored": false,
+    "additionalInformation": {
+        "overviewUri": "",
+        "termsUri": "",
+        "eligibilityUri": "",
+        "feesAndPricingUri": "",
+        "bundleUri": ""
+    }
+}

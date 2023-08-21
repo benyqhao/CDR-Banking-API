@@ -1,0 +1,50 @@
+{
+    "depositRates": [],
+    "features": [
+        {
+            "featureType": "REDRAW",
+            "additionalInfo": "Not available during fixed rate term"
+        },
+        {
+            "featureType": "EXTRA_REPAYMENTS",
+            "additionalInfo": "Fees may apply during fixed rate term"
+        }
+    ],
+    "lastUpdated": "2023-04-21T02:03:21.973Z",
+    "productCategory": "BUSINESS_LOANS",
+    "effectiveFrom": "2022-10-16T13:00:00.000Z",
+    "brandName": "Bendigo Bank",
+    "eligibility": [
+        {
+            "eligibilityType": "BUSINESS"
+        },
+        {
+            "additionalValue": "18",
+            "eligibilityType": "MIN_AGE"
+        }
+    ],
+    "bundles": [],
+    "cardArt": [],
+    "lendingRates": [],
+    "fees": [],
+    "description": "Your choice of a fixed interest rate or a variable interest rate, with customised repayments to suit you and your business.",
+    "brand": "BENDIGO",
+    "constraints": [
+        {
+            "additionalValue": "10000",
+            "constraintType": "MIN_LIMIT"
+        },
+        {
+            "additionalValue": "3000000",
+            "constraintType": "MAX_LIMIT"
+        }
+    ],
+    "additionalInformation": {
+        "feesAndPricingUri": "https://www.bendigobank.com.au/disclosure-documents/",
+        "termsUri": "https://www.bendigobank.com.au/disclosure-documents/"
+    },
+    "name": "Bendigo Business Loan",
+    "applicationUri": "https://www.bendigobank.com.au/business/",
+    "isTailored": true,
+    "productId": "c132fdf4-bc01-4c00-80af-3c0a0eef50a3"
+}

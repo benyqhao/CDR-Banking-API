@@ -1,0 +1,131 @@
+{
+    "features": [
+        {
+            "featureType": "FREE_TXNS",
+            "additionalValue": "4 Free over the counter withdrawals per month",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "",
+            "additionalInfoUri": "https://www.cwcu.com.au/other-services/cards-and-ways-to-bank/redinet-online-banking"
+        },
+        {
+            "featureType": "UNLIMITED_TXNS",
+            "additionalInfo": "",
+            "additionalInfoUri": "https://www.cwcu.com.au/cwcu/media/Documents/Summary-of-Accounts-Availability-of-Access-December-20.pdf"
+        },
+        {
+            "featureType": "OTHER",
+            "additionalInfo": "Withdrawal period between 1 November and the last day of February of the following year. We may allow early withdrawals in our absolute discretion. Fees may be charged.",
+            "additionalInfoUri": ""
+        },
+        {
+            "featureType": "OTHER",
+            "additionalInfo": "Card access is not avialable on this product",
+            "additionalInfoUri": ""
+        }
+    ],
+    "eligibility": [
+        {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalValue": "Australian Residents only",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        }
+    ],
+    "fees": [
+        {
+            "name": "CHRISTMAS_CLUB_FEE",
+            "feeType": "WITHDRAWAL",
+            "amount": "10.00",
+            "accrualFrequency": "P1D",
+            "currency": "AUD",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "name": "PAPER_STATEMENT_FEE",
+            "feeType": "PERIODIC",
+            "amount": "2.50",
+            "accrualFrequency": "P1M",
+            "currency": "AUD",
+            "additionalValue": "Charged when a paper statement is produced",
+            "additionalInfo": "",
+            "additionalInfoUri": "",
+            "discounts": [
+                {
+                    "description": "Under 16 years of age",
+                    "discountType": "ELIGIBILITY_ONLY",
+                    "amount": "2.50",
+                    "additionalInfo": "",
+                    "additionalInfoUri": ""
+                }
+            ]
+        },
+        {
+            "name": "OVER_THE_COUNTER_CASH_WITHDRAWALS",
+            "feeType": "WITHDRAWAL",
+            "amount": "1.50",
+            "accrualFrequency": "P1M",
+            "currency": "AUD",
+            "additionalValue": "4 free transactions per month then $1.50 per transaction in excess of 4 per month",
+            "additionalInfo": "Discounts apply",
+            "additionalInfoUri": "",
+            "discounts": [
+                {
+                    "description": "Under 18 years of age",
+                    "discountType": "ELIGIBILITY_ONLY",
+                    "amount": "1.50",
+                    "additionalInfo": "",
+                    "additionalInfoUri": ""
+                },
+                {
+                    "description": "Relationship Balance",
+                    "discountType": "BALANCE",
+                    "amount": "50000.00",
+                    "additionalValue": "Relationship Balance >$50,000",
+                    "additionalInfo": "",
+                    "additionalInfoUri": ""
+                }
+            ]
+        },
+        {
+            "name": "DORMANT_ACCOUNT_FEE",
+            "feeType": "EVENT",
+            "amount": "10.00",
+            "accrualFrequency": "P1Y",
+            "currency": "AUD",
+            "additionalInfo": "Charged after 2 years of inactivity",
+            "additionalInfoUri": ""
+        }
+    ],
+    "depositRates": [
+        {
+            "depositRateType": "VARIABLE",
+            "rate": "0.014",
+            "calculationFrequency": "P1M",
+            "applicationFrequency": "P1Y",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        }
+    ],
+    "productId": "Christmas_Account",
+    "effectiveFrom": "2021-03-01T00:00:00.000+11:00",
+    "lastUpdated": "2023-07-01T10:11:07.000+10:00",
+    "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+    "name": "S4 Christmas Club Account",
+    "description": "Take the pressure out of the most expensive time of year.",
+    "brand": "CENTRAL WEST CREDIT UNION LTD",
+    "brandName": "CENTRAL WEST CREDIT UNION LTD",
+    "applicationUri": "",
+    "isTailored": true,
+    "additionalInformation": {
+        "overviewUri": "https://www.cwcu.com.au/savings/other-savings-accounts",
+        "termsUri": "https://www.cwcu.com.au/disclosure-documents/conditions-of-use",
+        "eligibilityUri": "https://www.cwcu.com.au/disclosure-documents/conditions-of-use",
+        "feesAndPricingUri": "https://www.cwcu.com.au/disclosure-documents/fees-and-charges",
+        "bundleUri": ""
+    }
+}

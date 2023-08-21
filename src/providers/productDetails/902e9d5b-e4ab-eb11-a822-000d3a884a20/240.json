@@ -1,0 +1,74 @@
+{
+    "productId": "240",
+    "effectiveFrom": "2021-05-03T14:30:00.0000000Z",
+    "lastUpdated": "2023-04-27T04:25:48.9107289Z",
+    "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+    "name": "Concession Account",
+    "description": "Concession Account",
+    "brand": "BCU",
+    "brandName": "bcu",
+    "isTailored": false,
+    "additionalInformation": {
+        "overviewUri": "https://www.bcu.com.au/access-and-savings/concession-account",
+        "termsUri": "https://www.bcu.com.au/important-documents",
+        "feesAndPricingUri": "https://www.bcu.com.au/access-and-savings/concession-account"
+    },
+    "features": [
+        {
+            "featureType": "BILL_PAYMENT"
+        },
+        {
+            "featureType": "CARD_ACCESS",
+            "additionalValue": "Visa Debit card available"
+        },
+        {
+            "featureType": "DIGITAL_BANKING"
+        },
+        {
+            "featureType": "DIGITAL_WALLET",
+            "additionalValue": "Apple Pay, Google Pay & Samsung Pay"
+        },
+        {
+            "featureType": "NPP_ENABLED"
+        },
+        {
+            "featureType": "NPP_PAYID"
+        },
+        {
+            "featureType": "UNLIMITED_TXNS"
+        }
+    ],
+    "eligibility": [
+        {
+            "eligibilityType": "PENSION_RECIPIENT",
+            "additionalInfo": "Available to eligible Commonwealth Government concession card holders. Commonwealth Seniors Health Card, Pensioner Concession Card or Health Care Card"
+        }
+    ],
+    "fees": [
+        {
+            "name": "Statement Retrieval",
+            "feeType": "EVENT",
+            "amount": "6.00",
+            "currency": "AUD",
+            "additionalInfo": "Statement retrieval fee applies for statements over 12 months old. 1st page $6, and $1.50 for each subsequent page",
+            "additionalInfoUri": "https://www.bcu.com.au/help-support/fees-charges"
+        },
+        {
+            "name": "Foreign Currency Conversion Fee",
+            "feeType": "TRANSACTION",
+            "amount": "0.00",
+            "transactionRate": "0.03",
+            "currency": "AUD",
+            "additionalInfo": "Payable for all transactions made in a foreign currency or if the merchant is located outside Australia",
+            "additionalInfoUri": "https://www.bcu.com.au/help-support/fees-charges"
+        }
+    ],
+    "depositRates": [
+        {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M"
+        }
+    ]
+}

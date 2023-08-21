@@ -1,0 +1,235 @@
+{
+    "features": [
+        {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "featureType": "NPP_ENABLED",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "featureType": "NPP_PAYID",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "featureType": "BILL_PAYMENT",
+            "additionalValue": "BPAY",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        }
+    ],
+    "eligibility": [
+        {
+            "eligibilityType": "NATURAL_PERSON",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "eligibilityType": "OTHER",
+            "additionalInfo": "Restricted to registered iBank users and requires registration for electronic statements.",
+            "additionalInfoUri": ""
+        }
+    ],
+    "fees": [
+        {
+            "name": "ARCH",
+            "feeType": "EVENT",
+            "amount": "10.00",
+            "accrualFrequency": "P1D",
+            "currency": "AUD",
+            "additionalInfo": "Retrieval of account information - $50/per hour. Min $10",
+            "additionalInfoUri": ""
+        },
+        {
+            "name": "FEEADDCARD",
+            "feeType": "EVENT",
+            "amount": "10.00",
+            "accrualFrequency": "P1D",
+            "currency": "AUD",
+            "additionalInfo": "Payable for the second and any subsequent card",
+            "additionalInfoUri": ""
+        },
+        {
+            "name": "FEEBILLCOLL",
+            "feeType": "EVENT",
+            "amount": "50.00",
+            "accrualFrequency": "P1D",
+            "currency": "AUD",
+            "additionalInfo": "Payable when you deposit a foreign currency cheque of $5000 or more",
+            "additionalInfoUri": ""
+        },
+        {
+            "name": "FEEDDHON",
+            "feeType": "TRANSACTION",
+            "amount": "15.00",
+            "accrualFrequency": "P1D",
+            "currency": "AUD",
+            "additionalInfo": "Insufficient cleared funds in your account to meet debit request",
+            "additionalInfoUri": ""
+        },
+        {
+            "name": "FEEDDDIS",
+            "feeType": "EVENT",
+            "amount": "15.00",
+            "accrualFrequency": "P1D",
+            "currency": "AUD",
+            "additionalInfo": "Insufficient cleared funds in your account",
+            "additionalInfoUri": ""
+        },
+        {
+            "name": "FEEFORCASH",
+            "feeType": "DEPOSIT",
+            "balanceRate": "0.01",
+            "accrualFrequency": "P1D",
+            "currency": "AUD",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "name": "FEEFORCHQ",
+            "feeType": "DEPOSIT",
+            "amount": "20.00",
+            "accrualFrequency": "P1D",
+            "currency": "AUD",
+            "additionalInfo": "When you deposit a foreign currency cheque of under $5000 to your account",
+            "additionalInfoUri": ""
+        },
+        {
+            "name": "FEEINACT",
+            "feeType": "EVENT",
+            "amount": "20.00",
+            "accrualFrequency": "P1Y",
+            "currency": "AUD",
+            "additionalInfo": "Where your account has not been transacted upon for a period of 24 months or more",
+            "additionalInfoUri": ""
+        },
+        {
+            "name": "FEEMANRET",
+            "feeType": "EVENT",
+            "amount": "15.00",
+            "accrualFrequency": "P1D",
+            "currency": "AUD",
+            "additionalInfo": "Payable each time you request us to manually return a direct debit payment without cancelling the direct debit arrangement",
+            "additionalInfoUri": ""
+        },
+        {
+            "name": "FEEPPALT",
+            "feeType": "EVENT",
+            "amount": "5.00",
+            "accrualFrequency": "P1D",
+            "currency": "AUD",
+            "additionalInfo": "Each additional alteration after a total of four consecutive alterations",
+            "additionalInfoUri": ""
+        },
+        {
+            "name": "FEECHQSPECCL",
+            "feeType": "EVENT",
+            "amount": "15.00",
+            "accrualFrequency": "P1D",
+            "currency": "AUD",
+            "additionalInfo": "Special request for priorty clearance on a cheque deposited to your account",
+            "additionalInfoUri": ""
+        },
+        {
+            "name": "FEETT",
+            "feeType": "TRANSACTION",
+            "amount": "15.00",
+            "accrualFrequency": "P1D",
+            "currency": "AUD",
+            "additionalInfo": "When you send money overseas in a foreign currency online, $30 in branch",
+            "additionalInfoUri": ""
+        },
+        {
+            "name": "FEETTAUD",
+            "feeType": "EVENT",
+            "amount": "50.00",
+            "accrualFrequency": "P1D",
+            "currency": "AUD",
+            "additionalInfo": "When you send money overseas in Australian Dollars",
+            "additionalInfoUri": ""
+        },
+        {
+            "name": "FEEDETRACE",
+            "feeType": "EVENT",
+            "amount": "20.00",
+            "accrualFrequency": "P1D",
+            "currency": "AUD",
+            "additionalInfo": "When you request a external transaction to be traced",
+            "additionalInfoUri": ""
+        },
+        {
+            "name": "FEERTGS",
+            "feeType": "EVENT",
+            "amount": "20.00",
+            "accrualFrequency": "P1D",
+            "currency": "AUD",
+            "additionalInfo": "Where you request a transaction to be processed via RTGS",
+            "additionalInfoUri": ""
+        },
+        {
+            "name": "FEESTATREQ",
+            "feeType": "EVENT",
+            "amount": "2.00",
+            "accrualFrequency": "P1D",
+            "currency": "AUD",
+            "additionalInfo": "A request to provide a copy statement or a statement on a passbook account",
+            "additionalInfoUri": ""
+        }
+    ],
+    "depositRates": [
+        {
+            "depositRateType": "VARIABLE",
+            "rate": "0.03",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "tiers": [
+                {
+                    "name": "iSave_Tier_1",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 0.0,
+                    "maximumValue": 4999.99,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "depositRateType": "VARIABLE",
+            "rate": "0.03",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "tiers": [
+                {
+                    "name": "iSave_Tier_2",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 5000.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        }
+    ],
+    "productId": "S19V1",
+    "effectiveFrom": "2020-09-24T00:00:00.000+10:00",
+    "lastUpdated": "2023-06-30T15:08:31.000+10:00",
+    "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+    "name": "iSave",
+    "description": "A high-interest online saver making your money work as hard as you do.",
+    "brand": "HUME BANK LIMITED",
+    "brandName": "HUME BANK LIMITED",
+    "applicationUri": "https://www.humebank.com.au/personal/savings-and-term-deposits/isave-account",
+    "isTailored": false,
+    "additionalInformation": {
+        "overviewUri": "https://www.humebank.com.au/personal/savings-and-term-deposits/isave-account",
+        "termsUri": "https://www.humebank.com.au/MediaLibraries/HB/Hume-Bank/Documents/Compliance%20documents/Product-Disclosure-Statement.pdf",
+        "eligibilityUri": "https://www.humebank.com.au/MediaLibraries/HB/Hume-Bank/Documents/Compliance%20documents/Product-Disclosure-Statement.pdf",
+        "feesAndPricingUri": "https://www.humebank.com.au/MediaLibraries/HB/Hume-Bank/Documents/Compliance%20documents/Fees-Charges.pdf",
+        "bundleUri": ""
+    }
+}

@@ -1,0 +1,98 @@
+{
+    "productId": "033bead6-d89a-439b-901f-bc0631cf2c31",
+    "bundles": [],
+    "features": [
+        {
+            "additionalInfo": "Access using ANZ Internet Banking or ANZ App",
+            "additionalInfoUri": "https://www.anz.com.au/business/products/online-banking/?CID=af:obank:bb",
+            "featureType": "DIGITAL_BANKING"
+        },
+        {
+            "additionalInfoUri": "https://www.anz.com.au/ways-to-bank/more/pay-id/?CID=af:obank:bb",
+            "featureType": "NPP_PAYID"
+        },
+        {
+            "additionalInfoUri": "https://institutional.anz.com/content/dam/Institutional/en/documents/NEW%20PAYMENTS%20PLATFORM%20T&C.pdf?CID=af:obank:bb",
+            "featureType": "NPP_ENABLED"
+        },
+        {
+            "featureType": "BILL_PAYMENT",
+            "additionalInfoUri": "https://www.anz.com.au/ways-to-bank/more/bpay/?CID=af:obank:bb",
+            "additionalValue": "BPAY"
+        },
+        {
+            "featureType": "FRAUD_PROTECTION"
+        }
+    ],
+    "description": "A specialised trust account for real estate agents, conveyancers and solicitors to hold funds in trust for your clients",
+    "additionalInformation": {
+        "termsUri": "https://www.anz.com.au/content/dam/anzcomau/documents/pdf/statutory-trust-tc.pdf",
+        "eligibilityUri": "https://www.anz.com.au/business/accounts/specialist-accounts/statutory-accounts/",
+        "overviewUri": "https://www.anz.com.au/business/accounts/specialist-accounts/statutory-accounts/",
+        "feesAndPricingUri": "https://www.anz.com.au/content/dam/anzcomau/documents/pdf/transaction-accounts-fees-charges.pdf"
+    },
+    "depositRates": [],
+    "lendingRates": [],
+    "applicationUri": "https://www.anz.com.au/business/accounts/specialist-accounts/statutory-accounts/",
+    "eligibility": [
+        {
+            "eligibilityType": "BUSINESS",
+            "additionalInfo": "An Australian business with valid ABN/ACN."
+        },
+        {
+            "additionalInfo": "You're an owner/director of the Business",
+            "eligibilityType": "OTHER",
+            "additionalValue": "You're an owner/director of the Business"
+        }
+    ],
+    "brand": "ANZ",
+    "name": "ANZ Statutory Trust Account",
+    "cardArt": [],
+    "productCategory": "REGULATED_TRUST_ACCOUNTS",
+    "effectiveFrom": "2020-06-30T14:00:00.000Z",
+    "fees": [
+        {
+            "feeType": "TRANSACTION",
+            "discounts": [],
+            "amount": "0.95",
+            "name": "Staff Assisted Transaction",
+            "additionalInfoUri": "https://www.anz.com.au/content/dam/anzcomau/documents/pdf/transaction-accounts-fees-charges.pdf?CID=af:obank:bb",
+            "currency": "AUD"
+        },
+        {
+            "feeType": "EVENT",
+            "discounts": [],
+            "amount": "0.60",
+            "name": "Cheque Transaction",
+            "additionalInfoUri": "https://www.anz.com.au/content/dam/anzcomau/documents/pdf/transaction-accounts-fees-charges.pdf?CID=af:obank:bb",
+            "currency": "AUD"
+        },
+        {
+            "feeType": "TRANSACTION",
+            "discounts": [],
+            "amount": "0.60",
+            "name": "Manual Merchant Deposit",
+            "additionalInfoUri": "https://www.anz.com.au/content/dam/anzcomau/documents/pdf/transaction-accounts-fees-charges.pdf?CID=af:obank:bb",
+            "currency": "AUD"
+        },
+        {
+            "feeType": "TRANSACTION",
+            "discounts": [],
+            "amount": "0.60",
+            "name": "ANZ ATM",
+            "additionalInfoUri": "https://www.anz.com.au/content/dam/anzcomau/documents/pdf/transaction-accounts-fees-charges.pdf?CID=af:obank:bb",
+            "currency": "AUD"
+        },
+        {
+            "feeType": "TRANSACTION",
+            "discounts": [],
+            "amount": "0.20",
+            "name": "Electronic Transaction",
+            "additionalInfoUri": "https://www.anz.com.au/content/dam/anzcomau/documents/pdf/transaction-accounts-fees-charges.pdf?CID=af:obank:bb",
+            "currency": "AUD"
+        }
+    ],
+    "isTailored": false,
+    "lastUpdated": "2023-07-06T11:00:00.000Z",
+    "constraints": []
+}

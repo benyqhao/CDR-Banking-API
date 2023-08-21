@@ -1,0 +1,55 @@
+{
+    "features": [
+        {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "featureType": "OFFSET",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "featureType": "NPP_ENABLED",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "featureType": "NPP_PAYID",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "featureType": "FREE_TXNS_ALLOWANCE",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        }
+    ],
+    "depositRates": [
+        {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "additionalInfo": "",
+            "additionalInfoUri": "https://www.policecu.com.au/PCUDocuments/Savings_and_Investment_Interest_Rates.pdf"
+        }
+    ],
+    "productId": "Mortgage_Offset",
+    "lastUpdated": "2022-08-29T21:03:23.000+09:30",
+    "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+    "name": "Mortgage Offset Account",
+    "description": "Mortgage Offset Account can be linked to eligible Home Loan Products.",
+    "brand": "POLICE CREDIT UNION LIMITED",
+    "brandName": "POLICE CREDIT UNION LIMITED",
+    "applicationUri": "",
+    "isTailored": false,
+    "additionalInformation": {
+        "overviewUri": "https://www.policecu.com.au/product-type/savings-and-investment-accounts/",
+        "termsUri": "https://www.policecu.com.au/rates/",
+        "eligibilityUri": "https://www.policecu.com.au/rates/",
+        "feesAndPricingUri": "https://www.policecu.com.au/PCUDocuments/Fees_and_Charges_General_Service_Fees.pdf",
+        "bundleUri": ""
+    }
+}

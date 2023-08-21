@@ -1,0 +1,228 @@
+{
+    "features": [
+        {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "SWSCU Internet Banking and App",
+            "additionalInfoUri": ""
+        },
+        {
+            "featureType": "NOTIFICATIONS",
+            "additionalInfo": "Alerts",
+            "additionalInfoUri": ""
+        }
+    ],
+    "constraints": [
+        {
+            "constraintType": "MIN_BALANCE",
+            "additionalInfo": "$500",
+            "additionalInfoUri": ""
+        }
+    ],
+    "eligibility": [
+        {
+            "eligibilityType": "BUSINESS",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "eligibilityType": "NATURAL_PERSON",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "eligibilityType": "STUDENT",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "eligibilityType": "STAFF",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "eligibilityType": "PENSION_RECIPIENT",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalValue": "Australian citizen or permanent resident",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        }
+    ],
+    "depositRates": [
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.038",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P6M",
+            "tiers": [
+                {
+                    "name": "6 Month Term Deposit_Tier",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 500.0,
+                    "maximumValue": 9999.99,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                },
+                {
+                    "name": "6 Month Term Deposit_Tier",
+                    "unitOfMeasure": "MONTH",
+                    "minimumValue": 6.0,
+                    "maximumValue": 6.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "P6M",
+            "additionalInfo": "",
+            "additionalInfoUri": "https://www.swscu.com.au/savings/term-deposits/term-deposit-account/"
+        },
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.038",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "tiers": [
+                {
+                    "name": "6 Month Term Deposit_Tier",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 500.0,
+                    "maximumValue": 9999.99,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                },
+                {
+                    "name": "6 Month Term Deposit_Tier",
+                    "unitOfMeasure": "MONTH",
+                    "minimumValue": 6.0,
+                    "maximumValue": 6.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "P6M",
+            "additionalInfo": "",
+            "additionalInfoUri": "https://www.swscu.com.au/savings/term-deposits/term-deposit-account/"
+        },
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.038",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P6M",
+            "tiers": [
+                {
+                    "name": "6 Month Term Deposit_Tier",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 10000.0,
+                    "maximumValue": 49999.99,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                },
+                {
+                    "name": "6 Month Term Deposit_Tier",
+                    "unitOfMeasure": "MONTH",
+                    "minimumValue": 6.0,
+                    "maximumValue": 6.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "P6M",
+            "additionalInfo": "",
+            "additionalInfoUri": "https://www.swscu.com.au/savings/term-deposits/term-deposit-account/"
+        },
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.038",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "tiers": [
+                {
+                    "name": "6 Month Term Deposit_Tier",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 10000.0,
+                    "maximumValue": 49999.99,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                },
+                {
+                    "name": "6 Month Term Deposit_Tier",
+                    "unitOfMeasure": "MONTH",
+                    "minimumValue": 6.0,
+                    "maximumValue": 6.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "P6M",
+            "additionalInfo": "",
+            "additionalInfoUri": "https://www.swscu.com.au/savings/term-deposits/term-deposit-account/"
+        },
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.038",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P6M",
+            "tiers": [
+                {
+                    "name": "6 Month Term Deposit_Tier",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 50000.0,
+                    "maximumValue": 9999999.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                },
+                {
+                    "name": "6 Month Term Deposit_Tier",
+                    "unitOfMeasure": "MONTH",
+                    "minimumValue": 6.0,
+                    "maximumValue": 6.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "P6M",
+            "additionalInfo": "",
+            "additionalInfoUri": "https://www.swscu.com.au/savings/term-deposits/term-deposit-account/"
+        },
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.038",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "tiers": [
+                {
+                    "name": "6 Month Term Deposit_Tier",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 50000.0,
+                    "maximumValue": 9999999.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                },
+                {
+                    "name": "6 Month Term Deposit_Tier",
+                    "unitOfMeasure": "MONTH",
+                    "minimumValue": 6.0,
+                    "maximumValue": 6.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "P6M",
+            "additionalInfo": "",
+            "additionalInfoUri": "https://www.swscu.com.au/savings/term-deposits/term-deposit-account/"
+        }
+    ],
+    "productId": "I2_TD_6Months",
+    "lastUpdated": "2023-07-24T16:47:11.000+10:00",
+    "productCategory": "TERM_DEPOSITS",
+    "name": "6 Month Term Deposit",
+    "description": "6 Month Term Deposit",
+    "brand": "South West Slopes Credit Union",
+    "brandName": "South West Slopes Credit Union",
+    "applicationUri": "https://forms.sharedservices.com.au/form.php?c=165&f=56",
+    "isTailored": false,
+    "additionalInformation": {
+        "overviewUri": "https://www.swscu.com.au/Products/SavingsAccountsTermDeposits/TermDeposits",
+        "termsUri": "",
+        "eligibilityUri": "",
+        "feesAndPricingUri": "",
+        "bundleUri": "",
+        "additionalOverviewUris": [
+            {
+                "description": "Term Deposit",
+                "additionalInfoUri": "https://www.swscu.com.au/savings/term-deposits/term-deposit-account/"
+            }
+        ]
+    }
+}

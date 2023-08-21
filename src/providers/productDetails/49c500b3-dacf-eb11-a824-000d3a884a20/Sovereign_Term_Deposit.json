@@ -1,0 +1,2055 @@
+{
+    "features": [
+        {
+            "featureType": "OTHER",
+            "additionalInfo": "A certificate account only",
+            "additionalInfoUri": ""
+        },
+        {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "Non transaction access with view only access",
+            "additionalInfoUri": ""
+        },
+        {
+            "featureType": "NOTIFICATIONS",
+            "additionalInfo": "Notification of maturty of investment term and request for instruction",
+            "additionalInfoUri": ""
+        },
+        {
+            "featureType": "FREE_TXNS",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        }
+    ],
+    "constraints": [
+        {
+            "constraintType": "OPENING_BALANCE",
+            "additionalValue": "100000.00",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "constraintType": "MIN_BALANCE",
+            "additionalValue": "100000.00",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        }
+    ],
+    "eligibility": [
+        {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalInfo": "Australian Citizens or permanent residents or as otherwise approved",
+            "additionalInfoUri": ""
+        }
+    ],
+    "fees": [
+        {
+            "name": "CHEQUE_DISHONOUR",
+            "feeType": "EVENT",
+            "amount": "9.00",
+            "accrualFrequency": "",
+            "currency": "AUD",
+            "additionalInfo": "Cheque drawn by you or deposited by you that has not been accepted by us or another financial institution",
+            "additionalInfoUri": ""
+        },
+        {
+            "name": "DIRECT_ENTRY_DISHONOUR",
+            "feeType": "EVENT",
+            "amount": "9.00",
+            "accrualFrequency": "",
+            "currency": "AUD",
+            "additionalInfo": "Direct Entry returned (inward and outward)",
+            "additionalInfoUri": ""
+        },
+        {
+            "name": "DOCUMENT_FEE",
+            "feeType": "EVENT",
+            "amount": "60.00",
+            "accrualFrequency": "",
+            "currency": "AUD",
+            "additionalInfo": "$60.00 per hour (subject to minimum $10.00 per copy)",
+            "additionalInfoUri": ""
+        },
+        {
+            "name": "FINANCIAL_INSTITUTION_CHEQUE",
+            "feeType": "EVENT",
+            "amount": "2.50",
+            "accrualFrequency": "",
+            "currency": "AUD",
+            "additionalInfo": "",
+            "additionalInfoUri": "https://www.themutual.com.au/about-us/our-members/important-information/"
+        },
+        {
+            "name": "FOREIGN_CURRENCY_INTERNATIONAL_TRANSFERS_(INWARD)",
+            "feeType": "DEPOSIT",
+            "amount": "0.00",
+            "accrualFrequency": "",
+            "currency": "AUD",
+            "additionalInfo": "This service is free of our service cost. However, any third party cost will be passed on.",
+            "additionalInfoUri": ""
+        },
+        {
+            "name": "MISCELLANEOUS_SERVICE_FEE",
+            "feeType": "EVENT",
+            "amount": "60.00",
+            "accrualFrequency": "",
+            "currency": "AUD",
+            "additionalInfo": "This fee applies if request information not covered by the Document Fee on an hourly rate of $60.00",
+            "additionalInfoUri": ""
+        },
+        {
+            "name": "OVERSEAS_TELEGRAPHIC_TRANSFER_(OUTWARD)_-_AUSTRALIAN_CURRENCY",
+            "feeType": "EVENT",
+            "amount": "39.00",
+            "accrualFrequency": "",
+            "currency": "AUD",
+            "additionalInfo": "Funds can be sent to a variety of destinations in a currency appropriate to that county",
+            "additionalInfoUri": "https://www.themutual.com.au/about-us/our-members/important-information/"
+        },
+        {
+            "name": "OVERSEAS_TELEGRAPHIC_TRANSFER_(OUTWARD)_-_FOREIGN_CURRENCY",
+            "feeType": "EVENT",
+            "amount": "28.00",
+            "accrualFrequency": "",
+            "currency": "AUD",
+            "additionalInfo": "Funds can be sent to a variety of destinations in a currency appropriate to that county",
+            "additionalInfoUri": "https://www.themutual.com.au/about-us/our-members/important-information/"
+        },
+        {
+            "name": "PHYSICAL_FOREIGN_CURRENCY",
+            "feeType": "EVENT",
+            "transactionRate": "0.01",
+            "accrualFrequency": "",
+            "currency": "AUD",
+            "additionalInfo": "Physical Foreign Currency issued or purchased 1% of the Australian currency equivalent amount",
+            "additionalInfoUri": "https://www.themutual.com.au/about-us/our-members/important-information/"
+        },
+        {
+            "name": "UNCLAIMED_MONIES_FEE",
+            "feeType": "VARIABLE",
+            "amount": "20.00",
+            "accrualFrequency": "",
+            "currency": "AUD",
+            "additionalInfo": "The lessor $20.00 or account balance",
+            "additionalInfoUri": ""
+        }
+    ],
+    "depositRates": [
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.0145",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P30D",
+            "tiers": [
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 1.0,
+                    "maximumValue": 499999.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                },
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "DAY",
+                    "minimumValue": 1.0,
+                    "maximumValue": 30.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "P30D",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.0145",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P30D",
+            "tiers": [
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 500000.0,
+                    "maximumValue": 9999999.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                },
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "DAY",
+                    "minimumValue": 1.0,
+                    "maximumValue": 30.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "P30D",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.0175",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P60D",
+            "tiers": [
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 1.0,
+                    "maximumValue": 499999.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                },
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "DAY",
+                    "minimumValue": 31.0,
+                    "maximumValue": 60.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "P60D",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.0175",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P60D",
+            "tiers": [
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 500000.0,
+                    "maximumValue": 9999999.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                },
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "DAY",
+                    "minimumValue": 31.0,
+                    "maximumValue": 60.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "P60D",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.043",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P92D",
+            "tiers": [
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 1.0,
+                    "maximumValue": 499999.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                },
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "DAY",
+                    "minimumValue": 61.0,
+                    "maximumValue": 92.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "P92D",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.043",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P92D",
+            "tiers": [
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 500000.0,
+                    "maximumValue": 9999999.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                },
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "DAY",
+                    "minimumValue": 61.0,
+                    "maximumValue": 92.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "P92D",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.038",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P122D",
+            "tiers": [
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 1.0,
+                    "maximumValue": 499999.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                },
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "DAY",
+                    "minimumValue": 93.0,
+                    "maximumValue": 122.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "P122D",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.038",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P122D",
+            "tiers": [
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 500000.0,
+                    "maximumValue": 9999999.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                },
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "DAY",
+                    "minimumValue": 93.0,
+                    "maximumValue": 122.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "P122D",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.038",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P153D",
+            "tiers": [
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 1.0,
+                    "maximumValue": 499999.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                },
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "DAY",
+                    "minimumValue": 123.0,
+                    "maximumValue": 153.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "P153D",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.038",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P153D",
+            "tiers": [
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 500000.0,
+                    "maximumValue": 9999999.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                },
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "DAY",
+                    "minimumValue": 123.0,
+                    "maximumValue": 153.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "P153D",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.043",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P183D",
+            "tiers": [
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 1.0,
+                    "maximumValue": 499999.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                },
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "DAY",
+                    "minimumValue": 154.0,
+                    "maximumValue": 183.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "P183D",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.043",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P183D",
+            "tiers": [
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 500000.0,
+                    "maximumValue": 9999999.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                },
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "DAY",
+                    "minimumValue": 154.0,
+                    "maximumValue": 183.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "P183D",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.038",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P213D",
+            "tiers": [
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 1.0,
+                    "maximumValue": 499999.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                },
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "DAY",
+                    "minimumValue": 184.0,
+                    "maximumValue": 213.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "P213D",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.038",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P213D",
+            "tiers": [
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 500000.0,
+                    "maximumValue": 9999999.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                },
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "DAY",
+                    "minimumValue": 184.0,
+                    "maximumValue": 213.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "P213D",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.038",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P244D",
+            "tiers": [
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 1.0,
+                    "maximumValue": 499999.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                },
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "DAY",
+                    "minimumValue": 214.0,
+                    "maximumValue": 244.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "P244D",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.038",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P244D",
+            "tiers": [
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 500000.0,
+                    "maximumValue": 9999999.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                },
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "DAY",
+                    "minimumValue": 214.0,
+                    "maximumValue": 244.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "P244D",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.043",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P274D",
+            "tiers": [
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 1.0,
+                    "maximumValue": 499999.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                },
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "DAY",
+                    "minimumValue": 245.0,
+                    "maximumValue": 274.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "P274D",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.043",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P274D",
+            "tiers": [
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 500000.0,
+                    "maximumValue": 9999999.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                },
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "DAY",
+                    "minimumValue": 245.0,
+                    "maximumValue": 274.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "P274D",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.0385",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P305D",
+            "tiers": [
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 1.0,
+                    "maximumValue": 499999.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                },
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "DAY",
+                    "minimumValue": 275.0,
+                    "maximumValue": 305.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "P305D",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.0385",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P305D",
+            "tiers": [
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 500000.0,
+                    "maximumValue": 9999999.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                },
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "DAY",
+                    "minimumValue": 275.0,
+                    "maximumValue": 305.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "P305D",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.0385",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P335D",
+            "tiers": [
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 1.0,
+                    "maximumValue": 499999.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                },
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "DAY",
+                    "minimumValue": 306.0,
+                    "maximumValue": 335.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "P335D",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.0385",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P335D",
+            "tiers": [
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 500000.0,
+                    "maximumValue": 9999999.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                },
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "DAY",
+                    "minimumValue": 306.0,
+                    "maximumValue": 335.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "P335D",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.05",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P365D",
+            "tiers": [
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 1.0,
+                    "maximumValue": 499999.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                },
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "DAY",
+                    "minimumValue": 336.0,
+                    "maximumValue": 365.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "P365D",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.049",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "tiers": [
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 1.0,
+                    "maximumValue": 499999.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                },
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "DAY",
+                    "minimumValue": 336.0,
+                    "maximumValue": 365.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "P365D",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.049",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P3M",
+            "tiers": [
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 1.0,
+                    "maximumValue": 499999.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                },
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "DAY",
+                    "minimumValue": 336.0,
+                    "maximumValue": 365.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "P365D",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.0495",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P6M",
+            "tiers": [
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 1.0,
+                    "maximumValue": 499999.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                },
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "DAY",
+                    "minimumValue": 336.0,
+                    "maximumValue": 365.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "P365D",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.05",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P365D",
+            "tiers": [
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 500000.0,
+                    "maximumValue": 9999999.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                },
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "DAY",
+                    "minimumValue": 336.0,
+                    "maximumValue": 365.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "P365D",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.049",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "tiers": [
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 500000.0,
+                    "maximumValue": 9999999.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                },
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "DAY",
+                    "minimumValue": 336.0,
+                    "maximumValue": 365.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "P365D",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.049",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P3M",
+            "tiers": [
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 500000.0,
+                    "maximumValue": 9999999.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                },
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "DAY",
+                    "minimumValue": 336.0,
+                    "maximumValue": 365.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "P365D",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.0495",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P6M",
+            "tiers": [
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 500000.0,
+                    "maximumValue": 9999999.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                },
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "DAY",
+                    "minimumValue": 336.0,
+                    "maximumValue": 365.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "P365D",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.0145",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "tiers": [
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 1.0,
+                    "maximumValue": 499999.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                },
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "MONTH",
+                    "minimumValue": 1.0,
+                    "maximumValue": 1.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "P1M",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.0145",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "tiers": [
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 500000.0,
+                    "maximumValue": 9999999.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                },
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "MONTH",
+                    "minimumValue": 1.0,
+                    "maximumValue": 1.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "P1M",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.0175",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P2M",
+            "tiers": [
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 1.0,
+                    "maximumValue": 499999.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                },
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "MONTH",
+                    "minimumValue": 2.0,
+                    "maximumValue": 2.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "P2M",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.0175",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P2M",
+            "tiers": [
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 500000.0,
+                    "maximumValue": 9999999.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                },
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "MONTH",
+                    "minimumValue": 2.0,
+                    "maximumValue": 2.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "P2M",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.043",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P3M",
+            "tiers": [
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 1.0,
+                    "maximumValue": 499999.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                },
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "MONTH",
+                    "minimumValue": 3.0,
+                    "maximumValue": 3.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "P3M",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.043",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P3M",
+            "tiers": [
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 500000.0,
+                    "maximumValue": 9999999.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                },
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "MONTH",
+                    "minimumValue": 3.0,
+                    "maximumValue": 3.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "P3M",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.038",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P4M",
+            "tiers": [
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 1.0,
+                    "maximumValue": 499999.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                },
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "MONTH",
+                    "minimumValue": 4.0,
+                    "maximumValue": 4.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "P4M",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.038",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P4M",
+            "tiers": [
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 500000.0,
+                    "maximumValue": 9999999.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                },
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "MONTH",
+                    "minimumValue": 4.0,
+                    "maximumValue": 4.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "P4M",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.038",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P5M",
+            "tiers": [
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 1.0,
+                    "maximumValue": 499999.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                },
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "MONTH",
+                    "minimumValue": 5.0,
+                    "maximumValue": 5.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "P5M",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.038",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P5M",
+            "tiers": [
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 500000.0,
+                    "maximumValue": 9999999.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                },
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "MONTH",
+                    "minimumValue": 5.0,
+                    "maximumValue": 5.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "P5M",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.043",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P6M",
+            "tiers": [
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 1.0,
+                    "maximumValue": 499999.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                },
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "MONTH",
+                    "minimumValue": 6.0,
+                    "maximumValue": 6.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "P6M",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.043",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P6M",
+            "tiers": [
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 500000.0,
+                    "maximumValue": 9999999.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                },
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "MONTH",
+                    "minimumValue": 6.0,
+                    "maximumValue": 6.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "P6M",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.038",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P7M",
+            "tiers": [
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 1.0,
+                    "maximumValue": 499999.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                },
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "MONTH",
+                    "minimumValue": 7.0,
+                    "maximumValue": 7.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "P7M",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.038",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P7M",
+            "tiers": [
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 500000.0,
+                    "maximumValue": 9999999.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                },
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "MONTH",
+                    "minimumValue": 7.0,
+                    "maximumValue": 7.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "P7M",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.038",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P8M",
+            "tiers": [
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 1.0,
+                    "maximumValue": 499999.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                },
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "MONTH",
+                    "minimumValue": 8.0,
+                    "maximumValue": 8.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "P8M",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.038",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P8M",
+            "tiers": [
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 500000.0,
+                    "maximumValue": 9999999.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                },
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "MONTH",
+                    "minimumValue": 8.0,
+                    "maximumValue": 8.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "P8M",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.043",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P9M",
+            "tiers": [
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 1.0,
+                    "maximumValue": 499999.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                },
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "MONTH",
+                    "minimumValue": 9.0,
+                    "maximumValue": 9.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "P9M",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.043",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P9M",
+            "tiers": [
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 500000.0,
+                    "maximumValue": 9999999.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                },
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "MONTH",
+                    "minimumValue": 9.0,
+                    "maximumValue": 9.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "P9M",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.0385",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P10M",
+            "tiers": [
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 1.0,
+                    "maximumValue": 499999.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                },
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "MONTH",
+                    "minimumValue": 10.0,
+                    "maximumValue": 10.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "P10M",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.0385",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P10M",
+            "tiers": [
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 500000.0,
+                    "maximumValue": 9999999.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                },
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "MONTH",
+                    "minimumValue": 10.0,
+                    "maximumValue": 10.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "P10M",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.0385",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P11M",
+            "tiers": [
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 1.0,
+                    "maximumValue": 499999.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                },
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "MONTH",
+                    "minimumValue": 11.0,
+                    "maximumValue": 11.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "P11M",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.0385",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P11M",
+            "tiers": [
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 500000.0,
+                    "maximumValue": 9999999.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                },
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "MONTH",
+                    "minimumValue": 11.0,
+                    "maximumValue": 11.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "P11M",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.05",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P12M",
+            "tiers": [
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 1.0,
+                    "maximumValue": 499999.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                },
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "MONTH",
+                    "minimumValue": 12.0,
+                    "maximumValue": 12.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "P12M",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.049",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "tiers": [
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 1.0,
+                    "maximumValue": 499999.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                },
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "MONTH",
+                    "minimumValue": 12.0,
+                    "maximumValue": 12.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "P12M",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.049",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P3M",
+            "tiers": [
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 1.0,
+                    "maximumValue": 499999.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                },
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "MONTH",
+                    "minimumValue": 12.0,
+                    "maximumValue": 12.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "P12M",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.0495",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P6M",
+            "tiers": [
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 1.0,
+                    "maximumValue": 499999.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                },
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "MONTH",
+                    "minimumValue": 12.0,
+                    "maximumValue": 12.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "P12M",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.05",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P12M",
+            "tiers": [
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 500000.0,
+                    "maximumValue": 9999999.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                },
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "MONTH",
+                    "minimumValue": 12.0,
+                    "maximumValue": 12.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "P12M",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.049",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "tiers": [
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 500000.0,
+                    "maximumValue": 9999999.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                },
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "MONTH",
+                    "minimumValue": 12.0,
+                    "maximumValue": 12.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "P12M",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.049",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P3M",
+            "tiers": [
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 500000.0,
+                    "maximumValue": 9999999.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                },
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "MONTH",
+                    "minimumValue": 12.0,
+                    "maximumValue": 12.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "P12M",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.0495",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P6M",
+            "tiers": [
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 500000.0,
+                    "maximumValue": 9999999.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                },
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "MONTH",
+                    "minimumValue": 12.0,
+                    "maximumValue": 12.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "P12M",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.039",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "tiers": [
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 1.0,
+                    "maximumValue": 499999.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                },
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "MONTH",
+                    "minimumValue": 24.0,
+                    "maximumValue": 24.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "P24M",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.039",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P3M",
+            "tiers": [
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 1.0,
+                    "maximumValue": 499999.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                },
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "MONTH",
+                    "minimumValue": 24.0,
+                    "maximumValue": 24.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "P24M",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.0395",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P6M",
+            "tiers": [
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 1.0,
+                    "maximumValue": 499999.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                },
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "MONTH",
+                    "minimumValue": 24.0,
+                    "maximumValue": 24.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "P24M",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.04",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P12M",
+            "tiers": [
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 1.0,
+                    "maximumValue": 499999.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                },
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "MONTH",
+                    "minimumValue": 24.0,
+                    "maximumValue": 24.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "P24M",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.039",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "tiers": [
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 500000.0,
+                    "maximumValue": 9999999.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                },
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "MONTH",
+                    "minimumValue": 24.0,
+                    "maximumValue": 24.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "P24M",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.039",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P3M",
+            "tiers": [
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 500000.0,
+                    "maximumValue": 9999999.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                },
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "MONTH",
+                    "minimumValue": 24.0,
+                    "maximumValue": 24.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "P24M",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.0395",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P6M",
+            "tiers": [
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 500000.0,
+                    "maximumValue": 9999999.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                },
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "MONTH",
+                    "minimumValue": 24.0,
+                    "maximumValue": 24.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "P24M",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.04",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P12M",
+            "tiers": [
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 500000.0,
+                    "maximumValue": 9999999.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                },
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "MONTH",
+                    "minimumValue": 24.0,
+                    "maximumValue": 24.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "P24M",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.039",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "tiers": [
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 1.0,
+                    "maximumValue": 499999.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                },
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "MONTH",
+                    "minimumValue": 36.0,
+                    "maximumValue": 36.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "P36M",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.039",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P3M",
+            "tiers": [
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 1.0,
+                    "maximumValue": 499999.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                },
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "MONTH",
+                    "minimumValue": 36.0,
+                    "maximumValue": 36.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "P36M",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.0395",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P6M",
+            "tiers": [
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 1.0,
+                    "maximumValue": 499999.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                },
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "MONTH",
+                    "minimumValue": 36.0,
+                    "maximumValue": 36.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "P36M",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.04",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P12M",
+            "tiers": [
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 1.0,
+                    "maximumValue": 499999.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                },
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "MONTH",
+                    "minimumValue": 36.0,
+                    "maximumValue": 36.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "P36M",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.039",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "tiers": [
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 500000.0,
+                    "maximumValue": 9999999.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                },
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "MONTH",
+                    "minimumValue": 36.0,
+                    "maximumValue": 36.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "P36M",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.039",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P3M",
+            "tiers": [
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 500000.0,
+                    "maximumValue": 9999999.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                },
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "MONTH",
+                    "minimumValue": 36.0,
+                    "maximumValue": 36.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "P36M",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.0395",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P6M",
+            "tiers": [
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 500000.0,
+                    "maximumValue": 9999999.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                },
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "MONTH",
+                    "minimumValue": 36.0,
+                    "maximumValue": 36.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "P36M",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.04",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P12M",
+            "tiers": [
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 500000.0,
+                    "maximumValue": 9999999.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                },
+                {
+                    "name": "Sovereign Term Deposit_Tier",
+                    "unitOfMeasure": "MONTH",
+                    "minimumValue": 36.0,
+                    "maximumValue": 36.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "P36M",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        }
+    ],
+    "productId": "Sovereign_Term_Deposit",
+    "lastUpdated": "2023-06-29T19:03:16.000+10:00",
+    "productCategory": "TERM_DEPOSITS",
+    "name": "Sovereign Term Deposit",
+    "description": "A simple and secure investment account for those looking to invest over $100,000 with terms available from thirty days to three years.",
+    "brand": "TheMutualBank",
+    "brandName": "The Mutual Bank",
+    "applicationUri": "",
+    "isTailored": false,
+    "additionalInformation": {
+        "overviewUri": "https://www.themutual.com.au/everyday-banking/term-deposits/sovereign-term-deposit/",
+        "termsUri": "https://www.themutual.com.au/about-us/our-members/important-information/",
+        "eligibilityUri": "https://www.themutual.com.au/about-us/our-members/important-information/",
+        "feesAndPricingUri": "https://www.themutual.com.au/about-us/our-members/important-information/",
+        "bundleUri": ""
+    }
+}

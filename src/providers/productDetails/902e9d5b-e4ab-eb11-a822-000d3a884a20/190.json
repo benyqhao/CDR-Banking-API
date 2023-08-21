@@ -1,0 +1,60 @@
+{
+    "productId": "190",
+    "effectiveFrom": "2020-04-06T14:30:00.0000000Z",
+    "lastUpdated": "2023-04-27T04:25:48.9107289Z",
+    "productCategory": "PERS_LOANS",
+    "name": "Freedom Loan Unsecured",
+    "description": "Freedom Loan Unsecured",
+    "brand": "BCU",
+    "brandName": "bcu",
+    "isTailored": false,
+    "additionalInformation": {
+        "overviewUri": "https://www.bcu.com.au/personal-loans/unsecured-freedom-personal-loan",
+        "termsUri": "https://www.bcu.com.au/important-documents",
+        "feesAndPricingUri": "https://www.bcu.com.au/personal-loans/unsecured-freedom-personal-loan"
+    },
+    "features": [
+        {
+            "featureType": "DIGITAL_BANKING"
+        },
+        {
+            "featureType": "NPP_ENABLED"
+        },
+        {
+            "featureType": "REDRAW"
+        }
+    ],
+    "constraints": [
+        {
+            "constraintType": "MIN_LIMIT",
+            "additionalValue": "4000.00",
+            "additionalInfo": "Minimum loan amount is $4,000"
+        }
+    ],
+    "fees": [
+        {
+            "name": "Late Payment Notification Fee",
+            "feeType": "EVENT",
+            "amount": "5.00",
+            "currency": "AUD",
+            "additionalInfo": "Charged when payment to a Personal Loan becomes overdue by 11 and 30 days",
+            "additionalInfoUri": "https://www.bcu.com.au/help-support/fees-charges"
+        },
+        {
+            "name": "Establishment Fee",
+            "feeType": "UPFRONT",
+            "amount": "250.00",
+            "currency": "AUD"
+        }
+    ],
+    "lendingRates": [
+        {
+            "lendingRateType": "VARIABLE",
+            "rate": "0.093",
+            "comparisonRate": "0.0959",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "interestPaymentDue": "IN_ARREARS"
+        }
+    ]
+}

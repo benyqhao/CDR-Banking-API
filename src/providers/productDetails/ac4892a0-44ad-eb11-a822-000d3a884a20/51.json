@@ -1,0 +1,179 @@
+{
+    "productId": "51",
+    "effectiveFrom": "2006-06-08T14:30:00.0000000Z",
+    "lastUpdated": "2023-07-28T01:00:36.0468015Z",
+    "productCategory": "RESIDENTIAL_MORTGAGES",
+    "name": "Fixed P&I (Inv)",
+    "description": "Fixed Rate Home Loan Investment Principal & Interest",
+    "brand": "Qudos Bank",
+    "applicationUri": "https://online.qudosbank.com.au/internetlending/public/start.aspx",
+    "isTailored": false,
+    "additionalInformation": {
+        "overviewUri": "https://www.qudosbank.com.au/Products/HomeLoans/FixedRateHomeLoan",
+        "termsUri": "https://www.qudosbank.com.au/Support/TheFinePrint",
+        "eligibilityUri": "https://www.qudosbank.com.au/Products/HomeLoans/FixedRateHomeLoan",
+        "feesAndPricingUri": "https://www.qudosbank.com.au/Products/HomeLoans/FixedRateHomeLoan"
+    },
+    "features": [
+        {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "Our secure Online Banking service means access to your accounts 24 hours a day, seven days a week.",
+            "additionalInfoUri": "https://www.qudosbank.com.au/Support/WaysToBank/OnlineBanking"
+        },
+        {
+            "featureType": "NPP_ENABLED",
+            "additionalInfo": "This account is able to receive Osko payments",
+            "additionalInfoUri": "https://www.qudosbank.com.au/real-time-payments"
+        },
+        {
+            "featureType": "NPP_PAYID",
+            "additionalInfo": "PayIDs can be linked with this account",
+            "additionalInfoUri": "https://www.qudosbank.com.au/real-time-payments"
+        },
+        {
+            "featureType": "OTHER",
+            "additionalInfo": "Repayment options of weekly, fortnightly, or monthly"
+        }
+    ],
+    "constraints": [
+        {
+            "constraintType": "MIN_LIMIT",
+            "additionalValue": "150000.00",
+            "additionalInfo": "Minimum amount $150K"
+        }
+    ],
+    "eligibility": [
+        {
+            "eligibilityType": "EMPLOYMENT_STATUS",
+            "additionalValue": "Full time, Part Time, Casual, Self Employed"
+        },
+        {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "18",
+            "additionalInfo": "18 years and above"
+        },
+        {
+            "eligibilityType": "NATURAL_PERSON"
+        },
+        {
+            "eligibilityType": "OTHER",
+            "additionalInfo": "Minimum deposit 10%"
+        },
+        {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalValue": "Customers who are Permanent Resident or Citizens may apply for the product"
+        }
+    ],
+    "lendingRates": [
+        {
+            "lendingRateType": "FIXED",
+            "rate": "0.0634",
+            "comparisonRate": "0.063",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "interestPaymentDue": "IN_ARREARS",
+            "additionalValue": "P1Y",
+            "additionalInfo": "<80% LVR,1 year fixed rate - 6.34%\r\n\r\n",
+            "additionalInfoUri": "https://asset.qudosbank.com.au/files/factcast/InterestRates.pdf"
+        },
+        {
+            "lendingRateType": "FIXED",
+            "rate": "0.0624",
+            "comparisonRate": "0.0628",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "interestPaymentDue": "IN_ARREARS",
+            "additionalValue": "P2Y",
+            "additionalInfo": "<80% LVR,2 years fixed rate - 6.24%\r\n\r\n",
+            "additionalInfoUri": "https://asset.qudosbank.com.au/files/factcast/InterestRates.pdf"
+        },
+        {
+            "lendingRateType": "FIXED",
+            "rate": "0.0599",
+            "comparisonRate": "0.0621",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "interestPaymentDue": "IN_ARREARS",
+            "additionalValue": "P3Y",
+            "additionalInfo": "<80% LVR,3 years fixed rate - 5.99%\r\n",
+            "additionalInfoUri": "https://asset.qudosbank.com.au/files/factcast/InterestRates.pdf"
+        },
+        {
+            "lendingRateType": "FIXED",
+            "rate": "0.0614",
+            "comparisonRate": "0.0624",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "interestPaymentDue": "IN_ARREARS",
+            "additionalValue": "P4Y",
+            "additionalInfo": "<80% LVR,4 years fixed rate - 6.14%\r\n\r\n",
+            "additionalInfoUri": "https://asset.qudosbank.com.au/files/factcast/InterestRates.pdf"
+        },
+        {
+            "lendingRateType": "FIXED",
+            "rate": "0.0614",
+            "comparisonRate": "0.0622",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "interestPaymentDue": "IN_ARREARS",
+            "additionalValue": "P5Y",
+            "additionalInfo": "<80% LVR,5 years fixed rate - 6.14%\r\n\r\n",
+            "additionalInfoUri": "https://asset.qudosbank.com.au/files/factcast/InterestRates.pdf"
+        },
+        {
+            "lendingRateType": "FIXED",
+            "rate": "0.0664",
+            "comparisonRate": "0.0633",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "interestPaymentDue": "IN_ARREARS",
+            "additionalValue": "P1Y",
+            "additionalInfo": "80% - 90%,LVR,1 year fixed rate - 6.64%\r\n\r\n",
+            "additionalInfoUri": "https://asset.qudosbank.com.au/files/factcast/InterestRates.pdf"
+        },
+        {
+            "lendingRateType": "FIXED",
+            "rate": "0.0654",
+            "comparisonRate": "0.0634",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "interestPaymentDue": "IN_ARREARS",
+            "additionalValue": "P2Y",
+            "additionalInfo": "80% - 90%,LVR,2 years fixed rate - 6.54%\r\n\r\n",
+            "additionalInfoUri": "https://asset.qudosbank.com.au/files/factcast/InterestRates.pdf"
+        },
+        {
+            "lendingRateType": "FIXED",
+            "rate": "0.0629",
+            "comparisonRate": "0.0629",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "interestPaymentDue": "IN_ARREARS",
+            "additionalValue": "P3Y",
+            "additionalInfo": "80% - 90%,LVR,3 years fixed rate - 6.29%\r\n",
+            "additionalInfoUri": "https://asset.qudosbank.com.au/files/factcast/InterestRates.pdf"
+        },
+        {
+            "lendingRateType": "FIXED",
+            "rate": "0.0644",
+            "comparisonRate": "0.0634",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "interestPaymentDue": "IN_ARREARS",
+            "additionalValue": "P4Y",
+            "additionalInfo": "80% - 90%,LVR,4 years fixed rate - 6.44%\r\n",
+            "additionalInfoUri": "https://asset.qudosbank.com.au/files/factcast/InterestRates.pdf"
+        },
+        {
+            "lendingRateType": "FIXED",
+            "rate": "0.0644",
+            "comparisonRate": "0.0636",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "interestPaymentDue": "IN_ARREARS",
+            "additionalValue": "P5Y",
+            "additionalInfo": "80% - 90%,LVR,5 years fixed rate - 6.44%\r\n",
+            "additionalInfoUri": "https://asset.qudosbank.com.au/files/factcast/InterestRates.pdf"
+        }
+    ]
+}

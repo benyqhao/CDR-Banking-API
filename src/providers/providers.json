@@ -1,0 +1,1056 @@
+{
+    "ebcbaeb6-539f-ec11-a82c-000d3a8830d6": {
+        "dataHolderBrandId": "ebcbaeb6-539f-ec11-a82c-000d3a8830d6",
+        "brandName": "PayPal Australia",
+        "logoUri": "https://newsroom.au.paypal-corp.com/image/pp_h_rgb.jpg",
+        "publicBaseUri": "https://api.paypal.com/v1/identity",
+        "lastUpdated": "2023-07-01T00:00:15Z",
+        "abn": "93111195389",
+        "acn": "111195389"
+    },
+    "9c8c5e8d-5cb9-ec11-a82d-000d3a8830d6": {
+        "dataHolderBrandId": "9c8c5e8d-5cb9-ec11-a82d-000d3a8830d6",
+        "brandName": "Wise",
+        "logoUri": "https://wise.com/public-resources/assets/logos/wise/brand_logo.svg",
+        "publicBaseUri": "https://au-cdrbanking-pub.wise.com",
+        "lastUpdated": "2023-08-03T04:50:30Z",
+        "abn": "38616463855",
+        "acn": "616463855"
+    },
+    "a26fd60b-14ba-ec11-a82d-000d3a8830d6": {
+        "dataHolderBrandId": "a26fd60b-14ba-ec11-a82d-000d3a8830d6",
+        "brandName": "ME Bank",
+        "logoUri": "https://www.mebank.com.au/getmedia/c79ff77e-5b3b-4410-9a1b-98e98a79f025/ME-logo-600px-black-transparent.png",
+        "publicBaseUri": "https://public.openbank.mebank.com.au",
+        "lastUpdated": "2023-07-01T00:00:12Z",
+        "abn": "32009656740",
+        "acn": "009656740"
+    },
+    "216813c9-21c6-ec11-a82e-000d3a8830d6": {
+        "dataHolderBrandId": "216813c9-21c6-ec11-a82e-000d3a8830d6",
+        "brandName": "Thriday",
+        "logoUri": "https://assets.website-files.com/61dd1b15c9c40d33f29a4235/61e502fda949f4c2ee4adeb0_Thriday%20Logo_Horizontal%20Full%20Colour-p-500.png",
+        "publicBaseUri": "https://public.cdr.thriday.com.au",
+        "lastUpdated": "2023-07-04T01:14:44Z",
+        "abn": "21087650360"
+    },
+    "94847394-0cfd-ec11-a830-000d3a8830d6": {
+        "dataHolderBrandId": "94847394-0cfd-ec11-a830-000d3a8830d6",
+        "brandName": "HSBC Bank Australia Limited \u2013 Wholesale Banking",
+        "logoUri": "https://www.hsbc.com.au/content/dam/hsbc/au/images/01_HSBC_MASTERBRAND_LOGO_RGB.svg",
+        "publicBaseUri": "https://public.ob.business.hsbc.com.au",
+        "lastUpdated": "2023-07-01T00:00:13Z",
+        "abn": "48006434162"
+    },
+    "d77535b2-ad4a-ed11-a833-000d3a8830d6": {
+        "dataHolderBrandId": "d77535b2-ad4a-ed11-a833-000d3a8830d6",
+        "interimId": "d58b5666-6607-4a52-b95c-8f1f862cac7c",
+        "brandName": "Arab Bank Australia Limited",
+        "logoUri": "https://www.arabbank.com.au/themes/arabbank/images/abal-logo.svg",
+        "publicBaseUri": "https://public.cdr.arabbank.com.au",
+        "lastUpdated": "2023-07-01T00:00:12Z",
+        "abn": "37002950745",
+        "acn": "002950745"
+    },
+    "78883a14-67ae-ed11-a838-000d3a8830d6": {
+        "dataHolderBrandId": "78883a14-67ae-ed11-a838-000d3a8830d6",
+        "brandName": "ME Bank - ME Go",
+        "logoUri": "https://www.mebank.com.au/getmedia/c79ff77e-5b3b-4410-9a1b-98e98a79f025/ME-logo-600px-black-transparent.png",
+        "publicBaseUri": "https://api.cds.mebank.com.au",
+        "lastUpdated": "2023-07-01T00:00:12Z",
+        "abn": "32009656740",
+        "acn": "009656740"
+    },
+    "ffe2945b-e094-ea11-a831-000d3a8842e1": {
+        "dataHolderBrandId": "ffe2945b-e094-ea11-a831-000d3a8842e1",
+        "brandName": "Westpac",
+        "logoUri": "https://banking.westpac.com.au/wbc/banking/Themes/Default/Desktop/WBC/Core/Images/logo_white_bg.png.ce5c4c19ec61b56796f0e218fc8329c558421fd8.png",
+        "publicBaseUri": "https://digital-api.westpac.com.au",
+        "lastUpdated": "2023-08-14T01:03:56Z",
+        "abn": "33007457141",
+        "acn": "007457141"
+    },
+    "25797662-e294-ea11-a831-000d3a8842e1": {
+        "dataHolderBrandId": "25797662-e294-ea11-a831-000d3a8842e1",
+        "brandName": "NATIONAL AUSTRALIA BANK",
+        "logoUri": "https://www.nab.com.au/etc/designs/nabrwd/clientlibs/images/logo.png",
+        "publicBaseUri": "https://openbank.api.nab.com.au",
+        "lastUpdated": "2023-07-01T00:00:16Z",
+        "abn": "12004044937",
+        "acn": "0040449"
+    },
+    "f4562bb8-e394-ea11-a831-000d3a8842e1": {
+        "dataHolderBrandId": "f4562bb8-e394-ea11-a831-000d3a8842e1",
+        "brandName": "ANZ",
+        "logoUri": "https://www.anz.com.au/content/dam/anzcomau/logos/anz/ANZ-MB-Logo-3rd-Party-RGB.png",
+        "publicBaseUri": "https://api.anz",
+        "lastUpdated": "2023-08-07T01:37:02Z",
+        "abn": "11005357522",
+        "acn": "005357522"
+    },
+    "25233bad-e494-ea11-a831-000d3a8842e1": {
+        "dataHolderBrandId": "25233bad-e494-ea11-a831-000d3a8842e1",
+        "brandName": "CommBank",
+        "logoUri": "https://www.commbank.com.au/content/dam/commbank-assets/cba-stacked.jpg",
+        "publicBaseUri": "https://api.commbank.com.au/public",
+        "lastUpdated": "2023-07-01T00:00:20Z",
+        "abn": "48123123124"
+    },
+    "264db1e2-8e1d-eb11-a834-000d3a8842e1": {
+        "dataHolderBrandId": "264db1e2-8e1d-eb11-a834-000d3a8842e1",
+        "brandName": "Regional Australia Bank",
+        "logoUri": "https://www.regionalaustraliabank.com.au/-/media/CommunityMutual/Images/Logo/regional-australia-bank-primary-logo.png",
+        "publicBaseUri": "https://public-data.cdr.regaustbank.io",
+        "lastUpdated": "2023-07-04T01:14:44Z",
+        "abn": "21087650360"
+    },
+    "fc9352a8-ad27-eb11-a834-000d3a8842e1": {
+        "dataHolderBrandId": "fc9352a8-ad27-eb11-a834-000d3a8842e1",
+        "brandName": "ING BANK (Australia) Ltd",
+        "logoUri": "https://www.ing.com.au/img/logos/ING_Primary_Logo_RGB.png",
+        "publicBaseUri": "https://id.ob.ing.com.au",
+        "lastUpdated": "2023-07-01T00:00:14Z",
+        "abn": "24000893292"
+    },
+    "f9b52d0f-1e2d-eb11-a835-000d3a8842e1": {
+        "dataHolderBrandId": "f9b52d0f-1e2d-eb11-a835-000d3a8842e1",
+        "brandName": "AMP Bank",
+        "logoUri": "https://www.amp.com.au/content/dam/amp-au/data/icons/amp-logo-reversed.svg",
+        "publicBaseUri": "https://api.cdr-api.amp.com.au",
+        "lastUpdated": "2023-07-01T00:00:12Z",
+        "abn": "15081596009"
+    },
+    "971e8453-8933-eb11-a835-000d3a8842e1": {
+        "dataHolderBrandId": "971e8453-8933-eb11-a835-000d3a8842e1",
+        "brandName": "CommFCU",
+        "logoUri": "https://cms.communityfirst.com.au/assets/77808f15-64e8-4ed3-b03d-4b4c49c28ee7",
+        "publicBaseUri": "https://netbank.communityfirst.com.au/cf-OpenBanking",
+        "lastUpdated": "2023-07-01T00:00:14Z",
+        "abn": "80087649938"
+    },
+    "3312bd10-ba3d-eb11-a835-000d3a8842e1": {
+        "dataHolderBrandId": "3312bd10-ba3d-eb11-a835-000d3a8842e1",
+        "brandName": "Rabobank",
+        "logoUri": "https://www.rabobank.com.au/-/media/rabobank-au/images/logo/RB_logo_stacked_200x242px.png",
+        "publicBaseUri": "https://openbanking.api.rabobank.com.au/public",
+        "lastUpdated": "2023-07-01T00:00:16Z",
+        "abn": "50001621129"
+    },
+    "02a63e21-bd3d-eb11-a835-000d3a8842e1": {
+        "dataHolderBrandId": "02a63e21-bd3d-eb11-a835-000d3a8842e1",
+        "brandName": "Heritage Bank",
+        "logoUri": "https://www.heritage.com.au/Inbound/Open-Banking/logo",
+        "publicBaseUri": "https://product.api.heritage.com.au",
+        "lastUpdated": "2023-07-01T00:00:12Z",
+        "abn": "11087651125",
+        "acn": "087651125"
+    },
+    "ae94b39d-6f30-eb11-a81d-000d3a884a20": {
+        "dataHolderBrandId": "ae94b39d-6f30-eb11-a81d-000d3a884a20",
+        "brandName": "Bankwest",
+        "logoUri": "https://www.bankwest.com.au/content/dam/bankwest/web-assets/images/global/logo/logo-bankwest-horizontal-charcoal.png",
+        "publicBaseUri": "https://open-api.bankwest.com.au/bwpublic",
+        "lastUpdated": "2023-07-01T00:00:20Z",
+        "abn": "48123123124"
+    },
+    "19568386-2b43-eb11-a81e-000d3a884a20": {
+        "dataHolderBrandId": "19568386-2b43-eb11-a81e-000d3a884a20",
+        "brandName": "First Option Bank",
+        "logoUri": "https://firstoptionbank.com.au/wp-content/uploads/2020/06/FO_Bank_logo_black.png",
+        "publicBaseUri": "https://internetbanking.firstoption.com.au/OpenBanking",
+        "lastUpdated": "2023-07-01T00:00:14Z",
+        "abn": "95087650735"
+    },
+    "5aee067e-1664-eb11-a81f-000d3a884a20": {
+        "dataHolderBrandId": "5aee067e-1664-eb11-a81f-000d3a884a20",
+        "brandName": "Beyond Bank Australia",
+        "logoUri": "https://www.beyondbank.com.au/dam/document-repository/open-banking/beyond-bank-logo.svg",
+        "publicBaseUri": "https://public.cdr.api.beyondbank.com.au",
+        "lastUpdated": "2023-07-06T00:56:43Z",
+        "abn": "15087651143"
+    },
+    "79c63de1-b77b-eb11-a820-000d3a884a20": {
+        "dataHolderBrandId": "79c63de1-b77b-eb11-a820-000d3a884a20",
+        "brandName": "Cairns bank",
+        "logoUri": "https://cairnsbank.com.au/fileadmin/templates/assets/images/cairns-bank-logo.png",
+        "publicBaseUri": "https://openbanking.cairnsbank.com.au/OpenBanking",
+        "lastUpdated": "2023-07-01T00:00:12Z",
+        "abn": "68087933757"
+    },
+    "977a8f05-7c7c-eb11-a820-000d3a884a20": {
+        "dataHolderBrandId": "977a8f05-7c7c-eb11-a820-000d3a884a20",
+        "brandName": "G&C Mutual Bank",
+        "logoUri": "https://www.gcmutual.bank/media/3018/gc-mutual-bank-logo.png",
+        "publicBaseUri": "https://ibank.gcmutualbank.com.au/OpenBanking",
+        "lastUpdated": "2023-07-01T00:00:13Z",
+        "abn": "72087650637"
+    },
+    "480a35cd-4c7d-eb11-a820-000d3a884a20": {
+        "dataHolderBrandId": "480a35cd-4c7d-eb11-a820-000d3a884a20",
+        "brandName": "Teachers Mutual Bank",
+        "logoUri": "https://www.tmbank.com.au/-/media/global/logo/desktop/logodesktop.ashx?h=90&w=498&la=en&hash=3CB4B2D2F2C566292E329870B0AE1504",
+        "publicBaseUri": "https://ob.tmbl.com.au/tmbank",
+        "lastUpdated": "2023-07-01T00:00:16Z",
+        "abn": "30087650459"
+    },
+    "7bae67c0-a280-eb11-a820-000d3a884a20": {
+        "dataHolderBrandId": "7bae67c0-a280-eb11-a820-000d3a884a20",
+        "brandName": "Geelong Bank",
+        "logoUri": "https://geelongbank.com.au/media/2007/geelongbank_logotag_horizontal.png",
+        "publicBaseUri": "https://online.geelongbank.com.au/OpenBanking",
+        "lastUpdated": "2023-07-01T00:00:13Z",
+        "abn": "74087651456"
+    },
+    "8d07eed3-588c-eb11-a821-000d3a884a20": {
+        "dataHolderBrandId": "8d07eed3-588c-eb11-a821-000d3a884a20",
+        "brandName": "IMB Bank",
+        "logoUri": "https://www.imb.com.au/templates/client/images/header/IMB-logo.svg",
+        "publicBaseUri": "https://openbank.openbanking.imb.com.au",
+        "lastUpdated": "2023-07-01T00:00:14Z",
+        "abn": "92087651974"
+    },
+    "1e13f188-0591-eb11-a821-000d3a884a20": {
+        "dataHolderBrandId": "1e13f188-0591-eb11-a821-000d3a884a20",
+        "brandName": "Suncorp Bank",
+        "logoUri": "https://www.suncorp.com.au/content/dam/suncorp/corporate/images/logos/Suncorp_New_Logo.png",
+        "publicBaseUri": "https://id-ob.suncorpbank.com.au",
+        "lastUpdated": "2023-07-01T00:00:17Z",
+        "abn": "66010831722"
+    },
+    "bdb3f8fa-d791-eb11-a821-000d3a884a20": {
+        "dataHolderBrandId": "bdb3f8fa-d791-eb11-a821-000d3a884a20",
+        "brandName": "Southern Cross Credit Union",
+        "logoUri": "https://www.sccu.com.au/community/attachment/stacked-logo-cmyk-transparent/",
+        "publicBaseUri": "https://cdr.sccu.com.au/openbanking",
+        "lastUpdated": "2023-07-01T00:00:17Z",
+        "abn": "82087650682",
+        "acn": "087650682"
+    },
+    "9bd98cf1-5c97-eb11-a821-000d3a884a20": {
+        "dataHolderBrandId": "9bd98cf1-5c97-eb11-a821-000d3a884a20",
+        "brandName": "Bank of Sydney",
+        "logoUri": "https://www.banksyd.com.au/globalassets/images/logos/bos-logo-edge-fix.svg",
+        "publicBaseUri": "https://openbank.api.banksyd.com.au",
+        "lastUpdated": "2023-07-01T00:00:11Z",
+        "abn": "44093488629",
+        "acn": "093488629"
+    },
+    "2ee9e2a8-1c98-eb11-a821-000d3a884a20": {
+        "dataHolderBrandId": "2ee9e2a8-1c98-eb11-a821-000d3a884a20",
+        "brandName": "Australian Military Bank",
+        "logoUri": "https://www.australianmilitarybank.com.au/sites/default/files/amb_logo_478.png",
+        "publicBaseUri": "https://public.open.australianmilitarybank.com.au",
+        "lastUpdated": "2023-08-14T01:04:32Z",
+        "abn": "48087649741",
+        "acn": "087649741"
+    },
+    "5d5ecd1d-1d98-eb11-a821-000d3a884a20": {
+        "dataHolderBrandId": "5d5ecd1d-1d98-eb11-a821-000d3a884a20",
+        "brandName": "RSL Money",
+        "logoUri": "https://www.rslmoney.com.au/sites/default/files/logo-rslmoney.gif",
+        "publicBaseUri": "https://public.open.rslmoney.com.au",
+        "lastUpdated": "2023-08-14T01:04:32Z",
+        "abn": "48087649741",
+        "acn": "087649741"
+    },
+    "6033e46f-ea9c-eb11-a821-000d3a884a20": {
+        "dataHolderBrandId": "6033e46f-ea9c-eb11-a821-000d3a884a20",
+        "brandName": "Bank First",
+        "logoUri": "https://www.bankfirst.com.au/assets/img/logo-parts/bankfirst-logo.png",
+        "publicBaseUri": "https://public.cdr.bankfirst.com.au",
+        "lastUpdated": "2023-07-01T00:00:17Z",
+        "abn": "44087651769"
+    },
+    "bf1c01af-789d-eb11-a821-000d3a884a20": {
+        "dataHolderBrandId": "bf1c01af-789d-eb11-a821-000d3a884a20",
+        "brandName": "Up",
+        "logoUri": "https://up.com.au/assets/images/logo_1000x1000.png",
+        "publicBaseUri": "https://api.up.com.au",
+        "lastUpdated": "2023-07-01T00:00:12Z",
+        "abn": "11068049178",
+        "acn": "068049178"
+    },
+    "5ae6bbec-939d-eb11-a821-000d3a884a20": {
+        "dataHolderBrandId": "5ae6bbec-939d-eb11-a821-000d3a884a20",
+        "brandName": "BHCCU",
+        "logoUri": "https://images.squarespace-cdn.com/content/v1/63fd48114c119156c9e26d0d/1677543488227-M9WUNS33BA2VYN703E8M/BHCCU_50-Year_Logo_Combo_large.png?format=1500w",
+        "publicBaseUri": "https://public.cdr-api.bhccu.com.au",
+        "lastUpdated": "2023-07-01T00:00:16Z",
+        "abn": "12087650762"
+    },
+    "459574b5-999d-eb11-a821-000d3a884a20": {
+        "dataHolderBrandId": "459574b5-999d-eb11-a821-000d3a884a20",
+        "brandName": "Bendigo Bank",
+        "logoUri": "https://www.bendigobank.com.au/globalassets/globalresources/brand-logos/bendigobank-logo.png",
+        "publicBaseUri": "https://api.cdr.bendigobank.com.au",
+        "lastUpdated": "2023-07-01T00:00:12Z",
+        "abn": "11068049178",
+        "acn": "068049178"
+    },
+    "1a74d48b-7e9e-eb11-a821-000d3a884a20": {
+        "dataHolderBrandId": "1a74d48b-7e9e-eb11-a821-000d3a884a20",
+        "brandName": "Defence Bank",
+        "logoUri": "https://www.defencebank.com.au/globalassets/images/logos/defence-bank/logo.svg",
+        "publicBaseUri": "https://product.defencebank.com.au",
+        "lastUpdated": "2023-07-01T00:00:13Z",
+        "abn": "57087651385"
+    },
+    "fa919a73-7ba1-eb11-a821-000d3a884a20": {
+        "dataHolderBrandId": "fa919a73-7ba1-eb11-a821-000d3a884a20",
+        "brandName": "Summerland Credit Union",
+        "logoUri": "https://summerland.com.au/images/iconslogos/SummerlandCULogo.png",
+        "publicBaseUri": "https://public.cdr-api.summerland.com.au",
+        "lastUpdated": "2023-07-01T00:00:17Z",
+        "abn": "23087650806"
+    },
+    "3eca8ca0-3da2-eb11-a821-000d3a884a20": {
+        "dataHolderBrandId": "3eca8ca0-3da2-eb11-a821-000d3a884a20",
+        "brandName": "Dnister",
+        "logoUri": "https://www.dnister.com.au/Signature_Deployment/DnisterLogo.gif",
+        "publicBaseUri": "https://public.cdr-api.dnister.com.au",
+        "lastUpdated": "2023-07-01T00:00:14Z",
+        "abn": "59087651394",
+        "acn": "087651394"
+    },
+    "7179a2ee-f6a2-eb11-a822-000d3a884a20": {
+        "dataHolderBrandId": "7179a2ee-f6a2-eb11-a822-000d3a884a20",
+        "brandName": "Queensland Country Bank",
+        "logoUri": "https://www.queenslandcountry.bank/static/theme/images__qccu/qccu-logo--0375225c59a461e25ed1c037201de252.svg",
+        "publicBaseUri": "https://public.cdr-api.queenslandcountry.bank",
+        "lastUpdated": "2023-07-13T07:12:37Z",
+        "abn": "77087651027"
+    },
+    "f9ccd1f0-04a7-eb11-a822-000d3a884a20": {
+        "dataHolderBrandId": "f9ccd1f0-04a7-eb11-a822-000d3a884a20",
+        "brandName": "Central Murray Credit Union Limited",
+        "logoUri": "https://www.cmcu.com.au/images/header.png",
+        "publicBaseUri": "https://secure.cmcu.com.au/openbanking",
+        "lastUpdated": "2023-07-01T00:00:13Z",
+        "abn": "69087651812",
+        "acn": "087651812"
+    },
+    "14037661-e1ab-eb11-a822-000d3a884a20": {
+        "dataHolderBrandId": "14037661-e1ab-eb11-a822-000d3a884a20",
+        "brandName": "P&N Bank",
+        "logoUri": "https://broker.pnbank.info/Nu6HWNxl",
+        "publicBaseUri": "https://public.cdr-api.pnbank.com.au",
+        "lastUpdated": "2023-08-14T01:29:37Z",
+        "abn": "69087651876"
+    },
+    "902e9d5b-e4ab-eb11-a822-000d3a884a20": {
+        "dataHolderBrandId": "902e9d5b-e4ab-eb11-a822-000d3a884a20",
+        "brandName": "BCU Bank",
+        "logoUri": "https://broker.pnbank.info/XnIMb18a",
+        "publicBaseUri": "https://public.cdr-api.bcu.com.au",
+        "lastUpdated": "2023-08-14T01:29:37Z",
+        "abn": "69087651876"
+    },
+    "9bf24742-68ac-eb11-a822-000d3a884a20": {
+        "dataHolderBrandId": "9bf24742-68ac-eb11-a822-000d3a884a20",
+        "brandName": "Credit Union SA",
+        "logoUri": "https://cms.creditunionsa.com.au/assets/images/Open-Banking/cusa-logo_stacked_trans_250px.png",
+        "publicBaseUri": "https://openbanking.api.creditunionsa.com.au",
+        "lastUpdated": "2023-08-03T07:05:04Z",
+        "abn": "36087651232"
+    },
+    "298987af-3ead-eb11-a822-000d3a884a20": {
+        "dataHolderBrandId": "298987af-3ead-eb11-a822-000d3a884a20",
+        "brandName": "Gateway Bank",
+        "logoUri": "https://www.gatewaybank.com.au/Client_Theme/imgs/gway-logo.png",
+        "publicBaseUri": "https://public.cdr-api.gatewaybank.com.au",
+        "lastUpdated": "2023-07-06T03:15:02Z",
+        "abn": "47087650093"
+    },
+    "ac4892a0-44ad-eb11-a822-000d3a884a20": {
+        "dataHolderBrandId": "ac4892a0-44ad-eb11-a822-000d3a884a20",
+        "brandName": "Qudos Bank",
+        "logoUri": "https://www.qudosbank.com.au/templates/client/images/logo-60.svg",
+        "publicBaseUri": "https://public.cdr-api.qudosbank.com.au",
+        "lastUpdated": "2023-07-01T00:00:15Z",
+        "abn": "53087650557"
+    },
+    "c3ab13c0-5dad-eb11-a822-000d3a884a20": {
+        "dataHolderBrandId": "c3ab13c0-5dad-eb11-a822-000d3a884a20",
+        "brandName": "Fire Service Credit Union",
+        "logoUri": "https://www.fscu.com.au/wp-content/uploads/2021/10/logo.jpg",
+        "publicBaseUri": "https://public.cdr-api.fscu.com.au",
+        "lastUpdated": "2023-08-14T01:17:29Z",
+        "abn": "17087651152",
+        "acn": "087651152"
+    },
+    "89d458be-14ae-eb11-a822-000d3a884a20": {
+        "dataHolderBrandId": "89d458be-14ae-eb11-a822-000d3a884a20",
+        "brandName": "MOVE Bank",
+        "logoUri": "https://movebank.com.au/media/3405/move-bank-logo-website.png",
+        "publicBaseUri": "https://openbanking.movebank.com.au/OpenBanking",
+        "lastUpdated": "2023-07-01T00:00:16Z",
+        "abn": "91087651090",
+        "acn": "087651090"
+    },
+    "0be156cc-2eae-eb11-a822-000d3a884a20": {
+        "dataHolderBrandId": "0be156cc-2eae-eb11-a822-000d3a884a20",
+        "brandName": "MyState Bank",
+        "logoUri": "https://mystate.com.au/wp-content/uploads/MyState_Logo_s.png",
+        "publicBaseUri": "https://openbank.api.mystate.com.au",
+        "lastUpdated": "2023-07-01T00:00:15Z",
+        "abn": "89067729195",
+        "acn": "067729195"
+    },
+    "31cc0d98-e3ae-eb11-a822-000d3a884a20": {
+        "dataHolderBrandId": "31cc0d98-e3ae-eb11-a822-000d3a884a20",
+        "brandName": "St.George Bank",
+        "logoUri": "https://www.stgeorge.com.au/content/dam/stg/images/home/STG-logo_1200x1200.jpg",
+        "publicBaseUri": "https://digital-api.stgeorge.com.au",
+        "lastUpdated": "2023-08-14T01:03:56Z",
+        "abn": "33007457141",
+        "acn": "007457141"
+    },
+    "01608f70-e4ae-eb11-a822-000d3a884a20": {
+        "dataHolderBrandId": "01608f70-e4ae-eb11-a822-000d3a884a20",
+        "brandName": "BankSA",
+        "logoUri": "https://www.banksa.com.au/content/dam/bsa/images/home/BSA-logo_1200x1200.jpg",
+        "publicBaseUri": "https://digital-api.banksa.com.au",
+        "lastUpdated": "2023-08-14T01:03:56Z",
+        "abn": "33007457141",
+        "acn": "007457141"
+    },
+    "5570db5a-e5ae-eb11-a822-000d3a884a20": {
+        "dataHolderBrandId": "5570db5a-e5ae-eb11-a822-000d3a884a20",
+        "brandName": "Bank of Melbourne",
+        "logoUri": "https://www.bankofmelbourne.com.au/content/dam/bom/images/home/BOM-logo_1200x1200.jpg",
+        "publicBaseUri": "https://digital-api.bankofmelbourne.com.au",
+        "lastUpdated": "2023-08-14T01:03:56Z",
+        "abn": "33007457141",
+        "acn": "007457141"
+    },
+    "9a8b4000-e9ae-eb11-a822-000d3a884a20": {
+        "dataHolderBrandId": "9a8b4000-e9ae-eb11-a822-000d3a884a20",
+        "brandName": "RAMS Financial Group Pty Ltd",
+        "logoUri": "https://www.rams.com.au/siteassets/homepage/rams_logo.png",
+        "publicBaseUri": "https://digital-api.westpac.com.au/rams",
+        "lastUpdated": "2023-08-14T01:03:56Z",
+        "abn": "33007457141",
+        "acn": "007457141"
+    },
+    "036fc691-efae-eb11-a822-000d3a884a20": {
+        "dataHolderBrandId": "036fc691-efae-eb11-a822-000d3a884a20",
+        "brandName": "Auswide Bank Ltd",
+        "logoUri": "https://www.auswidebank.com.au/resources/images/templates/shared/auswide-bank-logo.png",
+        "publicBaseUri": "https://api.auswidebank.com.au/openbanking",
+        "lastUpdated": "2023-07-01T00:00:11Z",
+        "abn": "40087652060",
+        "acn": "087652060"
+    },
+    "8ac1db25-30b1-eb11-a822-000d3a884a20": {
+        "dataHolderBrandId": "8ac1db25-30b1-eb11-a822-000d3a884a20",
+        "brandName": "UniBank",
+        "logoUri": "https://www.unibank.com.au/-/media/unibank/global/_image_/logo/UniBank_RGB_Black_Logo_200x52px.ashx",
+        "publicBaseUri": "https://ob.tmbl.com.au/unibank",
+        "lastUpdated": "2023-07-01T00:00:16Z",
+        "abn": "30087650459"
+    },
+    "494c5cad-30b1-eb11-a822-000d3a884a20": {
+        "dataHolderBrandId": "494c5cad-30b1-eb11-a822-000d3a884a20",
+        "brandName": "Firefighters Mutual Bank",
+        "logoUri": "https://www.fmbank.com.au/-/media/fmbank/logos/logodesktop.ashx?h=104&w=576&la=en&hash=EC9F95FE23F72341C3F09A087BE117C8",
+        "publicBaseUri": "https://ob.tmbl.com.au/fmbank",
+        "lastUpdated": "2023-07-01T00:00:16Z",
+        "abn": "30087650459"
+    },
+    "3445ce0d-31b1-eb11-a822-000d3a884a20": {
+        "dataHolderBrandId": "3445ce0d-31b1-eb11-a822-000d3a884a20",
+        "brandName": "Health Professionals Bank",
+        "logoUri": "https://www.hpbank.com.au/-/media/hpbank/logos/hpblogodesktop.ashx?h=520&w=2900&la=en&hash=FB4ACDF35B4BAB4B9AECB37A69160D21",
+        "publicBaseUri": "https://ob.tmbl.com.au/hpbank",
+        "lastUpdated": "2023-07-01T00:00:16Z",
+        "abn": "30087650459"
+    },
+    "e203dff9-32b1-eb11-a822-000d3a884a20": {
+        "dataHolderBrandId": "e203dff9-32b1-eb11-a822-000d3a884a20",
+        "brandName": "Hiver Bank",
+        "logoUri": "https://hiver.bank/Client_Theme/errors/images/hiver.jpg",
+        "publicBaseUri": "https://ob.tmbl.com.au/hiver",
+        "lastUpdated": "2023-07-01T00:00:16Z",
+        "abn": "30087650459"
+    },
+    "578efc60-4eb1-eb11-a822-000d3a884a20": {
+        "dataHolderBrandId": "578efc60-4eb1-eb11-a822-000d3a884a20",
+        "brandName": "Bank Australia",
+        "logoUri": "https://www.bankaust.com.au/globalassets/assets/imagery/logos/bank-australia/ba_horizontal_logo.png",
+        "publicBaseUri": "https://public.cdr-api.bankaust.com.au",
+        "lastUpdated": "2023-07-01T00:00:12Z",
+        "abn": "21087651607"
+    },
+    "ca0ad1c8-c0b3-eb11-a822-000d3a884a20": {
+        "dataHolderBrandId": "ca0ad1c8-c0b3-eb11-a822-000d3a884a20",
+        "brandName": "HSBC",
+        "logoUri": "https://www.hsbc.com.au/content/dam/hsbc/au/images/01_HSBC_MASTERBRAND_LOGO_RGB.svg",
+        "publicBaseUri": "https://public.ob.hsbc.com.au",
+        "lastUpdated": "2023-07-01T00:00:13Z",
+        "abn": "48006434162"
+    },
+    "0bd792ee-49b4-eb11-a822-000d3a884a20": {
+        "dataHolderBrandId": "0bd792ee-49b4-eb11-a822-000d3a884a20",
+        "brandName": "Tyro Payments",
+        "logoUri": "https://www.tyro.com/wp-content/uploads/2021/03/logo1.png",
+        "publicBaseUri": "https://public.cdr.tyro.com",
+        "lastUpdated": "2023-07-01T00:00:17Z",
+        "abn": "49103575042",
+        "acn": "103575042"
+    },
+    "dd301af3-93b7-eb11-a822-000d3a884a20": {
+        "dataHolderBrandId": "dd301af3-93b7-eb11-a822-000d3a884a20",
+        "brandName": "Judo Bank",
+        "logoUri": "https://cdn.unifii.net/judobank/1ddcbc50-08b1-4472-9267-85da3bb20c83.svg",
+        "publicBaseUri": "https://public.open.judo.bank",
+        "lastUpdated": "2023-07-01T00:00:14Z",
+        "abn": "11615995581",
+        "acn": "615995581"
+    },
+    "6e40f5e3-9db7-eb11-a822-000d3a884a20": {
+        "dataHolderBrandId": "6e40f5e3-9db7-eb11-a822-000d3a884a20",
+        "brandName": "First Choice Credit Union",
+        "logoUri": "https://assets.cdn.thewebconsole.com/S3WEB3025/l/logo.jpg",
+        "publicBaseUri": "https://public.cdr-api.firstchoicecu.com.au",
+        "lastUpdated": "2023-07-01T00:00:12Z",
+        "abn": "63087649867",
+        "acn": "087649867"
+    },
+    "a8c128a6-3fb8-eb11-a823-000d3a884a20": {
+        "dataHolderBrandId": "a8c128a6-3fb8-eb11-a823-000d3a884a20",
+        "brandName": "UBank",
+        "logoUri": "https://www.ubank.com.au/content/dam/ubank/img/ubank-logo-green.png",
+        "publicBaseUri": "https://openbank.api.ubank.com.au",
+        "lastUpdated": "2023-07-01T00:00:16Z",
+        "abn": "12004044937",
+        "acn": "0040449"
+    },
+    "d64b7811-21bc-eb11-a823-000d3a884a20": {
+        "dataHolderBrandId": "d64b7811-21bc-eb11-a823-000d3a884a20",
+        "brandName": "Macquarie Bank Limited",
+        "logoUri": "https://www.macquarie.com.au/assets/bfs/global/macquarie-logo_black.svg",
+        "publicBaseUri": "https://api.macquariebank.io",
+        "lastUpdated": "2023-08-04T04:58:38Z",
+        "abn": "46008583542",
+        "acn": "008583542"
+    },
+    "0a28f0a1-37bc-eb11-a823-000d3a884a20": {
+        "dataHolderBrandId": "0a28f0a1-37bc-eb11-a823-000d3a884a20",
+        "brandName": "Card Services",
+        "logoUri": "https://www.cdn.citibank.com/v1/augcb/cbol/files/images/2021/logo-Card-Services.png",
+        "publicBaseUri": "https://api.openbanking.cardservicesdirect.com.au",
+        "lastUpdated": "2023-07-01T00:00:16Z",
+        "abn": "12004044937",
+        "acn": "0040449"
+    },
+    "5c95f4fd-37bc-eb11-a823-000d3a884a20": {
+        "dataHolderBrandId": "5c95f4fd-37bc-eb11-a823-000d3a884a20",
+        "brandName": "Coles Financial Services",
+        "logoUri": "https://www.cdn.citibank.com/v1/augcb/cbol/files/images/2021/logo-Coles-Financial-Services.png",
+        "publicBaseUri": "https://api.openbanking.secure.coles.com.au",
+        "lastUpdated": "2023-07-01T00:00:16Z",
+        "abn": "12004044937",
+        "acn": "0040449"
+    },
+    "66bb688e-38bc-eb11-a823-000d3a884a20": {
+        "dataHolderBrandId": "66bb688e-38bc-eb11-a823-000d3a884a20",
+        "brandName": "Kogan Money Credit Cards",
+        "logoUri": "https://www.cdn.citibank.com/v1/augcb/cbol/files/images/2021/logo-Kogan-Money.png",
+        "publicBaseUri": "https://api.openbanking.cards.koganmoney.com.au",
+        "lastUpdated": "2023-07-01T00:00:16Z",
+        "abn": "12004044937",
+        "acn": "0040449"
+    },
+    "640ec6df-38bc-eb11-a823-000d3a884a20": {
+        "dataHolderBrandId": "640ec6df-38bc-eb11-a823-000d3a884a20",
+        "brandName": "Qantas Premier Credit Cards",
+        "logoUri": "https://assets.qantasmoney.com/logos/qantas-money-logo-sm.svg",
+        "publicBaseUri": "https://api.openbanking.qantasmoney.com",
+        "lastUpdated": "2023-07-01T00:00:16Z",
+        "abn": "12004044937",
+        "acn": "0040449"
+    },
+    "23cf60aa-2fbd-eb11-a823-000d3a884a20": {
+        "dataHolderBrandId": "23cf60aa-2fbd-eb11-a823-000d3a884a20",
+        "brandName": "Aussie Home Loans",
+        "logoUri": "https://aussie.openportal.com.au/assets/bfs/applications/digital/ahl/images/aussiehomeloans-logo.png",
+        "publicBaseUri": "https://aussie.openportal.com.au",
+        "lastUpdated": "2023-08-04T04:58:38Z",
+        "abn": "46008583542",
+        "acn": "008583542"
+    },
+    "5a3b71d1-49bd-eb11-a823-000d3a884a20": {
+        "dataHolderBrandId": "5a3b71d1-49bd-eb11-a823-000d3a884a20",
+        "brandName": "Woolworths",
+        "logoUri": "https://www.macquarie.com.au/assets/bfs/applications/digital/woolworths/images/woolworths-logo.png",
+        "publicBaseUri": "https://login.woolworthsmoney.com.au",
+        "lastUpdated": "2023-08-04T04:58:38Z",
+        "abn": "46008583542",
+        "acn": "008583542"
+    },
+    "93cde71f-4abd-eb11-a823-000d3a884a20": {
+        "dataHolderBrandId": "93cde71f-4abd-eb11-a823-000d3a884a20",
+        "brandName": "Bell Potter",
+        "logoUri": "https://bellpotter.openportal.com.au/assets/bfs/applications/digital/bell-potter/images/bellpotter-logo.png",
+        "publicBaseUri": "https://bellpotter.openportal.com.au",
+        "lastUpdated": "2023-08-04T04:58:38Z",
+        "abn": "46008583542",
+        "acn": "008583542"
+    },
+    "46fde6b3-4abd-eb11-a823-000d3a884a20": {
+        "dataHolderBrandId": "46fde6b3-4abd-eb11-a823-000d3a884a20",
+        "brandName": "Myer",
+        "logoUri": "https://www.creditcard.myer.com.au/assets/bfs/applications/digital/myer/images/myer-logo.png",
+        "publicBaseUri": "https://www.creditcard.myer.com.au",
+        "lastUpdated": "2023-08-04T04:58:38Z",
+        "abn": "46008583542",
+        "acn": "008583542"
+    },
+    "307dbf74-8bbe-eb11-a823-000d3a884a20": {
+        "dataHolderBrandId": "307dbf74-8bbe-eb11-a823-000d3a884a20",
+        "brandName": "u Bank",
+        "logoUri": "https://www.ubank.com.au/assets/images/light/ubank-logo.svg",
+        "publicBaseUri": "https://public.cdr-api.86400.com.au",
+        "lastUpdated": "2023-07-01T00:00:16Z",
+        "abn": "12004044937",
+        "acn": "0040449"
+    },
+    "4cde889c-9bbe-eb11-a823-000d3a884a20": {
+        "dataHolderBrandId": "4cde889c-9bbe-eb11-a823-000d3a884a20",
+        "brandName": "gmcu",
+        "logoUri": "https://gmcu.com.au/images/layout/gmcu-logo-2021.png",
+        "publicBaseUri": "https://secure.gmcu.com.au/OpenBanking",
+        "lastUpdated": "2023-07-01T00:00:14Z",
+        "abn": "87087651509",
+        "acn": "087651509"
+    },
+    "cdff6335-a5be-eb11-a823-000d3a884a20": {
+        "dataHolderBrandId": "cdff6335-a5be-eb11-a823-000d3a884a20",
+        "brandName": "Laboratories Credit Union",
+        "logoUri": "https://www.lcu.com.au/templates/client/images/header/lcu-logo.gif",
+        "publicBaseUri": "https://internetbanking.lcu.com.au/OpenBanking",
+        "lastUpdated": "2023-07-01T00:00:14Z",
+        "abn": "77087650217",
+        "acn": "087650217"
+    },
+    "439e1c2a-b0be-eb11-a823-000d3a884a20": {
+        "dataHolderBrandId": "439e1c2a-b0be-eb11-a823-000d3a884a20",
+        "brandName": "Coastline Credit Union",
+        "logoUri": "https://www.coastline.com.au/Themes/Coastline/Content/img/logo.png",
+        "publicBaseUri": "https://public.cdr-api.coastline.com.au",
+        "lastUpdated": "2023-07-01T00:00:11Z",
+        "abn": "88087649910",
+        "acn": "087649910"
+    },
+    "bf7df75a-52bf-eb11-a823-000d3a884a20": {
+        "dataHolderBrandId": "bf7df75a-52bf-eb11-a823-000d3a884a20",
+        "brandName": "Unity Bank",
+        "logoUri": "https://ibanking.unitybank.com.au/OpenBanking/logo.png",
+        "publicBaseUri": "https://ibanking.unitybank.com.au/OpenBanking",
+        "lastUpdated": "2023-07-01T00:00:17Z",
+        "abn": "11087650315",
+        "acn": "087650315"
+    },
+    "d722e732-77bf-eb11-a823-000d3a884a20": {
+        "dataHolderBrandId": "d722e732-77bf-eb11-a823-000d3a884a20",
+        "brandName": "The Capricornian",
+        "logoUri": "https://www.capricornian.com.au/app/uploads/2021/08/logo@2x-300x111.png",
+        "publicBaseUri": "https://public.cdr.onlinebanking.capricornian.com.au",
+        "lastUpdated": "2023-07-01T00:00:17Z",
+        "abn": "54087650940",
+        "acn": "087650940"
+    },
+    "09f9da8a-78bf-eb11-a823-000d3a884a20": {
+        "dataHolderBrandId": "09f9da8a-78bf-eb11-a823-000d3a884a20",
+        "brandName": "BankVic",
+        "logoUri": "https://ib.bankvic.com.au/bvib/App_Themes/BankVicResponsive/images/BankVic-logo.svg",
+        "publicBaseUri": "https://ib.bankvic.com.au/openbanking",
+        "lastUpdated": "2023-07-01T00:00:15Z",
+        "abn": "33087651661"
+    },
+    "ffc015ae-7ebf-eb11-a823-000d3a884a20": {
+        "dataHolderBrandId": "ffc015ae-7ebf-eb11-a823-000d3a884a20",
+        "brandName": "South West Slopes Credit Union Ltd",
+        "logoUri": "https://online.swscu.com.au/openbanking/logo.png",
+        "publicBaseUri": "https://online.swscu.com.au/openbanking",
+        "lastUpdated": "2023-07-01T00:00:16Z",
+        "abn": "80087650673",
+        "acn": "087650673"
+    },
+    "cae03d79-bdc1-eb11-a823-000d3a884a20": {
+        "dataHolderBrandId": "cae03d79-bdc1-eb11-a823-000d3a884a20",
+        "brandName": "Citi",
+        "logoUri": "https://www.cdn.citibank.com/v1/augcb/cbol/files/images/2021/logo-Citi.png",
+        "publicBaseUri": "https://openbanking.api.citi.com.au",
+        "lastUpdated": "2023-07-01T00:00:16Z",
+        "abn": "12004044937",
+        "acn": "0040449"
+    },
+    "37d9ab31-6ac2-eb11-a823-000d3a884a20": {
+        "dataHolderBrandId": "37d9ab31-6ac2-eb11-a823-000d3a884a20",
+        "brandName": "Family First",
+        "logoUri": "https://familyfirst.com.au/wp-content/themes/familyfirst/images/logo.png",
+        "publicBaseUri": "https://public.cdr.familyfirst.com.au",
+        "lastUpdated": "2023-07-01T00:00:14Z",
+        "abn": "39087650057",
+        "acn": "087650057"
+    },
+    "e9a1ff83-96c2-eb11-a823-000d3a884a20": {
+        "dataHolderBrandId": "e9a1ff83-96c2-eb11-a823-000d3a884a20",
+        "brandName": "Police Credit Union Ltd",
+        "logoUri": "https://www.pcunet1.com.au/internet-banking/App_Themes/PCU_Theme/LoginLogo.png",
+        "publicBaseUri": "https://api.policecu.com.au/OpenBanking",
+        "lastUpdated": "2023-07-17T00:21:00Z",
+        "abn": "30087651205",
+        "acn": "087651205"
+    },
+    "54eff5f1-2ac4-eb11-a823-000d3a884a20": {
+        "dataHolderBrandId": "54eff5f1-2ac4-eb11-a823-000d3a884a20",
+        "brandName": "ORANGE CREDIT UNION LTD",
+        "logoUri": "https://online.orangecu.com.au/openbanking/logo.png",
+        "publicBaseUri": "https://online.orangecu.com.au/openbanking",
+        "lastUpdated": "2023-07-01T00:00:15Z",
+        "abn": "34087650477",
+        "acn": "087650477"
+    },
+    "6fc399cd-1ec8-eb11-a823-000d3a884a20": {
+        "dataHolderBrandId": "6fc399cd-1ec8-eb11-a823-000d3a884a20",
+        "brandName": "Illawarra Credit Union Limited",
+        "logoUri": "https://www.illawarracu.com.au/content/themes/nucleo-icu/assets/images/logo.png",
+        "publicBaseUri": "https://onlineteller.cu.com.au/OpenBanking",
+        "lastUpdated": "2023-07-01T00:00:14Z",
+        "abn": "14087650771",
+        "acn": "087650771"
+    },
+    "1f412aa8-24c8-eb11-a823-000d3a884a20": {
+        "dataHolderBrandId": "1f412aa8-24c8-eb11-a823-000d3a884a20",
+        "brandName": "The Mac",
+        "logoUri": "https://themaccu.com.au/media/1001/logo.png",
+        "publicBaseUri": "https://onlinebanking.themaccu.com.au/OpenBanking",
+        "lastUpdated": "2023-07-01T00:00:14Z",
+        "abn": "83087650244",
+        "acn": "087650244"
+    },
+    "27562b79-f6c8-eb11-a823-000d3a884a20": {
+        "dataHolderBrandId": "27562b79-f6c8-eb11-a823-000d3a884a20",
+        "brandName": "Woolworths Team Bank",
+        "logoUri": "https://woolworthsteambank.com.au/wp-content/uploads/2020/08/WTB_Horiz_RGB.jpg",
+        "publicBaseUri": "https://online.woolworthsteambank.com.au/OpenBanking",
+        "lastUpdated": "2023-07-01T00:00:18Z",
+        "abn": "67087651803",
+        "acn": "087651803"
+    },
+    "6de12fb5-acc9-eb11-a823-000d3a884a20": {
+        "dataHolderBrandId": "6de12fb5-acc9-eb11-a823-000d3a884a20",
+        "brandName": "Australian Unity Bank",
+        "logoUri": "https://www.australianunity.com.au/-/media/rebrandcorporate/logos/au-180years-logo.svg",
+        "publicBaseUri": "https://open-banking.australianunity.com.au",
+        "lastUpdated": "2023-07-11T06:24:14Z",
+        "abn": "30087652079",
+        "acn": "087652079"
+    },
+    "b111c64b-b6c9-eb11-a823-000d3a884a20": {
+        "dataHolderBrandId": "b111c64b-b6c9-eb11-a823-000d3a884a20",
+        "brandName": "People's Choice",
+        "logoUri": "https://media.peopleschoice.com.au/-/media/project/peopleschoice/mainsite/images/brand/600x600_peoples_choice_banking_for_life_logo",
+        "publicBaseUri": "https://ob-public.peopleschoice.com.au",
+        "lastUpdated": "2023-07-01T00:00:12Z",
+        "abn": "11087651125",
+        "acn": "087651125"
+    },
+    "84d1b971-37cf-eb11-a824-000d3a884a20": {
+        "dataHolderBrandId": "84d1b971-37cf-eb11-a824-000d3a884a20",
+        "brandName": "Easy Street",
+        "logoUri": "https://cms.easystreet.com.au/assets/19f6a052-776a-454f-b0aa-cd70ac4259e9",
+        "publicBaseUri": "https://ebranch.easystreet.com.au/es-OpenBanking",
+        "lastUpdated": "2023-07-01T00:00:14Z",
+        "abn": "80087649938"
+    },
+    "49c500b3-dacf-eb11-a824-000d3a884a20": {
+        "dataHolderBrandId": "49c500b3-dacf-eb11-a824-000d3a884a20",
+        "brandName": "Maitland Mutual Limited",
+        "logoUri": "https://openbanking.themutual.com.au/OpenBanking/logo.png",
+        "publicBaseUri": "https://openbanking.themutual.com.au/OpenBanking",
+        "lastUpdated": "2023-07-05T03:17:11Z",
+        "abn": "94087651983"
+    },
+    "aff66646-9ad8-eb11-a824-000d3a884a20": {
+        "dataHolderBrandId": "aff66646-9ad8-eb11-a824-000d3a884a20",
+        "brandName": "Great Southern Bank",
+        "logoUri": "https://www.greatsouthernbank.com.au/media/images/global/logo.svg",
+        "publicBaseUri": "https://api.open-banking.greatsouthernbank.com.au",
+        "lastUpdated": "2023-07-01T00:00:14Z",
+        "abn": "44087650959"
+    },
+    "2830e32a-4edd-eb11-a824-000d3a884a20": {
+        "dataHolderBrandId": "2830e32a-4edd-eb11-a824-000d3a884a20",
+        "brandName": "QBANK",
+        "logoUri": "https://www.qbank.com.au/media/logo/qbank-logo.svg",
+        "publicBaseUri": "https://banking.qbank.com.au/openbanking",
+        "lastUpdated": "2023-07-01T00:00:16Z",
+        "abn": "79087651036",
+        "acn": "087651036"
+    },
+    "5c2e8067-d2de-eb11-a824-000d3a884a20": {
+        "dataHolderBrandId": "5c2e8067-d2de-eb11-a824-000d3a884a20",
+        "brandName": "Horizon Bank",
+        "logoUri": "https://horizonbank.com.au/Client_Theme/imgs/horizon_logo.png",
+        "publicBaseUri": "https://onlinebanking.horizonbank.com.au/openbanking",
+        "lastUpdated": "2023-08-02T05:08:13Z",
+        "abn": "66087650173",
+        "acn": "087650173"
+    },
+    "d4ba9bdd-eede-eb11-a824-000d3a884a20": {
+        "dataHolderBrandId": "d4ba9bdd-eede-eb11-a824-000d3a884a20",
+        "brandName": "bankWAW",
+        "logoUri": "https://onlinebanking.wawcu.com.au/OpenBanking/logo.png",
+        "publicBaseUri": "https://onlinebanking.wawcu.com.au/OpenBanking",
+        "lastUpdated": "2023-07-01T00:00:17Z",
+        "abn": "48087651787",
+        "acn": "087651787"
+    },
+    "5de290be-a7e2-eb11-a824-000d3a884a20": {
+        "dataHolderBrandId": "5de290be-a7e2-eb11-a824-000d3a884a20",
+        "brandName": "Hume Bank",
+        "logoUri": "https://ibankob.humebank.com.au/humebank.png",
+        "publicBaseUri": "https://ibankob.humebank.com.au/OpenBanking",
+        "lastUpdated": "2023-07-01T00:00:14Z",
+        "abn": "85051868556"
+    },
+    "e22c0f07-21fb-eb11-a825-000d3a884a20": {
+        "dataHolderBrandId": "e22c0f07-21fb-eb11-a825-000d3a884a20",
+        "brandName": "Warwick Credit Union Ltd",
+        "logoUri": "https://www.wcu.com.au/templates/client/images/logo.png",
+        "publicBaseUri": "https://openbanking.wcu.com.au/OpenBanking",
+        "lastUpdated": "2023-07-26T00:54:30Z",
+        "abn": "98087651116",
+        "acn": "087651116"
+    },
+    "de48e3c6-aaff-eb11-a826-000d3a884a20": {
+        "dataHolderBrandId": "de48e3c6-aaff-eb11-a826-000d3a884a20",
+        "brandName": "CBA - CommBiz",
+        "logoUri": "https://www.commbank.com.au/content/dam/commbank/commBank-logo.svg",
+        "publicBaseUri": "https://cdr.commbiz.api.commbank.com.au/cbzpublic",
+        "lastUpdated": "2023-07-01T00:00:20Z",
+        "abn": "48123123124"
+    },
+    "db914c7a-3d09-ec11-a826-000d3a884a20": {
+        "dataHolderBrandId": "db914c7a-3d09-ec11-a826-000d3a884a20",
+        "brandName": "Bank of us",
+        "logoUri": "https://api.bankofus.com.au/OpenBanking/Logo.png",
+        "publicBaseUri": "https://api.bankofus.com.au/OpenBanking",
+        "lastUpdated": "2023-07-01T00:00:12Z",
+        "abn": "32087652088",
+        "acn": "087652088"
+    },
+    "75a52ce6-120a-ec11-a826-000d3a884a20": {
+        "dataHolderBrandId": "75a52ce6-120a-ec11-a826-000d3a884a20",
+        "brandName": "TMCU",
+        "logoUri": "https://banking.transportmutual.com.au/OpenBanking/logo.png",
+        "publicBaseUri": "https://banking.transportmutual.com.au/OpenBanking",
+        "lastUpdated": "2023-07-31T23:01:55Z",
+        "abn": "78087650600",
+        "acn": "087650600"
+    },
+    "c289cfa3-b00b-ec11-a826-000d3a884a20": {
+        "dataHolderBrandId": "c289cfa3-b00b-ec11-a826-000d3a884a20",
+        "brandName": "Australian Mutual Bank LTD",
+        "logoUri": "https://internetbanking.australianmutual.bank/openbanking/logo.png",
+        "publicBaseUri": "https://internetbanking.australianmutual.bank/openbanking",
+        "lastUpdated": "2023-07-01T00:00:12Z",
+        "abn": "93087650726"
+    },
+    "227cc6c0-350d-ec11-a826-000d3a884a20": {
+        "dataHolderBrandId": "227cc6c0-350d-ec11-a826-000d3a884a20",
+        "brandName": "Bank of Queensland Limited",
+        "logoUri": "https://www.boq.com.au/content/dam/boq/images/miscellaneous-images/boq-logo2.png",
+        "publicBaseUri": "https://api.cds.boq.com.au",
+        "lastUpdated": "2023-07-01T00:00:12Z",
+        "abn": "32009656740",
+        "acn": "009656740"
+    },
+    "e7682728-370d-ec11-a826-000d3a884a20": {
+        "dataHolderBrandId": "e7682728-370d-ec11-a826-000d3a884a20",
+        "brandName": "BOQ Specialist",
+        "logoUri": "https://www.boqspecialist.com.au/content/dam/boq-specialist/logos/BOQSpecialist_H_CMYK.png",
+        "publicBaseUri": "https://api.cds.boqspecialist.com.au",
+        "lastUpdated": "2023-07-01T00:00:12Z",
+        "abn": "32009656740",
+        "acn": "009656740"
+    },
+    "bc0774f7-be0e-ec11-a826-000d3a884a20": {
+        "dataHolderBrandId": "bc0774f7-be0e-ec11-a826-000d3a884a20",
+        "brandName": "DDH Graham",
+        "logoUri": "https://ddhgraham.com.au/wp-content/uploads/DDH_BOQ_512.png",
+        "publicBaseUri": "https://api.cds.ddhgraham.com.au",
+        "lastUpdated": "2023-07-01T00:00:12Z",
+        "abn": "32009656740",
+        "acn": "009656740"
+    },
+    "79e00408-cb0e-ec11-a826-000d3a884a20": {
+        "dataHolderBrandId": "79e00408-cb0e-ec11-a826-000d3a884a20",
+        "interimId": "ff5f02ce-3a42-416b-a686-6c2da48d0501",
+        "brandName": "RACQ Bank",
+        "logoUri": "https://cdn.intelligencebank.com/au/share/0Mvj/Y0GpK/RqBJZ/original/RACQ-BANK-LOGO_HOR_RGB.png",
+        "publicBaseUri": "https://cdrbank.racq.com.au",
+        "lastUpdated": "2023-07-01T00:00:15Z",
+        "abn": "83087651054"
+    },
+    "5f4a4ddc-670f-ec11-a826-000d3a884a20": {
+        "dataHolderBrandId": "5f4a4ddc-670f-ec11-a826-000d3a884a20",
+        "brandName": "Virgin Money",
+        "logoUri": "https://virginmoney.com.au/content/dam/virginmoney/vma-logo.gif",
+        "publicBaseUri": "https://api.cds.virginmoney.com.au",
+        "lastUpdated": "2023-07-01T00:00:12Z",
+        "abn": "32009656740",
+        "acn": "009656740"
+    },
+    "457ab798-5811-ec11-a826-000d3a884a20": {
+        "dataHolderBrandId": "457ab798-5811-ec11-a826-000d3a884a20",
+        "brandName": "Bank of China",
+        "logoUri": "https://boc-resources.s3.ap-southeast-2.amazonaws.com/images/BOC+logo.JPG",
+        "publicBaseUri": "https://api-gateway.bankofchina.com.au",
+        "lastUpdated": "2023-07-01T00:00:11Z",
+        "abn": "28110077622",
+        "acn": "110077622"
+    },
+    "e89bd6dc-0515-ec11-a826-000d3a884a20": {
+        "dataHolderBrandId": "e89bd6dc-0515-ec11-a826-000d3a884a20",
+        "brandName": "ANZ Plus",
+        "logoUri": "https://assets.anz.com/is/image/anz/ANZPlus-Logo-Blue?$ResponsiveImage$&fmt=png-alpha",
+        "publicBaseUri": "https://cdr.apix.anz",
+        "lastUpdated": "2023-08-07T01:37:02Z",
+        "abn": "11005357522",
+        "acn": "005357522"
+    },
+    "fcfec791-391b-ec11-a827-000d3a884a20": {
+        "dataHolderBrandId": "fcfec791-391b-ec11-a827-000d3a884a20",
+        "brandName": "Unloan",
+        "logoUri": "https://assets.website-files.com/5db407e82f48093c889589aa/610a26bbe635e42da8e03fe8_Unloan_logo.svg",
+        "publicBaseUri": "https://public.api.cdr.unloan.com.au",
+        "lastUpdated": "2023-07-01T00:00:20Z",
+        "abn": "48123123124"
+    },
+    "209da5b7-0f1c-ec11-a827-000d3a884a20": {
+        "dataHolderBrandId": "209da5b7-0f1c-ec11-a827-000d3a884a20",
+        "brandName": "Reliance Bank",
+        "logoUri": "https://ibanking.reliancebank.com.au/rel-openbanking/logo.png",
+        "publicBaseUri": "https://ibanking.reliancebank.com.au/rel-openbanking",
+        "lastUpdated": "2023-07-01T00:00:17Z",
+        "abn": "11087650315",
+        "acn": "087650315"
+    },
+    "a8fcc391-7625-ec11-a827-000d3a884a20": {
+        "dataHolderBrandId": "a8fcc391-7625-ec11-a827-000d3a884a20",
+        "brandName": "Central West CUL",
+        "logoUri": "https://ib.cwcu.com.au/OpenBanking/logo.png",
+        "publicBaseUri": "https://ib.cwcu.com.au/openbanking",
+        "lastUpdated": "2023-07-01T00:00:11Z",
+        "abn": "67087649885",
+        "acn": "087649885"
+    },
+    "567d75c9-3c35-ec11-a828-000d3a884a20": {
+        "dataHolderBrandId": "567d75c9-3c35-ec11-a828-000d3a884a20",
+        "brandName": "Challenger",
+        "logoUri": "https://www.challenger.com.au/-/media/challenger/images/logos/challenger-rgb.jpg?h=60&iar=0&mh=60&w=220&hash=C671F49409F5A50CF22C36367112CAE9",
+        "publicBaseUri": "https://api.openbanking.challenger.com.au",
+        "lastUpdated": "2023-08-14T01:43:30Z",
+        "abn": "54087651750",
+        "acn": "087651750"
+    },
+    "f4a01e50-3f47-ec11-a829-000d3a884a20": {
+        "dataHolderBrandId": "f4a01e50-3f47-ec11-a829-000d3a884a20",
+        "brandName": "SocietyOne",
+        "logoUri": "https://mmestoragecdn.blob.core.windows.net/images/S1-mme-logo.svg",
+        "publicBaseUri": "https://api.cds.societyone.com.au",
+        "lastUpdated": "2023-08-14T01:03:56Z",
+        "abn": "33007457141",
+        "acn": "007457141"
+    },
+    "d5306c4e-ea83-ec11-a82b-000d3a884a20": {
+        "dataHolderBrandId": "d5306c4e-ea83-ec11-a82b-000d3a884a20",
+        "brandName": "Newcastle Permanent Building Society",
+        "logoUri": "https://www.newcastlepermanent.com.au/-/media/images/NPBS-LOGO",
+        "publicBaseUri": "https://openbank.newcastlepermanent.com.au",
+        "lastUpdated": "2023-07-01T00:00:15Z",
+        "abn": "96087651992"
+    },
+    "c43b1f75-fd8a-ec11-a82b-000d3a884a20": {
+        "dataHolderBrandId": "c43b1f75-fd8a-ec11-a82b-000d3a884a20",
+        "brandName": "Amigo",
+        "logoUri": "https://cms.communityfirst.com.au/assets/18bc2800-7dcb-4728-84c9-fcf977825e9c",
+        "publicBaseUri": "https://netbank.yourmutual.com.au/ym-OpenBanking",
+        "lastUpdated": "2023-07-01T00:00:14Z",
+        "abn": "80087649938"
+    },
+    "0b101c48-da30-478f-910c-377f047ae821": {
+        "interimId": "0b101c48-da30-478f-910c-377f047ae821",
+        "brandName": "Adelaide Bank",
+        "logoUri": "https://www.cdr.gov.au/sites/default/files/2022-08/No-logo-available-2.png",
+        "publicBaseUri": "https://api.cdr.adelaidebank.com.au",
+        "lastUpdated": "2022-09-30T03:33:44Z"
+    },
+    "346b70aa-a70e-425d-bc9b-9b8b8c8c5a4e": {
+        "interimId": "346b70aa-a70e-425d-bc9b-9b8b8c8c5a4e",
+        "brandName": "AWA Alliance Bank",
+        "logoUri": "https://www.cdr.gov.au/sites/default/files/2022-08/No-logo-available-2.png",
+        "publicBaseUri": "https://api.cdr.awaalliancebank.com.au",
+        "lastUpdated": "2022-09-30T03:33:44Z"
+    },
+    "dbb498c0-b1fd-4215-bce6-072260d4793a": {
+        "interimId": "dbb498c0-b1fd-4215-bce6-072260d4793a",
+        "brandName": "Rural Bank",
+        "logoUri": "https://www.cdr.gov.au/sites/default/files/2022-08/No-logo-available-2.png",
+        "publicBaseUri": "https://api.cdr.ruralbank.com.au",
+        "lastUpdated": "2022-09-30T03:33:44Z"
+    },
+    "6cb8e276-06fb-40d1-beee-ea188c962fbb": {
+        "interimId": "6cb8e276-06fb-40d1-beee-ea188c962fbb",
+        "brandName": "Goldfields Money",
+        "logoUri": "https://www.cdr.gov.au/sites/default/files/2022-08/No-logo-available-2.png",
+        "publicBaseUri": "https://prd.bnk.com.au",
+        "lastUpdated": "2022-09-30T03:33:44Z"
+    },
+    "55aec763-b78a-49d9-a5e1-767469cbd752": {
+        "interimId": "55aec763-b78a-49d9-a5e1-767469cbd752",
+        "brandName": "Greater Bank",
+        "logoUri": "https://www.greater.com.au/globalassets/images/logos/greaterbanklogo.jpg",
+        "publicBaseUri": "https://public.cdr-api.greater.com.au",
+        "lastUpdated": "2022-09-30T03:33:44Z"
+    },
+    "d1674859-0c3a-4206-8a94-1f5e32144848": {
+        "interimId": "d1674859-0c3a-4206-8a94-1f5e32144848",
+        "brandName": "Macquarie Credit Union",
+        "logoUri": "https://www.cdr.gov.au/sites/default/files/2022-08/No-logo-available-2.png",
+        "publicBaseUri": "https://banking.macquariecu.com.au/OpenBanking",
+        "lastUpdated": "2023-01-31T06:28:05Z"
+    },
+    "c6f9397f-3212-4db8-a05b-a1b8916eda22": {
+        "interimId": "c6f9397f-3212-4db8-a05b-a1b8916eda22",
+        "brandName": "Northern Inland Credit Union",
+        "logoUri": "https://www.cdr.gov.au/sites/default/files/2022-08/No-logo-available-2.png",
+        "publicBaseUri": "https://api.cds.nicu.com.au",
+        "lastUpdated": "2022-09-30T03:33:44Z"
+    },
+    "f136007d-bab7-4a4d-adaf-55bfb4d654d7": {
+        "interimId": "f136007d-bab7-4a4d-adaf-55bfb4d654d7",
+        "brandName": "Police Bank",
+        "logoUri": "https://www.cdr.gov.au/sites/default/files/2022-08/No-logo-available-2.png",
+        "publicBaseUri": "https://product.api.policebank.com.au",
+        "lastUpdated": "2022-11-25T01:09:22Z"
+    },
+    "cae1ccc1-f2de-4b61-85b6-0320c180e009": {
+        "interimId": "cae1ccc1-f2de-4b61-85b6-0320c180e009",
+        "brandName": "Traditional Credit Union",
+        "logoUri": "https://www.cdr.gov.au/sites/default/files/2022-08/No-logo-available-2.png",
+        "publicBaseUri": "https://prd.tcu.com.au",
+        "lastUpdated": "2022-09-30T03:33:44Z"
+    },
+    "fe051e80-e743-44e1-ae83-a4d6286eb596": {
+        "interimId": "fe051e80-e743-44e1-ae83-a4d6286eb596",
+        "brandName": "Alex Bank",
+        "logoUri": "https://www.alex.bank/assets/alex-bank-logo.png",
+        "publicBaseUri": "https://public.cdr.alex.bank",
+        "lastUpdated": "2023-05-12T04:15:27Z"
+    }
+}

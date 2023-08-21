@@ -1,0 +1,80 @@
+{
+    "applicationUri": "https://apply.bendigobank.com.au/bendigoapply/servlet/SmartForm.html?formCode=personal-loan&applicationType=personalLoan",
+    "eligibility": [
+        {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "18"
+        },
+        {
+            "eligibilityType": "EMPLOYMENT_STATUS",
+            "additionalValue": "Employed"
+        },
+        {
+            "eligibilityType": "STUDENT",
+            "additionalValue": "Student"
+        },
+        {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalValue": "Australian Resident"
+        }
+    ],
+    "name": "Bendigo Unsecured Student Personal Loan ",
+    "fees": [
+        {
+            "currency": "AUD",
+            "name": "Default Fee",
+            "discounts": [],
+            "feeType": "EVENT",
+            "amount": "35.000000"
+        }
+    ],
+    "depositRates": [],
+    "brand": "BENDIGO",
+    "effectiveFrom": "2019-12-31T13:30:00.000Z",
+    "additionalInformation": {
+        "feesAndPricingUri": "https://www.bendigobank.com.au/globalassets/documents/disclosures/lending-fees-and-charges.pdf",
+        "termsUri": "https://www.bendigobank.com.au/globalassets/documents/disclosures/bendigo-personal-loan-terms-conditions.pdf",
+        "eligibilityUri": "https://www.bendigobank.com.au/personal/loans/unsecured-student/",
+        "overviewUri": "https://www.bendigobank.com.au/personal/loans/unsecured-student/"
+    },
+    "lastUpdated": "2023-04-20T14:31:22.835Z",
+    "lendingRates": [
+        {
+            "tiers": [],
+            "rate": "0.0999000000000000",
+            "additionalInfo": "Unsecured",
+            "calculationFrequency": "P1D",
+            "lendingRateType": "FIXED",
+            "comparisonRate": "0.0999000000000000",
+            "interestPaymentDue": "IN_ARREARS",
+            "additionalValue": "P7Y"
+        }
+    ],
+    "description": "Students looking at financing their study, buy new textbooks or tools or pay for a hard-earned holiday. Designed for Students, Apprentices and trainees*.",
+    "features": [
+        {
+            "featureType": "REDRAW",
+            "additionalInfo": "Online redraw available"
+        },
+        {
+            "featureType": "OTHER",
+            "additionalInfo": "Weekly, fortnightly or monthly repayments"
+        }
+    ],
+    "productId": "ebe89313-dc1b-402a-aa4c-cb8be4662159",
+    "constraints": [
+        {
+            "constraintType": "OPENING_BALANCE",
+            "additionalValue": "2000"
+        },
+        {
+            "constraintType": "MIN_LIMIT",
+            "additionalValue": "1"
+        }
+    ],
+    "brandName": "Bendigo Bank",
+    "productCategory": "PERS_LOANS",
+    "isTailored": true,
+    "bundles": [],
+    "cardArt": []
+}

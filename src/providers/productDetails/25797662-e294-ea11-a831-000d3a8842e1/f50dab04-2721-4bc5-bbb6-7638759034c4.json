@@ -1,0 +1,1062 @@
+{
+    "productId": "f50dab04-2721-4bc5-bbb6-7638759034c4",
+    "lastUpdated": "2023-07-03T23:59:59+10:00",
+    "productCategory": "MARGIN_LOANS",
+    "name": "NAB Margin Loan",
+    "description": "With great service and competitive interest rates, we can help you take advantage of investment opportunities, both domestically and internationally.",
+    "brand": "NAB",
+    "applicationUri": "https://www.nabmarginlending.com.au/forms-and-resources/nab-margin-loan-checklist",
+    "isTailored": false,
+    "additionalInformation": {
+        "overviewUri": "https://www.nabmarginlending.com.au/products/margin-loan",
+        "termsUri": "https://www.nabmarginlending.com.au/forms-and-resources/margin-loan",
+        "eligibilityUri": "https://www.nabmarginlending.com.au/forms-and-resources/margin-loan",
+        "feesAndPricingUri": "https://www.nab.com.au/personal/super-and-investments/investment-lending/nab-margin-loan"
+    },
+    "features": [
+        {
+            "featureType": "REDRAW",
+            "additionalValue": "Redraw available, governed by the value of the security."
+        },
+        {
+            "featureType": "UNLIMITED_TXNS"
+        },
+        {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "NAB Equity Lending Online"
+        }
+    ],
+    "constraints": [
+        {
+            "constraintType": "MIN_LIMIT",
+            "additionalValue": "20000.00"
+        }
+    ],
+    "eligibility": [
+        {
+            "eligibilityType": "BUSINESS"
+        },
+        {
+            "eligibilityType": "NATURAL_PERSON"
+        }
+    ],
+    "fees": [
+        {
+            "name": "Establishment Fee - individual trustee",
+            "feeType": "UPFRONT",
+            "amount": "150.00",
+            "balanceRate": null,
+            "transactionRate": null,
+            "accruedRate": null,
+            "currency": "AUD",
+            "additionalInfoUri": "https://www.nabmarginlending.com.au/investor/products/margin-loan#rates"
+        },
+        {
+            "name": "Establishment Fee - company trustee",
+            "feeType": "UPFRONT",
+            "amount": "300.00",
+            "balanceRate": null,
+            "transactionRate": null,
+            "accruedRate": null,
+            "currency": "AUD",
+            "additionalInfoUri": "https://www.nabmarginlending.com.au/investor/products/margin-loan#rates"
+        },
+        {
+            "name": "Establishment Fee - company guarantor",
+            "feeType": "UPFRONT",
+            "amount": "150.00",
+            "balanceRate": null,
+            "transactionRate": null,
+            "accruedRate": null,
+            "currency": "AUD",
+            "additionalInfoUri": "https://www.nabmarginlending.com.au/investor/products/margin-loan#rates"
+        }
+    ],
+    "lendingRates": [
+        {
+            "lendingRateType": "VARIABLE",
+            "rate": "0.0975",
+            "comparisonRate": null,
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "interestPaymentDue": "IN_ARREARS",
+            "additionalInfo": "Less then $250,000",
+            "additionalInfoUri": "https://www.nab.com.au/personal/super-and-investments/investment-lending/nab-margin-loan",
+            "tiers": [
+                {
+                    "name": "Less then $250,000",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 20000,
+                    "maximumValue": 250000,
+                    "rateApplicationMethod": "WHOLE_BALANCE",
+                    "applicabilityConditions": {
+                        "additionalInfoUri": "https://www.nab.com.au/personal/super-and-investments/investment-lending/nab-margin-loan"
+                    }
+                }
+            ]
+        },
+        {
+            "lendingRateType": "VARIABLE",
+            "rate": "0.095",
+            "comparisonRate": null,
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "interestPaymentDue": "IN_ARREARS",
+            "additionalInfo": "$250,000 and less than $1,000,000",
+            "additionalInfoUri": "https://www.nab.com.au/personal/super-and-investments/investment-lending/nab-margin-loan",
+            "tiers": [
+                {
+                    "name": "$250,000 and less than $1,000,000",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 250000,
+                    "maximumValue": 999999,
+                    "rateApplicationMethod": "WHOLE_BALANCE",
+                    "applicabilityConditions": {
+                        "additionalInfoUri": "https://www.nab.com.au/personal/super-and-investments/investment-lending/nab-margin-loan"
+                    }
+                }
+            ]
+        },
+        {
+            "lendingRateType": "VARIABLE",
+            "rate": "0.0925",
+            "comparisonRate": null,
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "interestPaymentDue": "IN_ARREARS",
+            "additionalInfo": "$1,000,000 or more",
+            "additionalInfoUri": "https://www.nab.com.au/personal/super-and-investments/investment-lending/nab-margin-loan",
+            "tiers": [
+                {
+                    "name": "$1,000,000 or more",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 1000000,
+                    "rateApplicationMethod": "WHOLE_BALANCE",
+                    "applicabilityConditions": {
+                        "additionalInfoUri": "https://www.nab.com.au/personal/super-and-investments/investment-lending/nab-margin-loan"
+                    }
+                }
+            ]
+        },
+        {
+            "lendingRateType": "FIXED",
+            "rate": "0.101",
+            "comparisonRate": null,
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1Y",
+            "interestPaymentDue": "IN_ADVANCE",
+            "additionalValue": "P1Y",
+            "additionalInfo": "Less than $250,000",
+            "additionalInfoUri": "https://www.nab.com.au/personal/super-and-investments/investment-lending/nab-margin-loan",
+            "tiers": [
+                {
+                    "name": "Fixed 1 yr int in adv <$250,000",
+                    "unitOfMeasure": "MONTH",
+                    "minimumValue": 1,
+                    "maximumValue": 12,
+                    "rateApplicationMethod": "WHOLE_BALANCE",
+                    "applicabilityConditions": {
+                        "additionalInfoUri": "https://www.nab.com.au/personal/super-and-investments/investment-lending/nab-margin-loan"
+                    }
+                }
+            ]
+        },
+        {
+            "lendingRateType": "FIXED",
+            "rate": "0.103",
+            "comparisonRate": null,
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1Y",
+            "interestPaymentDue": "IN_ADVANCE",
+            "additionalValue": "P2Y",
+            "additionalInfo": "Less than $250,000",
+            "additionalInfoUri": "https://www.nab.com.au/personal/super-and-investments/investment-lending/nab-margin-loan",
+            "tiers": [
+                {
+                    "name": "Fixed 2 yr int in adv <$250,000",
+                    "unitOfMeasure": "MONTH",
+                    "minimumValue": 13,
+                    "maximumValue": 24,
+                    "rateApplicationMethod": "WHOLE_BALANCE",
+                    "applicabilityConditions": {
+                        "additionalInfoUri": "https://www.nab.com.au/personal/super-and-investments/investment-lending/nab-margin-loan"
+                    }
+                }
+            ]
+        },
+        {
+            "lendingRateType": "FIXED",
+            "rate": "0.104",
+            "comparisonRate": null,
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1Y",
+            "interestPaymentDue": "IN_ADVANCE",
+            "additionalValue": "P3Y",
+            "additionalInfo": "Less than $250,000",
+            "additionalInfoUri": "https://www.nab.com.au/personal/super-and-investments/investment-lending/nab-margin-loan",
+            "tiers": [
+                {
+                    "name": "Fixed 3 yr int in adv <$250,000",
+                    "unitOfMeasure": "MONTH",
+                    "minimumValue": 25,
+                    "maximumValue": 36,
+                    "rateApplicationMethod": "WHOLE_BALANCE",
+                    "applicabilityConditions": {
+                        "additionalInfoUri": "https://www.nab.com.au/personal/super-and-investments/investment-lending/nab-margin-loan"
+                    }
+                }
+            ]
+        },
+        {
+            "lendingRateType": "FIXED",
+            "rate": "0.105",
+            "comparisonRate": null,
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1Y",
+            "interestPaymentDue": "IN_ADVANCE",
+            "additionalValue": "P4Y",
+            "additionalInfo": "Less than $250,000",
+            "additionalInfoUri": "https://www.nab.com.au/personal/super-and-investments/investment-lending/nab-margin-loan",
+            "tiers": [
+                {
+                    "name": "Fixed 4 yr int in adv <$250,000",
+                    "unitOfMeasure": "MONTH",
+                    "minimumValue": 37,
+                    "maximumValue": 48,
+                    "rateApplicationMethod": "WHOLE_BALANCE",
+                    "applicabilityConditions": {
+                        "additionalInfoUri": "https://www.nab.com.au/personal/super-and-investments/investment-lending/nab-margin-loan"
+                    }
+                }
+            ]
+        },
+        {
+            "lendingRateType": "FIXED",
+            "rate": "0.106",
+            "comparisonRate": null,
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1Y",
+            "interestPaymentDue": "IN_ADVANCE",
+            "additionalValue": "P5Y",
+            "additionalInfo": "Less than $250,000",
+            "additionalInfoUri": "https://www.nab.com.au/personal/super-and-investments/investment-lending/nab-margin-loan",
+            "tiers": [
+                {
+                    "name": "Fixed 5 yr int in adv <$250,000",
+                    "unitOfMeasure": "MONTH",
+                    "minimumValue": 49,
+                    "maximumValue": 60,
+                    "rateApplicationMethod": "WHOLE_BALANCE",
+                    "applicabilityConditions": {
+                        "additionalInfoUri": "https://www.nab.com.au/personal/super-and-investments/investment-lending/nab-margin-loan"
+                    }
+                }
+            ]
+        },
+        {
+            "lendingRateType": "FIXED",
+            "rate": "0.099",
+            "comparisonRate": null,
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1Y",
+            "interestPaymentDue": "IN_ADVANCE",
+            "additionalValue": "P1Y",
+            "additionalInfo": "$250,000 to less than $500,000",
+            "additionalInfoUri": "https://www.nab.com.au/personal/super-and-investments/investment-lending/nab-margin-loan",
+            "tiers": [
+                {
+                    "name": "Fixed 1 yr int in adv $250,000 to <$500,000",
+                    "unitOfMeasure": "MONTH",
+                    "minimumValue": 1,
+                    "maximumValue": 12,
+                    "rateApplicationMethod": "WHOLE_BALANCE",
+                    "applicabilityConditions": {
+                        "additionalInfoUri": "https://www.nab.com.au/personal/super-and-investments/investment-lending/nab-margin-loan"
+                    }
+                }
+            ]
+        },
+        {
+            "lendingRateType": "FIXED",
+            "rate": "0.101",
+            "comparisonRate": null,
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1Y",
+            "interestPaymentDue": "IN_ADVANCE",
+            "additionalValue": "P2Y",
+            "additionalInfo": "$250,000 to less than $500,000",
+            "additionalInfoUri": "https://www.nab.com.au/personal/super-and-investments/investment-lending/nab-margin-loan",
+            "tiers": [
+                {
+                    "name": "Fixed 2 yr int in adv $250,000 to <$500,000",
+                    "unitOfMeasure": "MONTH",
+                    "minimumValue": 13,
+                    "maximumValue": 24,
+                    "rateApplicationMethod": "WHOLE_BALANCE",
+                    "applicabilityConditions": {
+                        "additionalInfoUri": "https://www.nab.com.au/personal/super-and-investments/investment-lending/nab-margin-loan"
+                    }
+                }
+            ]
+        },
+        {
+            "lendingRateType": "FIXED",
+            "rate": "0.102",
+            "comparisonRate": null,
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1Y",
+            "interestPaymentDue": "IN_ADVANCE",
+            "additionalValue": "P3Y",
+            "additionalInfo": "$250,000 to less than $500,000",
+            "additionalInfoUri": "https://www.nab.com.au/personal/super-and-investments/investment-lending/nab-margin-loan",
+            "tiers": [
+                {
+                    "name": "Fixed 3 yr int in adv $250,000 to <$500,000",
+                    "unitOfMeasure": "MONTH",
+                    "minimumValue": 25,
+                    "maximumValue": 36,
+                    "rateApplicationMethod": "WHOLE_BALANCE",
+                    "applicabilityConditions": {
+                        "additionalInfoUri": "https://www.nab.com.au/personal/super-and-investments/investment-lending/nab-margin-loan"
+                    }
+                }
+            ]
+        },
+        {
+            "lendingRateType": "FIXED",
+            "rate": "0.103",
+            "comparisonRate": null,
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1Y",
+            "interestPaymentDue": "IN_ADVANCE",
+            "additionalValue": "P4Y",
+            "additionalInfo": "$250,000 to less than $500,000",
+            "additionalInfoUri": "https://www.nab.com.au/personal/super-and-investments/investment-lending/nab-margin-loan",
+            "tiers": [
+                {
+                    "name": "Fixed 4 yr int in adv $250,000 to <$500,000",
+                    "unitOfMeasure": "MONTH",
+                    "minimumValue": 37,
+                    "maximumValue": 48,
+                    "rateApplicationMethod": "WHOLE_BALANCE",
+                    "applicabilityConditions": {
+                        "additionalInfoUri": "https://www.nab.com.au/personal/super-and-investments/investment-lending/nab-margin-loan"
+                    }
+                }
+            ]
+        },
+        {
+            "lendingRateType": "FIXED",
+            "rate": "0.104",
+            "comparisonRate": null,
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1Y",
+            "interestPaymentDue": "IN_ADVANCE",
+            "additionalValue": "P5Y",
+            "additionalInfo": "$250,000 to less than $500,000",
+            "additionalInfoUri": "https://www.nab.com.au/personal/super-and-investments/investment-lending/nab-margin-loan",
+            "tiers": [
+                {
+                    "name": "Fixed 5 yr int in adv $250,000 to <$500,000",
+                    "unitOfMeasure": "MONTH",
+                    "minimumValue": 49,
+                    "maximumValue": 60,
+                    "rateApplicationMethod": "WHOLE_BALANCE",
+                    "applicabilityConditions": {
+                        "additionalInfoUri": "https://www.nab.com.au/personal/super-and-investments/investment-lending/nab-margin-loan"
+                    }
+                }
+            ]
+        },
+        {
+            "lendingRateType": "FIXED",
+            "rate": "0.097",
+            "comparisonRate": null,
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1Y",
+            "interestPaymentDue": "IN_ADVANCE",
+            "additionalValue": "P1Y",
+            "additionalInfo": "$500,000 to less than $1,000,000",
+            "additionalInfoUri": "https://www.nab.com.au/personal/super-and-investments/investment-lending/nab-margin-loan",
+            "tiers": [
+                {
+                    "name": "Fixed 1 yr int in adv $500,000 to <$1,000,000",
+                    "unitOfMeasure": "MONTH",
+                    "minimumValue": 1,
+                    "maximumValue": 12,
+                    "rateApplicationMethod": "WHOLE_BALANCE",
+                    "applicabilityConditions": {
+                        "additionalInfoUri": "https://www.nab.com.au/personal/super-and-investments/investment-lending/nab-margin-loan"
+                    }
+                }
+            ]
+        },
+        {
+            "lendingRateType": "FIXED",
+            "rate": "0.099",
+            "comparisonRate": null,
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1Y",
+            "interestPaymentDue": "IN_ADVANCE",
+            "additionalValue": "P2Y",
+            "additionalInfo": "$500,000 to less than $1,000,000",
+            "additionalInfoUri": "https://www.nab.com.au/personal/super-and-investments/investment-lending/nab-margin-loan",
+            "tiers": [
+                {
+                    "name": "Fixed 2 yr int in adv $500,000 to <$1,000,000",
+                    "unitOfMeasure": "MONTH",
+                    "minimumValue": 13,
+                    "maximumValue": 24,
+                    "rateApplicationMethod": "WHOLE_BALANCE",
+                    "applicabilityConditions": {
+                        "additionalInfoUri": "https://www.nab.com.au/personal/super-and-investments/investment-lending/nab-margin-loan"
+                    }
+                }
+            ]
+        },
+        {
+            "lendingRateType": "FIXED",
+            "rate": "0.1",
+            "comparisonRate": null,
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1Y",
+            "interestPaymentDue": "IN_ADVANCE",
+            "additionalValue": "P3Y",
+            "additionalInfo": "$500,000 to less than $1,000,000",
+            "additionalInfoUri": "https://www.nab.com.au/personal/super-and-investments/investment-lending/nab-margin-loan",
+            "tiers": [
+                {
+                    "name": "Fixed 3 yr int in adv $500,000 to <$1,000,000",
+                    "unitOfMeasure": "MONTH",
+                    "minimumValue": 25,
+                    "maximumValue": 36,
+                    "rateApplicationMethod": "WHOLE_BALANCE",
+                    "applicabilityConditions": {
+                        "additionalInfoUri": "https://www.nab.com.au/personal/super-and-investments/investment-lending/nab-margin-loan"
+                    }
+                }
+            ]
+        },
+        {
+            "lendingRateType": "FIXED",
+            "rate": "0.101",
+            "comparisonRate": null,
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1Y",
+            "interestPaymentDue": "IN_ADVANCE",
+            "additionalValue": "P4Y",
+            "additionalInfo": "$500,000 to less than $1,000,000",
+            "additionalInfoUri": "https://www.nab.com.au/personal/super-and-investments/investment-lending/nab-margin-loan",
+            "tiers": [
+                {
+                    "name": "Fixed 4 yr int in adv $500,000 to <$1,000,000",
+                    "unitOfMeasure": "MONTH",
+                    "minimumValue": 37,
+                    "maximumValue": 48,
+                    "rateApplicationMethod": "WHOLE_BALANCE",
+                    "applicabilityConditions": {
+                        "additionalInfoUri": "https://www.nab.com.au/personal/super-and-investments/investment-lending/nab-margin-loan"
+                    }
+                }
+            ]
+        },
+        {
+            "lendingRateType": "FIXED",
+            "rate": "0.102",
+            "comparisonRate": null,
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1Y",
+            "interestPaymentDue": "IN_ADVANCE",
+            "additionalValue": "P5Y",
+            "additionalInfo": "$500,000 to less than $1,000,000",
+            "additionalInfoUri": "https://www.nab.com.au/personal/super-and-investments/investment-lending/nab-margin-loan",
+            "tiers": [
+                {
+                    "name": "Fixed 5 yr int in adv $500,000 to <$1,000,000",
+                    "unitOfMeasure": "MONTH",
+                    "minimumValue": 49,
+                    "maximumValue": 60,
+                    "rateApplicationMethod": "WHOLE_BALANCE",
+                    "applicabilityConditions": {
+                        "additionalInfoUri": "https://www.nab.com.au/personal/super-and-investments/investment-lending/nab-margin-loan"
+                    }
+                }
+            ]
+        },
+        {
+            "lendingRateType": "FIXED",
+            "rate": "0.095",
+            "comparisonRate": null,
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1Y",
+            "interestPaymentDue": "IN_ADVANCE",
+            "additionalValue": "P1Y",
+            "additionalInfo": "$1,000,000 and above",
+            "additionalInfoUri": "https://www.nab.com.au/personal/super-and-investments/investment-lending/nab-margin-loan",
+            "tiers": [
+                {
+                    "name": "Fixed 1 yr int in adv >$1,000,000",
+                    "unitOfMeasure": "MONTH",
+                    "minimumValue": 1,
+                    "maximumValue": 12,
+                    "rateApplicationMethod": "WHOLE_BALANCE",
+                    "applicabilityConditions": {
+                        "additionalInfoUri": "https://www.nab.com.au/personal/super-and-investments/investment-lending/nab-margin-loan"
+                    }
+                }
+            ]
+        },
+        {
+            "lendingRateType": "FIXED",
+            "rate": "0.097",
+            "comparisonRate": null,
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1Y",
+            "interestPaymentDue": "IN_ADVANCE",
+            "additionalValue": "P2Y",
+            "additionalInfo": "$1,000,000 and above",
+            "additionalInfoUri": "https://www.nab.com.au/personal/super-and-investments/investment-lending/nab-margin-loan",
+            "tiers": [
+                {
+                    "name": "Fixed 2 yr int in adv >$1,000,000",
+                    "unitOfMeasure": "MONTH",
+                    "minimumValue": 13,
+                    "maximumValue": 24,
+                    "rateApplicationMethod": "WHOLE_BALANCE",
+                    "applicabilityConditions": {
+                        "additionalInfoUri": "https://www.nab.com.au/personal/super-and-investments/investment-lending/nab-margin-loan"
+                    }
+                }
+            ]
+        },
+        {
+            "lendingRateType": "FIXED",
+            "rate": "0.098",
+            "comparisonRate": null,
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1Y",
+            "interestPaymentDue": "IN_ADVANCE",
+            "additionalValue": "P3Y",
+            "additionalInfo": "$1,000,000 and above",
+            "additionalInfoUri": "https://www.nab.com.au/personal/super-and-investments/investment-lending/nab-margin-loan",
+            "tiers": [
+                {
+                    "name": "Fixed 3 yr int in adv >$1,000,000",
+                    "unitOfMeasure": "MONTH",
+                    "minimumValue": 25,
+                    "maximumValue": 36,
+                    "rateApplicationMethod": "WHOLE_BALANCE",
+                    "applicabilityConditions": {
+                        "additionalInfoUri": "https://www.nab.com.au/personal/super-and-investments/investment-lending/nab-margin-loan"
+                    }
+                }
+            ]
+        },
+        {
+            "lendingRateType": "FIXED",
+            "rate": "0.099",
+            "comparisonRate": null,
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1Y",
+            "interestPaymentDue": "IN_ADVANCE",
+            "additionalValue": "P4Y",
+            "additionalInfo": "$1,000,000 and above",
+            "additionalInfoUri": "https://www.nab.com.au/personal/super-and-investments/investment-lending/nab-margin-loan",
+            "tiers": [
+                {
+                    "name": "Fixed 4 yr int in adv >$1,000,000",
+                    "unitOfMeasure": "MONTH",
+                    "minimumValue": 37,
+                    "maximumValue": 48,
+                    "rateApplicationMethod": "WHOLE_BALANCE",
+                    "applicabilityConditions": {
+                        "additionalInfoUri": "https://www.nab.com.au/personal/super-and-investments/investment-lending/nab-margin-loan"
+                    }
+                }
+            ]
+        },
+        {
+            "lendingRateType": "FIXED",
+            "rate": "0.1",
+            "comparisonRate": null,
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1Y",
+            "interestPaymentDue": "IN_ADVANCE",
+            "additionalValue": "P5Y",
+            "additionalInfo": "$1,000,000 and above",
+            "additionalInfoUri": "https://www.nab.com.au/personal/super-and-investments/investment-lending/nab-margin-loan",
+            "tiers": [
+                {
+                    "name": "Fixed 5 yr int in adv >$1,000,000",
+                    "unitOfMeasure": "MONTH",
+                    "minimumValue": 49,
+                    "maximumValue": 60,
+                    "rateApplicationMethod": "WHOLE_BALANCE",
+                    "applicabilityConditions": {
+                        "additionalInfoUri": "https://www.nab.com.au/personal/super-and-investments/investment-lending/nab-margin-loan"
+                    }
+                }
+            ]
+        },
+        {
+            "lendingRateType": "FIXED",
+            "rate": "0.1017",
+            "comparisonRate": null,
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "interestPaymentDue": "IN_ARREARS",
+            "additionalValue": "P1Y",
+            "additionalInfo": "Less than $250,000",
+            "additionalInfoUri": "https://www.nab.com.au/personal/super-and-investments/investment-lending/nab-margin-loan",
+            "tiers": [
+                {
+                    "name": "Fixed 1 yr int in arrears <$250,000",
+                    "unitOfMeasure": "MONTH",
+                    "minimumValue": 1,
+                    "maximumValue": 12,
+                    "rateApplicationMethod": "WHOLE_BALANCE",
+                    "applicabilityConditions": {
+                        "additionalInfoUri": "https://www.nab.com.au/personal/super-and-investments/investment-lending/nab-margin-loan"
+                    }
+                }
+            ]
+        },
+        {
+            "lendingRateType": "FIXED",
+            "rate": "0.1037",
+            "comparisonRate": null,
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "interestPaymentDue": "IN_ARREARS",
+            "additionalValue": "P2Y",
+            "additionalInfo": "Less than $250,000",
+            "additionalInfoUri": "https://www.nab.com.au/personal/super-and-investments/investment-lending/nab-margin-loan",
+            "tiers": [
+                {
+                    "name": "Fixed 2 yr int in arrears <$250,000",
+                    "unitOfMeasure": "MONTH",
+                    "minimumValue": 13,
+                    "maximumValue": 24,
+                    "rateApplicationMethod": "WHOLE_BALANCE",
+                    "applicabilityConditions": {
+                        "additionalInfoUri": "https://www.nab.com.au/personal/super-and-investments/investment-lending/nab-margin-loan"
+                    }
+                }
+            ]
+        },
+        {
+            "lendingRateType": "FIXED",
+            "rate": "0.1047",
+            "comparisonRate": null,
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "interestPaymentDue": "IN_ARREARS",
+            "additionalValue": "P3Y",
+            "additionalInfo": "Less than $250,000",
+            "additionalInfoUri": "https://www.nab.com.au/personal/super-and-investments/investment-lending/nab-margin-loan",
+            "tiers": [
+                {
+                    "name": "Fixed 3 yr int in arrears <$250,000",
+                    "unitOfMeasure": "MONTH",
+                    "minimumValue": 25,
+                    "maximumValue": 36,
+                    "rateApplicationMethod": "WHOLE_BALANCE",
+                    "applicabilityConditions": {
+                        "additionalInfoUri": "https://www.nab.com.au/personal/super-and-investments/investment-lending/nab-margin-loan"
+                    }
+                }
+            ]
+        },
+        {
+            "lendingRateType": "FIXED",
+            "rate": "0.1057",
+            "comparisonRate": null,
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "interestPaymentDue": "IN_ARREARS",
+            "additionalValue": "P4Y",
+            "additionalInfo": "Less than $250,000",
+            "additionalInfoUri": "https://www.nab.com.au/personal/super-and-investments/investment-lending/nab-margin-loan",
+            "tiers": [
+                {
+                    "name": "Fixed 4 yr int in arrears <$250,000",
+                    "unitOfMeasure": "MONTH",
+                    "minimumValue": 37,
+                    "maximumValue": 48,
+                    "rateApplicationMethod": "WHOLE_BALANCE",
+                    "applicabilityConditions": {
+                        "additionalInfoUri": "https://www.nab.com.au/personal/super-and-investments/investment-lending/nab-margin-loan"
+                    }
+                }
+            ]
+        },
+        {
+            "lendingRateType": "FIXED",
+            "rate": "0.1067",
+            "comparisonRate": null,
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "interestPaymentDue": "IN_ARREARS",
+            "additionalValue": "P5Y",
+            "additionalInfo": "Less than $250,000",
+            "additionalInfoUri": "https://www.nab.com.au/personal/super-and-investments/investment-lending/nab-margin-loan",
+            "tiers": [
+                {
+                    "name": "Fixed 5 yr int in arrears <$250,000",
+                    "unitOfMeasure": "MONTH",
+                    "minimumValue": 49,
+                    "maximumValue": 60,
+                    "rateApplicationMethod": "WHOLE_BALANCE",
+                    "applicabilityConditions": {
+                        "additionalInfoUri": "https://www.nab.com.au/personal/super-and-investments/investment-lending/nab-margin-loan"
+                    }
+                }
+            ]
+        },
+        {
+            "lendingRateType": "FIXED",
+            "rate": "0.0997",
+            "comparisonRate": null,
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "interestPaymentDue": "IN_ARREARS",
+            "additionalValue": "P1Y",
+            "additionalInfo": "$250,000 to less than $500,000",
+            "additionalInfoUri": "https://www.nab.com.au/personal/super-and-investments/investment-lending/nab-margin-loan",
+            "tiers": [
+                {
+                    "name": "Fixed 1 yr int in arrears $250,000 to <$500,000",
+                    "unitOfMeasure": "MONTH",
+                    "minimumValue": 1,
+                    "maximumValue": 12,
+                    "rateApplicationMethod": "WHOLE_BALANCE",
+                    "applicabilityConditions": {
+                        "additionalInfoUri": "https://www.nab.com.au/personal/super-and-investments/investment-lending/nab-margin-loan"
+                    }
+                }
+            ]
+        },
+        {
+            "lendingRateType": "FIXED",
+            "rate": "0.1017",
+            "comparisonRate": null,
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "interestPaymentDue": "IN_ARREARS",
+            "additionalValue": "P2Y",
+            "additionalInfo": "$250,000 to less than $500,000",
+            "additionalInfoUri": "https://www.nab.com.au/personal/super-and-investments/investment-lending/nab-margin-loan",
+            "tiers": [
+                {
+                    "name": "Fixed 2 yr int in arrears $250,000 to <$500,000",
+                    "unitOfMeasure": "MONTH",
+                    "minimumValue": 13,
+                    "maximumValue": 24,
+                    "rateApplicationMethod": "WHOLE_BALANCE",
+                    "applicabilityConditions": {
+                        "additionalInfoUri": "https://www.nab.com.au/personal/super-and-investments/investment-lending/nab-margin-loan"
+                    }
+                }
+            ]
+        },
+        {
+            "lendingRateType": "FIXED",
+            "rate": "0.1027",
+            "comparisonRate": null,
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "interestPaymentDue": "IN_ARREARS",
+            "additionalValue": "P3Y",
+            "additionalInfo": "$250,000 to less than $500,000",
+            "additionalInfoUri": "https://www.nab.com.au/personal/super-and-investments/investment-lending/nab-margin-loan",
+            "tiers": [
+                {
+                    "name": "Fixed 3 yr int in arrears $250,000 to <$500,000",
+                    "unitOfMeasure": "MONTH",
+                    "minimumValue": 25,
+                    "maximumValue": 36,
+                    "rateApplicationMethod": "WHOLE_BALANCE",
+                    "applicabilityConditions": {
+                        "additionalInfoUri": "https://www.nab.com.au/personal/super-and-investments/investment-lending/nab-margin-loan"
+                    }
+                }
+            ]
+        },
+        {
+            "lendingRateType": "FIXED",
+            "rate": "0.1037",
+            "comparisonRate": null,
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "interestPaymentDue": "IN_ARREARS",
+            "additionalValue": "P4Y",
+            "additionalInfo": "$250,000 to less than $500,000",
+            "additionalInfoUri": "https://www.nab.com.au/personal/super-and-investments/investment-lending/nab-margin-loan",
+            "tiers": [
+                {
+                    "name": "Fixed 4 yr int in arrears $250,000 to <$500,000",
+                    "unitOfMeasure": "MONTH",
+                    "minimumValue": 37,
+                    "maximumValue": 48,
+                    "rateApplicationMethod": "WHOLE_BALANCE",
+                    "applicabilityConditions": {
+                        "additionalInfoUri": "https://www.nab.com.au/personal/super-and-investments/investment-lending/nab-margin-loan"
+                    }
+                }
+            ]
+        },
+        {
+            "lendingRateType": "FIXED",
+            "rate": "0.1047",
+            "comparisonRate": null,
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "interestPaymentDue": "IN_ARREARS",
+            "additionalValue": "P5Y",
+            "additionalInfo": "$250,000 to less than $500,000",
+            "additionalInfoUri": "https://www.nab.com.au/personal/super-and-investments/investment-lending/nab-margin-loan",
+            "tiers": [
+                {
+                    "name": "Fixed 5 yr int in arrears $250,000 to <$500,000",
+                    "unitOfMeasure": "MONTH",
+                    "minimumValue": 49,
+                    "maximumValue": 60,
+                    "rateApplicationMethod": "WHOLE_BALANCE",
+                    "applicabilityConditions": {
+                        "additionalInfoUri": "https://www.nab.com.au/personal/super-and-investments/investment-lending/nab-margin-loan"
+                    }
+                }
+            ]
+        },
+        {
+            "lendingRateType": "FIXED",
+            "rate": "0.0977",
+            "comparisonRate": null,
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "interestPaymentDue": "IN_ARREARS",
+            "additionalValue": "P1Y",
+            "additionalInfo": "$500,000 to less than $1,000,000",
+            "additionalInfoUri": "https://www.nab.com.au/personal/super-and-investments/investment-lending/nab-margin-loan",
+            "tiers": [
+                {
+                    "name": "Fixed 1 yr int in arrears $500,000 to <$1,000,000",
+                    "unitOfMeasure": "MONTH",
+                    "minimumValue": 1,
+                    "maximumValue": 12,
+                    "rateApplicationMethod": "WHOLE_BALANCE",
+                    "applicabilityConditions": {
+                        "additionalInfoUri": "https://www.nab.com.au/personal/super-and-investments/investment-lending/nab-margin-loan"
+                    }
+                }
+            ]
+        },
+        {
+            "lendingRateType": "FIXED",
+            "rate": "0.0997",
+            "comparisonRate": null,
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "interestPaymentDue": "IN_ARREARS",
+            "additionalValue": "P2Y",
+            "additionalInfo": "$500,000 to less than $1,000,000",
+            "additionalInfoUri": "https://www.nab.com.au/personal/super-and-investments/investment-lending/nab-margin-loan",
+            "tiers": [
+                {
+                    "name": "Fixed 2 yr int in arrears $500,000 to <$1,000,000",
+                    "unitOfMeasure": "MONTH",
+                    "minimumValue": 13,
+                    "maximumValue": 24,
+                    "rateApplicationMethod": "WHOLE_BALANCE",
+                    "applicabilityConditions": {
+                        "additionalInfoUri": "https://www.nab.com.au/personal/super-and-investments/investment-lending/nab-margin-loan"
+                    }
+                }
+            ]
+        },
+        {
+            "lendingRateType": "FIXED",
+            "rate": "0.1007",
+            "comparisonRate": null,
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "interestPaymentDue": "IN_ARREARS",
+            "additionalValue": "P3Y",
+            "additionalInfo": "$500,000 to less than $1,000,000",
+            "additionalInfoUri": "https://www.nab.com.au/personal/super-and-investments/investment-lending/nab-margin-loan",
+            "tiers": [
+                {
+                    "name": "Fixed 3 yr int in arrears $500,000 to <$1,000,000",
+                    "unitOfMeasure": "MONTH",
+                    "minimumValue": 25,
+                    "maximumValue": 36,
+                    "rateApplicationMethod": "WHOLE_BALANCE",
+                    "applicabilityConditions": {
+                        "additionalInfoUri": "https://www.nab.com.au/personal/super-and-investments/investment-lending/nab-margin-loan"
+                    }
+                }
+            ]
+        },
+        {
+            "lendingRateType": "FIXED",
+            "rate": "0.1017",
+            "comparisonRate": null,
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "interestPaymentDue": "IN_ARREARS",
+            "additionalValue": "P4Y",
+            "additionalInfo": "$500,000 to less than $1,000,000",
+            "additionalInfoUri": "https://www.nab.com.au/personal/super-and-investments/investment-lending/nab-margin-loan",
+            "tiers": [
+                {
+                    "name": "Fixed 4 yr int in arrears $500,000 to <$1,000,000",
+                    "unitOfMeasure": "MONTH",
+                    "minimumValue": 37,
+                    "maximumValue": 48,
+                    "rateApplicationMethod": "WHOLE_BALANCE",
+                    "applicabilityConditions": {
+                        "additionalInfoUri": "https://www.nab.com.au/personal/super-and-investments/investment-lending/nab-margin-loan"
+                    }
+                }
+            ]
+        },
+        {
+            "lendingRateType": "FIXED",
+            "rate": "0.1027",
+            "comparisonRate": null,
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "interestPaymentDue": "IN_ARREARS",
+            "additionalValue": "P5Y",
+            "additionalInfo": "$500,000 to less than $1,000,000",
+            "additionalInfoUri": "https://www.nab.com.au/personal/super-and-investments/investment-lending/nab-margin-loan",
+            "tiers": [
+                {
+                    "name": "Fixed 5 yr int in arrears $500,000 to <$1,000,000",
+                    "unitOfMeasure": "MONTH",
+                    "minimumValue": 49,
+                    "maximumValue": 60,
+                    "rateApplicationMethod": "WHOLE_BALANCE",
+                    "applicabilityConditions": {
+                        "additionalInfoUri": "https://www.nab.com.au/personal/super-and-investments/investment-lending/nab-margin-loan"
+                    }
+                }
+            ]
+        },
+        {
+            "lendingRateType": "FIXED",
+            "rate": "0.0957",
+            "comparisonRate": null,
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "interestPaymentDue": "IN_ARREARS",
+            "additionalValue": "P1Y",
+            "additionalInfo": "$1,000,000 and above",
+            "additionalInfoUri": "https://www.nab.com.au/personal/super-and-investments/investment-lending/nab-margin-loan",
+            "tiers": [
+                {
+                    "name": "Fixed 1 yr int in arrears >$1,000,000",
+                    "unitOfMeasure": "MONTH",
+                    "minimumValue": 1,
+                    "maximumValue": 12,
+                    "rateApplicationMethod": "WHOLE_BALANCE",
+                    "applicabilityConditions": {
+                        "additionalInfoUri": "https://www.nab.com.au/personal/super-and-investments/investment-lending/nab-margin-loan"
+                    }
+                }
+            ]
+        },
+        {
+            "lendingRateType": "FIXED",
+            "rate": "0.0977",
+            "comparisonRate": null,
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "interestPaymentDue": "IN_ARREARS",
+            "additionalValue": "P2Y",
+            "additionalInfo": "$1,000,000 and above",
+            "additionalInfoUri": "https://www.nab.com.au/personal/super-and-investments/investment-lending/nab-margin-loan",
+            "tiers": [
+                {
+                    "name": "Fixed 2 yr int in arrears >$1,000,000",
+                    "unitOfMeasure": "MONTH",
+                    "minimumValue": 13,
+                    "maximumValue": 24,
+                    "rateApplicationMethod": "WHOLE_BALANCE",
+                    "applicabilityConditions": {
+                        "additionalInfoUri": "https://www.nab.com.au/personal/super-and-investments/investment-lending/nab-margin-loan"
+                    }
+                }
+            ]
+        },
+        {
+            "lendingRateType": "FIXED",
+            "rate": "0.0987",
+            "comparisonRate": null,
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "interestPaymentDue": "IN_ARREARS",
+            "additionalValue": "P3Y",
+            "additionalInfo": "$1,000,000 and above",
+            "additionalInfoUri": "https://www.nab.com.au/personal/super-and-investments/investment-lending/nab-margin-loan",
+            "tiers": [
+                {
+                    "name": "Fixed 3 yr int in arrears >$1,000,000",
+                    "unitOfMeasure": "MONTH",
+                    "minimumValue": 25,
+                    "maximumValue": 36,
+                    "rateApplicationMethod": "WHOLE_BALANCE",
+                    "applicabilityConditions": {
+                        "additionalInfoUri": "https://www.nab.com.au/personal/super-and-investments/investment-lending/nab-margin-loan"
+                    }
+                }
+            ]
+        },
+        {
+            "lendingRateType": "FIXED",
+            "rate": "0.0997",
+            "comparisonRate": null,
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "interestPaymentDue": "IN_ARREARS",
+            "additionalValue": "P4Y",
+            "additionalInfo": "$1,000,000 and above",
+            "additionalInfoUri": "https://www.nab.com.au/personal/super-and-investments/investment-lending/nab-margin-loan",
+            "tiers": [
+                {
+                    "name": "Fixed 4 yr int in arrears >$1,000,000",
+                    "unitOfMeasure": "MONTH",
+                    "minimumValue": 37,
+                    "maximumValue": 48,
+                    "rateApplicationMethod": "WHOLE_BALANCE",
+                    "applicabilityConditions": {
+                        "additionalInfoUri": "https://www.nab.com.au/personal/super-and-investments/investment-lending/nab-margin-loan"
+                    }
+                }
+            ]
+        },
+        {
+            "lendingRateType": "FIXED",
+            "rate": "0.1007",
+            "comparisonRate": null,
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "interestPaymentDue": "IN_ARREARS",
+            "additionalValue": "P5Y",
+            "additionalInfo": "$1,000,000 and above",
+            "additionalInfoUri": "https://www.nab.com.au/personal/super-and-investments/investment-lending/nab-margin-loan",
+            "tiers": [
+                {
+                    "name": "Fixed 5 yr int in arrears >$1,000,000",
+                    "unitOfMeasure": "MONTH",
+                    "minimumValue": 49,
+                    "maximumValue": 60,
+                    "rateApplicationMethod": "WHOLE_BALANCE",
+                    "applicabilityConditions": {
+                        "additionalInfoUri": "https://www.nab.com.au/personal/super-and-investments/investment-lending/nab-margin-loan"
+                    }
+                }
+            ]
+        }
+    ]
+}

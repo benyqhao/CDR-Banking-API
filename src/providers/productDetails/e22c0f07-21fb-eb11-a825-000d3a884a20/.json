@@ -1,0 +1,454 @@
+{
+    "products": [
+        {
+            "productId": "L43-_PREMIUM_HOME_LOAN_OWNER_OCCUPIED_FIXED_PRINCIPLE_AND_INTEREST_24_MONTHS",
+            "lastUpdated": "2023-07-04T11:49:08.000+10:00",
+            "productCategory": "RESIDENTIAL_MORTGAGES",
+            "name": "PREMIUM HOME LOAN",
+            "description": "PREMIUM HOME LOAN",
+            "brand": "WARWICK CREDIT UNION",
+            "brandName": "WARWICK CREDIT UNION",
+            "applicationUri": "",
+            "isTailored": false,
+            "additionalInformation": {
+                "overviewUri": "",
+                "termsUri": "",
+                "eligibilityUri": "",
+                "feesAndPricingUri": "",
+                "bundleUri": ""
+            }
+        },
+        {
+            "productId": "L43-_PREMIUM_HOME_LOAN_OWNER_OCCUPIED_FIXED_PRINCIPLE_AND_INTEREST_12_MONTHS",
+            "lastUpdated": "2023-07-04T11:39:21.000+10:00",
+            "productCategory": "RESIDENTIAL_MORTGAGES",
+            "name": "PREMIUM HOME LOAN",
+            "description": "PREMIUM HOME LOAN",
+            "brand": "WARWICK CREDIT UNION",
+            "brandName": "WARWICK CREDIT UNION",
+            "applicationUri": "",
+            "isTailored": false,
+            "additionalInformation": {
+                "overviewUri": "",
+                "termsUri": "",
+                "eligibilityUri": "",
+                "feesAndPricingUri": "",
+                "bundleUri": ""
+            }
+        },
+        {
+            "productId": "L41-CLASSIC_HOME_LOAN_INVESTMENT_PRINCIPAL_AND_INTEREST_FIXED_24_MONTHS",
+            "lastUpdated": "2023-07-04T11:37:14.000+10:00",
+            "productCategory": "RESIDENTIAL_MORTGAGES",
+            "name": "CLASSIC HOME LOAN",
+            "description": "CLASSIC HOME LOAN",
+            "brand": "WARWICK CREDIT UNION",
+            "brandName": "WARWICK CREDIT UNION",
+            "applicationUri": "",
+            "isTailored": false,
+            "additionalInformation": {
+                "overviewUri": "",
+                "termsUri": "",
+                "eligibilityUri": "",
+                "feesAndPricingUri": "",
+                "bundleUri": ""
+            }
+        },
+        {
+            "productId": "L44-_PACKAGE_HOME_LOAN_OWNER_OCCUPIED_FIXED_PRINCIPLE_AND_INTEREST_24_MONTHS",
+            "lastUpdated": "2023-07-04T11:04:24.000+10:00",
+            "productCategory": "RESIDENTIAL_MORTGAGES",
+            "name": "PACKAGE HOME LOANS",
+            "description": "PACKAGE HOME LOANS",
+            "brand": "WARWICK CREDIT UNION",
+            "brandName": "WARWICK CREDIT UNION",
+            "applicationUri": "",
+            "isTailored": false,
+            "additionalInformation": {
+                "overviewUri": "",
+                "termsUri": "",
+                "eligibilityUri": "",
+                "feesAndPricingUri": "",
+                "bundleUri": ""
+            }
+        },
+        {
+            "productId": "L44-_PACKAGE_HOME_LOAN_OWNER_OCCUPIED_FIXED_PRINCIPLE_AND_INTEREST_12_MONTHS",
+            "lastUpdated": "2023-07-04T11:03:06.000+10:00",
+            "productCategory": "RESIDENTIAL_MORTGAGES",
+            "name": "PACKAGE HOME LOANS",
+            "description": "PACKAGE HOME LOANS",
+            "brand": "WARWICK CREDIT UNION",
+            "brandName": "WARWICK CREDIT UNION",
+            "applicationUri": "",
+            "isTailored": false,
+            "additionalInformation": {
+                "overviewUri": "",
+                "termsUri": "",
+                "eligibilityUri": "",
+                "feesAndPricingUri": "",
+                "bundleUri": ""
+            }
+        },
+        {
+            "productId": "L44-_PACKAGE_HOME_LOAN_OWNER_OCCUPIED_FIXED_INTEREST_ONLY_24_MONTHS",
+            "lastUpdated": "2023-07-04T11:01:31.000+10:00",
+            "productCategory": "RESIDENTIAL_MORTGAGES",
+            "name": "PACKAGE HOME LOANS",
+            "description": "PACKAGE HOME LOANS",
+            "brand": "WARWICK CREDIT UNION",
+            "brandName": "WARWICK CREDIT UNION",
+            "applicationUri": "",
+            "isTailored": false,
+            "additionalInformation": {
+                "overviewUri": "",
+                "termsUri": "",
+                "eligibilityUri": "",
+                "feesAndPricingUri": "",
+                "bundleUri": ""
+            }
+        },
+        {
+            "productId": "L44-_PACKAGE_HOME_LOAN_OWNER_OCCUPIED_FIXED_INTEREST_ONLY_12_MONTHS",
+            "lastUpdated": "2023-07-04T11:00:44.000+10:00",
+            "productCategory": "RESIDENTIAL_MORTGAGES",
+            "name": "PACKAGE HOME LOANS",
+            "description": "PACKAGE HOME LOANS",
+            "brand": "WARWICK CREDIT UNION",
+            "brandName": "WARWICK CREDIT UNION",
+            "applicationUri": "",
+            "isTailored": false,
+            "additionalInformation": {
+                "overviewUri": "",
+                "termsUri": "",
+                "eligibilityUri": "",
+                "feesAndPricingUri": "",
+                "bundleUri": ""
+            }
+        },
+        {
+            "productId": "L44-_PACKAGE_HOME_LOAN_INVESTMENT_FIXED_PRINCIPAL_AND_INTEREST_24_MONTHS",
+            "lastUpdated": "2023-07-04T10:59:25.000+10:00",
+            "productCategory": "RESIDENTIAL_MORTGAGES",
+            "name": "PACKAGE HOME LOANS",
+            "description": "PACKAGE HOME LOANS",
+            "brand": "WARWICK CREDIT UNION",
+            "brandName": "WARWICK CREDIT UNION",
+            "applicationUri": "",
+            "isTailored": false,
+            "additionalInformation": {
+                "overviewUri": "",
+                "termsUri": "",
+                "eligibilityUri": "",
+                "feesAndPricingUri": "",
+                "bundleUri": ""
+            }
+        },
+        {
+            "productId": "L44-_PACKAGE_HOME_LOAN_INVESTMENT_FIXED_PRINCIPAL_AND_INTEREST_12_MONTHS",
+            "lastUpdated": "2023-07-04T10:58:04.000+10:00",
+            "productCategory": "RESIDENTIAL_MORTGAGES",
+            "name": "PACKAGE HOME LOANS",
+            "description": "PACKAGE HOME LOANS",
+            "brand": "WARWICK CREDIT UNION",
+            "brandName": "WARWICK CREDIT UNION",
+            "applicationUri": "",
+            "isTailored": false,
+            "additionalInformation": {
+                "overviewUri": "",
+                "termsUri": "",
+                "eligibilityUri": "",
+                "feesAndPricingUri": "",
+                "bundleUri": ""
+            }
+        },
+        {
+            "productId": "L44-_PACKAGE_HOME_LOAN_INVESTMENT_FIXED_INTEREST_ONLY_24_MONTHS",
+            "lastUpdated": "2023-07-04T10:52:56.000+10:00",
+            "productCategory": "RESIDENTIAL_MORTGAGES",
+            "name": "PACKAGE HOME LOANS",
+            "description": "PACKAGE HOME LOANS",
+            "brand": "WARWICK CREDIT UNION",
+            "brandName": "WARWICK CREDIT UNION",
+            "applicationUri": "",
+            "isTailored": false,
+            "additionalInformation": {
+                "overviewUri": "",
+                "termsUri": "",
+                "eligibilityUri": "",
+                "feesAndPricingUri": "",
+                "bundleUri": ""
+            }
+        },
+        {
+            "productId": "L43-_PREMIUM_HOME_LOAN_OWNER_OCCUPIED_FIXED_INTEREST_ONLY_12_MONTHS",
+            "lastUpdated": "2023-07-03T15:59:41.000+10:00",
+            "productCategory": "RESIDENTIAL_MORTGAGES",
+            "name": "PREMIUM HOME LOAN",
+            "description": "PREMIUM HOME LOAN",
+            "brand": "WARWICK CREDIT UNION",
+            "brandName": "WARWICK CREDIT UNION",
+            "applicationUri": "",
+            "isTailored": false,
+            "additionalInformation": {
+                "overviewUri": "",
+                "termsUri": "",
+                "eligibilityUri": "",
+                "feesAndPricingUri": "",
+                "bundleUri": ""
+            }
+        },
+        {
+            "productId": "L43-_PREMIUM_HOME_LOAN_OWNER_OCCUPIED_FIXED_INTEREST_ONLY_24_MONTHS",
+            "lastUpdated": "2023-07-03T15:53:19.000+10:00",
+            "productCategory": "RESIDENTIAL_MORTGAGES",
+            "name": "PREMIUM HOME LOAN",
+            "description": "PREMIUM HOME LOAN",
+            "brand": "WARWICK CREDIT UNION",
+            "brandName": "WARWICK CREDIT UNION",
+            "applicationUri": "",
+            "isTailored": false,
+            "additionalInformation": {
+                "overviewUri": "",
+                "termsUri": "",
+                "eligibilityUri": "",
+                "feesAndPricingUri": "",
+                "bundleUri": ""
+            }
+        },
+        {
+            "productId": "L43-_PREMIUM_HOME_LOAN_INVESTMENT_FIXED_PRINCIPAL_AND_INTEREST_ONLY_12_MONTHS",
+            "lastUpdated": "2023-07-03T15:42:10.000+10:00",
+            "productCategory": "RESIDENTIAL_MORTGAGES",
+            "name": "PREMIUM HOME LOAN",
+            "description": "PREMIUM HOME LOAN",
+            "brand": "WARWICK CREDIT UNION",
+            "brandName": "WARWICK CREDIT UNION",
+            "applicationUri": "",
+            "isTailored": false,
+            "additionalInformation": {
+                "overviewUri": "",
+                "termsUri": "",
+                "eligibilityUri": "",
+                "feesAndPricingUri": "",
+                "bundleUri": ""
+            }
+        },
+        {
+            "productId": "L43-_PREMIUM_HOME_LOAN_INVESTMENT_FIXED_PRINCIPAL_AND_INTEREST_24_MONTHS",
+            "lastUpdated": "2023-07-03T15:38:50.000+10:00",
+            "productCategory": "RESIDENTIAL_MORTGAGES",
+            "name": "PREMIUM HOME LOAN",
+            "description": "PREMIUM HOME LOAN",
+            "brand": "WARWICK CREDIT UNION",
+            "brandName": "WARWICK CREDIT UNION",
+            "applicationUri": "",
+            "isTailored": false,
+            "additionalInformation": {
+                "overviewUri": "",
+                "termsUri": "",
+                "eligibilityUri": "",
+                "feesAndPricingUri": "",
+                "bundleUri": ""
+            }
+        },
+        {
+            "productId": "L43-_PREMIUM_HOME_LOAN_INVESTMENT_FIXED_INTEREST_ONLY_24_MONTHS",
+            "lastUpdated": "2023-07-03T15:37:48.000+10:00",
+            "productCategory": "RESIDENTIAL_MORTGAGES",
+            "name": "PREMIUM HOME LOAN",
+            "description": "PREMIUM HOME LOAN",
+            "brand": "WARWICK CREDIT UNION",
+            "brandName": "WARWICK CREDIT UNION",
+            "applicationUri": "",
+            "isTailored": false,
+            "additionalInformation": {
+                "overviewUri": "",
+                "termsUri": "",
+                "eligibilityUri": "",
+                "feesAndPricingUri": "",
+                "bundleUri": ""
+            }
+        },
+        {
+            "productId": "L43-_PREMIUM_HOME_LOAN_INVESTMENT_FIXED_INTEREST_ONLY_12_MONTHS",
+            "lastUpdated": "2023-07-03T15:34:33.000+10:00",
+            "productCategory": "RESIDENTIAL_MORTGAGES",
+            "name": "PREMIUM HOME LOAN",
+            "description": "PREMIUM HOME LOAN",
+            "brand": "WARWICK CREDIT UNION",
+            "brandName": "WARWICK CREDIT UNION",
+            "applicationUri": "",
+            "isTailored": false,
+            "additionalInformation": {
+                "overviewUri": "",
+                "termsUri": "",
+                "eligibilityUri": "",
+                "feesAndPricingUri": "",
+                "bundleUri": ""
+            }
+        },
+        {
+            "productId": "L42-_RURAL_LIFESTYLE_LOAN_OWNER_OCCUPIED_FIXED_PRINCIPLE_AND_INTEREST_24_MONTHS",
+            "lastUpdated": "2023-07-03T15:31:54.000+10:00",
+            "productCategory": "RESIDENTIAL_MORTGAGES",
+            "name": "RURAL LIFESTYLE LOAN",
+            "description": "RURAL LIFESTYLE LOAN",
+            "brand": "WARWICK CREDIT UNION",
+            "brandName": "WARWICK CREDIT UNION",
+            "applicationUri": "",
+            "isTailored": false,
+            "additionalInformation": {
+                "overviewUri": "",
+                "termsUri": "",
+                "eligibilityUri": "",
+                "feesAndPricingUri": "",
+                "bundleUri": ""
+            }
+        },
+        {
+            "productId": "L42-_RURAL_LIFESTYLE_LOAN_OWNER_OCCUPIED_FIXED_PRINCIPLE_AND_INTEREST_12_MONTHS",
+            "lastUpdated": "2023-07-03T15:29:14.000+10:00",
+            "productCategory": "RESIDENTIAL_MORTGAGES",
+            "name": "RURAL LIFESTYLE LOAN",
+            "description": "RURAL LIFESTYLE LOAN",
+            "brand": "WARWICK CREDIT UNION",
+            "brandName": "WARWICK CREDIT UNION",
+            "applicationUri": "",
+            "isTailored": false,
+            "additionalInformation": {
+                "overviewUri": "",
+                "termsUri": "",
+                "eligibilityUri": "",
+                "feesAndPricingUri": "",
+                "bundleUri": ""
+            }
+        },
+        {
+            "productId": "L42-_RURAL_LIFESTYLE_LOAN_OWNER_OCCUPIED_FIXED_INTEREST_ONLY_12_MONTHS",
+            "lastUpdated": "2023-07-03T15:16:14.000+10:00",
+            "productCategory": "RESIDENTIAL_MORTGAGES",
+            "name": "RURAL LIFESTYLE LOAN",
+            "description": "RURAL LIFESTYLE LOAN",
+            "brand": "WARWICK CREDIT UNION",
+            "brandName": "WARWICK CREDIT UNION",
+            "applicationUri": "",
+            "isTailored": false,
+            "additionalInformation": {
+                "overviewUri": "",
+                "termsUri": "",
+                "eligibilityUri": "",
+                "feesAndPricingUri": "",
+                "bundleUri": ""
+            }
+        },
+        {
+            "productId": "L42-_RURAL_LIFESTYLE_LOAN_INVESTMENT_FIXED_PRINCIPAL_AND_INTEREST_24_MONTHS",
+            "lastUpdated": "2023-07-03T15:00:40.000+10:00",
+            "productCategory": "RESIDENTIAL_MORTGAGES",
+            "name": "RURAL LIFESTYLE LOAN",
+            "description": "RURAL LIFESTYLE LOAN",
+            "brand": "WARWICK CREDIT UNION",
+            "brandName": "WARWICK CREDIT UNION",
+            "applicationUri": "",
+            "isTailored": false,
+            "additionalInformation": {
+                "overviewUri": "",
+                "termsUri": "",
+                "eligibilityUri": "",
+                "feesAndPricingUri": "",
+                "bundleUri": ""
+            }
+        },
+        {
+            "productId": "L42-_RURAL_LIFESTYLE_LOAN_INVESTMENT_FIXED_PRINCIPAL_AND_INTEREST_12_MONTHS",
+            "lastUpdated": "2023-07-03T14:59:36.000+10:00",
+            "productCategory": "RESIDENTIAL_MORTGAGES",
+            "name": "RURAL LIFESTYLE LOAN",
+            "description": "RURAL LIFESTYLE LOAN",
+            "brand": "WARWICK CREDIT UNION",
+            "brandName": "WARWICK CREDIT UNION",
+            "applicationUri": "",
+            "isTailored": false,
+            "additionalInformation": {
+                "overviewUri": "",
+                "termsUri": "",
+                "eligibilityUri": "",
+                "feesAndPricingUri": "",
+                "bundleUri": ""
+            }
+        },
+        {
+            "productId": "L42-_RURAL_LIFESTYLE_LOAN_INVESTMENT_FIXED_INTEREST_ONLY_24_MONTHS",
+            "lastUpdated": "2023-07-03T14:58:34.000+10:00",
+            "productCategory": "RESIDENTIAL_MORTGAGES",
+            "name": "RURAL LIFESTYLE LOAN",
+            "description": "RURAL LIFESTYLE LOAN",
+            "brand": "WARWICK CREDIT UNION",
+            "brandName": "WARWICK CREDIT UNION",
+            "applicationUri": "",
+            "isTailored": false,
+            "additionalInformation": {
+                "overviewUri": "",
+                "termsUri": "",
+                "eligibilityUri": "",
+                "feesAndPricingUri": "",
+                "bundleUri": ""
+            }
+        },
+        {
+            "productId": "L42-_RURAL_LIFESTYLE_LOAN_INVESTMENT_FIXED_INTEREST_ONLY_12_MONTHS",
+            "lastUpdated": "2023-07-03T14:57:30.000+10:00",
+            "productCategory": "RESIDENTIAL_MORTGAGES",
+            "name": "RURAL LIFESTYLE LOAN",
+            "description": "RURAL LIFESTYLE LOAN",
+            "brand": "WARWICK CREDIT UNION",
+            "brandName": "WARWICK CREDIT UNION",
+            "applicationUri": "",
+            "isTailored": false,
+            "additionalInformation": {
+                "overviewUri": "",
+                "termsUri": "",
+                "eligibilityUri": "",
+                "feesAndPricingUri": "",
+                "bundleUri": ""
+            }
+        },
+        {
+            "productId": "L41_CLASSIC_HOME_LOAN_INVESTMENT_PRINCIPAL_AND_INTEREST_FIXED_12_MONTHS",
+            "lastUpdated": "2023-07-03T14:52:43.000+10:00",
+            "productCategory": "RESIDENTIAL_MORTGAGES",
+            "name": "CLASSIC HOME LOAN",
+            "description": "CLASSIC HOME LOAN",
+            "brand": "WARWICK CREDIT UNION",
+            "brandName": "WARWICK CREDIT UNION",
+            "applicationUri": "",
+            "isTailored": false,
+            "additionalInformation": {
+                "overviewUri": "",
+                "termsUri": "",
+                "eligibilityUri": "",
+                "feesAndPricingUri": "",
+                "bundleUri": ""
+            }
+        },
+        {
+            "productId": "L41-_CLASSIC_HOME_LOAN_OWNER_OCCUPIED_PRINCIPLE_AND_INTEREST_FIXED_12_MONTHS",
+            "lastUpdated": "2023-07-03T14:43:41.000+10:00",
+            "productCategory": "RESIDENTIAL_MORTGAGES",
+            "name": "CLASSIC HOME LOAN",
+            "description": "CLASSIC HOME LOAN",
+            "brand": "WARWICK CREDIT UNION",
+            "brandName": "WARWICK CREDIT UNION",
+            "applicationUri": "",
+            "isTailored": false,
+            "additionalInformation": {
+                "overviewUri": "",
+                "termsUri": "",
+                "eligibilityUri": "",
+                "feesAndPricingUri": "",
+                "bundleUri": ""
+            }
+        }
+    ]
+}

@@ -1,0 +1,84 @@
+{
+    "features": [
+        {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        }
+    ],
+    "constraints": [
+        {
+            "constraintType": "MIN_BALANCE",
+            "additionalValue": "1.00",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        }
+    ],
+    "fees": [
+        {
+            "name": "STAFF_ASSISTED_ONLINE_SAVER_TRANSFER_FEE",
+            "feeType": "EVENT",
+            "amount": "5.00",
+            "accrualFrequency": "",
+            "currency": "AUD",
+            "additionalInfo": "",
+            "additionalInfoUri": "https://www.orangecu.com.au/everyday-banking/rates-and-fees/fees-and-charges"
+        }
+    ],
+    "depositRates": [
+        {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "tiers": [
+                {
+                    "name": "ONLINE SAVER_Tier_1",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 0.0,
+                    "maximumValue": 999.0,
+                    "rateApplicationMethod": "PER_TIER"
+                }
+            ],
+            "additionalInfo": "",
+            "additionalInfoUri": "https://www.orangecu.com.au/everyday-banking/rates-and-fees/savings-account-interest-rates"
+        },
+        {
+            "depositRateType": "VARIABLE",
+            "rate": "0.025",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "tiers": [
+                {
+                    "name": "ONLINE SAVER_Tier_2",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 999.01,
+                    "rateApplicationMethod": "PER_TIER"
+                }
+            ],
+            "additionalInfo": "",
+            "additionalInfoUri": "https://www.orangecu.com.au/everyday-banking/rates-and-fees/savings-account-interest-rates"
+        }
+    ],
+    "productId": "ONLINE_SAVER",
+    "lastUpdated": "2023-06-21T09:39:24.000+10:00",
+    "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+    "name": "ONLINE SAVER",
+    "description": "ONLINE SAVER",
+    "brand": "ORANGE CREDIT UNION LTD",
+    "brandName": "ORANGE CREDIT UNION LTD",
+    "applicationUri": "https://forms.orangecu.com.au/form.php?f=19",
+    "isTailored": false,
+    "additionalInformation": {
+        "overviewUri": "https://www.orangecu.com.au/savings/savings-accounts/online-saver",
+        "termsUri": "https://www.orangecu.com.au/disclosure-documents",
+        "eligibilityUri": "https://www.orangecu.com.au/disclosure-documents",
+        "feesAndPricingUri": "https://www.orangecu.com.au/everyday-banking/rates-and-fees/fees-and-charges",
+        "bundleUri": "https://www.orangecu.com.au/everyday-banking/rates-and-fees/fees-and-charges"
+    }
+}

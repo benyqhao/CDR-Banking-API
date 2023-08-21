@@ -1,0 +1,11 @@
+{
+    "productId": "variable_collateral_account",
+    "lastUpdated": "2022-10-12T11:20:48Z",
+    "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+    "name": "Cash Collateral Account",
+    "description": "A Variable Collateral Account is opened when the Bank approves a lending facility that will be secured by the funds in the Variable Collateral Account.",
+    "brand": "Bank of Sydney",
+    "brandName": "Bank of Sydney",
+    "isTailored": false,
+    "additionalInformation": {}
+}

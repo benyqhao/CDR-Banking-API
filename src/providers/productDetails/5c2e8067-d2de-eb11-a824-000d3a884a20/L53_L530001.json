@@ -1,0 +1,63 @@
+{
+    "features": [
+        {
+            "featureType": "REDRAW",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "featureType": "NPP_ENABLED",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        }
+    ],
+    "eligibility": [
+        {
+            "eligibilityType": "BUSINESS",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        }
+    ],
+    "fees": [
+        {
+            "name": "45_REDRAW_FEE",
+            "feeType": "WITHDRAWAL",
+            "amount": "45.00",
+            "accrualFrequency": "",
+            "currency": "AUD",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "name": "OTHER_FEES_AND_CHARGES_MAY_APPLY",
+            "feeType": "VARIABLE",
+            "amount": "0.00",
+            "accrualFrequency": "",
+            "currency": "AUD",
+            "additionalInfo": "A full list of fees and charges will be provided if loan is approved. Visit: https://horizonbank.com.au/more/important-info/fees-and-charges/",
+            "additionalInfoUri": ""
+        }
+    ],
+    "productId": "L53_L530001",
+    "effectiveFrom": "2021-07-01T00:00:00.000+10:00",
+    "lastUpdated": "2023-02-14T15:29:55.000+11:00",
+    "productCategory": "BUSINESS_LOANS",
+    "name": "Business Fixed 3 years P&I",
+    "description": "Business Fixed 3 years P&I",
+    "brand": "HORIZON BANK",
+    "brandName": "HORIZON BANK",
+    "applicationUri": "http://forms.horizonbank.com.au/form.php?f=72",
+    "isTailored": false,
+    "additionalInformation": {
+        "overviewUri": "https://horizonbank.com.au/more/business-banking/",
+        "termsUri": "https://horizonbank.com.au/more/important-info/disclosure-documents/",
+        "eligibilityUri": "",
+        "feesAndPricingUri": "https://horizonbank.com.au/more/important-info/fees-and-charges/",
+        "bundleUri": ""
+    }
+}

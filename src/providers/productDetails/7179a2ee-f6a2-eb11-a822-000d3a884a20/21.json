@@ -1,0 +1,171 @@
+{
+    "productId": "21",
+    "effectiveFrom": "2015-06-30T14:30:00.0000000Z",
+    "lastUpdated": "2023-07-31T22:00:24.5590134Z",
+    "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+    "name": "Business Platinum",
+    "description": "Our Business Platinum Account is ideal if you have high volume transaction needs or are considering an overdraft facility",
+    "brand": "Queensland Country Bank",
+    "isTailored": false,
+    "additionalInformation": {
+        "overviewUri": "https://www.queenslandcountry.bank/banking/business-banking/business-cheque-account/",
+        "termsUri": "https://www.queenslandcountry.bank/siteassets/documents/brochures/brochure_account-access-facility.pdf",
+        "feesAndPricingUri": "https://www.queenslandcountry.bank/siteassets/documents/brochures/brochure_fees-charges.pdf"
+    },
+    "features": [
+        {
+            "featureType": "ADDITIONAL_CARDS"
+        },
+        {
+            "featureType": "CARD_ACCESS",
+            "additionalValue": "Visa Debit Card"
+        },
+        {
+            "featureType": "FREE_TXNS",
+            "additionalValue": "40",
+            "additionalInfo": "Transactions included in this limit comprise 'Everyday Transactions' for business accounts as provided in the Fees and Charges brochure",
+            "additionalInfoUri": "https://www.queenslandcountry.bank/siteassets/documents/brochures/brochure_fees-charges.pdf"
+        },
+        {
+            "featureType": "OVERDRAFT",
+            "additionalInfo": "An overdraft facility can be considered for this product"
+        }
+    ],
+    "eligibility": [
+        {
+            "eligibilityType": "BUSINESS"
+        }
+    ],
+    "fees": [
+        {
+            "name": "Balance Enquiry Business",
+            "feeType": "TRANSACTION",
+            "amount": "0.50",
+            "currency": "AUD"
+        },
+        {
+            "name": "ATM Withdrawal Business",
+            "feeType": "TRANSACTION",
+            "amount": "1.00",
+            "currency": "AUD"
+        },
+        {
+            "name": "EFTPOS Business Charge",
+            "feeType": "TRANSACTION",
+            "amount": "0.00",
+            "currency": "AUD"
+        },
+        {
+            "name": "Business Name Search",
+            "feeType": "EVENT",
+            "amount": "30.00",
+            "currency": "AUD"
+        },
+        {
+            "name": "Company Search Fee",
+            "feeType": "EVENT",
+            "amount": "30.00",
+            "currency": "AUD"
+        },
+        {
+            "name": "Disputed Transaction Fee",
+            "feeType": "EVENT",
+            "amount": "35.00",
+            "currency": "AUD"
+        },
+        {
+            "name": "Monthly Account Service Fee",
+            "feeType": "PERIODIC",
+            "amount": "4.00",
+            "currency": "AUD",
+            "additionalValue": "P1M",
+            "discounts": [
+                {
+                    "description": "Fee Waiver",
+                    "discountType": "BALANCE",
+                    "feeRate": "1.0",
+                    "additionalValue": "20000.00",
+                    "additionalInfo": "Monthly Account Service Fee is waived if minimum monthly balance is over $20,000"
+                },
+                {
+                    "description": "Dormant Account",
+                    "discountType": "ELIGIBILITY_ONLY",
+                    "eligibility": [
+                        {
+                            "discountEligibilityType": "OTHER",
+                            "additionalInfo": "Monthly Account Service Fee is waived for accounts in a dormant status"
+                        }
+                    ]
+                },
+                {
+                    "description": "Fee Waiver",
+                    "discountType": "ELIGIBILITY_ONLY",
+                    "feeRate": "1.0",
+                    "eligibility": [
+                        {
+                            "discountEligibilityType": "OTHER",
+                            "additionalInfo": "Monthly Account Service Fee is waived for non-profit organisations if conditions are met"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "ABA Deletion of File",
+            "feeType": "EVENT",
+            "amount": "40.00",
+            "currency": "AUD"
+        },
+        {
+            "name": "ABA File - Deletion of Trans",
+            "feeType": "EVENT",
+            "amount": "130.00",
+            "currency": "AUD"
+        },
+        {
+            "name": "Dormant Account Fee",
+            "feeType": "EVENT",
+            "amount": "15.00",
+            "currency": "AUD"
+        },
+        {
+            "name": "Other Service Fees",
+            "feeType": "EVENT",
+            "amount": "0.00",
+            "currency": "AUD",
+            "additionalInfo": "Refer to our Fees and Charges brochure for information on other transactions which may attract fees and charges",
+            "additionalInfoUri": "https://www.queenslandcountry.bank/siteassets/documents/brochures/brochure_fees-charges.pdf"
+        }
+    ],
+    "depositRates": [
+        {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "tiers": [
+                {
+                    "name": "Floating",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 0.0,
+                    "maximumValue": 4999.99,
+                    "rateApplicationMethod": "PER_TIER"
+                }
+            ]
+        },
+        {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0001",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "tiers": [
+                {
+                    "name": "USER-INPUT-RATE/1",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 5000.0,
+                    "rateApplicationMethod": "PER_TIER"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,74 @@
+{
+    "productId": "38",
+    "effectiveFrom": "2005-06-30T14:30:00.0000000Z",
+    "lastUpdated": "2023-06-21T04:00:39.7261095Z",
+    "productCategory": "OVERDRAFTS",
+    "name": "Everyday Access",
+    "description": "Everyday Access",
+    "brand": "Dnister",
+    "isTailored": false,
+    "eligibility": [
+        {
+            "eligibilityType": "BUSINESS"
+        }
+    ],
+    "fees": [
+        {
+            "name": "Company Search",
+            "feeType": "UPFRONT",
+            "amount": "50.00",
+            "currency": "AUD"
+        },
+        {
+            "name": "Title Search",
+            "feeType": "UPFRONT",
+            "amount": "49.50",
+            "currency": "AUD"
+        },
+        {
+            "name": "Bank Production",
+            "feeType": "UPFRONT",
+            "amount": "150.00",
+            "currency": "AUD"
+        },
+        {
+            "name": "Withdrawal of Caveat",
+            "feeType": "UPFRONT",
+            "amount": "100.00",
+            "currency": "AUD"
+        },
+        {
+            "name": "ASIC Lodgement",
+            "feeType": "UPFRONT",
+            "amount": "50.00",
+            "currency": "AUD"
+        },
+        {
+            "name": "Bank Cheque",
+            "feeType": "UPFRONT",
+            "amount": "15.00",
+            "currency": "AUD"
+        },
+        {
+            "name": "Discharge of Mortgage",
+            "feeType": "UPFRONT",
+            "amount": "200.00",
+            "currency": "AUD"
+        },
+        {
+            "name": "Loan Establishment Fee",
+            "feeType": "UPFRONT",
+            "amount": "250.00",
+            "currency": "AUD"
+        }
+    ],
+    "lendingRates": [
+        {
+            "lendingRateType": "VARIABLE",
+            "rate": "0.1118",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "interestPaymentDue": "IN_ARREARS"
+        }
+    ]
+}

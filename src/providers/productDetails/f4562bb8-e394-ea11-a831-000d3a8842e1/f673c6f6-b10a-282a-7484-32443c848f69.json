@@ -1,0 +1,164 @@
+{
+    "fees": [
+        {
+            "discounts": [
+                {
+                    "amount": "0.00",
+                    "eligibility": [],
+                    "discountType": "ELIGIBILITY_ONLY",
+                    "description": "Save $150 with no Annual Card Fee for the first year on a new ANZ Business 55 Interest Free Days credit card. "
+                }
+            ],
+            "name": "Account Service",
+            "additionalValue": "P1Y",
+            "feeType": "PERIODIC",
+            "currency": "AUD",
+            "amount": "150.00"
+        },
+        {
+            "discounts": [],
+            "transactionRate": "0.015",
+            "feeType": "WITHDRAWAL",
+            "name": "Cash Advance Fee    ",
+            "currency": "AUD",
+            "additionalInfo": "A fee will be charged for each Cash Advance, except where it is obtained through an ANZ ATM. The fee will be the greater of $1.50 and 1.50% of the Cash Advance amount plus any ATM operator fee. For Cash Advances made overseas at an ATM, bank or ANZ office, the 1.50% fee will be calculated with reference to the Cash Advance amount, any ATM operator fee plus any Overseas Transaction Fee charged on the Cash Advance."
+        },
+        {
+            "discounts": [],
+            "transactionRate": "0.03",
+            "feeType": "PURCHASE",
+            "name": "Overseas Transaction Fee",
+            "currency": "AUD",
+            "additionalInfo": "On the value of any International Transaction charged or credited to an ANZ Business One Facility."
+        },
+        {
+            "discounts": [],
+            "amount": "35.00",
+            "name": "Late Payment",
+            "currency": "AUD",
+            "feeType": "EVENT"
+        },
+        {
+            "discounts": [],
+            "transactionRate": "0.05",
+            "feeType": "EVENT",
+            "name": "Over Limit",
+            "currency": "AUD",
+            "additionalInfo": "A fee will be charged if the Closing Balance shown on a Statement of Account exceeds the Facility Limit. The Overlimit Fee will be the lesser of 5% of the overlimit amount and $50."
+        },
+        {
+            "discounts": [],
+            "amount": "12.00",
+            "name": "Payment Dishonour Fee",
+            "currency": "AUD",
+            "feeType": "EVENT"
+        }
+    ],
+    "lendingRates": [
+        {
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "interestPaymentDue": "IN_ARREARS",
+            "lendingRateType": "PURCHASE",
+            "rate": "0.1774",
+            "tiers": [],
+            "additionalInfo": "Rates are subject to change"
+        },
+        {
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "interestPaymentDue": "IN_ARREARS",
+            "lendingRateType": "CASH_ADVANCE",
+            "rate": "0.1924",
+            "tiers": [],
+            "additionalInfo": "Rates are subject to change"
+        }
+    ],
+    "productCategory": "CRED_AND_CHRG_CARDS",
+    "depositRates": [],
+    "additionalInformation": {
+        "termsUri": "https://www.anz.com.au/business/help-support/terms-conditions/?section=SBS&CID=af:obank:cm",
+        "feesAndPricingUri": "https://www.anz.com.au/business/products/credit-cards/interest-free/?CID=af:obank:cm#rates",
+        "overviewUri": "https://www.anz.com.au/business/products/credit-cards/interest-free/?CID=af:obank:cm",
+        "eligibilityUri": "https://www.anz.com.au/business/products/credit-cards/interest-free/?CID=af:obank:cm#eligibility"
+    },
+    "description": "A credit card facility for businesses with up to 55 days interest free on purchases (if you pay your closing balance in full by the due date each month)",
+    "features": [
+        {
+            "additionalValue": "9999",
+            "featureType": "ADDITIONAL_CARDS",
+            "additionalInfo": "Any number of additional cards can be ordered"
+        },
+        {
+            "featureType": "UNLIMITED_TXNS",
+            "additionalInfo": "Unlimited ANZ transactions available using ANZ Internet Banking, ANZ Phone Banking, ANZ ATMs, ANZ Business Visa Debit and EFTPOS. Also includes any deposit, withdrawal or transfer at ANZ branches, cheques drawn by you and any cheque or manual merchant slip deposited to your account."
+        },
+        {
+            "additionalValue": "Unauthorised Transactions Insurance",
+            "featureType": "INSURANCE",
+            "additionalInfoUri": "https://www.anz.com.au/content/dam/anzcomau/pdf/commercial-cards-anz-business-one-tsc.pdf",
+            "additionalInfo": "Unauthorised Transactions Insurance protects your business against misuse for up to $37,500 per cardholder and $200,000 maximum for the total account, in any 12 month period."
+        },
+        {
+            "additionalValue": "P55D",
+            "featureType": "INTEREST_FREE",
+            "additionalInfoUri": "https://www.anz.com.au/content/dam/anzcomau/pdf/commercial-cards-anz-business-one-tsc.pdf",
+            "additionalInfo": "Up to 55 days interest free days on purchases"
+        },
+        {
+            "additionalValue": "Apple Pay",
+            "additionalInfoUri": "https://mobilepayments.anz.com/?CID=af:obank:cm",
+            "featureType": "DIGITAL_WALLET"
+        },
+        {
+            "additionalValue": "Google Pay",
+            "additionalInfoUri": "https://mobilepayments.anz.com/?CID=af:obank:cm",
+            "featureType": "DIGITAL_WALLET"
+        },
+        {
+            "additionalValue": "Samsung Pay",
+            "additionalInfoUri": "https://mobilepayments.anz.com/?CID=af:obank:cm",
+            "featureType": "DIGITAL_WALLET"
+        },
+        {
+            "additionalValue": "Fitbit Pay",
+            "additionalInfoUri": "https://mobilepayments.anz.com/?CID=af:obank:cm",
+            "featureType": "DIGITAL_WALLET"
+        },
+        {
+            "additionalValue": "Garmin Pay",
+            "additionalInfoUri": "https://mobilepayments.anz.com/?CID=af:obank:cm",
+            "featureType": "DIGITAL_WALLET"
+        },
+        {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfoUri": "https://www.anz.com.au/ways-to-bank/internet-banking/personal/?CID=af:obank:cm",
+            "additionalInfo": "Access using ANZ Internet Banking or ANZ App"
+        },
+        {
+            "additionalValue": "BPAY",
+            "additionalInfoUri": "https://www.anz.com.au/ways-to-bank/more/bpay/?CID=af:obank:cm",
+            "featureType": "BILL_PAYMENT"
+        }
+    ],
+    "brand": "ANZ",
+    "cardArt": [],
+    "effectiveFrom": "2019-06-30T14:00:00.000Z",
+    "isTailored": false,
+    "eligibility": [
+        {
+            "eligibilityType": "BUSINESS"
+        }
+    ],
+    "productId": "f673c6f6-b10a-282a-7484-32443c848f69",
+    "bundles": [],
+    "name": "ANZ Business 55 Interest Free Days",
+    "applicationUri": "https://www.anz.com.au/business/credit-cards/interest-free/",
+    "constraints": [
+        {
+            "additionalValue": "1000.00",
+            "constraintType": "MIN_LIMIT"
+        }
+    ],
+    "lastUpdated": "2023-06-28T06:00:00.000Z"
+}

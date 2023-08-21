@@ -1,0 +1,160 @@
+{
+    "features": [
+        {
+            "featureType": "CARD_ACCESS",
+            "additionalValue": "No monthly fee",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "featureType": "UNLIMITED_TXNS",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "",
+            "additionalInfoUri": "https://www.cwcu.com.au/other-services/cards-and-ways-to-bank/redinet-online-banking"
+        },
+        {
+            "featureType": "FREE_TXNS",
+            "additionalValue": "3 free Bank@Post transaction per month",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "featureType": "DIGITAL_WALLET",
+            "additionalValue": "Apple, Samsung & Google Pay",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "featureType": "UNLIMITED_TXNS",
+            "additionalInfo": "",
+            "additionalInfoUri": "https://www.cwcu.com.au/cwcu/media/Documents/Summary-of-Accounts-Availability-of-Access-December-20.pdf"
+        }
+    ],
+    "eligibility": [
+        {
+            "eligibilityType": "OTHER",
+            "additionalInfo": "Not for Profit Organisations and Community Groups",
+            "additionalInfoUri": ""
+        }
+    ],
+    "fees": [
+        {
+            "name": "PAPER_STATEMENT_FEE",
+            "feeType": "PERIODIC",
+            "amount": "2.50",
+            "accrualFrequency": "P1M",
+            "currency": "AUD",
+            "additionalValue": "Charged when a paper statement is produced",
+            "additionalInfo": "",
+            "additionalInfoUri": "",
+            "discounts": [
+                {
+                    "description": "Under 16 years of age",
+                    "discountType": "ELIGIBILITY_ONLY",
+                    "amount": "2.50",
+                    "additionalInfo": "",
+                    "additionalInfoUri": ""
+                }
+            ]
+        },
+        {
+            "name": "DORMANT_ACCOUNT_FEE",
+            "feeType": "EVENT",
+            "amount": "10.00",
+            "accrualFrequency": "P1Y",
+            "currency": "AUD",
+            "additionalInfo": "Charged after 2 years of inactivity",
+            "additionalInfoUri": ""
+        }
+    ],
+    "depositRates": [
+        {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "tiers": [
+                {
+                    "name": "S5 Community Proud Account_Tier_1",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 0.0,
+                    "maximumValue": 199.99,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalInfo": "",
+            "additionalInfoUri": "1"
+        },
+        {
+            "depositRateType": "VARIABLE",
+            "rate": "0.013",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "tiers": [
+                {
+                    "name": "S5 Community Proud Account_Tier_2",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 200.0,
+                    "maximumValue": 19999.99,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalInfo": "",
+            "additionalInfoUri": "1"
+        },
+        {
+            "depositRateType": "VARIABLE",
+            "rate": "0.015",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "tiers": [
+                {
+                    "name": "S5 Community Proud Account_Tier_3",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 20000.0,
+                    "maximumValue": 49999.99,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalInfo": "",
+            "additionalInfoUri": "1"
+        },
+        {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0185",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "tiers": [
+                {
+                    "name": "S5 Community Proud Account_Tier_4",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 50000.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalInfo": "",
+            "additionalInfoUri": "1"
+        }
+    ],
+    "productId": "Community_Proud",
+    "effectiveFrom": "2021-03-01T00:00:00.000+11:00",
+    "lastUpdated": "2023-07-01T10:11:54.000+10:00",
+    "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+    "name": "S5 Community Proud Account",
+    "description": "We support our community organisations year-round through the Community Proud Savings Account - an account designed to make it easier for them to manage their finances.",
+    "brand": "CENTRAL WEST CREDIT UNION LTD",
+    "brandName": "CENTRAL WEST CREDIT UNION LTD",
+    "applicationUri": "",
+    "isTailored": false,
+    "additionalInformation": {
+        "overviewUri": "https://www.cwcu.com.au/savings/community-proud",
+        "termsUri": "https://www.cwcu.com.au/disclosure-documents/conditions-of-use",
+        "eligibilityUri": "https://www.cwcu.com.au/disclosure-documents/conditions-of-use",
+        "feesAndPricingUri": "https://www.cwcu.com.au/disclosure-documents/fees-and-charges",
+        "bundleUri": ""
+    }
+}

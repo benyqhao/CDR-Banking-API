@@ -1,0 +1,96 @@
+{
+    "productId": "477",
+    "effectiveTo": "9999-12-31T00:00:00Z",
+    "lastUpdated": "2023-05-15T14:30:00Z",
+    "productCategory": "RESIDENTIAL_MORTGAGES",
+    "name": "Staff Home Loan",
+    "description": "Staff Home Loan",
+    "brand": "People's Choice Credit Union",
+    "brandName": "People's Choice",
+    "isTailored": false,
+    "additionalInformation": {
+        "termsUri": "https://media.peopleschoice.com.au/-/media/project/peopleschoice/mainsite/files/brochures/brc-8-3-2-lending-terms-conditions.pdf"
+    },
+    "features": [
+        {
+            "featureType": "DIGITAL_BANKING",
+            "additionalValue": "Easy access to your account 24/7 with the People\u2019s Choice Smartphone and iPhone App, Internet Banking and Phone Banking.",
+            "additionalInfoUri": "https://www.peopleschoice.com.au/managing-my-money/accessing-my-money/internet-banking"
+        },
+        {
+            "featureType": "REDRAW",
+            "additionalValue": "Free Redraw Available",
+            "additionalInfo": "Access to extra cash if you\u2019re ahead on your repayments.",
+            "additionalInfoUri": "https://media.peopleschoice.com.au/-/media/project/peopleschoice/mainsite/files/brochures/brc-8-3-2-lending-terms-conditions.pdf"
+        },
+        {
+            "featureType": "EXTRA_REPAYMENTS",
+            "additionalValue": "Additional Repayments",
+            "additionalInfo": "Freedom to make unlimited extra repayments \u2013 reduce your loan term and save money",
+            "additionalInfoUri": "https://media.peopleschoice.com.au/-/media/project/peopleschoice/mainsite/files/brochures/brc-8-3-2-lending-terms-conditions.pdf"
+        },
+        {
+            "featureType": "OTHER",
+            "additionalValue": "Flexible Repayment Options",
+            "additionalInfo": "Flexible repayment frequency - pay weekly, fortnightly or monthly.",
+            "additionalInfoUri": "https://media.peopleschoice.com.au/-/media/project/peopleschoice/mainsite/files/brochures/brc-8-3-2-lending-terms-conditions.pdf"
+        },
+        {
+            "featureType": "OFFSET",
+            "additionalValue": "Offset Account",
+            "additionalInfo": "Link your loan and transaction account to help reduce the interest and time taken to pay off your loan.",
+            "additionalInfoUri": "https://www.peopleschoice.com.au/managing-my-money/bank-accounts/transaction-accounts/offset-account"
+        }
+    ],
+    "constraints": [
+        {
+            "constraintType": "MIN_LIMIT",
+            "additionalValue": "20,000.00",
+            "additionalInfo": "Minimum loan size is $20,000.00",
+            "additionalInfoUri": "https://www.peopleschoice.com.au/borrowing-and-credit/home-loans/standard-variable-home-loan"
+        }
+    ],
+    "eligibility": [
+        {
+            "eligibilityType": "NATURAL_PERSON",
+            "additionalValue": "Personal Members Only",
+            "additionalInfoUri": "https://www.peopleschoice.com.au/borrowing-and-credit/borrowing-for-a-life-event/buying-a-home/the-home-loan-requirements-you-need-to-apply"
+        },
+        {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalValue": "Permanent residents of Australia who reside in Australia at the time of membership application are eligible for membership, regardless of citizenship status.",
+            "additionalInfoUri": "https://www.peopleschoice.com.au/borrowing-and-credit/borrowing-for-a-life-event/buying-a-home/the-home-loan-requirements-you-need-to-apply"
+        },
+        {
+            "eligibilityType": "OTHER",
+            "additionalValue": "Terms, conditions, fees, charges and lending criteria apply and are available on application",
+            "additionalInfoUri": "https://media.peopleschoice.com.au/-/media/project/peopleschoice/mainsite/files/brochures/brc-8-3-2-lending-terms-conditions.pdf"
+        },
+        {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "18 years and over",
+            "additionalInfoUri": "https://www.peopleschoice.com.au/blog/personal-loans/what-you-need-to-apply-for-a-personal-loan"
+        }
+    ],
+    "fees": [
+        {
+            "name": "Valuation Fee",
+            "feeType": "EVENT",
+            "amount": "0.00",
+            "additionalInfo": "Valuation Fee at cost and payable by member.",
+            "additionalInfoUri": "https://media.peopleschoice.com.au/-/media/project/peopleschoice/mainsite/files/brochures/brc-8-6-2-fees-and-charges.pdf"
+        }
+    ],
+    "lendingRates": [
+        {
+            "lendingRateType": "VARIABLE",
+            "rate": "0.0777",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "interestPaymentDue": "IN_ARREARS",
+            "repaymentType": "PRINCIPAL_AND_INTEREST",
+            "loanPurpose": "OWNER_OCCUPIED",
+            "additionalInfo": "LOWER OF FBT RATE OR BASIC VARIABLE RATE"
+        }
+    ]
+}

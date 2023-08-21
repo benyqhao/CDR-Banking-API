@@ -1,0 +1,49 @@
+{
+    "depositRates": [
+        {
+            "rate": "0.0350000000000000",
+            "tiers": [],
+            "depositRateType": "VARIABLE",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M"
+        }
+    ],
+    "lastUpdated": "2023-06-15T14:35:25.071Z",
+    "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+    "lendingRates": [],
+    "fees": [],
+    "applicationUri": "https://www.bendigobank.com.au/personal/savings-accounts/piggysaver-account/",
+    "isTailored": false,
+    "cardArt": [],
+    "additionalInformation": {
+        "termsUri": "https://www.bendigobank.com.au/disclosure-documents/",
+        "feesAndPricingUri": "https://www.bendigobank.com.au/disclosure-documents/",
+        "overviewUri": "https://www.bendigobank.com.au/personal/savings-accounts/piggysaver-account/",
+        "eligibilityUri": "https://www.bendigobank.com.au/disclosure-documents/"
+    },
+    "name": "Bendigo PiggySaver",
+    "constraints": [],
+    "productId": "e7e9fe9a-f9e9-4316-a78f-8f00a1850daf",
+    "description": "Designed for kids under 12. Fun and rewarding way to introduce them to saving.",
+    "eligibility": [
+        {
+            "eligibilityType": "MAX_AGE",
+            "additionalValue": "12",
+            "additionalInfo": "Available to children under 12 years. Account must be opened in the childs names with a parent or guardian acting as a non-titled member."
+        }
+    ],
+    "brand": "BENDIGO",
+    "bundles": [],
+    "brandName": "Bendigo Bank",
+    "features": [
+        {
+            "featureType": "UNLIMITED_TXNS"
+        },
+        {
+            "featureType": "DIGITAL_BANKING"
+        },
+        {
+            "featureType": "NPP_ENABLED"
+        }
+    ]
+}

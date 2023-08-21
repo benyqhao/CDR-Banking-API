@@ -1,0 +1,158 @@
+{
+    "depositRates": [
+        {
+            "additionalInfoUri": "https://www.bendigobank.com.au/globalassets/documents/interestrates/schedule-of-interest-rates-for-business-accounts.pdf",
+            "rate": "0.0000000000000000",
+            "tiers": [],
+            "depositRateType": "VARIABLE"
+        }
+    ],
+    "features": [
+        {
+            "additionalValue": "BPAY",
+            "featureType": "BILL_PAYMENT"
+        },
+        {
+            "featureType": "DIGITAL_BANKING"
+        },
+        {
+            "additionalValue": "An account of this product type can be used as the target of an NPP PayID",
+            "featureType": "NPP_PAYID"
+        },
+        {
+            "additionalValue": "An account of this product type can be used as the target of an NPP PayID",
+            "featureType": "NPP_ENABLED"
+        }
+    ],
+    "name": "Conveyancer Trust (VIC)",
+    "lastUpdated": "2023-08-01T07:07:20.827Z",
+    "eligibility": [
+        {
+            "eligibilityType": "BUSINESS",
+            "additionalInfo": "Required to hold a trading account with Bendigo Bank to re-direct fees"
+        }
+    ],
+    "productCategory": "REGULATED_TRUST_ACCOUNTS",
+    "lendingRates": [],
+    "brandName": "Bendigo Bank",
+    "bundles": [],
+    "cardArt": [],
+    "additionalInformation": {
+        "feesAndPricingUri": "https://www.bendigobank.com.au/globalassets/documents/disclosures/business-fees-and-charges.pdf",
+        "overviewUri": "https://www.bendigobank.com.au/business/business-transaction-accounts/regulated-trust-accounts/",
+        "eligibilityUri": "https://www.bendigobank.com.au/disclosure-documents/",
+        "termsUri": "https://www.bendigobank.com.au/disclosure-documents/"
+    },
+    "constraints": [
+        {
+            "additionalValue": "1",
+            "constraintType": "OPENING_BALANCE"
+        }
+    ],
+    "fees": [
+        {
+            "currency": "AUD",
+            "additionalInfoUri": "https://www.bendigobank.com.au/globalassets/documents/disclosures/business-fees-and-charges.pdf",
+            "discounts": [],
+            "name": "BPAY WITHDRAWAL",
+            "feeType": "TRANSACTION",
+            "amount": "0.400000"
+        },
+        {
+            "currency": "AUD",
+            "additionalInfoUri": "https://www.bendigobank.com.au/globalassets/documents/disclosures/business-fees-and-charges.pdf",
+            "discounts": [],
+            "name": "E-banking internal transfer",
+            "feeType": "TRANSACTION",
+            "amount": "0.400000"
+        },
+        {
+            "currency": "AUD",
+            "additionalInfoUri": "https://www.bendigobank.com.au/globalassets/documents/disclosures/business-fees-and-charges.pdf",
+            "discounts": [],
+            "name": "Phone Banking transfer",
+            "feeType": "TRANSACTION",
+            "amount": "0.400000"
+        },
+        {
+            "currency": "AUD",
+            "additionalInfoUri": "https://www.bendigobank.com.au/globalassets/documents/disclosures/business-fees-and-charges.pdf",
+            "discounts": [],
+            "name": "E-banking Pay Anyone transfer, including Osko",
+            "feeType": "TRANSACTION",
+            "amount": "0.400000"
+        },
+        {
+            "currency": "AUD",
+            "additionalInfoUri": "https://www.bendigobank.com.au/globalassets/documents/disclosures/business-fees-and-charges.pdf",
+            "discounts": [],
+            "name": "Branch Cash withdrawal",
+            "feeType": "TRANSACTION",
+            "amount": "1.750000"
+        },
+        {
+            "currency": "AUD",
+            "additionalInfoUri": "https://www.bendigobank.com.au/globalassets/documents/disclosures/business-fees-and-charges.pdf",
+            "discounts": [],
+            "name": "Branch Transfer",
+            "feeType": "TRANSACTION",
+            "amount": "1.750000"
+        },
+        {
+            "currency": "AUD",
+            "additionalInfoUri": "https://www.bendigobank.com.au/globalassets/documents/disclosures/business-fees-and-charges.pdf",
+            "discounts": [],
+            "name": "Agency withdrawal ",
+            "feeType": "TRANSACTION",
+            "amount": "1.750000"
+        },
+        {
+            "currency": "AUD",
+            "additionalInfoUri": "https://www.bendigobank.com.au/globalassets/documents/disclosures/business-fees-and-charges.pdf",
+            "discounts": [],
+            "name": "Collection item ",
+            "feeType": "TRANSACTION",
+            "amount": "0.700000"
+        },
+        {
+            "additionalInfoUri": "https://www.bendigobank.com.au/globalassets/documents/disclosures/business-fees-and-charges.pdf",
+            "discounts": [],
+            "name": "EFTPOS withdrawal",
+            "feeType": "TRANSACTION",
+            "amount": "0.700000"
+        },
+        {
+            "additionalInfoUri": "https://www.bendigobank.com.au/globalassets/documents/disclosures/business-fees-and-charges.pdf",
+            "discounts": [],
+            "name": "Bank cheque withdrawal",
+            "feeType": "TRANSACTION",
+            "amount": "10.000000"
+        },
+        {
+            "additionalInfoUri": "https://www.bendigobank.com.au/globalassets/documents/disclosures/business-fees-and-charges.pdf",
+            "discounts": [],
+            "name": "EFT Credit Transfer",
+            "feeType": "TRANSACTION",
+            "amount": "4.000000"
+        },
+        {
+            "additionalInfoUri": "https://www.bendigobank.com.au/globalassets/documents/disclosures/business-fees-and-charges.pdf",
+            "additionalInfo": "Existing accounts only. Cheque facilities and Cheque books are not available on new accounts opened from 1 August 2023.)",
+            "discounts": [],
+            "name": "Periodical payment by cheque ",
+            "feeType": "TRANSACTION",
+            "amount": "3.750000"
+        },
+        {
+            "additionalInfoUri": "https://www.bendigobank.com.au/globalassets/documents/disclosures/business-fees-and-charges.pdf",
+            "discounts": [],
+            "name": "Periodical payment to other financial institution",
+            "feeType": "TRANSACTION",
+            "amount": "3.750000"
+        }
+    ],
+    "description": "Licensed Victorian Conveyancers to hold their clients' trust monies.",
+    "brand": "BENDIGO",
+    "isTailored": false,
+    "productId": "7f3f6a80-c49b-4c17-84d1-07f8f37b8020"
+}

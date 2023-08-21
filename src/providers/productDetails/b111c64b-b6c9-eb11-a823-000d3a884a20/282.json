@@ -1,0 +1,47 @@
+{
+    "productId": "282",
+    "effectiveTo": "9999-12-31T00:00:00Z",
+    "lastUpdated": "2023-05-03T14:30:00Z",
+    "productCategory": "RESIDENTIAL_MORTGAGES",
+    "name": "Fee Assistance Loan - Sub",
+    "description": "CEOH (NT ONLY) lends up to $10,000 to assist with costs associated with buying home and deposit",
+    "brand": "People's Choice Credit Union",
+    "brandName": "People's Choice",
+    "isTailored": false,
+    "features": [
+        {
+            "featureType": "EXTRA_REPAYMENTS",
+            "additionalValue": "Additional Repayments",
+            "additionalInfo": "Freedom to make unlimited extra repayments \u2013 reduce your loan term and save money",
+            "additionalInfoUri": "https://media.peopleschoice.com.au/-/media/project/peopleschoice/mainsite/files/brochures/brc-8-3-2-lending-terms-conditions.pdf"
+        },
+        {
+            "featureType": "OTHER",
+            "additionalValue": "Flexible Repayment Options",
+            "additionalInfo": "Flexible repayment frequency - pay weekly, fortnightly or monthly.",
+            "additionalInfoUri": "https://media.peopleschoice.com.au/-/media/project/peopleschoice/mainsite/files/brochures/brc-8-3-2-lending-terms-conditions.pdf"
+        },
+        {
+            "featureType": "OTHER",
+            "additionalValue": "Maximum loan term 15 years",
+            "additionalInfo": "Ability to pay the loan over 15 years for Chief Executive Officer (Housing) loans"
+        },
+        {
+            "featureType": "OTHER",
+            "additionalValue": "NT government housing schemes",
+            "additionalInfo": "Available for new business only with a Home Build Access (HBA) SIL 933 Loan. Max loan $10,000 (all others) to assist with costs associated with buying home and deposit."
+        }
+    ],
+    "lendingRates": [
+        {
+            "lendingRateType": "VARIABLE",
+            "rate": "0.0",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "interestPaymentDue": "IN_ARREARS",
+            "repaymentType": "PRINCIPAL_AND_INTEREST",
+            "loanPurpose": "OWNER_OCCUPIED",
+            "additionalInfo": "Zero Interest Rate Charged"
+        }
+    ]
+}

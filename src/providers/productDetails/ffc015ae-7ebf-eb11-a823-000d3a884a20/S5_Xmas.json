@@ -1,0 +1,95 @@
+{
+    "features": [
+        {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "featureType": "NOTIFICATIONS",
+            "additionalValue": "Monthly or 6 monthly statements available",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "featureType": "NPP_ENABLED",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "featureType": "NPP_PAYID",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        }
+    ],
+    "eligibility": [
+        {
+            "eligibilityType": "BUSINESS",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "eligibilityType": "NATURAL_PERSON",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "eligibilityType": "OTHER",
+            "additionalInfo": "Associations and club accounts eligible",
+            "additionalInfoUri": ""
+        },
+        {
+            "eligibilityType": "PENSION_RECIPIENT",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalValue": "Australian citizen or permanent resident",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "13",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        }
+    ],
+    "depositRates": [
+        {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0075",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "additionalInfo": "Interest calculated daily, paid on 30 November. Funds available on 30 November",
+            "additionalInfoUri": "https://www.swscu.com.au/Products/SavingsAccountsTermDeposits"
+        }
+    ],
+    "lendingRates": [
+        {
+            "lendingRateType": "VARIABLE",
+            "rate": "0.125",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        }
+    ],
+    "productId": "S5_Xmas",
+    "lastUpdated": "2023-02-23T08:51:01.000+11:00",
+    "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+    "name": "Christmas Club",
+    "description": "Christmas Club",
+    "brand": "South West Slopes Credit Union",
+    "brandName": "South West Slopes Credit Union",
+    "applicationUri": "https://forms.sharedservices.com.au/form.php?c=165&f=47",
+    "isTailored": false,
+    "additionalInformation": {
+        "overviewUri": "https://www.swscu.com.au/Products/SavingsAccountsTermDeposits/ChristmasClub",
+        "termsUri": "",
+        "eligibilityUri": "",
+        "feesAndPricingUri": "https://www.swscu.com.au/products-rates-and-fees-fees-and-charges.html",
+        "bundleUri": ""
+    }
+}

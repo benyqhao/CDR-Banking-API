@@ -1,0 +1,111 @@
+{
+    "productId": "30",
+    "effectiveTo": "9999-12-31T00:00:00Z",
+    "lastUpdated": "2023-05-03T14:30:00Z",
+    "productCategory": "PERS_LOANS",
+    "name": "Staff Personal Loan",
+    "description": "Staff Personal Loan",
+    "brand": "People's Choice Credit Union",
+    "brandName": "People's Choice",
+    "isTailored": false,
+    "additionalInformation": {
+        "termsUri": "https://media.peopleschoice.com.au/-/media/project/peopleschoice/mainsite/files/brochures/brc-8-3-2-lending-terms-conditions.pdf"
+    },
+    "features": [
+        {
+            "featureType": "DIGITAL_BANKING",
+            "additionalValue": "Easy access to your account 24/7 with the People\u2019s Choice Smartphone and iPhone App, Internet Banking and Phone Banking.",
+            "additionalInfoUri": "https://www.peopleschoice.com.au/managing-my-money/accessing-my-money/internet-banking"
+        },
+        {
+            "featureType": "REDRAW",
+            "additionalValue": "Free Redraw Available",
+            "additionalInfo": "Access to extra cash if you\u2019re ahead on your repayments.",
+            "additionalInfoUri": "https://media.peopleschoice.com.au/-/media/project/peopleschoice/mainsite/files/brochures/brc-8-3-2-lending-terms-conditions.pdf"
+        },
+        {
+            "featureType": "EXTRA_REPAYMENTS",
+            "additionalValue": "Additional Repayments",
+            "additionalInfo": "Freedom to make unlimited extra repayments \u2013 reduce your loan term and save money",
+            "additionalInfoUri": "https://media.peopleschoice.com.au/-/media/project/peopleschoice/mainsite/files/brochures/brc-8-3-2-lending-terms-conditions.pdf"
+        },
+        {
+            "featureType": "OTHER",
+            "additionalValue": "Early Payout and Additional Repayments",
+            "additionalInfo": "No penalties for additional repayments or early payout",
+            "additionalInfoUri": "https://www.peopleschoice.com.au/borrowing-and-credit/personal-loans/secured-personal-loan"
+        },
+        {
+            "featureType": "OTHER",
+            "additionalValue": "No Monthly Fee",
+            "additionalInfo": "No monthly account keeping fees",
+            "additionalInfoUri": "https://www.peopleschoice.com.au/borrowing-and-credit/personal-loans/secured-personal-loan"
+        },
+        {
+            "featureType": "OTHER",
+            "additionalValue": "Fixed Up to 7 years",
+            "additionalInfo": "Fixed loan terms up to seven years.",
+            "additionalInfoUri": "https://www.peopleschoice.com.au/borrowing-and-credit/personal-loans/unsecured-personal-loan"
+        },
+        {
+            "featureType": "OTHER",
+            "additionalValue": "Secured or Unsecured Option",
+            "additionalInfo": "Staff have the option of using security or not at the same staff rate benefit"
+        }
+    ],
+    "constraints": [
+        {
+            "constraintType": "MIN_LIMIT",
+            "additionalValue": "2,000.00",
+            "additionalInfo": "Minimum loan size is $2,000.00",
+            "additionalInfoUri": "https://www.peopleschoice.com.au/borrowing-and-credit/personal-loans/unsecured-personal-loan"
+        }
+    ],
+    "eligibility": [
+        {
+            "eligibilityType": "NATURAL_PERSON",
+            "additionalValue": "Personal Members Only",
+            "additionalInfoUri": "https://www.peopleschoice.com.au/borrowing-and-credit/borrowing-for-a-life-event/buying-a-home/the-home-loan-requirements-you-need-to-apply"
+        },
+        {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalValue": "Permanent residents of Australia who reside in Australia at the time of membership application are eligible for membership, regardless of citizenship status.",
+            "additionalInfoUri": "https://www.peopleschoice.com.au/borrowing-and-credit/borrowing-for-a-life-event/buying-a-home/the-home-loan-requirements-you-need-to-apply"
+        },
+        {
+            "eligibilityType": "OTHER",
+            "additionalValue": "Terms, conditions, fees, charges and lending criteria apply and are available on application",
+            "additionalInfoUri": "https://media.peopleschoice.com.au/-/media/project/peopleschoice/mainsite/files/brochures/brc-8-3-2-lending-terms-conditions.pdf"
+        },
+        {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "18 years and over",
+            "additionalInfoUri": "https://www.peopleschoice.com.au/blog/personal-loans/what-you-need-to-apply-for-a-personal-loan"
+        }
+    ],
+    "fees": [
+        {
+            "name": "Personal Property Securities Registration Fee",
+            "feeType": "UPFRONT",
+            "amount": "9.60",
+            "additionalInfoUri": "https://media.peopleschoice.com.au/-/media/project/peopleschoice/mainsite/files/brochures/brc-8-6-2-fees-and-charges.pdf"
+        },
+        {
+            "name": "Personal Property Securities Serial No. Search Fee",
+            "feeType": "UPFRONT",
+            "amount": "5.68",
+            "additionalInfoUri": "https://media.peopleschoice.com.au/-/media/project/peopleschoice/mainsite/files/brochures/brc-8-6-2-fees-and-charges.pdf"
+        }
+    ],
+    "lendingRates": [
+        {
+            "lendingRateType": "VARIABLE",
+            "rate": "0.0452",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "interestPaymentDue": "IN_ARREARS",
+            "additionalValue": "P7Y",
+            "additionalInfo": "Any worthwhile purpose"
+        }
+    ]
+}

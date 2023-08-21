@@ -1,0 +1,934 @@
+{
+    "productId": "34fde390-c762-4c5b-90f1-f65af6c0aa3b",
+    "bundles": [],
+    "features": [
+        {
+            "additionalInfo": "Access using ANZ Internet Banking or ANZ App",
+            "additionalInfoUri": "https://www.anz.com.au/business/products/online-banking/?CID=af:obank:ag",
+            "featureType": "DIGITAL_BANKING"
+        }
+    ],
+    "description": "A tax efficient investment account for primary producers that can help you manage uneven cashflow",
+    "additionalInformation": {
+        "termsUri": "https://www.anz.com.au/business/help-support/terms-conditions/?section=SBS&CID=af:obank:ag",
+        "eligibilityUri": "https://www.anz.com.au/business/products/accounts/specialist-accounts/farm-management-deposits/?CID=af:obank:ag",
+        "overviewUri": "https://www.anz.com.au/business/products/accounts/specialist-accounts/farm-management-deposits/?CID=af:obank:ag",
+        "feesAndPricingUri": "https://www.anz.com.au/business/products/accounts/specialist-accounts/farm-management-deposits/?CID=af:obank:ag"
+    },
+    "depositRates": [
+        {
+            "depositRateType": "FIXED",
+            "additionalInfo": "Balance between $1,000 and $29,999. Term between 3 and 6 months. Interest is paid at maturity.",
+            "calculationFrequency": "P1D",
+            "additionalValue": "P3M",
+            "tiers": [
+                {
+                    "name": "Balance",
+                    "unitOfMeasure": "DOLLAR",
+                    "applicabilityConditions": {
+                        "additionalInfo": "Balance between $1,000 and $29,999"
+                    },
+                    "maximumValue": 29999,
+                    "rateApplicationMethod": "WHOLE_BALANCE",
+                    "minimumValue": 1000
+                },
+                {
+                    "name": "Term",
+                    "unitOfMeasure": "MONTH",
+                    "applicabilityConditions": {
+                        "additionalInfo": "Term between 3 and 6 months"
+                    },
+                    "maximumValue": 6,
+                    "rateApplicationMethod": "WHOLE_BALANCE",
+                    "minimumValue": 3
+                }
+            ],
+            "rate": "0.032"
+        },
+        {
+            "depositRateType": "FIXED",
+            "additionalInfo": "Balance between $1,000 and $29,999. Term between 6 and 12 months. Interest is paid at maturity.",
+            "calculationFrequency": "P1D",
+            "additionalValue": "P6M",
+            "tiers": [
+                {
+                    "name": "Balance",
+                    "unitOfMeasure": "DOLLAR",
+                    "applicabilityConditions": {
+                        "additionalInfo": "Balance between $1,000 and $29,999"
+                    },
+                    "maximumValue": 29999,
+                    "rateApplicationMethod": "WHOLE_BALANCE",
+                    "minimumValue": 1000
+                },
+                {
+                    "name": "Term",
+                    "unitOfMeasure": "MONTH",
+                    "applicabilityConditions": {
+                        "additionalInfo": "Term between 6 and 12 months"
+                    },
+                    "maximumValue": 12,
+                    "rateApplicationMethod": "WHOLE_BALANCE",
+                    "minimumValue": 6
+                }
+            ],
+            "rate": "0.039"
+        },
+        {
+            "depositRateType": "FIXED",
+            "additionalInfo": "Balance between $1,000 and $29,999. Term between 12 and 18 months. Interest is paid annually and at maturity.",
+            "calculationFrequency": "P1D",
+            "additionalValue": "P12M",
+            "applicationFrequency": "P1Y",
+            "tiers": [
+                {
+                    "name": "Balance",
+                    "unitOfMeasure": "DOLLAR",
+                    "applicabilityConditions": {
+                        "additionalInfo": "Balance between $1,000 and $29,999"
+                    },
+                    "maximumValue": 29999,
+                    "rateApplicationMethod": "WHOLE_BALANCE",
+                    "minimumValue": 1000
+                },
+                {
+                    "name": "Term",
+                    "unitOfMeasure": "MONTH",
+                    "applicabilityConditions": {
+                        "additionalInfo": "Term between 12 and 18 months"
+                    },
+                    "maximumValue": 18,
+                    "rateApplicationMethod": "WHOLE_BALANCE",
+                    "minimumValue": 12
+                }
+            ],
+            "rate": "0.0475"
+        },
+        {
+            "depositRateType": "FIXED",
+            "additionalInfo": "Balance between $1,000 and $29,999. Term between 18 and 36 months. Interest is paid annually and at maturity.",
+            "calculationFrequency": "P1D",
+            "additionalValue": "P18M",
+            "applicationFrequency": "P1Y",
+            "tiers": [
+                {
+                    "name": "Balance",
+                    "unitOfMeasure": "DOLLAR",
+                    "applicabilityConditions": {
+                        "additionalInfo": "Balance between $1,000 and $29,999"
+                    },
+                    "maximumValue": 29999,
+                    "rateApplicationMethod": "WHOLE_BALANCE",
+                    "minimumValue": 1000
+                },
+                {
+                    "name": "Term",
+                    "unitOfMeasure": "MONTH",
+                    "applicabilityConditions": {
+                        "additionalInfo": "Term between 18 and 36 months"
+                    },
+                    "maximumValue": 36,
+                    "rateApplicationMethod": "WHOLE_BALANCE",
+                    "minimumValue": 18
+                }
+            ],
+            "rate": "0.0425"
+        },
+        {
+            "depositRateType": "FIXED",
+            "additionalInfo": "Balance between $1,000 and $29,999. Term 36 months or over. Interest is paid annually and at maturity.",
+            "calculationFrequency": "P1D",
+            "additionalValue": "P36M",
+            "applicationFrequency": "P1Y",
+            "tiers": [
+                {
+                    "name": "Balance",
+                    "unitOfMeasure": "DOLLAR",
+                    "applicabilityConditions": {
+                        "additionalInfo": "Balance between $1,000 and $29,999"
+                    },
+                    "maximumValue": 29999,
+                    "rateApplicationMethod": "WHOLE_BALANCE",
+                    "minimumValue": 1000
+                },
+                {
+                    "name": "Term",
+                    "unitOfMeasure": "MONTH",
+                    "applicabilityConditions": {
+                        "additionalInfo": "Term 36 months or over"
+                    },
+                    "rateApplicationMethod": "WHOLE_BALANCE",
+                    "minimumValue": 36
+                }
+            ],
+            "rate": "0.0425"
+        },
+        {
+            "depositRateType": "FIXED",
+            "additionalInfo": "Balance between $30,000 and $49,999. Term between 3 and 6 months. Interest is paid at maturity.",
+            "calculationFrequency": "P1D",
+            "additionalValue": "P3M",
+            "tiers": [
+                {
+                    "name": "Balance",
+                    "unitOfMeasure": "DOLLAR",
+                    "applicabilityConditions": {
+                        "additionalInfo": "Balance between $30,000 and $49,999"
+                    },
+                    "maximumValue": 49999,
+                    "rateApplicationMethod": "WHOLE_BALANCE",
+                    "minimumValue": 30000
+                },
+                {
+                    "name": "Term",
+                    "unitOfMeasure": "MONTH",
+                    "applicabilityConditions": {
+                        "additionalInfo": "Term between 3 and 6 months"
+                    },
+                    "maximumValue": 6,
+                    "rateApplicationMethod": "WHOLE_BALANCE",
+                    "minimumValue": 3
+                }
+            ],
+            "rate": "0.032"
+        },
+        {
+            "depositRateType": "FIXED",
+            "additionalInfo": "Balance between $30,000 and $49,999. Term between 6 and 12 months. Interest is paid at maturity.",
+            "calculationFrequency": "P1D",
+            "additionalValue": "P6M",
+            "tiers": [
+                {
+                    "name": "Balance",
+                    "unitOfMeasure": "DOLLAR",
+                    "applicabilityConditions": {
+                        "additionalInfo": "Balance between $30,000 and $49,999"
+                    },
+                    "maximumValue": 49999,
+                    "rateApplicationMethod": "WHOLE_BALANCE",
+                    "minimumValue": 30000
+                },
+                {
+                    "name": "Term",
+                    "unitOfMeasure": "MONTH",
+                    "applicabilityConditions": {
+                        "additionalInfo": "Term between 6 and 12 months"
+                    },
+                    "maximumValue": 12,
+                    "rateApplicationMethod": "WHOLE_BALANCE",
+                    "minimumValue": 6
+                }
+            ],
+            "rate": "0.039"
+        },
+        {
+            "depositRateType": "FIXED",
+            "additionalInfo": "Balance between $30,000 and $49,999. Term between 12 and 18 months. Interest is paid annually and at maturity.",
+            "calculationFrequency": "P1D",
+            "additionalValue": "P12M",
+            "applicationFrequency": "P1Y",
+            "tiers": [
+                {
+                    "name": "Balance",
+                    "unitOfMeasure": "DOLLAR",
+                    "applicabilityConditions": {
+                        "additionalInfo": "Balance between $30,000 and $49,999"
+                    },
+                    "maximumValue": 49999,
+                    "rateApplicationMethod": "WHOLE_BALANCE",
+                    "minimumValue": 30000
+                },
+                {
+                    "name": "Term",
+                    "unitOfMeasure": "MONTH",
+                    "applicabilityConditions": {
+                        "additionalInfo": "Term between 12 and 18 months"
+                    },
+                    "maximumValue": 18,
+                    "rateApplicationMethod": "WHOLE_BALANCE",
+                    "minimumValue": 12
+                }
+            ],
+            "rate": "0.0475"
+        },
+        {
+            "depositRateType": "FIXED",
+            "additionalInfo": "Balance between $30,000 and $49,999. Term between 18 and 36 months. Interest is paid annually and at maturity.",
+            "calculationFrequency": "P1D",
+            "additionalValue": "P18M",
+            "applicationFrequency": "P1Y",
+            "tiers": [
+                {
+                    "name": "Balance",
+                    "unitOfMeasure": "DOLLAR",
+                    "applicabilityConditions": {
+                        "additionalInfo": "Balance between $30,000 and $49,999"
+                    },
+                    "maximumValue": 49999,
+                    "rateApplicationMethod": "WHOLE_BALANCE",
+                    "minimumValue": 30000
+                },
+                {
+                    "name": "Term",
+                    "unitOfMeasure": "MONTH",
+                    "applicabilityConditions": {
+                        "additionalInfo": "Term between 18 and 36 months"
+                    },
+                    "maximumValue": 36,
+                    "rateApplicationMethod": "WHOLE_BALANCE",
+                    "minimumValue": 18
+                }
+            ],
+            "rate": "0.0425"
+        },
+        {
+            "depositRateType": "FIXED",
+            "additionalInfo": "Balance between $30,000 and $49,999. Term 36 months or over. Interest is paid annually and at maturity.",
+            "calculationFrequency": "P1D",
+            "additionalValue": "P36M",
+            "applicationFrequency": "P1Y",
+            "tiers": [
+                {
+                    "name": "Balance",
+                    "unitOfMeasure": "DOLLAR",
+                    "applicabilityConditions": {
+                        "additionalInfo": "Balance between $30,000 and $49,999"
+                    },
+                    "maximumValue": 49999,
+                    "rateApplicationMethod": "WHOLE_BALANCE",
+                    "minimumValue": 30000
+                },
+                {
+                    "name": "Term",
+                    "unitOfMeasure": "MONTH",
+                    "applicabilityConditions": {
+                        "additionalInfo": "Term 36 months or over"
+                    },
+                    "rateApplicationMethod": "WHOLE_BALANCE",
+                    "minimumValue": 36
+                }
+            ],
+            "rate": "0.0425"
+        },
+        {
+            "depositRateType": "FIXED",
+            "additionalInfo": "Balance between $50,000 and $99,999. Term between 3 and 6 months. Interest is paid at maturity.",
+            "calculationFrequency": "P1D",
+            "additionalValue": "P3M",
+            "tiers": [
+                {
+                    "name": "Balance",
+                    "unitOfMeasure": "DOLLAR",
+                    "applicabilityConditions": {
+                        "additionalInfo": "Balance between $50,000 and $99,999"
+                    },
+                    "maximumValue": 99999,
+                    "rateApplicationMethod": "WHOLE_BALANCE",
+                    "minimumValue": 50000
+                },
+                {
+                    "name": "Term",
+                    "unitOfMeasure": "MONTH",
+                    "applicabilityConditions": {
+                        "additionalInfo": "Term between 3 and 6 months"
+                    },
+                    "maximumValue": 6,
+                    "rateApplicationMethod": "WHOLE_BALANCE",
+                    "minimumValue": 3
+                }
+            ],
+            "rate": "0.032"
+        },
+        {
+            "depositRateType": "FIXED",
+            "additionalInfo": "Balance between $50,000 and $99,999. Term between 6 and 12 months. Interest is paid at maturity.",
+            "calculationFrequency": "P1D",
+            "additionalValue": "P6M",
+            "tiers": [
+                {
+                    "name": "Balance",
+                    "unitOfMeasure": "DOLLAR",
+                    "applicabilityConditions": {
+                        "additionalInfo": "Balance between $50,000 and $99,999"
+                    },
+                    "maximumValue": 99999,
+                    "rateApplicationMethod": "WHOLE_BALANCE",
+                    "minimumValue": 50000
+                },
+                {
+                    "name": "Term",
+                    "unitOfMeasure": "MONTH",
+                    "applicabilityConditions": {
+                        "additionalInfo": "Term between 6 and 12 months"
+                    },
+                    "maximumValue": 12,
+                    "rateApplicationMethod": "WHOLE_BALANCE",
+                    "minimumValue": 6
+                }
+            ],
+            "rate": "0.039"
+        },
+        {
+            "depositRateType": "FIXED",
+            "additionalInfo": "Balance between $50,000 and $99,999. Term between 12 and 18 months. Interest is paid annually and at maturity.",
+            "calculationFrequency": "P1D",
+            "additionalValue": "P12M",
+            "applicationFrequency": "P1Y",
+            "tiers": [
+                {
+                    "name": "Balance",
+                    "unitOfMeasure": "DOLLAR",
+                    "applicabilityConditions": {
+                        "additionalInfo": "Balance between $50,000 and $99,999"
+                    },
+                    "maximumValue": 99999,
+                    "rateApplicationMethod": "WHOLE_BALANCE",
+                    "minimumValue": 50000
+                },
+                {
+                    "name": "Term",
+                    "unitOfMeasure": "MONTH",
+                    "applicabilityConditions": {
+                        "additionalInfo": "Term between 12 and 18 months"
+                    },
+                    "maximumValue": 18,
+                    "rateApplicationMethod": "WHOLE_BALANCE",
+                    "minimumValue": 12
+                }
+            ],
+            "rate": "0.0475"
+        },
+        {
+            "depositRateType": "FIXED",
+            "additionalInfo": "Balance between $50,000 and $99,999. Term between 18 and 36 months. Interest is paid annually and at maturity.",
+            "calculationFrequency": "P1D",
+            "additionalValue": "P18M",
+            "applicationFrequency": "P1Y",
+            "tiers": [
+                {
+                    "name": "Balance",
+                    "unitOfMeasure": "DOLLAR",
+                    "applicabilityConditions": {
+                        "additionalInfo": "Balance between $50,000 and $99,999"
+                    },
+                    "maximumValue": 99999,
+                    "rateApplicationMethod": "WHOLE_BALANCE",
+                    "minimumValue": 50000
+                },
+                {
+                    "name": "Term",
+                    "unitOfMeasure": "MONTH",
+                    "applicabilityConditions": {
+                        "additionalInfo": "Term between 18 and 36 months"
+                    },
+                    "maximumValue": 36,
+                    "rateApplicationMethod": "WHOLE_BALANCE",
+                    "minimumValue": 18
+                }
+            ],
+            "rate": "0.0425"
+        },
+        {
+            "depositRateType": "FIXED",
+            "additionalInfo": "Balance between $50,000 and $99,999. Term 36 months or over. Interest is paid annually and at maturity.",
+            "calculationFrequency": "P1D",
+            "additionalValue": "P36M",
+            "applicationFrequency": "P1Y",
+            "tiers": [
+                {
+                    "name": "Balance",
+                    "unitOfMeasure": "DOLLAR",
+                    "applicabilityConditions": {
+                        "additionalInfo": "Balance between $50,000 and $99,999"
+                    },
+                    "maximumValue": 99999,
+                    "rateApplicationMethod": "WHOLE_BALANCE",
+                    "minimumValue": 50000
+                },
+                {
+                    "name": "Term",
+                    "unitOfMeasure": "MONTH",
+                    "applicabilityConditions": {
+                        "additionalInfo": "Term 36 months or over"
+                    },
+                    "rateApplicationMethod": "WHOLE_BALANCE",
+                    "minimumValue": 36
+                }
+            ],
+            "rate": "0.0425"
+        },
+        {
+            "depositRateType": "FIXED",
+            "additionalInfo": "Balance between $100,000 and $199,999. Term between 3 and 6 months. Interest is paid at maturity.",
+            "calculationFrequency": "P1D",
+            "additionalValue": "P3M",
+            "tiers": [
+                {
+                    "name": "Balance",
+                    "unitOfMeasure": "DOLLAR",
+                    "applicabilityConditions": {
+                        "additionalInfo": "Balance between $100,000 and $199,999"
+                    },
+                    "maximumValue": 199999,
+                    "rateApplicationMethod": "WHOLE_BALANCE",
+                    "minimumValue": 100000
+                },
+                {
+                    "name": "Term",
+                    "unitOfMeasure": "MONTH",
+                    "applicabilityConditions": {
+                        "additionalInfo": "Term between 3 and 6 months"
+                    },
+                    "maximumValue": 6,
+                    "rateApplicationMethod": "WHOLE_BALANCE",
+                    "minimumValue": 3
+                }
+            ],
+            "rate": "0.032"
+        },
+        {
+            "depositRateType": "FIXED",
+            "additionalInfo": "Balance between $100,000 and $199,999. Term between 6 and 12 months. Interest is paid at maturity.",
+            "calculationFrequency": "P1D",
+            "additionalValue": "P6M",
+            "tiers": [
+                {
+                    "name": "Balance",
+                    "unitOfMeasure": "DOLLAR",
+                    "applicabilityConditions": {
+                        "additionalInfo": "Balance between $100,000 and $199,999"
+                    },
+                    "maximumValue": 199999,
+                    "rateApplicationMethod": "WHOLE_BALANCE",
+                    "minimumValue": 100000
+                },
+                {
+                    "name": "Term",
+                    "unitOfMeasure": "MONTH",
+                    "applicabilityConditions": {
+                        "additionalInfo": "Term between 6 and 12 months"
+                    },
+                    "maximumValue": 12,
+                    "rateApplicationMethod": "WHOLE_BALANCE",
+                    "minimumValue": 6
+                }
+            ],
+            "rate": "0.039"
+        },
+        {
+            "depositRateType": "FIXED",
+            "additionalInfo": "Balance between $100,000 and $199,999. Term between 12 and 18 months. Interest is paid annually and at maturity.",
+            "calculationFrequency": "P1D",
+            "additionalValue": "P12M",
+            "applicationFrequency": "P1Y",
+            "tiers": [
+                {
+                    "name": "Balance",
+                    "unitOfMeasure": "DOLLAR",
+                    "applicabilityConditions": {
+                        "additionalInfo": "Balance between $100,000 and $199,999"
+                    },
+                    "maximumValue": 199999,
+                    "rateApplicationMethod": "WHOLE_BALANCE",
+                    "minimumValue": 100000
+                },
+                {
+                    "name": "Term",
+                    "unitOfMeasure": "MONTH",
+                    "applicabilityConditions": {
+                        "additionalInfo": "Term between 12 and 18 months"
+                    },
+                    "maximumValue": 18,
+                    "rateApplicationMethod": "WHOLE_BALANCE",
+                    "minimumValue": 12
+                }
+            ],
+            "rate": "0.0475"
+        },
+        {
+            "depositRateType": "FIXED",
+            "additionalInfo": "Balance between $100,000 and $199,999. Term between 18 and 36 months. Interest is paid annually and at maturity.",
+            "calculationFrequency": "P1D",
+            "additionalValue": "P18M",
+            "applicationFrequency": "P1Y",
+            "tiers": [
+                {
+                    "name": "Balance",
+                    "unitOfMeasure": "DOLLAR",
+                    "applicabilityConditions": {
+                        "additionalInfo": "Balance between $100,000 and $199,999"
+                    },
+                    "maximumValue": 199999,
+                    "rateApplicationMethod": "WHOLE_BALANCE",
+                    "minimumValue": 100000
+                },
+                {
+                    "name": "Term",
+                    "unitOfMeasure": "MONTH",
+                    "applicabilityConditions": {
+                        "additionalInfo": "Term between 18 and 36 months"
+                    },
+                    "maximumValue": 36,
+                    "rateApplicationMethod": "WHOLE_BALANCE",
+                    "minimumValue": 18
+                }
+            ],
+            "rate": "0.0425"
+        },
+        {
+            "depositRateType": "FIXED",
+            "additionalInfo": "Balance between $100,000 and $199,999. Term 36 months or over. Interest is paid annually and at maturity.",
+            "calculationFrequency": "P1D",
+            "additionalValue": "P36M",
+            "applicationFrequency": "P1Y",
+            "tiers": [
+                {
+                    "name": "Balance",
+                    "unitOfMeasure": "DOLLAR",
+                    "applicabilityConditions": {
+                        "additionalInfo": "Balance between $100,000 and $199,999"
+                    },
+                    "maximumValue": 199999,
+                    "rateApplicationMethod": "WHOLE_BALANCE",
+                    "minimumValue": 100000
+                },
+                {
+                    "name": "Term",
+                    "unitOfMeasure": "MONTH",
+                    "applicabilityConditions": {
+                        "additionalInfo": "Term 36 months or over"
+                    },
+                    "rateApplicationMethod": "WHOLE_BALANCE",
+                    "minimumValue": 36
+                }
+            ],
+            "rate": "0.0425"
+        },
+        {
+            "depositRateType": "FIXED",
+            "additionalInfo": "Balance between $200,000 and $399,999. Term between 3 and 6 months. Interest is paid at maturity.",
+            "calculationFrequency": "P1D",
+            "additionalValue": "P3M",
+            "tiers": [
+                {
+                    "name": "Balance",
+                    "unitOfMeasure": "DOLLAR",
+                    "applicabilityConditions": {
+                        "additionalInfo": "Balance between $200,000 and $399,999"
+                    },
+                    "maximumValue": 399999,
+                    "rateApplicationMethod": "WHOLE_BALANCE",
+                    "minimumValue": 200000
+                },
+                {
+                    "name": "Term",
+                    "unitOfMeasure": "MONTH",
+                    "applicabilityConditions": {
+                        "additionalInfo": "Term between 3 and 6 months"
+                    },
+                    "maximumValue": 6,
+                    "rateApplicationMethod": "WHOLE_BALANCE",
+                    "minimumValue": 3
+                }
+            ],
+            "rate": "0.032"
+        },
+        {
+            "depositRateType": "FIXED",
+            "additionalInfo": "Balance between $200,000 and $399,999. Term between 6 and 12 months. Interest is paid at maturity.",
+            "calculationFrequency": "P1D",
+            "additionalValue": "P6M",
+            "tiers": [
+                {
+                    "name": "Balance",
+                    "unitOfMeasure": "DOLLAR",
+                    "applicabilityConditions": {
+                        "additionalInfo": "Balance between $200,000 and $399,999"
+                    },
+                    "maximumValue": 399999,
+                    "rateApplicationMethod": "WHOLE_BALANCE",
+                    "minimumValue": 200000
+                },
+                {
+                    "name": "Term",
+                    "unitOfMeasure": "MONTH",
+                    "applicabilityConditions": {
+                        "additionalInfo": "Term between 6 and 12 months"
+                    },
+                    "maximumValue": 12,
+                    "rateApplicationMethod": "WHOLE_BALANCE",
+                    "minimumValue": 6
+                }
+            ],
+            "rate": "0.039"
+        },
+        {
+            "depositRateType": "FIXED",
+            "additionalInfo": "Balance between $200,000 and $399,999. Term between 12 and 18 months. Interest is paid annually and at maturity.",
+            "calculationFrequency": "P1D",
+            "additionalValue": "P12M",
+            "applicationFrequency": "P1Y",
+            "tiers": [
+                {
+                    "name": "Balance",
+                    "unitOfMeasure": "DOLLAR",
+                    "applicabilityConditions": {
+                        "additionalInfo": "Balance between $200,000 and $399,999"
+                    },
+                    "maximumValue": 399999,
+                    "rateApplicationMethod": "WHOLE_BALANCE",
+                    "minimumValue": 200000
+                },
+                {
+                    "name": "Term",
+                    "unitOfMeasure": "MONTH",
+                    "applicabilityConditions": {
+                        "additionalInfo": "Term between 12 and 18 months"
+                    },
+                    "maximumValue": 18,
+                    "rateApplicationMethod": "WHOLE_BALANCE",
+                    "minimumValue": 12
+                }
+            ],
+            "rate": "0.0475"
+        },
+        {
+            "depositRateType": "FIXED",
+            "additionalInfo": "Balance between $200,000 and $399,999. Term between 18 and 36 months. Interest is paid annually and at maturity.",
+            "calculationFrequency": "P1D",
+            "additionalValue": "P18M",
+            "applicationFrequency": "P1Y",
+            "tiers": [
+                {
+                    "name": "Balance",
+                    "unitOfMeasure": "DOLLAR",
+                    "applicabilityConditions": {
+                        "additionalInfo": "Balance between $200,000 and $399,999"
+                    },
+                    "maximumValue": 399999,
+                    "rateApplicationMethod": "WHOLE_BALANCE",
+                    "minimumValue": 200000
+                },
+                {
+                    "name": "Term",
+                    "unitOfMeasure": "MONTH",
+                    "applicabilityConditions": {
+                        "additionalInfo": "Term between 18 and 36 months"
+                    },
+                    "maximumValue": 36,
+                    "rateApplicationMethod": "WHOLE_BALANCE",
+                    "minimumValue": 18
+                }
+            ],
+            "rate": "0.0425"
+        },
+        {
+            "depositRateType": "FIXED",
+            "additionalInfo": "Balance between $200,000 and $399,999. Term 36 months or over. Interest is paid annually and at maturity.",
+            "calculationFrequency": "P1D",
+            "additionalValue": "P36M",
+            "applicationFrequency": "P1Y",
+            "tiers": [
+                {
+                    "name": "Balance",
+                    "unitOfMeasure": "DOLLAR",
+                    "applicabilityConditions": {
+                        "additionalInfo": "Balance between $200,000 and $399,999"
+                    },
+                    "maximumValue": 399999,
+                    "rateApplicationMethod": "WHOLE_BALANCE",
+                    "minimumValue": 200000
+                },
+                {
+                    "name": "Term",
+                    "unitOfMeasure": "MONTH",
+                    "applicabilityConditions": {
+                        "additionalInfo": "Term 36 months or over"
+                    },
+                    "rateApplicationMethod": "WHOLE_BALANCE",
+                    "minimumValue": 36
+                }
+            ],
+            "rate": "0.0425"
+        },
+        {
+            "depositRateType": "FIXED",
+            "additionalInfo": "Balance between $400,000 and $800,000. Term between 3 and 6 months. Interest is paid at maturity.",
+            "calculationFrequency": "P1D",
+            "additionalValue": "P3M",
+            "tiers": [
+                {
+                    "name": "Balance",
+                    "unitOfMeasure": "DOLLAR",
+                    "applicabilityConditions": {
+                        "additionalInfo": "Balance between $400,000 and $800,000"
+                    },
+                    "maximumValue": 800000,
+                    "rateApplicationMethod": "WHOLE_BALANCE",
+                    "minimumValue": 400000
+                },
+                {
+                    "name": "Term",
+                    "unitOfMeasure": "MONTH",
+                    "applicabilityConditions": {
+                        "additionalInfo": "Term between 3 and 6 months"
+                    },
+                    "maximumValue": 6,
+                    "rateApplicationMethod": "WHOLE_BALANCE",
+                    "minimumValue": 3
+                }
+            ],
+            "rate": "0.032"
+        },
+        {
+            "depositRateType": "FIXED",
+            "additionalInfo": "Balance between $400,000 and $800,000. Term between 6 and 12 months. Interest is paid at maturity.",
+            "calculationFrequency": "P1D",
+            "additionalValue": "P6M",
+            "tiers": [
+                {
+                    "name": "Balance",
+                    "unitOfMeasure": "DOLLAR",
+                    "applicabilityConditions": {
+                        "additionalInfo": "Balance between $400,000 and $800,000"
+                    },
+                    "maximumValue": 800000,
+                    "rateApplicationMethod": "WHOLE_BALANCE",
+                    "minimumValue": 400000
+                },
+                {
+                    "name": "Term",
+                    "unitOfMeasure": "MONTH",
+                    "applicabilityConditions": {
+                        "additionalInfo": "Term between 6 and 12 months"
+                    },
+                    "maximumValue": 12,
+                    "rateApplicationMethod": "WHOLE_BALANCE",
+                    "minimumValue": 6
+                }
+            ],
+            "rate": "0.039"
+        },
+        {
+            "depositRateType": "FIXED",
+            "additionalInfo": "Balance between $400,000 and $800,000. Term between 12 and 18 months. Interest is paid annually and at maturity.",
+            "calculationFrequency": "P1D",
+            "additionalValue": "P12M",
+            "applicationFrequency": "P1Y",
+            "tiers": [
+                {
+                    "name": "Balance",
+                    "unitOfMeasure": "DOLLAR",
+                    "applicabilityConditions": {
+                        "additionalInfo": "Balance between $400,000 and $800,000"
+                    },
+                    "maximumValue": 800000,
+                    "rateApplicationMethod": "WHOLE_BALANCE",
+                    "minimumValue": 400000
+                },
+                {
+                    "name": "Term",
+                    "unitOfMeasure": "MONTH",
+                    "applicabilityConditions": {
+                        "additionalInfo": "Term between 12 and 18 months"
+                    },
+                    "maximumValue": 18,
+                    "rateApplicationMethod": "WHOLE_BALANCE",
+                    "minimumValue": 12
+                }
+            ],
+            "rate": "0.0475"
+        },
+        {
+            "depositRateType": "FIXED",
+            "additionalInfo": "Balance between $400,000 and $800,000. Term between 18 and 36 months. Interest is paid annually and at maturity.",
+            "calculationFrequency": "P1D",
+            "additionalValue": "P18M",
+            "applicationFrequency": "P1Y",
+            "tiers": [
+                {
+                    "name": "Balance",
+                    "unitOfMeasure": "DOLLAR",
+                    "applicabilityConditions": {
+                        "additionalInfo": "Balance between $400,000 and $800,000"
+                    },
+                    "maximumValue": 800000,
+                    "rateApplicationMethod": "WHOLE_BALANCE",
+                    "minimumValue": 400000
+                },
+                {
+                    "name": "Term",
+                    "unitOfMeasure": "MONTH",
+                    "applicabilityConditions": {
+                        "additionalInfo": "Term between 18 and 36 months"
+                    },
+                    "maximumValue": 36,
+                    "rateApplicationMethod": "WHOLE_BALANCE",
+                    "minimumValue": 18
+                }
+            ],
+            "rate": "0.0425"
+        },
+        {
+            "depositRateType": "FIXED",
+            "additionalInfo": "Balance between $400,000 and $800,000. Term 36 months or over. Interest is paid annually and at maturity.",
+            "calculationFrequency": "P1D",
+            "additionalValue": "P36M",
+            "applicationFrequency": "P1Y",
+            "tiers": [
+                {
+                    "name": "Balance",
+                    "unitOfMeasure": "DOLLAR",
+                    "applicabilityConditions": {
+                        "additionalInfo": "Balance between $400,000 and $800,000"
+                    },
+                    "maximumValue": 800000,
+                    "rateApplicationMethod": "WHOLE_BALANCE",
+                    "minimumValue": 400000
+                },
+                {
+                    "name": "Term",
+                    "unitOfMeasure": "MONTH",
+                    "applicabilityConditions": {
+                        "additionalInfo": "Term 36 months or over"
+                    },
+                    "rateApplicationMethod": "WHOLE_BALANCE",
+                    "minimumValue": 36
+                }
+            ],
+            "rate": "0.0425"
+        }
+    ],
+    "lendingRates": [],
+    "applicationUri": "https://www.anz.com.au/business/accounts/specialist-accounts/farm-management-deposits/",
+    "eligibility": [
+        {
+            "additionalInfo": "Be an individual primary producer with taxable non-primary production income of no more than $100,000",
+            "eligibilityType": "OTHER",
+            "additionalValue": "Be an individual primary producer with taxable non-primary production income of no more than $100,000"
+        },
+        {
+            "additionalInfo": "Hold a farm management deposit for at least 12 months to qualify for tax concessions",
+            "eligibilityType": "OTHER",
+            "additionalValue": "Hold a farm management deposit for at least 12 months to qualify for tax concessions"
+        }
+    ],
+    "brand": "ANZ",
+    "name": "Farm Management Deposit Fixed Term",
+    "cardArt": [],
+    "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+    "effectiveFrom": "2020-06-30T14:00:00.000Z",
+    "fees": [],
+    "isTailored": false,
+    "lastUpdated": "2023-07-06T14:01:00.000Z",
+    "constraints": [
+        {
+            "constraintType": "MIN_LIMIT",
+            "additionalValue": "1000.00"
+        },
+        {
+            "constraintType": "MAX_LIMIT",
+            "additionalValue": "800000.00"
+        }
+    ]
+}

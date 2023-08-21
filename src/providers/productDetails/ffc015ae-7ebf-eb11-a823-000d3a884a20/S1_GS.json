@@ -1,0 +1,273 @@
+{
+    "features": [
+        {
+            "featureType": "CARD_ACCESS",
+            "additionalValue": "Visa Debit Card Available",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "featureType": "BILL_PAYMENT",
+            "additionalValue": "Periodical Payments System",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "featureType": "DIGITAL_WALLET",
+            "additionalValue": "Apple Pay, Google Pay and Samsung Pay",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "featureType": "FREE_TXNS",
+            "additionalValue": "Relationship Balance",
+            "additionalInfo": "",
+            "additionalInfoUri": "https://www.swscu.com.au/products-rates-and-fees-fees-and-charges.html"
+        },
+        {
+            "featureType": "NOTIFICATIONS",
+            "additionalValue": "Monthly or 6 Monthly statements available",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "featureType": "NPP_ENABLED",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "featureType": "NPP_PAYID",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "featureType": "OVERDRAFT",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        }
+    ],
+    "eligibility": [
+        {
+            "eligibilityType": "BUSINESS",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "18",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "eligibilityType": "NATURAL_PERSON",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "eligibilityType": "PENSION_RECIPIENT",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalValue": "Australian citizen or permanent resident",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        }
+    ],
+    "fees": [
+        {
+            "name": "EXCESS_TRANSACTION_FEES",
+            "feeType": "EVENT",
+            "transactionRate": "0.0",
+            "accrualFrequency": "P1M",
+            "currency": "AUD",
+            "additionalInfo": "Excess Transaction Fees are incurred when the number of Free Transactions for the month are exceeded.",
+            "additionalInfoUri": "https://www.swscu.com.au/products-rates-and-fees-fees-and-charges.html"
+        },
+        {
+            "name": "CHARGEBACK_EFT_DISPUTE",
+            "feeType": "EVENT",
+            "amount": "20.00",
+            "accrualFrequency": "",
+            "currency": "AUD",
+            "additionalInfo": "",
+            "additionalInfoUri": "https://www.swscu.com.au/products-rates-and-fees-fees-and-charges.html"
+        },
+        {
+            "name": "CHARGEBACK_VOUCHER_RETRIEVAL_FEE",
+            "feeType": "EVENT",
+            "amount": "30.00",
+            "accrualFrequency": "",
+            "currency": "AUD",
+            "additionalInfo": "fee per transaction lodged per Visa Dispute",
+            "additionalInfoUri": "https://www.swscu.com.au/products-rates-and-fees-fees-and-charges.html"
+        },
+        {
+            "name": "CHEQUE_DEPOSIT_DISHONOUR_FEE",
+            "feeType": "TRANSACTION",
+            "amount": "5.00",
+            "accrualFrequency": "",
+            "currency": "AUD",
+            "additionalInfo": "Cheque Deposited to members account is dishonoured",
+            "additionalInfoUri": "https://www.swscu.com.au/products-rates-and-fees-fees-and-charges.html"
+        },
+        {
+            "name": "CHEQUE_TRACE_FEE",
+            "feeType": "EVENT",
+            "amount": "45.00",
+            "accrualFrequency": "",
+            "currency": "AUD",
+            "additionalInfo": "establish final destination (who received cheque value)",
+            "additionalInfoUri": "https://www.swscu.com.au/products-rates-and-fees-fees-and-charges.html"
+        },
+        {
+            "name": "CURRENCY_CONVERSION_FEE_VD",
+            "feeType": "TRANSACTION",
+            "transactionRate": "0.02",
+            "accrualFrequency": "",
+            "currency": "AUD",
+            "additionalInfo": "Visa Debit 2% of transaction amount will apply to any foreign currency",
+            "additionalInfoUri": "https://www.swscu.com.au/products-rates-and-fees-fees-and-charges.html"
+        },
+        {
+            "name": "DIRECT_DEBITS_DISHONOUR_FEE",
+            "feeType": "TRANSACTION",
+            "amount": "15.00",
+            "accrualFrequency": "",
+            "currency": "AUD",
+            "additionalInfo": "authoiryt to directly debit account is dishonoured due to insufficient funds",
+            "additionalInfoUri": "https://www.swscu.com.au/products-rates-and-fees-fees-and-charges.html"
+        },
+        {
+            "name": "DORMANT_ACCOUNT_FEE",
+            "feeType": "EVENT",
+            "amount": "10.00",
+            "accrualFrequency": "P1Y",
+            "currency": "AUD",
+            "additionalInfo": "No member generated activity for at least 2 years with no member response",
+            "additionalInfoUri": "https://www.swscu.com.au/products-rates-and-fees-fees-and-charges.html"
+        },
+        {
+            "name": "DUPLICATED_MEMBER_STATEMENT_FEE",
+            "feeType": "EVENT",
+            "amount": "3.00",
+            "accrualFrequency": "",
+            "currency": "AUD",
+            "additionalInfo": "",
+            "additionalInfoUri": "https://www.swscu.com.au/products-rates-and-fees-fees-and-charges.html"
+        },
+        {
+            "name": "ELECTRONIC_PAYMENT_FEE",
+            "feeType": "EVENT",
+            "amount": "25.00",
+            "accrualFrequency": "",
+            "currency": "AUD",
+            "additionalInfo": "to Establish Direct Entry final destination, manual dishonour, Bpay enquiry and/or correction, Mistaken Payment",
+            "additionalInfoUri": "https://www.swscu.com.au/products-rates-and-fees-fees-and-charges.html"
+        },
+        {
+            "name": "MEMBER_CHEQUE_BOOKS_25_LEAF",
+            "feeType": "UPFRONT",
+            "amount": "8.00",
+            "accrualFrequency": "",
+            "currency": "AUD",
+            "additionalInfo": "Cheque Boo Fee 25 leaf book",
+            "additionalInfoUri": "https://www.swscu.com.au/products-rates-and-fees-fees-and-charges.html"
+        },
+        {
+            "name": "MEMBER_CHEQUE_BOOK_100_LEAF",
+            "feeType": "UPFRONT",
+            "amount": "20.00",
+            "accrualFrequency": "",
+            "currency": "AUD",
+            "additionalInfo": "100 Leaf cheque book fee",
+            "additionalInfoUri": "https://www.swscu.com.au/products-rates-and-fees-fees-and-charges.html"
+        },
+        {
+            "name": "MEMBER_CHEQUE_COPY",
+            "feeType": "EVENT",
+            "amount": "25.00",
+            "accrualFrequency": "",
+            "currency": "AUD",
+            "additionalInfo": "charged to produce a copy or enquiry of cheque details",
+            "additionalInfoUri": "https://www.swscu.com.au/products-rates-and-fees-fees-and-charges.html"
+        },
+        {
+            "name": "MEMBER_CHEQUE_DISHONOUR_FEE",
+            "feeType": "TRANSACTION",
+            "amount": "15.00",
+            "accrualFrequency": "",
+            "currency": "AUD",
+            "additionalInfo": "Member Cheque Dishonour Fee",
+            "additionalInfoUri": "https://www.swscu.com.au/products-rates-and-fees-fees-and-charges.html"
+        },
+        {
+            "name": "REFERRAL_FEE",
+            "feeType": "TRANSACTION",
+            "amount": "10.00",
+            "accrualFrequency": "",
+            "currency": "AUD",
+            "additionalInfo": "applied each time account is overdrawn without arrangements as result of cheque or direct debits being honoured",
+            "additionalInfoUri": "https://www.swscu.com.au/products-rates-and-fees-fees-and-charges.html"
+        },
+        {
+            "name": "SWIFT_PAYMENTS_(RTGS)",
+            "feeType": "EVENT",
+            "amount": "10.00",
+            "accrualFrequency": "",
+            "currency": "AUD",
+            "additionalInfo": "Incoming RTGS charge",
+            "additionalInfoUri": "https://www.swscu.com.au/products-rates-and-fees-fees-and-charges.html"
+        },
+        {
+            "name": "SWIFT_PAYMENT_(RTGS)",
+            "feeType": "EVENT",
+            "amount": "15.00",
+            "accrualFrequency": "",
+            "currency": "AUD",
+            "additionalInfo": "Outbound RTGS Domestic payment",
+            "additionalInfoUri": "https://www.swscu.com.au/products-rates-and-fees-fees-and-charges.html"
+        },
+        {
+            "name": "VISA_CARD_FEE",
+            "feeType": "EVENT",
+            "amount": "15.00",
+            "accrualFrequency": "",
+            "currency": "AUD",
+            "additionalInfo": "",
+            "additionalInfoUri": "https://www.swscu.com.au/products-rates-and-fees-fees-and-charges.html"
+        }
+    ],
+    "depositRates": [
+        {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0001",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "additionalInfo": "",
+            "additionalInfoUri": "https://www.swscu.com.au/savings/savings-accounts/everyday-account/"
+        }
+    ],
+    "productId": "S1_GS",
+    "lastUpdated": "2023-02-23T09:23:51.000+11:00",
+    "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+    "name": "Everyday Account",
+    "description": "Everyday Account",
+    "brand": "South West Slopes Credit Union",
+    "brandName": "South West Slopes Credit Union",
+    "applicationUri": "https://forms.sharedservices.com.au/form.php?c=165&f=47",
+    "isTailored": false,
+    "additionalInformation": {
+        "overviewUri": "https://www.swscu.com.au/savings/savings-accounts/everyday-account/",
+        "termsUri": "",
+        "eligibilityUri": "",
+        "feesAndPricingUri": "https://www.swscu.com.au/products-rates-and-fees-fees-and-charges.html",
+        "bundleUri": ""
+    }
+}

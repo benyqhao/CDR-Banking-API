@@ -1,0 +1,156 @@
+{
+    "productCategory": "CRED_AND_CHRG_CARDS",
+    "depositRates": [],
+    "lendingRates": [
+        {
+            "calculationFrequency": "P1D",
+            "tiers": [],
+            "lendingRateType": "PURCHASE",
+            "additionalInfo": "Calculated daily, charged monthly",
+            "rate": "0.1399000000000000",
+            "applicationFrequency": "P1M"
+        },
+        {
+            "calculationFrequency": "P1D",
+            "tiers": [],
+            "lendingRateType": "CASH_ADVANCE",
+            "additionalInfo": "Calculated daily, charged monthly",
+            "rate": "0.1399000000000000",
+            "applicationFrequency": "P1M"
+        }
+    ],
+    "brandName": "Bendigo Bank",
+    "isTailored": false,
+    "bundles": [],
+    "cardArt": [
+        {
+            "title": "Business Credit Card",
+            "imageUri": "https://www.bendigobank.com.au/siteassets/business/cards-for-business/business-credit-card/exploretile-businesscc.jpg"
+        }
+    ],
+    "productId": "602197f1-0e90-46bd-8c0b-3bced15dd31c",
+    "additionalInformation": {
+        "termsUri": "https://www.bendigobank.com.au/globalassets/documents/disclosures/bendigo-business-standard-terms.pdf",
+        "feesAndPricingUri": "https://www.bendigobank.com.au/globalassets/documents/disclosures/business-fees-and-charges.pdf",
+        "overviewUri": "https://www.bendigobank.com.au/business/cards/business-credit-mastercard/"
+    },
+    "constraints": [
+        {
+            "constraintType": "MIN_LIMIT",
+            "additionalValue": "500"
+        },
+        {
+            "constraintType": "MAX_LIMIT",
+            "additionalValue": "50,000"
+        }
+    ],
+    "brand": "BENDIGO",
+    "description": "As a business owner, keeping track of expenses is important and can be time consuming. Get visibility of your expenses and stay in control with the Business Credit Card. You will also receive up to 44 days interest free on purchases. ",
+    "lastUpdated": "2021-08-09T00:07:13.911Z",
+    "features": [
+        {
+            "additionalInfoUri": "https://www.bendigobank.com.au/personal/credit-cards/my-card/digital-wallets/",
+            "additionalValue": "With Bendigo Bank you can turn your phone or smart watch into your wallet.",
+            "featureType": "DIGITAL_WALLET"
+        },
+        {
+            "additionalValue": "$4 per card per month ",
+            "featureType": "ADDITIONAL_CARDS"
+        }
+    ],
+    "eligibility": [
+        {
+            "additionalValue": "18 years old",
+            "additionalInfo": "Additional cardholders must be 16 years of age",
+            "eligibilityType": "MIN_AGE",
+            "additionalInfoUri": "https://www.bendigobank.com.au/business/cards/"
+        }
+    ],
+    "fees": [
+        {
+            "feeType": "PERIODIC",
+            "amount": "4.000000",
+            "currency": "AUD",
+            "discounts": [],
+            "additionalValue": "P1M",
+            "name": "Card Fee"
+        },
+        {
+            "feeType": "TRANSACTION",
+            "amount": "4.000000",
+            "currency": "AUD",
+            "discounts": [],
+            "name": "Bank@Post transaction fee"
+        },
+        {
+            "feeType": "TRANSACTION",
+            "amount": "4.000000",
+            "currency": "AUD",
+            "discounts": [],
+            "name": "EFT Credit Transfer"
+        },
+        {
+            "feeType": "TRANSACTION",
+            "amount": "3.750000",
+            "currency": "AUD",
+            "discounts": [],
+            "name": "Periodical payment to other financial institution"
+        },
+        {
+            "feeType": "TRANSACTION",
+            "currency": "AUD",
+            "transactionRate": "0.0300000000000000",
+            "discounts": [],
+            "name": "Foreign Currency Transaction"
+        },
+        {
+            "feeType": "WITHDRAWAL",
+            "additionalInfoUri": "https://www.bendigobank.com.au/globalassets/documents/disclosures/business-fees-and-charges.pdf",
+            "currency": "AUD",
+            "transactionRate": "0.0050000000000000",
+            "additionalInfo": "0.50% (Minimum charge $3.25)",
+            "discounts": [],
+            "name": "Cash Advance Fee"
+        },
+        {
+            "feeType": "EVENT",
+            "amount": "15.000000",
+            "currency": "AUD",
+            "discounts": [],
+            "name": "Late Payment Fee"
+        },
+        {
+            "feeType": "TRANSACTION",
+            "amount": "5.000000",
+            "currency": "AUD",
+            "discounts": [],
+            "name": "Non-Bendigo Bank International ATM Withdrawal "
+        },
+        {
+            "feeType": "EVENT",
+            "amount": "0.000000",
+            "currency": "AUD",
+            "additionalInfoUri": "https://www.bendigobank.com.au/globalassets/documents/disclosures/schedule-of-fees-charges-and-transaction-account-rebates.pdf",
+            "additionalInfo": "Replacement, reissue or redirection fees: Domestic Express Post $15.00, Domestic Toll Courier $15.00, International Registered Post $15.00, International Courier $60.00",
+            "discounts": [],
+            "name": "Replacement Card Fee - Standard Post (default) Free"
+        },
+        {
+            "feeType": "EVENT",
+            "amount": "100.000000",
+            "currency": "AUD",
+            "additionalInfo": "The fee applies to the emergency replacement of a card lost or stolen overseas, within 72 hours of request",
+            "discounts": [],
+            "name": "Emergency Replacement Cards "
+        },
+        {
+            "feeType": "EVENT",
+            "amount": "100.000000",
+            "currency": "AUD",
+            "additionalInfoUri": "https://www.bendigobank.com.au/globalassets/documents/disclosures/schedule-of-fees-charges-and-transaction-account-rebates.pdf",
+            "discounts": [],
+            "name": "Emergency Cash"
+        }
+    ],
+    "name": "Business Credit Card"
+}

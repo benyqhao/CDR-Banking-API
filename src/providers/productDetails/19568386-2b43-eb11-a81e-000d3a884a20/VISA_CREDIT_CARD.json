@@ -1,0 +1,120 @@
+{
+    "features": [
+        {
+            "featureType": "CARD_ACCESS",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "featureType": "INTEREST_FREE",
+            "additionalInfo": "up to 45 days on purchases",
+            "additionalInfoUri": ""
+        },
+        {
+            "featureType": "DIGITAL_WALLET",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "featureType": "NPP_ENABLED",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "featureType": "NOTIFICATIONS",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        }
+    ],
+    "eligibility": [
+        {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalInfo": "Australian Residents",
+            "additionalInfoUri": ""
+        },
+        {
+            "eligibilityType": "NATURAL_PERSON",
+            "additionalInfo": "Individual & Joint Accounts",
+            "additionalInfoUri": ""
+        },
+        {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "18",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        }
+    ],
+    "fees": [
+        {
+            "name": "CREDIT_CARD_ANNUAL_FEE",
+            "feeType": "PERIODIC",
+            "amount": "48.00",
+            "accrualFrequency": "P1Y",
+            "currency": "AUD",
+            "additionalValue": "P1Y",
+            "additionalInfo": "",
+            "additionalInfoUri": "",
+            "discounts": [
+                {
+                    "description": "Credit Card Annual Fee",
+                    "discountType": "ELIGIBILITY_ONLY",
+                    "feeRate": "1.0",
+                    "eligibility": [
+                        {
+                            "discountEligibilityType": "OTHER",
+                            "additionalInfo": "If you have a mortgage at First Option you will not be charged this fee",
+                            "additionalInfoUri": ""
+                        }
+                    ],
+                    "additionalInfo": "",
+                    "additionalInfoUri": ""
+                }
+            ]
+        }
+    ],
+    "lendingRates": [
+        {
+            "lendingRateType": "CASH_ADVANCE",
+            "rate": "0.1799",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "additionalInfo": "",
+            "additionalInfoUri": "https://www.firstoptionbank.com.au/lending-rates/"
+        },
+        {
+            "lendingRateType": "PURCHASE",
+            "rate": "0.1049",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "additionalInfo": "",
+            "additionalInfoUri": "https://www.firstoptionbank.com.au/lending-rates/"
+        }
+    ],
+    "productId": "VISA_CREDIT_CARD",
+    "lastUpdated": "2023-03-15T11:26:20.000+11:00",
+    "productCategory": "CRED_AND_CHRG_CARDS",
+    "name": "VISA CREDIT CARD",
+    "description": "Low Rate Visa Credit Card",
+    "brand": "FIRST OPTION BANK LTD",
+    "brandName": "FIRST OPTION BANK",
+    "applicationUri": "https://www.firstoptionbank.com.au/credit-card-enquiry/",
+    "isTailored": false,
+    "additionalInformation": {
+        "overviewUri": "https://www.firstoptionbank.com.au/credit-card/",
+        "termsUri": "https://firstoptionbank.com.au/disclosure-statements/",
+        "eligibilityUri": "https://firstoptionbank.com.au/disclosure-statements/",
+        "feesAndPricingUri": "https://firstoptionbank.com.au/disclosure-statements/",
+        "bundleUri": ""
+    },
+    "cardArt": [
+        {
+            "title": "Visa Credit Card",
+            "imageUri": "https://firstoptionbank.com.au/wp-content/uploads/2020/11/Credit-Card-Mockup_blue-8.png"
+        }
+    ]
+}

@@ -1,0 +1,43 @@
+{
+    "productId": "13",
+    "effectiveFrom": "2016-08-23T14:30:00.0000000Z",
+    "lastUpdated": "2023-07-13T20:00:24.8221248Z",
+    "productCategory": "TERM_DEPOSITS",
+    "name": "& Retirement Term Deposit",
+    "description": "& Retirement Term Deposit",
+    "brand": "PNB",
+    "brandName": "P&N Bank",
+    "isTailored": false,
+    "additionalInformation": {
+        "overviewUri": "https://www.pnbank.com.au/personal-banking/savings-accounts/and-retirement-account/#tab3",
+        "termsUri": "https://www.pnbank.com.au/legal/terms-conditions/term-deposits/",
+        "feesAndPricingUri": "https://www.pnbank.com.au/personal-banking/savings-accounts/and-retirement-account/#tab3"
+    },
+    "features": [
+        {
+            "featureType": "DIGITAL_BANKING"
+        }
+    ],
+    "constraints": [
+        {
+            "constraintType": "MIN_BALANCE",
+            "additionalValue": "5000.00"
+        }
+    ],
+    "eligibility": [
+        {
+            "eligibilityType": "OTHER",
+            "additionalInfo": "An account holder must hold an & Retirement account to be eligible for this product"
+        }
+    ],
+    "depositRates": [
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.047",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P3M",
+            "additionalValue": "P3M",
+            "additionalInfo": "Interest paid at maturity"
+        }
+    ]
+}

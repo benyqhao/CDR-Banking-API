@@ -1,0 +1,97 @@
+{
+    "features": [
+        {
+            "featureType": "REDRAW",
+            "additionalInfo": "$50 Fee",
+            "additionalInfoUri": "https://www.cwcu.com.au/about-us/news-central/february-2020/what-is-a-redraw-facility"
+        },
+        {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "",
+            "additionalInfoUri": "https://www.cwcu.com.au/other-services/cards-and-ways-to-bank/redinet-online-banking"
+        },
+        {
+            "featureType": "OTHER",
+            "additionalInfo": "Maximum term 30 years",
+            "additionalInfoUri": ""
+        }
+    ],
+    "constraints": [
+        {
+            "constraintType": "MIN_BALANCE",
+            "additionalValue": "100000.00",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        }
+    ],
+    "eligibility": [
+        {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "18",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalValue": "Australian Resident only",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "eligibilityType": "OTHER",
+            "additionalInfo": "Maximum LVR 95% subject to Lenders Mortgage Insurance approval",
+            "additionalInfoUri": ""
+        }
+    ],
+    "fees": [
+        {
+            "name": "MINIMISER_HOME_LOAN_ESTABLISHMENT_FEE",
+            "feeType": "UPFRONT",
+            "amount": "1004.30",
+            "accrualFrequency": "",
+            "currency": "AUD",
+            "additionalInfo": "ON ESTABLISHMENT OF LOAN",
+            "additionalInfoUri": ""
+        },
+        {
+            "name": "MORTGAGE_DISCHARGE_FEE",
+            "feeType": "EXIT",
+            "amount": "509.94",
+            "accrualFrequency": "",
+            "currency": "AUD",
+            "additionalInfo": "Discharge fees are paid on discharge",
+            "additionalInfoUri": ""
+        }
+    ],
+    "lendingRates": [
+        {
+            "lendingRateType": "VARIABLE",
+            "rate": "0.0685",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "additionalInfo": "Secured by mortgage over Residential Property",
+            "additionalInfoUri": "https://www.cwcu.com.au/lending/home-loans",
+            "interestPaymentDue": "IN_ARREARS",
+            "comparisonRate": "0.0693",
+            "repaymentType": "PRINCIPAL_AND_INTEREST",
+            "loanPurpose": "OWNER_OCCUPIED"
+        }
+    ],
+    "productId": "Minimiser_Housing_Loan",
+    "effectiveFrom": "2021-03-25T00:00:00.000+11:00",
+    "lastUpdated": "2023-06-29T08:58:11.000+10:00",
+    "productCategory": "RESIDENTIAL_MORTGAGES",
+    "name": "Minimiser Home Loan",
+    "description": "Perfect for First Home Buyers",
+    "brand": "CENTRAL WEST CREDIT UNION LTD",
+    "brandName": "CENTRAL WEST CREDIT UNION LTD",
+    "applicationUri": "https://www.cwcu.com.au/lending/apply-for-a-loan",
+    "isTailored": false,
+    "additionalInformation": {
+        "overviewUri": "https://www.cwcu.com.au/lending/home-loans",
+        "termsUri": "https://www.cwcu.com.au/disclosure-documents/conditions-of-use",
+        "eligibilityUri": "https://www.cwcu.com.au/disclosure-documents/conditions-of-use",
+        "feesAndPricingUri": "https://www.cwcu.com.au/disclosure-documents/fees-and-charges",
+        "bundleUri": ""
+    }
+}

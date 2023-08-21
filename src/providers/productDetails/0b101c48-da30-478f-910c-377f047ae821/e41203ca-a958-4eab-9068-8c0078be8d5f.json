@@ -1,0 +1,410 @@
+{
+    "additionalInformation": {
+        "feesAndPricingUri": "https://www.adelaidebank.com.au/siteassets/documents/homeloans/personal-lending-fees-and-charges.pdf",
+        "overviewUri": "https://www.adelaidebank.com.au/home-loans/smartsaver/",
+        "termsUri": "https://www.adelaidebank.com.au/globalassets/documents/adelaide-bank/home-loans/smartsaver-home-loan-key-fact-sheet.pdf"
+    },
+    "applicationUri": "https://www.adelaidebank.com.au/contact-us/broker-enquiry/",
+    "brand": "Adelaide Bank",
+    "brandName": "Adelaide Bank",
+    "description": "A no frills, low rate home loan with all the basics you need.",
+    "isTailored": false,
+    "lastUpdated": "2023-08-17T21:59:22.108Z",
+    "name": "Adelaide Bank SmartSaver",
+    "productCategory": "RESIDENTIAL_MORTGAGES",
+    "productId": "e41203ca-a958-4eab-9068-8c0078be8d5f",
+    "fees": [
+        {
+            "name": "Application Fee",
+            "amount": "299.00",
+            "currency": "AUD",
+            "feeType": "UPFRONT"
+        },
+        {
+            "name": "Loan Variation Fee",
+            "amount": "150.00",
+            "currency": "AUD",
+            "feeType": "EVENT"
+        },
+        {
+            "name": "Settlement Fee",
+            "amount": "199.00",
+            "currency": "AUD",
+            "feeType": "UPFRONT"
+        },
+        {
+            "name": "Valuation Fee",
+            "additionalInfo": "The Bank will cover up to $300 of valuation costs to originate the home loan. Where these costs exceed $300 you must pay this excess amount.",
+            "amount": "0.00",
+            "currency": "AUD",
+            "feeType": "UPFRONT"
+        },
+        {
+            "name": "Search Processing Fee",
+            "additionalInfo": "This fee is charged for the bank to perform a title search or other searches as required when you request to vary your contract",
+            "amount": "50.00",
+            "currency": "AUD",
+            "feeType": "EVENT"
+        },
+        {
+            "name": "Manual Redraw Fee",
+            "additionalInfo": "This fee is charged when you redraw all or part of any repayments made on your loan. (not charged for redraws performed through home banking services)",
+            "amount": "50.00",
+            "currency": "AUD",
+            "feeType": "EVENT"
+        },
+        {
+            "name": "Repayment Recalculation Fee",
+            "additionalInfo": "This fee is charged each time you request that we agree to a decrease in your repayments",
+            "amount": "50.00",
+            "currency": "AUD",
+            "feeType": "EVENT"
+        },
+        {
+            "name": "Loan Variation Fee - Simple",
+            "additionalInfo": "This fee is charged if you apply for us to: Vary your existing contract, Convert to another annual percentage rate, Agree to a request to a consent or change of borrower details, Release or substitute a security (a discharge administration fee may also be payable)",
+            "amount": "150.00",
+            "currency": "AUD",
+            "feeType": "EVENT"
+        },
+        {
+            "name": "Loan Variation Fee - Complex",
+            "additionalInfo": "This fee is charged if you apply for us to \u2022 Change your product \u2022 Remove a guarantor \u2022 Increase your loan \u2022 Agree to a sub division",
+            "amount": "300.00",
+            "currency": "AUD",
+            "feeType": "EVENT"
+        },
+        {
+            "name": "Discharge Administration Fee",
+            "amount": "325.00",
+            "currency": "AUD",
+            "feeType": "EVENT"
+        },
+        {
+            "name": "Company Search Fee",
+            "additionalInfo": "This fee is charged for the bank to perform a company search as required ",
+            "amount": "25.00",
+            "feeType": "UPFRONT"
+        }
+    ],
+    "eligibility": [
+        {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "18"
+        }
+    ],
+    "constraints": [
+        {
+            "constraintType": "OPENING_BALANCE",
+            "additionalValue": "10000"
+        },
+        {
+            "constraintType": "MIN_LIMIT",
+            "additionalValue": "1"
+        }
+    ],
+    "features": [
+        {
+            "featureType": "REDRAW",
+            "additionalInfo": "Online redraw available"
+        },
+        {
+            "featureType": "OTHER",
+            "additionalInfo": "No Monthly Fee"
+        },
+        {
+            "featureType": "OTHER",
+            "additionalInfo": "Unlimited additional repayments if variable, up to $20,000 when fixed"
+        }
+    ],
+    "lendingRates": [
+        {
+            "lendingRateType": "VARIABLE",
+            "comparisonRate": "0.0589",
+            "repaymentType": "PRINCIPAL_AND_INTEREST",
+            "rate": "0.0588",
+            "additionalInfo": "LVR < 80%",
+            "loanPurpose": "OWNER_OCCUPIED",
+            "calculationFrequency": "P1D",
+            "interestPaymentDue": "IN_ARREARS"
+        },
+        {
+            "lendingRateType": "VARIABLE",
+            "comparisonRate": "0.0637",
+            "repaymentType": "PRINCIPAL_AND_INTEREST",
+            "rate": "0.0633",
+            "additionalInfo": "LVR < 90%",
+            "loanPurpose": "OWNER_OCCUPIED",
+            "calculationFrequency": "P1D",
+            "interestPaymentDue": "IN_ARREARS"
+        },
+        {
+            "lendingRateType": "VARIABLE",
+            "comparisonRate": "0.0752",
+            "repaymentType": "PRINCIPAL_AND_INTEREST",
+            "rate": "0.0748",
+            "additionalInfo": "LVR > 90%",
+            "loanPurpose": "OWNER_OCCUPIED",
+            "calculationFrequency": "P1D",
+            "interestPaymentDue": "IN_ARREARS"
+        },
+        {
+            "lendingRateType": "VARIABLE",
+            "comparisonRate": "0.0639",
+            "repaymentType": "INTEREST_ONLY",
+            "rate": "0.0698",
+            "additionalInfo": "LVR < 80%",
+            "loanPurpose": "OWNER_OCCUPIED",
+            "calculationFrequency": "P1D",
+            "interestPaymentDue": "IN_ARREARS"
+        },
+        {
+            "lendingRateType": "VARIABLE",
+            "comparisonRate": "0.0687",
+            "repaymentType": "INTEREST_ONLY",
+            "rate": "0.0748",
+            "additionalInfo": "LVR < 90%",
+            "loanPurpose": "OWNER_OCCUPIED",
+            "calculationFrequency": "P1D"
+        },
+        {
+            "lendingRateType": "FIXED",
+            "comparisonRate": "0.0634",
+            "repaymentType": "PRINCIPAL_AND_INTEREST",
+            "rate": "0.0634",
+            "loanPurpose": "OWNER_OCCUPIED",
+            "additionalValue": "P1Y",
+            "calculationFrequency": "P1D",
+            "interestPaymentDue": "IN_ARREARS"
+        },
+        {
+            "lendingRateType": "FIXED",
+            "comparisonRate": "0.0631",
+            "repaymentType": "PRINCIPAL_AND_INTEREST",
+            "rate": "0.0619",
+            "loanPurpose": "OWNER_OCCUPIED",
+            "additionalValue": "P2Y",
+            "calculationFrequency": "P1D",
+            "interestPaymentDue": "IN_ARREARS"
+        },
+        {
+            "lendingRateType": "FIXED",
+            "comparisonRate": "0.0625",
+            "repaymentType": "PRINCIPAL_AND_INTEREST",
+            "rate": "0.0604",
+            "loanPurpose": "OWNER_OCCUPIED",
+            "additionalValue": "P3Y",
+            "calculationFrequency": "P1D",
+            "interestPaymentDue": "IN_ARREARS"
+        },
+        {
+            "lendingRateType": "FIXED",
+            "comparisonRate": "0.0623",
+            "repaymentType": "PRINCIPAL_AND_INTEREST",
+            "rate": "0.0604",
+            "loanPurpose": "OWNER_OCCUPIED",
+            "additionalValue": "P4Y",
+            "calculationFrequency": "P1D",
+            "interestPaymentDue": "IN_ARREARS"
+        },
+        {
+            "lendingRateType": "FIXED",
+            "comparisonRate": "0.0621",
+            "repaymentType": "PRINCIPAL_AND_INTEREST",
+            "rate": "0.0604",
+            "loanPurpose": "OWNER_OCCUPIED",
+            "additionalValue": "P5Y",
+            "calculationFrequency": "P1D",
+            "interestPaymentDue": "IN_ARREARS"
+        },
+        {
+            "lendingRateType": "FIXED",
+            "comparisonRate": "0.0641",
+            "repaymentType": "INTEREST_ONLY",
+            "rate": "0.0669",
+            "loanPurpose": "OWNER_OCCUPIED",
+            "additionalValue": "P1Y",
+            "calculationFrequency": "P1D",
+            "interestPaymentDue": "IN_ARREARS"
+        },
+        {
+            "lendingRateType": "FIXED",
+            "comparisonRate": "0.0644",
+            "repaymentType": "INTEREST_ONLY",
+            "rate": "0.0669",
+            "loanPurpose": "OWNER_OCCUPIED",
+            "additionalValue": "P2Y",
+            "calculationFrequency": "P1D",
+            "interestPaymentDue": "IN_ARREARS"
+        },
+        {
+            "lendingRateType": "FIXED",
+            "comparisonRate": "0.0647",
+            "repaymentType": "INTEREST_ONLY",
+            "rate": "0.0669",
+            "loanPurpose": "OWNER_OCCUPIED",
+            "additionalValue": "P3Y",
+            "calculationFrequency": "P1D",
+            "interestPaymentDue": "IN_ARREARS"
+        },
+        {
+            "lendingRateType": "FIXED",
+            "comparisonRate": "0.065",
+            "repaymentType": "INTEREST_ONLY",
+            "rate": "0.0669",
+            "loanPurpose": "OWNER_OCCUPIED",
+            "additionalValue": "P4Y",
+            "calculationFrequency": "P1D",
+            "interestPaymentDue": "IN_ARREARS"
+        },
+        {
+            "lendingRateType": "FIXED",
+            "comparisonRate": "0.0652",
+            "repaymentType": "INTEREST_ONLY",
+            "rate": "0.0669",
+            "loanPurpose": "OWNER_OCCUPIED",
+            "additionalValue": "P5Y",
+            "calculationFrequency": "P1D",
+            "interestPaymentDue": "IN_ARREARS"
+        },
+        {
+            "lendingRateType": "VARIABLE",
+            "comparisonRate": "0.0622",
+            "repaymentType": "PRINCIPAL_AND_INTEREST",
+            "rate": "0.0618",
+            "additionalInfo": "LVR < 80%",
+            "loanPurpose": "INVESTMENT",
+            "calculationFrequency": "P1D",
+            "interestPaymentDue": "IN_ARREARS"
+        },
+        {
+            "lendingRateType": "VARIABLE",
+            "comparisonRate": "0.0667",
+            "repaymentType": "PRINCIPAL_AND_INTEREST",
+            "rate": "0.0663",
+            "additionalInfo": "LVR < 90%",
+            "loanPurpose": "INVESTMENT",
+            "calculationFrequency": "P1D",
+            "interestPaymentDue": "IN_ARREARS"
+        },
+        {
+            "lendingRateType": "VARIABLE",
+            "comparisonRate": "0.0635",
+            "repaymentType": "INTEREST_ONLY",
+            "rate": "0.0649",
+            "additionalInfo": "LVR < 80%",
+            "loanPurpose": "INVESTMENT",
+            "calculationFrequency": "P1D",
+            "interestPaymentDue": "IN_ARREARS"
+        },
+        {
+            "lendingRateType": "VARIABLE",
+            "comparisonRate": "0.068",
+            "repaymentType": "INTEREST_ONLY",
+            "rate": "0.0694",
+            "additionalInfo": "LVR < 90%",
+            "loanPurpose": "INVESTMENT",
+            "calculationFrequency": "P1D"
+        },
+        {
+            "lendingRateType": "FIXED",
+            "comparisonRate": "0.0666",
+            "repaymentType": "PRINCIPAL_AND_INTEREST",
+            "rate": "0.0654",
+            "loanPurpose": "INVESTMENT",
+            "additionalValue": "P1Y",
+            "calculationFrequency": "P1D",
+            "interestPaymentDue": "IN_ARREARS"
+        },
+        {
+            "lendingRateType": "FIXED",
+            "comparisonRate": "0.0662",
+            "repaymentType": "PRINCIPAL_AND_INTEREST",
+            "rate": "0.0639",
+            "loanPurpose": "INVESTMENT",
+            "additionalValue": "P2Y",
+            "calculationFrequency": "P1D",
+            "interestPaymentDue": "IN_ARREARS"
+        },
+        {
+            "lendingRateType": "FIXED",
+            "comparisonRate": "0.0656",
+            "repaymentType": "PRINCIPAL_AND_INTEREST",
+            "rate": "0.0624",
+            "loanPurpose": "INVESTMENT",
+            "additionalValue": "P3Y",
+            "calculationFrequency": "P1D",
+            "interestPaymentDue": "IN_ARREARS"
+        },
+        {
+            "lendingRateType": "FIXED",
+            "comparisonRate": "0.0653",
+            "repaymentType": "PRINCIPAL_AND_INTEREST",
+            "rate": "0.0624",
+            "loanPurpose": "INVESTMENT",
+            "additionalValue": "P4Y",
+            "calculationFrequency": "P1D",
+            "interestPaymentDue": "IN_ARREARS"
+        },
+        {
+            "lendingRateType": "FIXED",
+            "comparisonRate": "0.065",
+            "repaymentType": "PRINCIPAL_AND_INTEREST",
+            "rate": "0.0624",
+            "loanPurpose": "INVESTMENT",
+            "additionalValue": "P5Y",
+            "calculationFrequency": "P1D",
+            "interestPaymentDue": "IN_ARREARS"
+        },
+        {
+            "lendingRateType": "FIXED",
+            "comparisonRate": "0.0668",
+            "repaymentType": "INTEREST_ONLY",
+            "rate": "0.0669",
+            "loanPurpose": "INVESTMENT",
+            "additionalValue": "P1Y",
+            "calculationFrequency": "P1D",
+            "interestPaymentDue": "IN_ARREARS"
+        },
+        {
+            "lendingRateType": "FIXED",
+            "comparisonRate": "0.0665",
+            "repaymentType": "INTEREST_ONLY",
+            "rate": "0.0654",
+            "loanPurpose": "INVESTMENT",
+            "additionalValue": "P2Y",
+            "calculationFrequency": "P1D",
+            "interestPaymentDue": "IN_ARREARS"
+        },
+        {
+            "lendingRateType": "FIXED",
+            "comparisonRate": "0.066",
+            "repaymentType": "INTEREST_ONLY",
+            "rate": "0.0639",
+            "loanPurpose": "INVESTMENT",
+            "additionalValue": "P3Y",
+            "calculationFrequency": "P1D",
+            "interestPaymentDue": "IN_ARREARS"
+        },
+        {
+            "lendingRateType": "FIXED",
+            "comparisonRate": "0.0658",
+            "repaymentType": "INTEREST_ONLY",
+            "rate": "0.0639",
+            "loanPurpose": "INVESTMENT",
+            "additionalValue": "P4Y",
+            "calculationFrequency": "P1D",
+            "interestPaymentDue": "IN_ARREARS"
+        },
+        {
+            "lendingRateType": "FIXED",
+            "comparisonRate": "0.0656",
+            "repaymentType": "INTEREST_ONLY",
+            "rate": "0.0639",
+            "loanPurpose": "INVESTMENT",
+            "additionalValue": "P5Y",
+            "calculationFrequency": "P1D",
+            "interestPaymentDue": "IN_ARREARS"
+        }
+    ]
+}

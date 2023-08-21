@@ -1,0 +1,84 @@
+{
+    "features": [
+        {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "SWSCU Internet Banking & App",
+            "additionalInfoUri": ""
+        },
+        {
+            "featureType": "REDRAW",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "featureType": "OFFSET",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "featureType": "OTHER",
+            "additionalInfo": "Maximum loan term 30 years",
+            "additionalInfoUri": ""
+        }
+    ],
+    "eligibility": [
+        {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "18",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalValue": "Australian citizen or permanent resident",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "eligibilityType": "NATURAL_PERSON",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        }
+    ],
+    "lendingRates": [
+        {
+            "lendingRateType": "VARIABLE",
+            "rate": "0.0665",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "additionalInfo": "",
+            "additionalInfoUri": "https://www.swscu.com.au/loans/investor-home-loans/investment-home-loan-interest-only/",
+            "interestPaymentDue": "IN_ARREARS",
+            "comparisonRate": "0.0665",
+            "repaymentType": "INTEREST_ONLY",
+            "loanPurpose": "INVESTMENT"
+        },
+        {
+            "lendingRateType": "VARIABLE",
+            "rate": "0.0665",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "additionalInfo": "",
+            "additionalInfoUri": "https://www.swscu.com.au/loans/investor-home-loans/investment-home-loan-interest-only/",
+            "interestPaymentDue": "IN_ARREARS",
+            "repaymentType": "INTEREST_ONLY",
+            "loanPurpose": "INVESTMENT"
+        }
+    ],
+    "productId": "L25_Inv_IntOnly",
+    "lastUpdated": "2023-07-07T09:44:49.000+10:00",
+    "productCategory": "RESIDENTIAL_MORTGAGES",
+    "name": "Investment Home Loan - Interest Only",
+    "description": "Investment Home Loan - Interest Only",
+    "brand": "South West Slopes Credit Union",
+    "brandName": "South West Slopes Credit Union",
+    "applicationUri": "https://forms.sharedservices.com.au/form.php?c=165&f=49",
+    "isTailored": false,
+    "additionalInformation": {
+        "overviewUri": "https://www.swscu.com.au/loans/investor-home-loans/investment-home-loan-interest-only/",
+        "termsUri": "",
+        "eligibilityUri": "",
+        "feesAndPricingUri": "",
+        "bundleUri": ""
+    }
+}

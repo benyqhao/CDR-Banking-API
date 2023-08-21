@@ -1,0 +1,79 @@
+{
+    "productId": "7BA965E1-327E-4070-97F3-E7958044FBDE",
+    "lastUpdated": "2023-07-27T12:00:40.23Z",
+    "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+    "name": "EverydayPlus Account",
+    "description": "Introducing the BOQ Specialist Everyday Plus account. The only everyday account that allows you to earn Qantas reward points. There are no establishment or account keeping fees and you can redeem your Qantas Points for flights, holidays and more. It\u2019s an everyday account that\u2019s more rewarding.\nWhen you become a BOQ Specialist client, you will be matched with a dedicated financial specialist who can assist with all of your personal and business banking needs. You will also benefit from onshore support with our Client Service Centre 24 hours a day, 7 days a week",
+    "brand": "BOQS",
+    "brandName": "Bank Of QueenslandS",
+    "applicationUri": "https://www.boqspecialist.com.au/personal-banking/bank-accounts/everyday-plus",
+    "isTailored": false,
+    "additionalInformation": {
+        "overviewUri": "https://www.boqspecialist.com.au/personal-banking/bank-accounts/everyday-plus",
+        "termsUri": "https://www.boqspecialist.com.au/content/dam/boq-specialist/files/products/bank-accounts/everyday-plus-account/terms-and-conditions/BOQS001527-everyday-plus-account-terms-and-conditions.pdf",
+        "eligibilityUri": "https://www.boqspecialist.com.au/about",
+        "feesAndPricingUri": "https://www.boqspecialist.com.au/content/dam/boq-specialist/files/products/bank-accounts/everyday-plus-account/terms-and-conditions/BOQS001527-everyday-plus-account-terms-and-conditions.pdf"
+    },
+    "features": [
+        {
+            "featureType": "DIGITAL_BANKING",
+            "additionalValue": "Digital Banking",
+            "additionalInfo": "Easily access your funds using your Visa debit card, via online banking and our mobile app including BPAY\u00ae and Pay Anyone functionality",
+            "additionalInfoUri": "https://secure.boqspecialist.com.au/BOQ/BOQSpecialist/BankFast-Username-Logon#sst"
+        },
+        {
+            "featureType": "FREE_TXNS",
+            "additionalValue": "Free Transactions",
+            "additionalInfo": "Free ATM withdrawals at over 2,100 atmx by Armaguard ATMs, as well as all BOQ branch ATMs and the four major banks Australia wide",
+            "additionalInfoUri": "https://www.boqspecialist.com.au/personal-banking/bank-accounts/everyday-plus"
+        },
+        {
+            "featureType": "LOYALTY_PROGRAM",
+            "additionalValue": "Loyalty Program",
+            "additionalInfo": "Earn 1 Frequent Flyer Point for every $20 of daily average balance in your account, calculated at the end of each month and paid on balances up to $100 000",
+            "additionalInfoUri": "https://www.boqspecialist.com.au/personal-banking/bank-accounts/everyday-plus"
+        },
+        {
+            "featureType": "OTHER",
+            "additionalValue": "No Fees",
+            "additionalInfo": "No establishment or account keeping fees",
+            "additionalInfoUri": "https://www.boqspecialist.com.au/personal-banking/bank-accounts/everyday-plus"
+        },
+        {
+            "featureType": "OTHER",
+            "additionalValue": "Financial Specialist",
+            "additionalInfo": "When you become a BOQ Specialist client, you will be matched with a dedicated financial specialist who can assist with all of your personal and business banking needs. You will also benefit from onshore support with our Client Service Centre 24 hours a day, 7 days a week",
+            "additionalInfoUri": "https://www.boqspecialist.com.au/personal-banking/bank-accounts/everyday-plus"
+        }
+    ],
+    "eligibility": [
+        {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "18"
+        },
+        {
+            "eligibilityType": "NATURAL_PERSON",
+            "additionalValue": "Personal Customer"
+        },
+        {
+            "eligibilityType": "OTHER",
+            "additionalValue": "Professional",
+            "additionalInfo": "Exclusively available to medical professionals and accountants"
+        },
+        {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalValue": "Resident or Citizen"
+        }
+    ],
+    "depositRates": [
+        {
+            "rate": "0.0001000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "additionalValue": "N/A",
+            "additionalInfo": "Interest paid monthly",
+            "additionalInfoUri": "https://www.boqspecialist.com.au/personal-banking/savings-accounts/interest-rates",
+            "depositRateType": "VARIABLE"
+        }
+    ]
+}

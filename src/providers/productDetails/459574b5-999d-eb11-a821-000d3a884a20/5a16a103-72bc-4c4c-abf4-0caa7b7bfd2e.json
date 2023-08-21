@@ -1,0 +1,32 @@
+{
+    "brand": "BENDIGO",
+    "name": "Bank Guarantee",
+    "eligibility": [
+        {
+            "eligibilityType": "BUSINESS"
+        },
+        {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "18"
+        }
+    ],
+    "additionalInformation": {
+        "termsUri": "https://www.bendigobank.com.au/disclosure-documents/",
+        "feesAndPricingUri": "https://www.bendigobank.com.au/disclosure-documents/"
+    },
+    "fees": [],
+    "lastUpdated": "2023-04-21T02:10:10.786Z",
+    "brandName": "Bendigo Bank",
+    "applicationUri": "https://www.bendigobank.com.au/business/loans-and-finance/",
+    "depositRates": [],
+    "productId": "5a16a103-72bc-4c4c-abf4-0caa7b7bfd2e",
+    "bundles": [],
+    "cardArt": [],
+    "features": [],
+    "lendingRates": [],
+    "description": "A facility that provides  customers and suppliers the security of a guaranteed payment",
+    "isTailored": false,
+    "constraints": [],
+    "effectiveFrom": "2001-05-31T14:00:00.000Z",
+    "productCategory": "BUSINESS_LOANS"
+}

@@ -1,0 +1,40 @@
+{
+    "productId": "60",
+    "effectiveFrom": "2016-06-07T14:30:00.0000000Z",
+    "lastUpdated": "2023-07-01T00:00:13.6411204Z",
+    "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+    "name": "Budget Wise Account",
+    "description": "Budget Wise Account",
+    "brand": "Coastline ",
+    "applicationUri": "https://www.coastline.com.au/manage/budgeting-accounts/",
+    "isTailored": false,
+    "additionalInformation": {
+        "overviewUri": "https://www.coastline.com.au/manage/budgeting-accounts/",
+        "termsUri": "https://www.coastline.com.au/about-coast/conditions-of-use/",
+        "eligibilityUri": "https://www.coastline.com.au/about-coast/conditions-of-use/",
+        "feesAndPricingUri": "https://www.coastline.com.au/about-coast/fees-and-charges/",
+        "bundleUri": "https://www.coastline.com.au/transact/"
+    },
+    "features": [
+        {
+            "featureType": "UNLIMITED_TXNS"
+        }
+    ],
+    "eligibility": [
+        {
+            "eligibilityType": "NATURAL_PERSON"
+        },
+        {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalValue": "Australia"
+        }
+    ],
+    "depositRates": [
+        {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M"
+        }
+    ]
+}

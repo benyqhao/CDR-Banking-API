@@ -1,0 +1,96 @@
+{
+    "features": [
+        {
+            "featureType": "REDRAW",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "featureType": "BILL_PAYMENT",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "SWSCu Internet Banking & App",
+            "additionalInfoUri": ""
+        },
+        {
+            "featureType": "NOTIFICATIONS",
+            "additionalInfo": "Alerts",
+            "additionalInfoUri": ""
+        },
+        {
+            "featureType": "NPP_ENABLED",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "featureType": "OTHER",
+            "additionalInfo": "Maximum loan term is 5 years",
+            "additionalInfoUri": ""
+        }
+    ],
+    "constraints": [
+        {
+            "constraintType": "MAX_LIMIT",
+            "additionalValue": "30000.00",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "constraintType": "MIN_LIMIT",
+            "additionalValue": "500.00",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        }
+    ],
+    "eligibility": [
+        {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "18",
+            "additionalInfo": "18 years",
+            "additionalInfoUri": ""
+        },
+        {
+            "eligibilityType": "NATURAL_PERSON",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalValue": "Australian citizen or permanent resident",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        }
+    ],
+    "lendingRates": [
+        {
+            "lendingRateType": "VARIABLE",
+            "rate": "0.1295",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "additionalInfo": "",
+            "additionalInfoUri": "https://www.swscu.com.au/Products/PersonalLoans",
+            "interestPaymentDue": "IN_ARREARS",
+            "comparisonRate": "0.1295",
+            "repaymentType": "PRINCIPAL_AND_INTEREST"
+        }
+    ],
+    "productId": "L1_PU",
+    "lastUpdated": "2023-02-22T13:17:30.000+11:00",
+    "productCategory": "PERS_LOANS",
+    "name": "Personal Unsecured",
+    "description": "Personal Unsecured",
+    "brand": "South West Slopes Credit Union",
+    "brandName": "South West Slopes Credit Union",
+    "applicationUri": "https://forms.sharedservices.com.au/form.php?c=165&f=49",
+    "isTailored": true,
+    "additionalInformation": {
+        "overviewUri": "https://www.swscu.com.au/Products/PersonalLoans",
+        "termsUri": "",
+        "eligibilityUri": "",
+        "feesAndPricingUri": "",
+        "bundleUri": ""
+    }
+}

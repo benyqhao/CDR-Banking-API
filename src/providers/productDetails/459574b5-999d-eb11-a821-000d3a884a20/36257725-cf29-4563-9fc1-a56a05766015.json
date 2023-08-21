@@ -1,0 +1,61 @@
+{
+    "isTailored": true,
+    "eligibility": [
+        {
+            "additionalInfo": "Specifically for employee motor vehicles that form part of a salary package arrangement.",
+            "eligibilityType": "OTHER",
+            "additionalValue": "10000"
+        }
+    ],
+    "additionalInformation": {
+        "termsUri": "https://www.bendigobank.com.au/disclosure-documents/",
+        "feesAndPricingUri": "https://www.bendigobank.com.au/disclosure-documents/",
+        "overviewUri": "https://www.bendigobank.com.au/business/loans-and-finance/equipment-finance/"
+    },
+    "name": "Novated Lease",
+    "features": [],
+    "depositRates": [],
+    "description": "Works like a finance lease and is designed specifically for employee motor vehicles that form part of a salary package arrangement.\n100% finance of the purchase price (deposits not permitted).\nWe own the vehicle and at the end of the term you may make an offer to purchase.\nRepayments made by your employer out of your pre-tax salary.\nA mandatory residual at the end of the term means you will have lower rental instalments.",
+    "constraints": [
+        {
+            "additionalInfo": "Minimum finance amount",
+            "constraintType": "OPENING_BALANCE",
+            "additionalValue": "10000.00"
+        }
+    ],
+    "lastUpdated": "2021-07-25T23:28:24.947Z",
+    "fees": [
+        {
+            "amount": "495.000000",
+            "feeType": "PURCHASE",
+            "name": "Documentation Fee (inclusive of GST)",
+            "additionalInfo": "Business fees and charges ",
+            "discounts": [],
+            "additionalInfoUri": "https://www.bendigobank.com.au/disclosure-documents/"
+        },
+        {
+            "amount": "275.000000",
+            "feeType": "EXIT",
+            "name": "Early Termination Fee (Inclusive of GST) ",
+            "additionalInfo": "Business fees and charges",
+            "discounts": [],
+            "additionalInfoUri": "https://www.bendigobank.com.au/disclosure-documents/"
+        },
+        {
+            "amount": "110.000000",
+            "feeType": "PURCHASE",
+            "name": "Private Sales, Sale & Buy Bank and Refinance from other Financial Institutions (inclusive of GST)",
+            "additionalInfo": "Business fees and charges",
+            "discounts": [],
+            "additionalInfoUri": "https://www.bendigobank.com.au/disclosure-documents/"
+        }
+    ],
+    "productCategory": "LEASES",
+    "lendingRates": [],
+    "bundles": [],
+    "cardArt": [],
+    "brandName": "Bendigo Bank",
+    "productId": "36257725-cf29-4563-9fc1-a56a05766015",
+    "applicationUri": "https://www.bendigobank.com.au/business/loans-and-finance/equipment-finance/equipment-finance-quote-enquiry/",
+    "brand": "BENDIGO"
+}

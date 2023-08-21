@@ -1,0 +1,116 @@
+{
+    "bundles": [
+        {
+            "name": "ESSENTIALS",
+            "description": "Essentials - the account structure that works",
+            "additionalInfo": "Our Pay, Bills and Save structure encourages disciplined money management",
+            "additionalInfoUri": "https://firstoptionbank.com.au/accounts/",
+            "productIds": [
+                "S1_PAY_ACCOUNT",
+                "S50_SAVE_ACCOUNT"
+            ]
+        }
+    ],
+    "features": [
+        {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "featureType": "NOTIFICATIONS",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "featureType": "NPP_PAYID",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "featureType": "NPP_ENABLED",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        }
+    ],
+    "eligibility": [
+        {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalInfo": "Australian Residents",
+            "additionalInfoUri": ""
+        },
+        {
+            "eligibilityType": "NATURAL_PERSON",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        }
+    ],
+    "depositRates": [
+        {
+            "depositRateType": "VARIABLE",
+            "rate": "0.01",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "tiers": [
+                {
+                    "name": "Save Account_Tier_1",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 0.0,
+                    "maximumValue": 1999.99,
+                    "rateApplicationMethod": "PER_TIER"
+                }
+            ],
+            "additionalInfo": "",
+            "additionalInfoUri": "https://firstoptionbank.com.au/disclosure-statements/"
+        },
+        {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0305",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "tiers": [
+                {
+                    "name": "Save Account_Tier_2",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 2000.0,
+                    "maximumValue": 500000.0,
+                    "rateApplicationMethod": "PER_TIER"
+                }
+            ],
+            "additionalInfo": "",
+            "additionalInfoUri": "https://firstoptionbank.com.au/disclosure-statements/"
+        },
+        {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0305",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "tiers": [
+                {
+                    "name": "Save Account_Tier_3",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 500000.01,
+                    "rateApplicationMethod": "PER_TIER"
+                }
+            ],
+            "additionalInfo": "",
+            "additionalInfoUri": "https://firstoptionbank.com.au/disclosure-statements/"
+        }
+    ],
+    "productId": "SAVE_ACCOUNT",
+    "lastUpdated": "2023-07-15T11:27:03.000+10:00",
+    "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+    "name": "Save Account",
+    "description": "SAVE ACCOUNT",
+    "brand": "FIRST OPTION BANK LTD",
+    "brandName": "FIRST OPTION BANK",
+    "applicationUri": "https://firstoptionbank.com.au/join",
+    "isTailored": false,
+    "additionalInformation": {
+        "overviewUri": "https://firstoptionbank.com.au/accounts",
+        "termsUri": "https://firstoptionbank.com.au/disclosure-statements/",
+        "eligibilityUri": "https://firstoptionbank.com.au/disclosure-statements/",
+        "feesAndPricingUri": "https://firstoptionbank.com.au/disclosure-statements/",
+        "bundleUri": ""
+    }
+}

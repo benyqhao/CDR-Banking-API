@@ -1,0 +1,113 @@
+{
+    "features": [
+        {
+            "featureType": "NPP_PAYID",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "featureType": "NPP_ENABLED",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "featureType": "DIGITAL_WALLET",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "featureType": "CARD_ACCESS",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "featureType": "OVERDRAFT",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        }
+    ],
+    "eligibility": [
+        {
+            "eligibilityType": "BUSINESS",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalInfo": "Australian Residents",
+            "additionalInfoUri": ""
+        },
+        {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "18",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        }
+    ],
+    "depositRates": [
+        {
+            "depositRateType": "VARIABLE",
+            "rate": "0.005",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "additionalInfo": "",
+            "additionalInfoUri": "https://firstoptionbank.com.au/disclosure-statements/"
+        }
+    ],
+    "lendingRates": [
+        {
+            "lendingRateType": "VARIABLE",
+            "rate": "0.0",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "tiers": [
+                {
+                    "name": "BUSINESS CASH HUB_Tier_1",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 0.0,
+                    "maximumValue": 4.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalInfo": "",
+            "additionalInfoUri": "https://firstoptionbank.com.au/disclosure-statements/"
+        },
+        {
+            "lendingRateType": "VARIABLE",
+            "rate": "0.1399",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "tiers": [
+                {
+                    "name": "BUSINESS CASH HUB_Tier_2",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 4.01,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalInfo": "",
+            "additionalInfoUri": "https://firstoptionbank.com.au/disclosure-statements/"
+        }
+    ],
+    "productId": "BUSINESS_CASH_HUB",
+    "lastUpdated": "2023-07-04T15:23:50.000+10:00",
+    "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+    "name": "BUSINESS CASH HUB",
+    "description": "BUSINESS CASH HUB",
+    "brand": "FIRST OPTION BANK LTD",
+    "brandName": "FIRST OPTION BANK",
+    "applicationUri": "https://firstoptionbank.com.au/business-membership-application/",
+    "isTailored": false,
+    "additionalInformation": {
+        "overviewUri": "",
+        "termsUri": "https://firstoptionbank.com.au/disclosure-statements/",
+        "eligibilityUri": "https://firstoptionbank.com.au/disclosure-statements/",
+        "feesAndPricingUri": "https://firstoptionbank.com.au/disclosure-statements/",
+        "bundleUri": ""
+    }
+}

@@ -1,0 +1,91 @@
+{
+    "productId": "B0B44158-0675-417E-819A-C73A757DCB7F",
+    "lastUpdated": "2023-06-22T12:00:22.91Z",
+    "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+    "name": "32 Day Notice Account",
+    "description": "If you need more frequent access to your savings, our notice account features a competitive interest rate, that is calculated on the daily closing credit balance of your account and paid monthly, and gives you access to your money after providing 32 days notice.\nA good choice for you if: \n-You are saving for a goal such as a deposit on a house, new car or holiday\n-You would like to make regular deposits to your savings\n-You prefer a variable interest rate",
+    "brand": "BOQS",
+    "brandName": "Bank Of QueenslandS",
+    "applicationUri": "https://www.boqspecialist.com.au/personal-banking/savings-accounts/notice-account",
+    "isTailored": false,
+    "additionalInformation": {
+        "overviewUri": "https://www.boqspecialist.com.au/personal-banking/savings-accounts/notice-account",
+        "termsUri": "https://www.boqspecialist.com.au/content/dam/boq-specialist/files/products/bank-accounts/one-account/terms-and-conditions/BOQS001377-Transaction-and-savings-accounts-overdraft-facility-terms-and-conditions.pdf",
+        "eligibilityUri": "https://www.boqspecialist.com.au/about",
+        "feesAndPricingUri": "https://www.boqspecialist.com.au/content/dam/boq-specialist/files/products/bank-accounts/one-account/terms-and-conditions/BOQS001377-Transaction-and-savings-accounts-overdraft-facility-terms-and-conditions.pdf"
+    },
+    "features": [
+        {
+            "featureType": "OTHER",
+            "additionalValue": "Easy Access",
+            "additionalInfo": "Add funds to account at any time",
+            "additionalInfoUri": "https://www.boqspecialist.com.au/personal-banking/savings-accounts/notice-account"
+        },
+        {
+            "featureType": "OTHER",
+            "additionalValue": "No Minimum Balance",
+            "additionalInfo": "No minimum balance requirements",
+            "additionalInfoUri": "https://www.boqspecialist.com.au/personal-banking/savings-accounts/notice-account"
+        },
+        {
+            "featureType": "OTHER",
+            "additionalValue": "32 day notice",
+            "additionalInfo": "A savings account with funds available with 32 days prior notice",
+            "additionalInfoUri": "https://www.boqspecialist.com.au/personal-banking/savings-accounts/notice-account"
+        },
+        {
+            "featureType": "OTHER",
+            "additionalValue": "No Fees",
+            "additionalInfo": "Competitive interest rate on credit balances and no\u00a0monthly account keeping fees",
+            "additionalInfoUri": "https://www.boqspecialist.com.au/personal-banking/savings-accounts/notice-account"
+        },
+        {
+            "featureType": "OTHER",
+            "additionalValue": "Daily Interest",
+            "additionalInfo": "Interest calculated daily and paid monthly",
+            "additionalInfoUri": "https://www.boqspecialist.com.au/personal-banking/savings-accounts/notice-account"
+        }
+    ],
+    "constraints": [
+        {
+            "constraintType": "OPENING_BALANCE",
+            "additionalValue": "10000",
+            "additionalInfo": "While we have the discretion to determine deposit size, we usually accept a minimum deposit of  AUD 10,000.00"
+        }
+    ],
+    "eligibility": [
+        {
+            "eligibilityType": "BUSINESS",
+            "additionalValue": "Business Customer"
+        },
+        {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "18"
+        },
+        {
+            "eligibilityType": "NATURAL_PERSON",
+            "additionalValue": "Personal Customer"
+        },
+        {
+            "eligibilityType": "OTHER",
+            "additionalValue": "Professional",
+            "additionalInfo": "Exclusively available to medical professionals and accountants",
+            "additionalInfoUri": "https://www.boqspecialist.com.au/about"
+        },
+        {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalValue": "Resident or Citizen"
+        }
+    ],
+    "depositRates": [
+        {
+            "rate": "0.0425000",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "additionalValue": "N/A",
+            "additionalInfo": "Interest paid monthly",
+            "additionalInfoUri": "https://www.boqspecialist.com.au/personal-banking/savings-accounts/interest-rates",
+            "depositRateType": "VARIABLE"
+        }
+    ]
+}

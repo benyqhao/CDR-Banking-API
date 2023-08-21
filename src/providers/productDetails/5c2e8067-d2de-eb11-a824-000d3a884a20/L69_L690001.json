@@ -1,0 +1,74 @@
+{
+    "features": [
+        {
+            "featureType": "REDRAW",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "featureType": "NPP_ENABLED",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "featureType": "OFFSET",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        }
+    ],
+    "eligibility": [
+        {
+            "eligibilityType": "NATURAL_PERSON",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        }
+    ],
+    "fees": [
+        {
+            "name": "OTHER_FEES_AND_CHARGES_MAY_APPLY",
+            "feeType": "VARIABLE",
+            "amount": "0.00",
+            "accrualFrequency": "",
+            "currency": "AUD",
+            "additionalInfo": "A full list of fees and charges will be provided if loan is approved. Visit: https://horizonbank.com.au/more/important-info/fees-and-charges/",
+            "additionalInfoUri": ""
+        }
+    ],
+    "lendingRates": [
+        {
+            "lendingRateType": "FIXED",
+            "rate": "0.0614",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "additionalValue": "P24M",
+            "additionalInfo": "For Investment loan purpose with Principal and Interest repayments. The comparison rate is based on a $150,000 secured loan for a term of twenty five years for all home loans. WARNING: This comparison rate is true only for the examples given and may not include all fees and charges. Different terms, fees or other loan amounts might result in a different comparison rate",
+            "additionalInfoUri": "",
+            "interestPaymentDue": "IN_ARREARS",
+            "comparisonRate": "0.0663",
+            "repaymentType": "PRINCIPAL_AND_INTEREST",
+            "loanPurpose": "INVESTMENT"
+        }
+    ],
+    "productId": "L69_L690001",
+    "effectiveFrom": "2021-07-01T00:00:00.000+10:00",
+    "lastUpdated": "2023-07-28T11:49:19.000+10:00",
+    "productCategory": "RESIDENTIAL_MORTGAGES",
+    "name": "INVEST RESID FIX 2YR",
+    "description": "INVEST RESID FIX 2YR",
+    "brand": "HORIZON BANK",
+    "brandName": "HORIZON BANK",
+    "applicationUri": "https://forms.horizonbank.com.au/form.php?f=72",
+    "isTailored": false,
+    "additionalInformation": {
+        "overviewUri": "https://horizonbank.com.au/loans/investment-loans/fixed-rate-investment-loan/",
+        "termsUri": "https://horizonbank.com.au/more/important-info/disclosure-documents/",
+        "eligibilityUri": "",
+        "feesAndPricingUri": "https://horizonbank.com.au/more/important-info/fees-and-charges/",
+        "bundleUri": ""
+    }
+}

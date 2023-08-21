@@ -1,0 +1,90 @@
+{
+    "productId": "21",
+    "effectiveFrom": "2001-07-02T14:30:00.0000000Z",
+    "lastUpdated": "2023-06-20T02:00:16.6119756Z",
+    "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+    "name": "Santa Saver Account",
+    "description": "Christmas Is Always Just Around The Corner. Fun, Festivity And Gifts All Come At A Price. Time To Start Saving. BHCCU Can Help Prepare With A Santa Saver Account.",
+    "brand": "Broken Hill Community Credit Union",
+    "applicationUri": "https://www.bhccu.com.au/savings",
+    "isTailored": false,
+    "additionalInformation": {
+        "overviewUri": "https://www.bhccu.com.au/savings",
+        "termsUri": "https://www.bhccu.com.au/savings",
+        "feesAndPricingUri": "https://www.bhccu.com.au/fees-and-rates"
+    },
+    "features": [
+        {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "24/7 Banking And Instant Access To Your Accounts Via Laptop, Tablet Or Smartphone",
+            "additionalInfoUri": "https://www.bhccu.com.au/access"
+        },
+        {
+            "featureType": "LOYALTY_PROGRAM",
+            "additionalValue": "\"Relationship Rewards\"",
+            "additionalInfo": "\"Relationship Rewards\" - Providing You The Opportunity For Fee-Free Banking",
+            "additionalInfoUri": "https://www.bhccu.com.au/fees-and-rates"
+        },
+        {
+            "featureType": "OTHER",
+            "additionalInfo": "No Monthly Account Keeping Fees"
+        },
+        {
+            "featureType": "UNLIMITED_TXNS",
+            "additionalInfo": "\"Relationship Rewards\" - Providing You The Opportunity For Fee-Free Banking",
+            "additionalInfoUri": "https://www.bhccu.com.au/fees-and-rates"
+        }
+    ],
+    "eligibility": [
+        {
+            "eligibilityType": "BUSINESS",
+            "additionalInfo": "Self Employed Members and Business Owners Are Eligible"
+        },
+        {
+            "eligibilityType": "EMPLOYMENT_STATUS",
+            "additionalValue": "Full Time, Part Time, Casual Etc.",
+            "additionalInfo": "Employed Members Are Eligible"
+        },
+        {
+            "eligibilityType": "PENSION_RECIPIENT",
+            "additionalInfo": "Centrelink Recipients And Self-Funded Retirees Are Eligible"
+        },
+        {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalValue": "Australian Citizens Or Permanent Residents",
+            "additionalInfo": "Residents Of Australia Are Eligible"
+        },
+        {
+            "eligibilityType": "STAFF",
+            "additionalInfo": "BHCCU Staff Are Eligible"
+        },
+        {
+            "eligibilityType": "STUDENT",
+            "additionalInfo": "Student Members Are Eligible"
+        }
+    ],
+    "fees": [
+        {
+            "name": "Dormant Account Admin Fee",
+            "feeType": "PERIODIC",
+            "amount": "5.00",
+            "currency": "AUD",
+            "additionalValue": "P1M"
+        },
+        {
+            "name": "Early Redemption Fee",
+            "feeType": "TRANSACTION",
+            "amount": "25.00",
+            "currency": "AUD"
+        }
+    ],
+    "depositRates": [
+        {
+            "depositRateType": "VARIABLE",
+            "rate": "0.016",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "additionalInfoUri": "https://www.bhccu.com.au/fees-and-rates"
+        }
+    ]
+}

@@ -1,0 +1,304 @@
+{
+    "additionalInformation": {
+        "feesAndPricingUri": "https://www.adelaidebank.com.au/siteassets/documents/homeloans/personal-lending-fees-and-charges.pdf",
+        "overviewUri": "https://www.adelaidebank.com.au/home-loans/smartfit/",
+        "termsUri": "https://www.adelaidebank.com.au/globalassets/documents/adelaide-bank/home-loans/smartfit-home-loan-key-fact-sheet.pdf"
+    },
+    "applicationUri": "https://www.adelaidebank.com.au/contact-us/broker-enquiry/",
+    "brand": "Adelaide Bank",
+    "brandName": "Adelaide Bank",
+    "description": "Fully featured with a competitive variable rate, this loan comes with the benefits of a 100% offset account.",
+    "isTailored": false,
+    "lastUpdated": "2023-08-17T21:20:22.277Z",
+    "name": "Adelaide Bank SmartFit",
+    "productCategory": "RESIDENTIAL_MORTGAGES",
+    "productId": "6116d8a6-f70f-447c-9c5e-2eb08bcf1c5f",
+    "fees": [
+        {
+            "name": "Monthly Fee",
+            "amount": "15.00",
+            "currency": "AUD",
+            "additionalValue": "P1M",
+            "feeType": "PERIODIC"
+        },
+        {
+            "name": "Application Fee",
+            "amount": "299.00",
+            "currency": "AUD",
+            "feeType": "UPFRONT"
+        },
+        {
+            "name": "SmartSuite Go-Between Application fee",
+            "amount": "1500.00",
+            "currency": "AUD",
+            "feeType": "UPFRONT"
+        },
+        {
+            "name": "Settlement Fee",
+            "amount": "199.00",
+            "currency": "AUD",
+            "feeType": "UPFRONT"
+        },
+        {
+            "name": "Valuation Fee",
+            "additionalInfo": "This fee amount varies. The Bank will cover up to $300 of valuation costs to originate the home loan. Where these costs exceed $300 you must pay this excess amount. ",
+            "amount": "0.00",
+            "currency": "AUD",
+            "feeType": "UPFRONT"
+        },
+        {
+            "name": "Construction Application Fee",
+            "amount": "775.00",
+            "currency": "AUD",
+            "feeType": "UPFRONT"
+        },
+        {
+            "name": "Discharge Administration Fee",
+            "amount": "325.00",
+            "currency": "AUD",
+            "feeType": "EVENT"
+        },
+        {
+            "name": "Search Processing Fee",
+            "additionalInfo": "This fee is charged for the bank to perform a title search or other searches as required when you request to vary your contract",
+            "amount": "50.00",
+            "currency": "AUD",
+            "feeType": "EVENT"
+        },
+        {
+            "name": "Loan Variation Fee",
+            "additionalInfo": "This fee is charged if you apply to us to vary an existing contract before settlement occurs",
+            "amount": "150.00",
+            "feeType": "EVENT"
+        },
+        {
+            "name": "Company Search Fee",
+            "additionalInfo": "This fee is charged for the bank to perform a company search as required",
+            "amount": "25.00",
+            "feeType": "UPFRONT"
+        }
+    ],
+    "eligibility": [
+        {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "18"
+        }
+    ],
+    "constraints": [
+        {
+            "constraintType": "OPENING_BALANCE",
+            "additionalValue": "10000"
+        },
+        {
+            "constraintType": "MIN_LIMIT",
+            "additionalValue": "1"
+        }
+    ],
+    "features": [
+        {
+            "featureType": "REDRAW",
+            "additionalInfo": "Online redraw available"
+        },
+        {
+            "featureType": "OFFSET",
+            "additionalInfo": "100% Offset for both variable and fixed rate loans"
+        },
+        {
+            "featureType": "OTHER",
+            "additionalInfo": "Unlimited additional repayments if variable, up to $20,000 when fixed"
+        }
+    ],
+    "lendingRates": [
+        {
+            "lendingRateType": "VARIABLE",
+            "comparisonRate": "0.0605",
+            "repaymentType": "PRINCIPAL_AND_INTEREST",
+            "rate": "0.0588",
+            "additionalInfo": "LVR < 80%",
+            "loanPurpose": "OWNER_OCCUPIED",
+            "calculationFrequency": "P1D",
+            "interestPaymentDue": "IN_ARREARS"
+        },
+        {
+            "lendingRateType": "VARIABLE",
+            "comparisonRate": "0.0653",
+            "repaymentType": "PRINCIPAL_AND_INTEREST",
+            "rate": "0.0633",
+            "additionalInfo": "LVR < 90%",
+            "loanPurpose": "OWNER_OCCUPIED",
+            "calculationFrequency": "P1D",
+            "interestPaymentDue": "IN_ARREARS"
+        },
+        {
+            "lendingRateType": "VARIABLE",
+            "comparisonRate": "0.0768",
+            "repaymentType": "PRINCIPAL_AND_INTEREST",
+            "rate": "0.0748",
+            "additionalInfo": "LVR > 90%",
+            "loanPurpose": "OWNER_OCCUPIED",
+            "calculationFrequency": "P1D",
+            "interestPaymentDue": "IN_ARREARS"
+        },
+        {
+            "lendingRateType": "VARIABLE",
+            "comparisonRate": "0.0627",
+            "repaymentType": "PRINCIPAL_AND_INTEREST",
+            "rate": "0.0603",
+            "additionalInfo": "Construction <80 (with Offset Account)",
+            "loanPurpose": "OWNER_OCCUPIED",
+            "calculationFrequency": "P1D",
+            "interestPaymentDue": "IN_ARREARS"
+        },
+        {
+            "lendingRateType": "VARIABLE",
+            "comparisonRate": "0.0672",
+            "repaymentType": "PRINCIPAL_AND_INTEREST",
+            "rate": "0.0648",
+            "additionalInfo": "Construction <90 (with Offset Account)",
+            "loanPurpose": "OWNER_OCCUPIED",
+            "calculationFrequency": "P1D",
+            "interestPaymentDue": "IN_ARREARS"
+        },
+        {
+            "lendingRateType": "VARIABLE",
+            "comparisonRate": "0.0654",
+            "repaymentType": "INTEREST_ONLY",
+            "rate": "0.0698",
+            "additionalInfo": "LVR < 80%",
+            "loanPurpose": "OWNER_OCCUPIED",
+            "calculationFrequency": "P1D",
+            "interestPaymentDue": "IN_ARREARS"
+        },
+        {
+            "lendingRateType": "VARIABLE",
+            "comparisonRate": "0.0702",
+            "repaymentType": "INTEREST_ONLY",
+            "rate": "0.0748",
+            "additionalInfo": "LVR < 90%",
+            "loanPurpose": "OWNER_OCCUPIED",
+            "calculationFrequency": "P1D",
+            "interestPaymentDue": "IN_ARREARS"
+        },
+        {
+            "lendingRateType": "VARIABLE",
+            "comparisonRate": "0.0627",
+            "repaymentType": "INTEREST_ONLY",
+            "rate": "0.0603",
+            "additionalInfo": "Construction <80 (with Offset Account)",
+            "loanPurpose": "OWNER_OCCUPIED",
+            "calculationFrequency": "P1D",
+            "interestPaymentDue": "IN_ARREARS"
+        },
+        {
+            "lendingRateType": "VARIABLE",
+            "comparisonRate": "0.0672",
+            "repaymentType": "INTEREST_ONLY",
+            "rate": "0.0648",
+            "additionalInfo": "Construction <90 (with Offset Account)",
+            "loanPurpose": "OWNER_OCCUPIED",
+            "calculationFrequency": "P1D",
+            "interestPaymentDue": "IN_ARREARS"
+        },
+        {
+            "lendingRateType": "VARIABLE",
+            "comparisonRate": "0.0642",
+            "repaymentType": "PRINCIPAL_AND_INTEREST",
+            "rate": "0.0613",
+            "applicationFrequency": "P0D",
+            "additionalInfo": "Go Between, 6/12mths capitalised interest (with Offset Account)",
+            "loanPurpose": "OWNER_OCCUPIED",
+            "calculationFrequency": "P1D",
+            "interestPaymentDue": "IN_ARREARS"
+        },
+        {
+            "lendingRateType": "VARIABLE",
+            "comparisonRate": "0.0638",
+            "repaymentType": "PRINCIPAL_AND_INTEREST",
+            "rate": "0.0618",
+            "additionalInfo": "LVR < 80%",
+            "loanPurpose": "INVESTMENT",
+            "calculationFrequency": "P1D",
+            "interestPaymentDue": "IN_ARREARS"
+        },
+        {
+            "lendingRateType": "VARIABLE",
+            "comparisonRate": "0.0683",
+            "repaymentType": "PRINCIPAL_AND_INTEREST",
+            "rate": "0.0663",
+            "additionalInfo": "LVR < 90%",
+            "loanPurpose": "INVESTMENT",
+            "calculationFrequency": "P1D",
+            "interestPaymentDue": "IN_ARREARS"
+        },
+        {
+            "lendingRateType": "VARIABLE",
+            "comparisonRate": "0.0667",
+            "repaymentType": "PRINCIPAL_AND_INTEREST",
+            "rate": "0.0643",
+            "additionalInfo": "Construction <80 (with Offset Account)",
+            "loanPurpose": "INVESTMENT",
+            "calculationFrequency": "P1D",
+            "interestPaymentDue": "IN_ARREARS"
+        },
+        {
+            "lendingRateType": "VARIABLE",
+            "comparisonRate": "0.0711",
+            "repaymentType": "PRINCIPAL_AND_INTEREST",
+            "rate": "0.0688",
+            "additionalInfo": "Construction <90 (with Offset Account)",
+            "loanPurpose": "INVESTMENT",
+            "calculationFrequency": "P0D",
+            "interestPaymentDue": "IN_ARREARS"
+        },
+        {
+            "lendingRateType": "VARIABLE",
+            "comparisonRate": "0.065",
+            "repaymentType": "INTEREST_ONLY",
+            "rate": "0.0649",
+            "additionalInfo": "LVR < 80%",
+            "loanPurpose": "INVESTMENT",
+            "calculationFrequency": "P1D",
+            "interestPaymentDue": "IN_ARREARS"
+        },
+        {
+            "lendingRateType": "VARIABLE",
+            "comparisonRate": "0.0695",
+            "repaymentType": "INTEREST_ONLY",
+            "rate": "0.0694",
+            "additionalInfo": "LVR < 90%",
+            "loanPurpose": "INVESTMENT",
+            "calculationFrequency": "P1D",
+            "interestPaymentDue": "IN_ARREARS"
+        },
+        {
+            "lendingRateType": "VARIABLE",
+            "comparisonRate": "0.0667",
+            "repaymentType": "INTEREST_ONLY",
+            "rate": "0.0643",
+            "additionalInfo": "Construction <80 (with Offset Account)",
+            "loanPurpose": "INVESTMENT",
+            "calculationFrequency": "P1D",
+            "interestPaymentDue": "IN_ARREARS"
+        },
+        {
+            "lendingRateType": "VARIABLE",
+            "comparisonRate": "0.0711",
+            "repaymentType": "INTEREST_ONLY",
+            "rate": "0.0688",
+            "additionalInfo": "Construction <90 (with Offset Account)",
+            "loanPurpose": "INVESTMENT",
+            "calculationFrequency": "P0D",
+            "interestPaymentDue": "IN_ARREARS"
+        },
+        {
+            "lendingRateType": "VARIABLE",
+            "comparisonRate": "0.0672",
+            "repaymentType": "PRINCIPAL_AND_INTEREST",
+            "rate": "0.0643",
+            "additionalInfo": "Go Between, 6/12mths capitalised interest (with Offset Account)",
+            "loanPurpose": "INVESTMENT",
+            "calculationFrequency": "P1D",
+            "interestPaymentDue": "IN_ARREARS"
+        }
+    ]
+}

@@ -1,0 +1,109 @@
+{
+    "features": [
+        {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "SCCU NetBanking",
+            "additionalInfoUri": ""
+        }
+    ],
+    "constraints": [
+        {
+            "constraintType": "MAX_LIMIT",
+            "additionalValue": "150000.00",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        }
+    ],
+    "eligibility": [
+        {
+            "eligibilityType": "EMPLOYMENT_STATUS",
+            "additionalValue": "Y",
+            "additionalInfo": "Must be employed",
+            "additionalInfoUri": ""
+        },
+        {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalValue": "Y",
+            "additionalInfo": "Must be an Australian resident",
+            "additionalInfoUri": ""
+        }
+    ],
+    "fees": [
+        {
+            "name": "PERSONAL_LOAN_SECURITY_VARIATION",
+            "feeType": "EVENT",
+            "amount": "150.00",
+            "accrualFrequency": "",
+            "currency": "AUD",
+            "additionalInfo": "When there is a variation made to the security used for an existing loan agreement. For example you change the vehicle which secures your loan.",
+            "additionalInfoUri": "https://www.sccu.com.au/schedule-of-fees-and-charges-personal-loan-products/"
+        },
+        {
+            "name": "PERSONAL_LOAN_CHANGE_TO_LOAN_CONTRACT",
+            "feeType": "EVENT",
+            "amount": "150.00",
+            "accrualFrequency": "",
+            "currency": "AUD",
+            "additionalInfo": "When there is a variation made to the security used for an existing loan agreement. For example you change the vehicle which secures your loan.",
+            "additionalInfoUri": "https://www.sccu.com.au/schedule-of-fees-and-charges-personal-loan-products/"
+        },
+        {
+            "name": "DIRECT_DEBIT_DISHONOUR",
+            "feeType": "EVENT",
+            "amount": "15.00",
+            "accrualFrequency": "",
+            "currency": "AUD",
+            "additionalInfo": "Charged if your direct debit payment is dishonoured due to insufficient funds",
+            "additionalInfoUri": "https://www.sccu.com.au/about-us/reports-and-disclosures/"
+        },
+        {
+            "name": "PERSONAL_LOAN_ESTABLISHMENT_FEE",
+            "feeType": "UPFRONT",
+            "amount": "250.00",
+            "accrualFrequency": "",
+            "currency": "AUD",
+            "additionalInfo": "A one off upfront fee for setting up your loan.",
+            "additionalInfoUri": "https://www.sccu.com.au/schedule-of-fees-and-charges-personal-loan-products/"
+        },
+        {
+            "name": "MTHLY_LOAN_FEE",
+            "feeType": "PERIODIC",
+            "amount": "8.00",
+            "accrualFrequency": "P1M",
+            "currency": "AUD",
+            "additionalValue": "P1M",
+            "additionalInfo": "Flat Monthly fee of $8 for personal or vehicle loans effective from 11.10.21",
+            "additionalInfoUri": "https://www.sccu.com.au/about-us/reports-and-disclosures/"
+        }
+    ],
+    "lendingRates": [
+        {
+            "lendingRateType": "FIXED",
+            "rate": "0.0799",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "additionalValue": "P36M",
+            "additionalInfo": "",
+            "additionalInfoUri": "https://www.sccu.com.au/loan-interest-rate-schedule/",
+            "interestPaymentDue": "IN_ARREARS",
+            "comparisonRate": "0.0914",
+            "repaymentType": "PRINCIPAL_AND_INTEREST"
+        }
+    ],
+    "productId": "PERSONAL_LOAN_SECURED_3Y",
+    "lastUpdated": "2023-03-08T12:08:19.000+11:00",
+    "productCategory": "PERS_LOANS",
+    "name": "PERSONAL LOAN - SECURED - 3YR",
+    "description": "Secure Personal Loan suitable for short-term borrowing up to $150k if you have existing security.",
+    "brand": "S",
+    "brandName": "SCCU",
+    "applicationUri": "https://www.sccu.com.au/apply-for-a-sccu-personal-loan/",
+    "isTailored": false,
+    "additionalInformation": {
+        "overviewUri": "https://www.sccu.com.au/personal/loans/personal-loans/secured-personal-loan/",
+        "termsUri": "https://www.sccu.com.au/personal/loans/personal-loans/secured-personal-loan/",
+        "eligibilityUri": "https://www.sccu.com.au/personal/loans/personal-loans/secured-personal-loan/",
+        "feesAndPricingUri": "https://www.sccu.com.au/personal/loans/personal-loans/secured-personal-loan/",
+        "bundleUri": ""
+    }
+}

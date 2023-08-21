@@ -1,0 +1,87 @@
+{
+    "productId": "10",
+    "effectiveFrom": "2015-06-30T14:30:00.0000000Z",
+    "lastUpdated": "2023-06-21T22:00:24.0853022Z",
+    "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+    "name": "Future Start Savings",
+    "description": "Encouraging savings for our Students and Apprentices with a bonus interest rate once the minimum $5 monthly deposit is made and no more than one withdrawal in the same month",
+    "brand": "Queensland Country Bank",
+    "isTailored": false,
+    "additionalInformation": {
+        "overviewUri": "https://www.queenslandcountry.bank/banking/savings-accounts/future-start/",
+        "termsUri": "https://www.queenslandcountry.bank/siteassets/documents/brochures/brochure_account-access-facility.pdf",
+        "feesAndPricingUri": "https://www.queenslandcountry.bank/siteassets/documents/brochures/brochure_fees-charges.pdf"
+    },
+    "features": [
+        {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "24/7 Online, mobile and Phone banking"
+        },
+        {
+            "featureType": "NPP_ENABLED",
+            "additionalInfo": "The New Payments Platform (NPP) provides you with faster, simpler and smarter payments through a fast and versatile payments system"
+        },
+        {
+            "featureType": "NPP_PAYID",
+            "additionalInfo": "The New Payments Platform (NPP) provides you with faster, simpler and smarter payments through a fast and versatile payments system"
+        },
+        {
+            "featureType": "OTHER",
+            "additionalInfo": "Bonus Interest is paid when at least $5 is deposited into the account for that calendar month and no more than one withdrawal is made in the same month"
+        },
+        {
+            "featureType": "UNLIMITED_TXNS"
+        }
+    ],
+    "eligibility": [
+        {
+            "eligibilityType": "MAX_AGE",
+            "additionalValue": "23"
+        },
+        {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "18"
+        },
+        {
+            "eligibilityType": "STUDENT",
+            "additionalInfo": "For 18 - 23 years of age undertaking full-time studies or an Australian apprenticeship"
+        }
+    ],
+    "fees": [
+        {
+            "name": "Disputed Transaction Fee",
+            "feeType": "EVENT",
+            "amount": "35.00",
+            "currency": "AUD"
+        },
+        {
+            "name": "Dormant Account Fee",
+            "feeType": "EVENT",
+            "amount": "15.00",
+            "currency": "AUD"
+        },
+        {
+            "name": "Other Service Fees",
+            "feeType": "EVENT",
+            "amount": "0.00",
+            "currency": "AUD",
+            "additionalInfo": "Refer to our Fees and Charges brochure for information on other transactions which may attract fees and charges",
+            "additionalInfoUri": "https://www.queenslandcountry.bank/siteassets/documents/brochures/brochure_fees-charges.pdf"
+        }
+    ],
+    "depositRates": [
+        {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0015",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M"
+        },
+        {
+            "depositRateType": "BONUS",
+            "rate": "0.04",
+            "calculationFrequency": "P1M",
+            "applicationFrequency": "P1M",
+            "additionalValue": "To achieve the bonus rate of interest you must deposit at least $5 in a calendar month and make no more than one withdrawal in the same month."
+        }
+    ]
+}

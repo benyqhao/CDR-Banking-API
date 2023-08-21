@@ -1,0 +1,42 @@
+{
+    "depositRates": [],
+    "eligibility": [],
+    "brandName": "Sandhurst Trustees Limited",
+    "brand": "STL",
+    "name": "Line of Credit",
+    "constraints": [
+        {
+            "constraintType": "MIN_LIMIT",
+            "additionalValue": "100000.00"
+        },
+        {
+            "constraintType": "MAX_LIMIT",
+            "additionalValue": "3000000.00"
+        }
+    ],
+    "isTailored": false,
+    "bundles": [],
+    "cardArt": [],
+    "productCategory": "OVERDRAFTS",
+    "lendingRates": [
+        {
+            "tiers": [],
+            "lendingRateType": "VARIABLE",
+            "rate": "0.0700000000000000"
+        }
+    ],
+    "fees": [],
+    "features": [
+        {
+            "additionalInfo": "Limited annual reviews",
+            "featureType": "OTHER"
+        },
+        {
+            "additionalInfo": " No ongoing line fees",
+            "featureType": "OTHER"
+        }
+    ],
+    "lastUpdated": "2022-10-31T13:31:22.640Z",
+    "productId": "91ea33e9-1bd7-43ad-b8b2-60ce64327876",
+    "description": "A line of credit providing you access to cash (to approved limit) when needed to support business cash flow requirements."
+}

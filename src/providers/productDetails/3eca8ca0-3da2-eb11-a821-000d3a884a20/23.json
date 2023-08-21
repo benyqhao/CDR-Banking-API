@@ -1,0 +1,112 @@
+{
+    "productId": "23",
+    "effectiveFrom": "2005-06-30T14:30:00.0000000Z",
+    "lastUpdated": "2023-05-17T08:00:39.2187342Z",
+    "productCategory": "PERS_LOANS",
+    "name": "Personal Loan Unsecured",
+    "description": "Personal Loan Unsecured",
+    "brand": "Dnister",
+    "applicationUri": "https://www.dnister.com.au/wp-content/uploads/2020/08/L1-0820-Consumer-Loan-Overdraft-Application.pdf",
+    "isTailored": false,
+    "additionalInformation": {
+        "overviewUri": "https://www.dnister.com.au/portfolio-items/personal-loan/",
+        "feesAndPricingUri": "https://www.dnister.com.au/portfolio-items/personal-loan/"
+    },
+    "features": [
+        {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "Access your accounts 24/7 with our Mobile App and Online Banking."
+        },
+        {
+            "featureType": "NPP_ENABLED",
+            "additionalInfo": "This product can receive Osko payments in realtime."
+        },
+        {
+            "featureType": "OTHER",
+            "additionalInfo": "Weekly, fortnightly or monthly repayments options."
+        },
+        {
+            "featureType": "REDRAW",
+            "additionalInfo": "Limits and fees apply to available Redraw Facility amounts.",
+            "additionalInfoUri": "https://www.dnister.com.au/fees-and-charges/"
+        }
+    ],
+    "constraints": [
+        {
+            "constraintType": "MAX_LIMIT",
+            "additionalValue": "50000.00",
+            "additionalInfo": "Maximum loan amount is $50,000."
+        },
+        {
+            "constraintType": "MIN_LIMIT",
+            "additionalValue": "1000.00",
+            "additionalInfo": "Minimum loan amount is $1,000."
+        }
+    ],
+    "eligibility": [
+        {
+            "eligibilityType": "BUSINESS"
+        }
+    ],
+    "fees": [
+        {
+            "name": "Company Search",
+            "feeType": "UPFRONT",
+            "amount": "50.00",
+            "currency": "AUD"
+        },
+        {
+            "name": "Title Search",
+            "feeType": "UPFRONT",
+            "amount": "49.50",
+            "currency": "AUD"
+        },
+        {
+            "name": "Bank Production",
+            "feeType": "UPFRONT",
+            "amount": "150.00",
+            "currency": "AUD"
+        },
+        {
+            "name": "Withdrawal of Caveat",
+            "feeType": "UPFRONT",
+            "amount": "100.00",
+            "currency": "AUD"
+        },
+        {
+            "name": "ASIC Lodgement",
+            "feeType": "UPFRONT",
+            "amount": "50.00",
+            "currency": "AUD"
+        },
+        {
+            "name": "Bank Cheque",
+            "feeType": "UPFRONT",
+            "amount": "15.00",
+            "currency": "AUD"
+        },
+        {
+            "name": "Discharge of Mortgage",
+            "feeType": "UPFRONT",
+            "amount": "200.00",
+            "currency": "AUD"
+        },
+        {
+            "name": "Loan Establishment Fee",
+            "feeType": "UPFRONT",
+            "amount": "100.00",
+            "currency": "AUD"
+        }
+    ],
+    "lendingRates": [
+        {
+            "lendingRateType": "VARIABLE",
+            "rate": "0.0967",
+            "comparisonRate": "0.1036",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "interestPaymentDue": "IN_ARREARS",
+            "additionalInfoUri": "https://www.dnister.com.au/interest-rates/"
+        }
+    ]
+}

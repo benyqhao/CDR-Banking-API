@@ -1,0 +1,46 @@
+{
+    "productId": "11",
+    "effectiveFrom": "2006-06-30T14:30:00.0000000Z",
+    "lastUpdated": "2023-04-26T02:13:25.1811298Z",
+    "productCategory": "TERM_DEPOSITS",
+    "name": "I51 Gold Mbr Ftd 12 Mths",
+    "description": "I51 Gold Mbr Ftd 12 Mths",
+    "brand": "Coastline ",
+    "applicationUri": "https://www.coastline.com.au/invest/gold-member/",
+    "isTailored": false,
+    "additionalInformation": {
+        "overviewUri": "https://www.coastline.com.au/invest/",
+        "termsUri": "https://www.coastline.com.au/about-coast/conditions-of-use/",
+        "eligibilityUri": "https://www.coastline.com.au/about-coast/conditions-of-use/",
+        "feesAndPricingUri": "https://www.coastline.com.au/about-coast/fees-and-charges/",
+        "bundleUri": "https://www.coastline.com.au/transact/"
+    },
+    "constraints": [
+        {
+            "constraintType": "MIN_BALANCE",
+            "additionalValue": "5000.00"
+        }
+    ],
+    "eligibility": [
+        {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "50"
+        },
+        {
+            "eligibilityType": "NATURAL_PERSON"
+        },
+        {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalValue": "Australia"
+        }
+    ],
+    "depositRates": [
+        {
+            "depositRateType": "FIXED",
+            "rate": "0.0",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P12M",
+            "additionalValue": "P12M"
+        }
+    ]
+}

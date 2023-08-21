@@ -1,0 +1,114 @@
+{
+    "productId": "53",
+    "effectiveFrom": "2001-07-02T14:30:00.0000000Z",
+    "lastUpdated": "2023-07-28T00:00:35.6459933Z",
+    "productCategory": "RESIDENTIAL_MORTGAGES",
+    "name": "Mortgage Loan (R)",
+    "description": "Mortgage Loan (R)",
+    "brand": "Qudos Bank",
+    "applicationUri": "https://online.qudosbank.com.au/internetlending/public/start.aspx",
+    "isTailored": false,
+    "additionalInformation": {
+        "overviewUri": "https://www.qudosbank.com.au/Products/HomeLoans/VariableRateHomeLoan",
+        "termsUri": "https://www.qudosbank.com.au/Support/TheFinePrint",
+        "eligibilityUri": "https://www.qudosbank.com.au/Products/HomeLoans/VariableRateHomeLoan",
+        "feesAndPricingUri": "https://www.qudosbank.com.au/Products/HomeLoans/VariableRateHomeLoan"
+    },
+    "features": [
+        {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "Our secure Online Banking service means access to your accounts 24 hours a day, seven days a week.",
+            "additionalInfoUri": "https://www.qudosbank.com.au/Support/WaysToBank/OnlineBanking"
+        },
+        {
+            "featureType": "NPP_ENABLED",
+            "additionalInfo": "This account is able to receive Osko payments",
+            "additionalInfoUri": "https://www.qudosbank.com.au/real-time-payments"
+        },
+        {
+            "featureType": "NPP_PAYID",
+            "additionalInfo": "PayIDs can be linked with this account",
+            "additionalInfoUri": "https://www.qudosbank.com.au/real-time-payments"
+        },
+        {
+            "featureType": "OFFSET",
+            "additionalInfo": "100% offset available.Multiple offset available"
+        },
+        {
+            "featureType": "OTHER",
+            "additionalInfo": "Repayment options of weekly, fortnightly, or monthly"
+        },
+        {
+            "featureType": "REDRAW"
+        }
+    ],
+    "constraints": [
+        {
+            "constraintType": "MIN_LIMIT",
+            "additionalValue": "0.00",
+            "additionalInfo": "No minimum\namount"
+        }
+    ],
+    "eligibility": [
+        {
+            "eligibilityType": "EMPLOYMENT_STATUS",
+            "additionalValue": "Full time, Part Time, Casual, Self Employed"
+        },
+        {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "18",
+            "additionalInfo": "18 years and above"
+        },
+        {
+            "eligibilityType": "NATURAL_PERSON"
+        },
+        {
+            "eligibilityType": "OTHER",
+            "additionalInfo": "Minimum deposit 5%"
+        },
+        {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalValue": "Customers who are Permanent Resident or Citizens may apply for the product"
+        }
+    ],
+    "fees": [
+        {
+            "name": "Establishment Fee",
+            "feeType": "UPFRONT",
+            "amount": "600.00",
+            "currency": "AUD"
+        }
+    ],
+    "lendingRates": [
+        {
+            "lendingRateType": "VARIABLE",
+            "rate": "0.0689",
+            "comparisonRate": "0.0693",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "interestPaymentDue": "IN_ARREARS",
+            "additionalInfo": "Rate for LVR 80% - 90% - 6.89%\r\n",
+            "additionalInfoUri": "https://asset.qudosbank.com.au/files/factcast/InterestRates.pdf"
+        },
+        {
+            "lendingRateType": "VARIABLE",
+            "rate": "0.0719",
+            "comparisonRate": "0.0723",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "interestPaymentDue": "IN_ARREARS",
+            "additionalInfo": "Rate for LVR 90%+ - 7.19%\r\n",
+            "additionalInfoUri": "https://asset.qudosbank.com.au/files/factcast/InterestRates.pdf"
+        },
+        {
+            "lendingRateType": "VARIABLE",
+            "rate": "0.0669",
+            "comparisonRate": "0.0673",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "interestPaymentDue": "IN_ARREARS",
+            "additionalInfo": "<80% LVR - 6.69%\r\n",
+            "additionalInfoUri": "https://asset.qudosbank.com.au/files/factcast/InterestRates.pdf"
+        }
+    ]
+}

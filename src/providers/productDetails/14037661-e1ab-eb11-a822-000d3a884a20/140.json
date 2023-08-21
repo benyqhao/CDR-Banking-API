@@ -1,0 +1,82 @@
+{
+    "productId": "140",
+    "effectiveFrom": "2021-05-03T14:30:00.0000000Z",
+    "lastUpdated": "2023-04-27T02:33:53.5762590Z",
+    "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+    "name": "Concession Account",
+    "description": "Concession Account",
+    "brand": "PNB",
+    "brandName": "P&N Bank",
+    "isTailored": false,
+    "additionalInformation": {
+        "overviewUri": "https://www.pnbank.com.au/personal-banking/everyday-accounts/concession-account/",
+        "termsUri": "https://www.pnbank.com.au/legal/terms-conditions/everyday-and-savings-accounts/",
+        "feesAndPricingUri": "https://www.pnbank.com.au/legal/terms-conditions/everyday-and-savings-accounts/"
+    },
+    "features": [
+        {
+            "featureType": "BILL_PAYMENT"
+        },
+        {
+            "featureType": "CARD_ACCESS",
+            "additionalValue": "Visa Debit card available"
+        },
+        {
+            "featureType": "DIGITAL_BANKING"
+        },
+        {
+            "featureType": "DIGITAL_WALLET",
+            "additionalValue": "Apple Pay, Google Pay & Samsung Pay"
+        },
+        {
+            "featureType": "NPP_ENABLED"
+        },
+        {
+            "featureType": "NPP_PAYID"
+        },
+        {
+            "featureType": "UNLIMITED_TXNS"
+        }
+    ],
+    "eligibility": [
+        {
+            "eligibilityType": "OTHER",
+            "additionalInfo": "Available to those with an eligible concession card:\r\n- Commonwealth Seniors Health Card\r\n- Pensioner Concession Card\r\n- Health Care Card"
+        }
+    ],
+    "fees": [
+        {
+            "name": "Overseas Withdrawal Fee",
+            "feeType": "TRANSACTION",
+            "amount": "5.00",
+            "currency": "AUD",
+            "additionalInfo": "Applies to overseas ATM withdrawals",
+            "additionalInfoUri": "https://www.pnbank.com.au/help-support/fees-charges/"
+        },
+        {
+            "name": "Statement Retrieval",
+            "feeType": "EVENT",
+            "amount": "6.00",
+            "currency": "AUD",
+            "additionalInfo": "Statement retrieval fee applies for statements over 12 months old. 1st page $6, and $1.50 for each subsequent page",
+            "additionalInfoUri": "https://www.pnbank.com.au/help-support/fees-charges/"
+        },
+        {
+            "name": "Foreign Currency Conversion Fee",
+            "feeType": "TRANSACTION",
+            "amount": "0.00",
+            "transactionRate": "0.03",
+            "currency": "AUD",
+            "additionalInfo": "Payable for all transactions made in a foreign currency or if the merchant is located outside Australia",
+            "additionalInfoUri": "https://www.pnbank.com.au/help-support/fees-charges/"
+        }
+    ],
+    "depositRates": [
+        {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M"
+        }
+    ]
+}

@@ -1,0 +1,69 @@
+{
+    "bundles": [
+        {
+            "name": "MORTGAGE_OFFSET",
+            "description": "Mortgage Offset",
+            "additionalInfo": "",
+            "additionalInfoUri": "",
+            "productIds": [
+                "L31_L31",
+                "L31_L31_1_I_V_PI",
+                "L31_L31_1_OO_V_PI",
+                "L31_L31_2_I_F12_IO",
+                "L31_L31_2_I_F24_IO",
+                "L31_L31_2_I_V_IO",
+                "L31_L31_2_OO_F12_IO",
+                "L31_L31_2_OO_F24_IO",
+                "L31_L31_2_OO_V_IO",
+                "L31_L31_3_I_F12_PI",
+                "L31_L31_3_OO_F12_PI",
+                "L31_L31_3_OO_F6_PI",
+                "L31_L31_4_F6_PI",
+                "L31_L31_4_F7_PI",
+                "L31_L31_5_F12_PI",
+                "L31_L31_6_OO_F24_PI",
+                "L31_L31_8_OO_F18_PI",
+                "L31_L31_9_I_F36_PI",
+                "L31_L31_9_OO_F35_PI"
+            ]
+        }
+    ],
+    "eligibility": [
+        {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "18",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        }
+    ],
+    "lendingRates": [
+        {
+            "lendingRateType": "VARIABLE",
+            "rate": "0.0774",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "additionalInfo": "Comparison Rate calculated on a secured loan of $150,000 over 25 years. A comparison rate schedule is available at all branches. WARNING: This comparison rate applies only to the example given; different terms, fees or other amounts will result in different comparison rate. Costs such as redraw fees or early repayment fees, and costs savings such as fee waivers, are not included in the comparison.",
+            "additionalInfoUri": "https://www.cmcu.com.au/loans/housing_loans/",
+            "interestPaymentDue": "IN_ARREARS",
+            "comparisonRate": "0.078",
+            "repaymentType": "INTEREST_ONLY",
+            "loanPurpose": "INVESTMENT"
+        }
+    ],
+    "productId": "L31_2_I_V_IO",
+    "lastUpdated": "2023-06-21T14:53:22.000+10:00",
+    "productCategory": "RESIDENTIAL_MORTGAGES",
+    "name": "HOUSING LOAN (CODE)",
+    "description": "HOUSING LOAN (CODE)",
+    "brand": "CENTRAL MURRAY CREDIT UNION LIMITED",
+    "brandName": "CENTRAL MURRAY CREDIT UNION LIMITED",
+    "applicationUri": "",
+    "isTailored": false,
+    "additionalInformation": {
+        "overviewUri": "https://www.cmcu.com.au/loans/housing_loans/",
+        "termsUri": "",
+        "eligibilityUri": "",
+        "feesAndPricingUri": "https://www.cmcu.com.au/loans/housing_loans/",
+        "bundleUri": ""
+    }
+}

@@ -1,0 +1,116 @@
+{
+    "productId": "34",
+    "effectiveFrom": "2004-08-31T14:30:00.0000000Z",
+    "lastUpdated": "2023-07-01T00:00:24.8348077Z",
+    "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+    "name": "SwiftSaver Account",
+    "description": "SwiftSaver Account",
+    "brand": "PNB",
+    "brandName": "P&N Bank",
+    "isTailored": false,
+    "additionalInformation": {
+        "overviewUri": "https://www.pnbank.com.au/personal-banking/savings-accounts/swiftsaver-account/",
+        "termsUri": "https://www.pnbank.com.au/legal/terms-conditions/everyday-and-savings-accounts/",
+        "feesAndPricingUri": "https://www.pnbank.com.au/personal-banking/savings-accounts/swiftsaver-account/#tab2"
+    },
+    "features": [
+        {
+            "featureType": "DIGITAL_BANKING"
+        },
+        {
+            "featureType": "NPP_ENABLED"
+        },
+        {
+            "featureType": "NPP_PAYID"
+        },
+        {
+            "featureType": "OTHER",
+            "additionalInfo": "Be rewarded with variable bonus interest when you deposit at least $10 a month and make no withdrawals"
+        },
+        {
+            "featureType": "UNLIMITED_TXNS"
+        }
+    ],
+    "constraints": [
+        {
+            "constraintType": "MAX_BALANCE",
+            "additionalValue": "250000.00",
+            "additionalInfo": "Bonus interest is not paid on balances exceeding $250,000"
+        }
+    ],
+    "fees": [
+        {
+            "name": "Statement Retrieval",
+            "feeType": "EVENT",
+            "amount": "6.00",
+            "currency": "AUD",
+            "additionalInfo": "Statement retrieval fee applies for statements over 12 months old. 1st page $6, and $1.50 for each subsequent page",
+            "additionalInfoUri": "https://www.pnbank.com.au/help-support/fees-charges/"
+        },
+        {
+            "name": "Referral Fee",
+            "feeType": "EVENT",
+            "amount": "3.50",
+            "currency": "AUD",
+            "additionalInfo": "Where an account has insufficient available funds to cover a cheque or direct debit transaction, and the transaction is honoured by P&N",
+            "additionalInfoUri": "https://www.pnbank.com.au/help-support/fees-charges/"
+        },
+        {
+            "name": "Dishonour Fee",
+            "feeType": "EVENT",
+            "amount": "6.00",
+            "currency": "AUD",
+            "additionalInfo": "Where a direct debit or cheque is dishonoured due to insufficient funds",
+            "additionalInfoUri": "https://www.pnbank.com.au/help-support/fees-charges/"
+        },
+        {
+            "name": "Auto Transfer Dishonour Fee",
+            "feeType": "EVENT",
+            "amount": "6.00",
+            "currency": "AUD",
+            "additionalInfo": "Charged where there are insufficient funds in your account when an internal or external auto transfer or BPAY payment is due to be made",
+            "additionalInfoUri": "https://www.pnbank.com.au/help-support/fees-charges/"
+        },
+        {
+            "name": "Overdrawn Acct Management Fee",
+            "feeType": "PERIODIC",
+            "amount": "10.00",
+            "currency": "AUD",
+            "additionalValue": "P1M",
+            "additionalInfo": "A fee of $10 payable in relation to any month where we allow you to overdraw your account by more than $50",
+            "additionalInfoUri": "https://www.pnbank.com.au/help-support/fees-charges/",
+            "discounts": [
+                {
+                    "description": "On a fee for maintaining a set balance",
+                    "discountType": "BALANCE",
+                    "feeRate": "1.0",
+                    "additionalValue": "50.00"
+                }
+            ]
+        }
+    ],
+    "depositRates": [
+        {
+            "depositRateType": "VARIABLE",
+            "rate": "0.002",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M"
+        },
+        {
+            "depositRateType": "BONUS",
+            "rate": "0.0455",
+            "calculationFrequency": "P1M",
+            "applicationFrequency": "P1M",
+            "tiers": [
+                {
+                    "name": "Bonus",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 0.0,
+                    "maximumValue": 250000.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalValue": "Bonus interest applied when minimum $10 deposited and no withdrawals made from the account during the calendar month"
+        }
+    ]
+}

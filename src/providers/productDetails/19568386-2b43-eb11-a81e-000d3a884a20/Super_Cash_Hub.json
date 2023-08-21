@@ -1,0 +1,113 @@
+{
+    "features": [
+        {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "featureType": "NPP_ENABLED",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "featureType": "NPP_PAYID",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        }
+    ],
+    "eligibility": [
+        {
+            "eligibilityType": "BUSINESS",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalInfo": "Australian Residents",
+            "additionalInfoUri": ""
+        },
+        {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "18",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        }
+    ],
+    "fees": [
+        {
+            "name": "STAFF_ASSIST_FEE",
+            "feeType": "TRANSACTION",
+            "amount": "5.00",
+            "accrualFrequency": "P1M",
+            "currency": "AUD",
+            "additionalInfo": "",
+            "additionalInfoUri": "https://firstoptionbank.com.au/disclosure-statements/",
+            "discounts": [
+                {
+                    "description": "Staff=assisted transfer fee",
+                    "discountType": "ELIGIBILITY_ONLY",
+                    "amount": "5.00",
+                    "eligibility": [
+                        {
+                            "discountEligibilityType": "MAX_AGE",
+                            "additionalValue": "21",
+                            "additionalInfo": "",
+                            "additionalInfoUri": ""
+                        },
+                        {
+                            "discountEligibilityType": "MIN_AGE",
+                            "additionalValue": "65",
+                            "additionalInfo": "",
+                            "additionalInfoUri": ""
+                        },
+                        {
+                            "discountEligibilityType": "INTRODUCTORY",
+                            "additionalValue": "P3M",
+                            "additionalInfo": "",
+                            "additionalInfoUri": ""
+                        },
+                        {
+                            "discountEligibilityType": "OTHER",
+                            "additionalInfo": "If you have a mortgage at First Option you will not be charged this fee",
+                            "additionalInfoUri": ""
+                        },
+                        {
+                            "discountEligibilityType": "OTHER",
+                            "additionalInfo": "Maintain an aggregate balance over $25,000 across all your accounts",
+                            "additionalInfoUri": ""
+                        }
+                    ],
+                    "additionalInfo": "",
+                    "additionalInfoUri": ""
+                }
+            ]
+        }
+    ],
+    "depositRates": [
+        {
+            "depositRateType": "VARIABLE",
+            "rate": "0.001",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "additionalInfo": "",
+            "additionalInfoUri": "https://firstoptionbank.com.au/disclosure-statements/"
+        }
+    ],
+    "productId": "Super_Cash_Hub",
+    "lastUpdated": "2023-03-15T11:26:53.000+11:00",
+    "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+    "name": "Super Cash Hub",
+    "description": "SUPER CASH HUB",
+    "brand": "FIRST OPTION BANK LTD",
+    "brandName": "FIRST OPTION BANK",
+    "applicationUri": "https://firstoptionbank.com.au/business-membership-application/",
+    "isTailored": false,
+    "additionalInformation": {
+        "overviewUri": "",
+        "termsUri": "https://firstoptionbank.com.au/disclosure-statements/",
+        "eligibilityUri": "https://firstoptionbank.com.au/disclosure-statements/",
+        "feesAndPricingUri": "https://firstoptionbank.com.au/disclosure-statements/",
+        "bundleUri": ""
+    }
+}

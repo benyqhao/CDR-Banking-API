@@ -1,0 +1,34 @@
+{
+    "depositRates": [],
+    "effectiveFrom": "2022-10-16T13:00:00.000Z",
+    "lastUpdated": "2023-04-21T02:32:49.267Z",
+    "productCategory": "OVERDRAFTS",
+    "lendingRates": [],
+    "fees": [],
+    "applicationUri": "https://www.bendigobank.com.au/business/loans-and-finance/",
+    "isTailored": false,
+    "cardArt": [],
+    "additionalInformation": {
+        "termsUri": "https://www.bendigobank.com.au/disclosure-documents/",
+        "feesAndPricingUri": "https://www.bendigobank.com.au/disclosure-documents/"
+    },
+    "name": "Bendigo Business Overdraft",
+    "constraints": [
+        {
+            "additionalValue": "10000",
+            "constraintType": "MIN_LIMIT"
+        }
+    ],
+    "productId": "36f4fcbe-d3df-4ee4-851a-c6a89aa2fe92",
+    "description": "An overdraft facility combined with a transaction account",
+    "eligibility": [
+        {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "18"
+        }
+    ],
+    "brand": "BENDIGO",
+    "bundles": [],
+    "brandName": "Bendigo Bank",
+    "features": []
+}

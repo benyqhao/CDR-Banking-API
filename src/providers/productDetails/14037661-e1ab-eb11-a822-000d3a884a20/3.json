@@ -1,0 +1,95 @@
+{
+    "productId": "3",
+    "effectiveFrom": "2015-09-20T14:30:00.0000000Z",
+    "lastUpdated": "2023-07-10T02:00:20.8592693Z",
+    "productCategory": "RESIDENTIAL_MORTGAGES",
+    "name": "& Home Loan",
+    "description": "& Home Loan",
+    "brand": "PNB",
+    "brandName": "P&N Bank",
+    "isTailored": false,
+    "additionalInformation": {
+        "overviewUri": "https://www.pnbank.com.au/personal-banking/home-loans/buying-or-refinancing/and-home-loan/",
+        "termsUri": "https://www.pnbank.com.au/legal/terms-conditions/lending/",
+        "feesAndPricingUri": "https://www.pnbank.com.au/personal-banking/home-loans/buying-or-refinancing/and-home-loan/#tab2"
+    },
+    "features": [
+        {
+            "featureType": "DIGITAL_BANKING"
+        },
+        {
+            "featureType": "NPP_ENABLED"
+        },
+        {
+            "featureType": "OFFSET",
+            "additionalInfo": "100% offset account available"
+        },
+        {
+            "featureType": "OTHER",
+            "additionalInfo": "The & Visa Platinum is a credit card with platinum benefits and a purchase interest rate that matches the & Home Loan variable interest rate (Only available in conjunction with the & Home Loan)",
+            "additionalInfoUri": "https://www.pnbank.com.au/personal-banking/home-loans/buying-or-refinancing/and-home-loan/#tab3"
+        },
+        {
+            "featureType": "REDRAW"
+        }
+    ],
+    "constraints": [
+        {
+            "constraintType": "MIN_LIMIT",
+            "additionalValue": "50000.00",
+            "additionalInfo": "Minimum loan amount is $50,000"
+        }
+    ],
+    "fees": [
+        {
+            "name": "Late Payment Notification Fee",
+            "feeType": "EVENT",
+            "amount": "5.00",
+            "currency": "AUD",
+            "additionalInfo": "Charged when payment to a Home Loan becomes overdue by 11 and 30 days",
+            "additionalInfoUri": "https://www.pnbank.com.au/help-support/fees-charges/#home-loans"
+        },
+        {
+            "name": "Construction Progress Pmts Fee",
+            "feeType": "EVENT",
+            "amount": "50.00",
+            "currency": "AUD",
+            "additionalInfo": "Charged per drawdown",
+            "additionalInfoUri": "https://www.pnbank.com.au/help-support/fees-charges/#home-loans"
+        },
+        {
+            "name": "Discharge Mtg - Non-Settlement",
+            "feeType": "EVENT",
+            "amount": "350.00",
+            "currency": "AUD",
+            "additionalInfoUri": "https://www.pnbank.com.au/help-support/fees-charges/#home-loans"
+        },
+        {
+            "name": "Discharge Mtg - Settlement Fee",
+            "feeType": "EVENT",
+            "amount": "395.00",
+            "currency": "AUD",
+            "additionalInfoUri": "https://www.pnbank.com.au/help-support/fees-charges/#home-loans"
+        }
+    ],
+    "lendingRates": [
+        {
+            "lendingRateType": "INTRODUCTORY",
+            "rate": "0.0654",
+            "comparisonRate": "0.0698",
+            "interestPaymentDue": "IN_ARREARS",
+            "additionalValue": "P1Y",
+            "additionalInfo": "12 month intro rate - for the first 12 months receive a low variable intro rate",
+            "additionalInfoUri": "https://www.pnbank.com.au/home-loans/buying-or-refinancing/and-home-loan-intro-rate/"
+        },
+        {
+            "lendingRateType": "VARIABLE",
+            "rate": "0.0702",
+            "comparisonRate": "0.0703",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "interestPaymentDue": "IN_ARREARS",
+            "additionalInfo": "Owner occupied"
+        }
+    ]
+}

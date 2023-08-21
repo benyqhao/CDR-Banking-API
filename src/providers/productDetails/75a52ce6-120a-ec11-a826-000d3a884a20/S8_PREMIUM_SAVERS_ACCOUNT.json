@@ -1,0 +1,85 @@
+{
+    "features": [
+        {
+            "featureType": "BILL_PAYMENT",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        }
+    ],
+    "constraints": [
+        {
+            "constraintType": "MIN_BALANCE",
+            "additionalValue": "  10,000",
+            "additionalInfo": "FUNDS AVAILABLE AFTER 30 DAYS INTEREST PAID MONTHLY",
+            "additionalInfoUri": ""
+        }
+    ],
+    "eligibility": [
+        {
+            "eligibilityType": "NATURAL_PERSON",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        }
+    ],
+    "depositRates": [
+        {
+            "depositRateType": "VARIABLE",
+            "rate": "0.00015",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "tiers": [
+                {
+                    "name": "PREMIUM SAVERS ACCOUNT_Tier_1",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 0.0,
+                    "maximumValue": 9999.99,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0225",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "tiers": [
+                {
+                    "name": "PREMIUM SAVERS ACCOUNT_Tier_2",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 10000.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        }
+    ],
+    "lendingRates": [
+        {
+            "lendingRateType": "VARIABLE",
+            "rate": "0.0",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        }
+    ],
+    "productId": "S8_PREMIUM_SAVERS_ACCOUNT",
+    "lastUpdated": "2023-04-05T20:03:08.000+10:00",
+    "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+    "name": "PREMIUM SAVERS ACCOUNT",
+    "description": "PREMIUM SAVERS ACCOUNT",
+    "brand": "TRANSPORT MUTUAL CREDIT UNION LTD",
+    "brandName": "TRANSPORT MUTUAL CREDIT UNION LTD",
+    "applicationUri": "",
+    "isTailored": false,
+    "additionalInformation": {
+        "overviewUri": "",
+        "termsUri": "",
+        "eligibilityUri": "",
+        "feesAndPricingUri": "",
+        "bundleUri": ""
+    }
+}

@@ -1,0 +1,55 @@
+{
+    "productId": "141",
+    "effectiveFrom": "2020-04-15T14:30:00.0000000Z",
+    "lastUpdated": "2023-06-20T22:00:38.6100327Z",
+    "productCategory": "RESIDENTIAL_MORTGAGES",
+    "name": "Bridging Loan",
+    "description": "Bridging Loan",
+    "brand": "BCU",
+    "brandName": "bcu",
+    "isTailored": false,
+    "additionalInformation": {
+        "overviewUri": "https://www.bcu.com.au/home-loans/owner-occupied/bridging-loan",
+        "termsUri": "https://www.bcu.com.au/important-documents",
+        "feesAndPricingUri": "https://www.bcu.com.au/home-loans/owner-occupied/bridging-loan"
+    },
+    "features": [
+        {
+            "featureType": "DIGITAL_BANKING"
+        }
+    ],
+    "constraints": [
+        {
+            "constraintType": "MIN_LIMIT",
+            "additionalValue": "50000.00",
+            "additionalInfo": "Minimum loan amount is $50,000"
+        }
+    ],
+    "fees": [
+        {
+            "name": "Late Payment Notification Fee",
+            "feeType": "EVENT",
+            "amount": "5.00",
+            "currency": "AUD",
+            "additionalInfo": "Charged when payment to a Home Loan becomes overdue by 11 and 30 days",
+            "additionalInfoUri": "https://www.bcu.com.au/help-support/fees-charges"
+        },
+        {
+            "name": "Discharge of Mortgage Fee",
+            "feeType": "EVENT",
+            "amount": "395.00",
+            "currency": "AUD",
+            "additionalInfoUri": "https://www.bcu.com.au/help-support/fees-charges"
+        }
+    ],
+    "lendingRates": [
+        {
+            "lendingRateType": "VARIABLE",
+            "rate": "0.0951",
+            "comparisonRate": "0.0951",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "interestPaymentDue": "IN_ARREARS"
+        }
+    ]
+}

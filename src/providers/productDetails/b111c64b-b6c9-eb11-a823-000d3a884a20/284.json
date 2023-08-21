@@ -1,0 +1,49 @@
+{
+    "productId": "284",
+    "effectiveTo": "9999-12-31T00:00:00Z",
+    "lastUpdated": "2023-05-03T14:30:00Z",
+    "productCategory": "RESIDENTIAL_MORTGAGES",
+    "name": "Home Build Access (HBA) Deposit Assist Loan",
+    "description": "CEOH (NT ONLY) lends up to 10% of the purchase price as a deposit for the purchase of a new home or land off the plan.",
+    "brand": "People's Choice Credit Union",
+    "brandName": "People's Choice",
+    "isTailored": false,
+    "features": [
+        {
+            "featureType": "EXTRA_REPAYMENTS",
+            "additionalValue": "Additional Repayments",
+            "additionalInfo": "Freedom to make unlimited extra repayments \u2013 reduce your loan term and save money",
+            "additionalInfoUri": "https://media.peopleschoice.com.au/-/media/project/peopleschoice/mainsite/files/brochures/brc-8-3-2-lending-terms-conditions.pdf"
+        },
+        {
+            "featureType": "OTHER",
+            "additionalValue": "Flexible Repayment Options",
+            "additionalInfo": "Flexible repayment frequency - pay weekly, fortnightly or monthly.",
+            "additionalInfoUri": "https://media.peopleschoice.com.au/-/media/project/peopleschoice/mainsite/files/brochures/brc-8-3-2-lending-terms-conditions.pdf"
+        },
+        {
+            "featureType": "OTHER",
+            "additionalValue": "Maximum loan term 30 years",
+            "additionalInfo": "Ability to pay the loan over 30 years for Chief Executive Officer (Housing) loans"
+        },
+        {
+            "featureType": "OTHER",
+            "additionalValue": "NT government housing schemes",
+            "additionalInfo": "Introduced 1 January 2013. Must be approved in principle for a Low Deposit Loan. CEOH lends up to 10% of purchase price as a deposit for the purchase of a new home or land off the plan. Max. purchase price: $550K 3 brm or more, $475K 1-2 brm.  Loan repaid by a 931 product when property purchased. Or, if contract not completed and deposit refunded, loan converted to unsecured personal loan repayable over maximum overall term of seven years."
+        }
+    ],
+    "lendingRates": [
+        {
+            "lendingRateType": "VARIABLE",
+            "rate": "0.0851",
+            "comparisonRate": "0.0857",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "interestPaymentDue": "IN_ARREARS",
+            "repaymentType": "PRINCIPAL_AND_INTEREST",
+            "loanPurpose": "OWNER_OCCUPIED",
+            "additionalValue": "Standard Variable Rate",
+            "additionalInfoUri": "https://www.peopleschoice.com.au/rates/home-loan-rates"
+        }
+    ]
+}

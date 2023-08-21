@@ -1,0 +1,17 @@
+{
+    "productId": "controlled_management_account",
+    "lastUpdated": "2023-06-19T07:01:49Z",
+    "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+    "name": "Controlled Management Account",
+    "description": "An account designed for solicitors and real estate agents.",
+    "brand": "Bank of Sydney",
+    "brandName": "Bank of Sydney",
+    "isTailored": false,
+    "additionalInformation": {},
+    "depositRates": [
+        {
+            "rate": "0.0315",
+            "depositRateType": "VARIABLE"
+        }
+    ]
+}

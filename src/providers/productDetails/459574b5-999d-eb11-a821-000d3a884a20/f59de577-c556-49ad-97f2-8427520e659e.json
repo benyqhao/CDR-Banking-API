@@ -1,0 +1,55 @@
+{
+    "depositRates": [],
+    "features": [],
+    "lastUpdated": "2021-07-25T23:29:16.430Z",
+    "productCategory": "LEASES",
+    "brandName": "Bendigo Bank",
+    "eligibility": [],
+    "bundles": [],
+    "cardArt": [],
+    "lendingRates": [],
+    "fees": [
+        {
+            "additionalInfo": "Business fees and charges - ",
+            "additionalInfoUri": "https://www.bendigobank.com.au/disclosure-documents/",
+            "feeType": "PURCHASE",
+            "name": "Documentation Fee (inclusive of GST)",
+            "amount": "495.000000",
+            "discounts": []
+        },
+        {
+            "additionalInfo": "Business fees and charges",
+            "additionalInfoUri": "https://www.bendigobank.com.au/disclosure-documents/",
+            "feeType": "EXIT",
+            "name": "Early Termination Fee (Inclusive of GST) ",
+            "amount": "275.000000",
+            "discounts": []
+        },
+        {
+            "additionalInfo": "Business fees and charges",
+            "additionalInfoUri": "https://www.bendigobank.com.au/disclosure-documents/",
+            "feeType": "UPFRONT",
+            "name": "Private Sales, Sale & Buy Back and Refinance from other Financial Institutions.",
+            "amount": "110.000000",
+            "discounts": []
+        }
+    ],
+    "description": "We purchase and own the asset and lease it to you for an agreed period. You may make an offer to purchase the asset at the end of the term. 100% finance of the purchase price (deposits not permitted).\nWe own the asset and normally the entire rental payment is tax deductable for you.\nFlexible and tailored repayment structures depending on your cash flow needs.\nA mandatory residual at the end of the term means you will benefit from lower rental instalments.",
+    "brand": "BENDIGO",
+    "constraints": [
+        {
+            "additionalInfo": "Minimum finance amount",
+            "constraintType": "OPENING_BALANCE",
+            "additionalValue": "10000.00"
+        }
+    ],
+    "additionalInformation": {
+        "overviewUri": "https://www.bendigobank.com.au/business/loans-and-finance/equipment-finance/",
+        "feesAndPricingUri": "https://www.bendigobank.com.au/disclosure-documents/",
+        "termsUri": "https://www.bendigobank.com.au/disclosure-documents/"
+    },
+    "name": "Finance Lease",
+    "applicationUri": "https://www.bendigobank.com.au/business/loans-and-finance/equipment-finance/equipment-finance-quote-enquiry/",
+    "isTailored": true,
+    "productId": "f59de577-c556-49ad-97f2-8427520e659e"
+}

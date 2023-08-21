@@ -1,0 +1,103 @@
+{
+    "productId": "182",
+    "effectiveFrom": "2020-04-06T14:30:00.0000000Z",
+    "lastUpdated": "2023-07-13T22:00:38.1604079Z",
+    "productCategory": "RESIDENTIAL_MORTGAGES",
+    "name": "Fixed IO Home Loan",
+    "description": "Fixed IO Home Loan",
+    "brand": "BCU",
+    "brandName": "bcu",
+    "isTailored": false,
+    "additionalInformation": {
+        "overviewUri": "https://www.bcu.com.au/home-loans/owner-occupied/owner-occupied-fixed-rate-loan",
+        "termsUri": "https://www.bcu.com.au/important-documents",
+        "feesAndPricingUri": "https://www.bcu.com.au/home-loans/owner-occupied/owner-occupied-fixed-rate-loan"
+    },
+    "features": [
+        {
+            "featureType": "DIGITAL_BANKING"
+        },
+        {
+            "featureType": "NPP_ENABLED"
+        }
+    ],
+    "constraints": [
+        {
+            "constraintType": "MIN_LIMIT",
+            "additionalValue": "20000.00",
+            "additionalInfo": "Minimum loan amount is $20,000"
+        }
+    ],
+    "fees": [
+        {
+            "name": "Late Payment Notification Fee",
+            "feeType": "EVENT",
+            "amount": "5.00",
+            "currency": "AUD",
+            "additionalInfo": "Charged when payment to a Home Loan becomes overdue by 11 and 30 days",
+            "additionalInfoUri": "https://www.bcu.com.au/help-support/fees-charges"
+        },
+        {
+            "name": "Construction Loan Drawdown Fee",
+            "feeType": "EVENT",
+            "amount": "25.00",
+            "currency": "AUD",
+            "additionalInfo": "Charged per drawdown",
+            "additionalInfoUri": "https://www.bcu.com.au/help-support/fees-charges"
+        },
+        {
+            "name": "Discharge of Mortgage Fee",
+            "feeType": "EVENT",
+            "amount": "395.00",
+            "currency": "AUD",
+            "additionalInfoUri": "https://www.bcu.com.au/help-support/fees-charges"
+        }
+    ],
+    "lendingRates": [
+        {
+            "lendingRateType": "FIXED",
+            "rate": "0.0624",
+            "comparisonRate": "0.0602",
+            "interestPaymentDue": "IN_ARREARS",
+            "additionalValue": "P1Y",
+            "additionalInfo": "Owner occupied",
+            "additionalInfoUri": "https://www.bcu.com.au/home-loans/owner-occupied/owner-occupied-fixed-rate-loan"
+        },
+        {
+            "lendingRateType": "FIXED",
+            "rate": "0.0619",
+            "comparisonRate": "0.0604",
+            "interestPaymentDue": "IN_ARREARS",
+            "additionalValue": "P2Y",
+            "additionalInfo": "Owner occupied",
+            "additionalInfoUri": "https://www.bcu.com.au/home-loans/owner-occupied/owner-occupied-fixed-rate-loan"
+        },
+        {
+            "lendingRateType": "FIXED",
+            "rate": "0.0614",
+            "comparisonRate": "0.0604",
+            "interestPaymentDue": "IN_ARREARS",
+            "additionalValue": "P3Y",
+            "additionalInfo": "Owner occupied",
+            "additionalInfoUri": "https://www.bcu.com.au/home-loans/owner-occupied/owner-occupied-fixed-rate-loan"
+        },
+        {
+            "lendingRateType": "FIXED",
+            "rate": "0.0624",
+            "comparisonRate": "0.0609",
+            "interestPaymentDue": "IN_ARREARS",
+            "additionalValue": "P4Y",
+            "additionalInfo": "Owner occupied",
+            "additionalInfoUri": "https://www.bcu.com.au/home-loans/owner-occupied/owner-occupied-fixed-rate-loan"
+        },
+        {
+            "lendingRateType": "FIXED",
+            "rate": "0.0624",
+            "comparisonRate": "0.0611",
+            "interestPaymentDue": "IN_ARREARS",
+            "additionalValue": "P5Y",
+            "additionalInfo": "Owner occupied",
+            "additionalInfoUri": "https://www.bcu.com.au/home-loans/owner-occupied/owner-occupied-fixed-rate-loan"
+        }
+    ]
+}

@@ -1,0 +1,87 @@
+{
+    "lastUpdated": "2023-07-04T14:00:00.000Z",
+    "features": [
+        {
+            "featureType": "FRAUD_PROTECTION"
+        },
+        {
+            "featureType": "GUARANTOR"
+        }
+    ],
+    "productId": "bb9843cd-bb64-41ac-bee4-f203b51acce2",
+    "depositRates": [],
+    "productCategory": "BUSINESS_LOANS",
+    "name": "ANZ Asset Finance",
+    "additionalInformation": {
+        "overviewUri": "https://www.anz.com.au/business/loans-finance/buy-vehicles-equipment/",
+        "eligibilityUri": "https://www.anz.com.au/business/loans-finance/buy-vehicles-equipment/",
+        "termsUri": "https://www.anz.com.au/business/help-support/terms-conditions/?section=SBS&CID=af:obank:bb",
+        "feesAndPricingUri": "https://www.anz.com.au/business/help-support/terms-conditions/?section=SBS&CID=af:obank:bb"
+    },
+    "lendingRates": [],
+    "eligibility": [
+        {
+            "additionalInfo": "You must be 18 years of age or older to apply",
+            "additionalValue": "18",
+            "eligibilityType": "MIN_AGE"
+        },
+        {
+            "additionalInfo": "Must be an Australian citizen",
+            "additionalInfoUri": "https://www.anz.com.au/business/loans-finance/buy-vehicles-equipment/",
+            "additionalValue": "Australian citizen",
+            "eligibilityType": "RESIDENCY_STATUS"
+        }
+    ],
+    "fees": [
+        {
+            "additionalInfo": "Fees are determined by the Australian Financial Security Authority, not ANZ. ",
+            "amount": "6.00",
+            "currency": "AUD",
+            "name": "Personal Property Securities Register (PPSR) Fee",
+            "additionalInfoUri": "https://www.ppsr.gov.au/about-us/laws-rules-and-regulations/fees-using-ppsr",
+            "feeType": "UPFRONT",
+            "discounts": []
+        },
+        {
+            "discounts": [],
+            "currency": "AUD",
+            "additionalInfoUri": "https://www.anz.com.au/business/help-support/terms-conditions/?section=SBS&CID=af:obank:bb",
+            "name": "Establishment Fee",
+            "feeType": "VARIABLE"
+        },
+        {
+            "discounts": [],
+            "currency": "AUD",
+            "additionalInfoUri": "https://www.anz.com.au/business/help-support/terms-conditions/?section=SBS&CID=af:obank:bb",
+            "name": "Early Termination Fee",
+            "feeType": "VARIABLE"
+        },
+        {
+            "discounts": [],
+            "additionalInfoUri": "https://www.anz.com.au/business/help-support/terms-conditions/?section=SBS&CID=af:obank:bb",
+            "name": "Late Payment Fee",
+            "feeType": "VARIABLE"
+        },
+        {
+            "discounts": [],
+            "currency": "AUD",
+            "additionalInfoUri": "https://www.anz.com.au/business/help-support/terms-conditions/?section=SBS&CID=af:obank:bb",
+            "name": "Administrative Default Fee",
+            "feeType": "VARIABLE"
+        }
+    ],
+    "constraints": [
+        {
+            "additionalInfo": "Minimum loan amount is $7,500",
+            "additionalInfoUri": "https://www.anz.com.au/business/loans-finance/buy-vehicles-equipment/",
+            "additionalValue": "7500.00",
+            "constraintType": "MIN_LIMIT"
+        }
+    ],
+    "brand": "ANZ",
+    "cardArt": [],
+    "isTailored": true,
+    "effectiveFrom": "2020-06-30T14:00:00.000Z",
+    "bundles": [],
+    "description": "ANZ Vehicle and Equipment Finance offers flexible repayment options\u202fand can help you be financially ready for today, tomorrow and the unexpected."
+}

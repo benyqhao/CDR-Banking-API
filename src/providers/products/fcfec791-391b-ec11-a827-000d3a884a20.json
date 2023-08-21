@@ -1,0 +1,30 @@
+{
+    "products": [
+        {
+            "brand": "Unloan",
+            "description": "Unloan's home loan offer",
+            "isTailored": false,
+            "lastUpdated": "2023-08-10T07:24:44.510053Z",
+            "name": "Unloan Home Loan",
+            "productCategory": "RESIDENTIAL_MORTGAGES",
+            "productId": "8250def8-24f4-411c-80a5-e71f54cf5823",
+            "additionalInformation": {
+                "overviewUri": "https://www.unloan.com.au/",
+                "termsUri": null,
+                "eligibilityUri": null,
+                "feesAndPricingUri": null,
+                "bundleUri": null,
+                "additionalOverviewUris": null,
+                "additionalTermsUris": null,
+                "additionalEligibilityUris": null,
+                "additionalFeesAndPricingUris": null,
+                "additionalBundleUris": null
+            },
+            "applicationUri": "https://app.unloan.com.au/",
+            "brandName": "Unloan",
+            "cardArt": [],
+            "effectiveFrom": "2022-05-16T14:00:00Z",
+            "effectiveTo": null
+        }
+    ]
+}

@@ -1,0 +1,83 @@
+{
+    "features": [
+        {
+            "featureType": "CARD_ACCESS",
+            "additionalInfo": "",
+            "additionalInfoUri": "https://cairnsbank.com.au/banking/account-access/visa-debit-card"
+        },
+        {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        }
+    ],
+    "constraints": [
+        {
+            "constraintType": "OPENING_BALANCE",
+            "additionalInfo": "Min deposit $500 with cheque book access",
+            "additionalInfoUri": "https://cairnsbank.com.au/information-and-support/disclosure/terms-conditions"
+        }
+    ],
+    "eligibility": [
+        {
+            "eligibilityType": "NATURAL_PERSON",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        }
+    ],
+    "fees": [
+        {
+            "name": "DIRECT_DEBITS_AND_EXTERNAL_TRANSFERS",
+            "feeType": "TRANSACTION",
+            "amount": "1.00",
+            "accrualFrequency": "",
+            "currency": "AUD",
+            "additionalInfo": "",
+            "additionalInfoUri": "https://cairnsbank.com.au/information-and-support/disclosure/fees-and-charges"
+        },
+        {
+            "name": "ATM_TRANSACTIONS",
+            "feeType": "TRANSACTION",
+            "amount": "1.00",
+            "accrualFrequency": "",
+            "currency": "AUD",
+            "additionalInfo": "",
+            "additionalInfoUri": "https://cairnsbank.com.au/information-and-support/disclosure/fees-and-charges"
+        },
+        {
+            "name": "VISA_DEBIT_CARD",
+            "feeType": "TRANSACTION",
+            "amount": "30.00",
+            "accrualFrequency": "",
+            "currency": "AUD",
+            "additionalInfo": "",
+            "additionalInfoUri": "https://cairnsbank.com.au/information-and-support/disclosure/fees-and-charges"
+        }
+    ],
+    "depositRates": [
+        {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P3M",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        }
+    ],
+    "productId": "S21",
+    "lastUpdated": "2021-02-25T08:20:49.000+10:00",
+    "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+    "name": "Everyday transaction account",
+    "description": "A day to day transaction account for personal use",
+    "brand": "CAIRNS PENNY SAVINGS LOANS LTD",
+    "brandName": "Cairns Bank",
+    "applicationUri": "",
+    "isTailored": false,
+    "additionalInformation": {
+        "overviewUri": "https://cairnsbank.com.au/banking/personal-banking/transaction-accounts",
+        "termsUri": "https://cairnsbank.com.au/information-and-support/disclosure/terms-conditions",
+        "eligibilityUri": "",
+        "feesAndPricingUri": "https://cairnsbank.com.au/information-and-support/disclosure/fees-and-charges",
+        "bundleUri": ""
+    }
+}

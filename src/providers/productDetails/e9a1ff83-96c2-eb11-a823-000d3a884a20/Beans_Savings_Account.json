@@ -1,0 +1,117 @@
+{
+    "features": [
+        {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "featureType": "NPP_ENABLED",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "featureType": "NPP_PAYID",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "featureType": "BONUS_REWARDS",
+            "additionalValue": "Bonus Rate - minimum deposit of $10.00 per month and no Withdrawals per month",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        }
+    ],
+    "eligibility": [
+        {
+            "eligibilityType": "MAX_AGE",
+            "additionalValue": "18",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        }
+    ],
+    "depositRates": [
+        {
+            "depositRateType": "VARIABLE",
+            "rate": "0.002",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "tiers": [
+                {
+                    "name": "Beans Savings Account_Tier_1",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 0.0,
+                    "maximumValue": 9999999.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalInfo": "",
+            "additionalInfoUri": "https://www.policecu.com.au/PCUDocuments/Savings_and_Investment_Interest_Rates.pdf"
+        },
+        {
+            "depositRateType": "VARIABLE",
+            "rate": "0.002",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "tiers": [
+                {
+                    "name": "Beans Savings Account_Tier_2",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 9999999.01,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalInfo": "",
+            "additionalInfoUri": "https://www.policecu.com.au/PCUDocuments/Savings_and_Investment_Interest_Rates.pdf"
+        },
+        {
+            "depositRateType": "BONUS",
+            "rate": "0.0365",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "tiers": [
+                {
+                    "name": "Beans Savings Account_Tier_1",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 0.0,
+                    "maximumValue": 9999999.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalInfo": "",
+            "additionalInfoUri": "https://www.policecu.com.au/PCUDocuments/Savings_and_Investment_Interest_Rates.pdf"
+        },
+        {
+            "depositRateType": "BONUS",
+            "rate": "0.0365",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "tiers": [
+                {
+                    "name": "Beans Savings Account_Tier_2",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 9999999.01,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ],
+            "additionalInfo": "",
+            "additionalInfoUri": "https://www.policecu.com.au/PCUDocuments/Savings_and_Investment_Interest_Rates.pdf"
+        }
+    ],
+    "productId": "Beans_Savings_Account",
+    "lastUpdated": "2023-07-03T09:49:48.000+09:30",
+    "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+    "name": "Beans Savings Account",
+    "description": "An account exclusive to Junior Saver Members",
+    "brand": "POLICE CREDIT UNION LIMITED",
+    "brandName": "POLICE CREDIT UNION LIMITED",
+    "applicationUri": "",
+    "isTailored": false,
+    "additionalInformation": {
+        "overviewUri": "https://www.policecu.com.au/product-type/savings-and-investment-accounts/",
+        "termsUri": "https://www.policecu.com.au/rates/",
+        "eligibilityUri": "https://www.policecu.com.au/rates/",
+        "feesAndPricingUri": "https://www.policecu.com.au/PCUDocuments/Fees_and_Charges_General_Service_Fees.pdf",
+        "bundleUri": ""
+    }
+}

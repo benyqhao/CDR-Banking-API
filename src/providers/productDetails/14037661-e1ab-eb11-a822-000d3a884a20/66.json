@@ -1,0 +1,108 @@
+{
+    "productId": "66",
+    "effectiveFrom": "2021-04-12T14:30:00.0000000Z",
+    "lastUpdated": "2023-07-10T02:00:20.8592693Z",
+    "productCategory": "PERS_LOANS",
+    "name": "Fixed Unsecured Personal Loan",
+    "description": "Fixed Unsecured Personal Loan",
+    "brand": "PNB",
+    "brandName": "P&N Bank",
+    "isTailored": false,
+    "additionalInformation": {
+        "overviewUri": "https://www.pnbank.com.au/personal-banking/personal-loans/unsecured-personal-loan/",
+        "termsUri": "https://www.pnbank.com.au/legal/terms-conditions/lending/",
+        "feesAndPricingUri": "https://www.pnbank.com.au/personal-banking/personal-loans/unsecured-personal-loan/#tab2"
+    },
+    "features": [
+        {
+            "featureType": "DIGITAL_BANKING"
+        },
+        {
+            "featureType": "NPP_ENABLED"
+        },
+        {
+            "featureType": "REDRAW"
+        }
+    ],
+    "constraints": [
+        {
+            "constraintType": "MIN_LIMIT",
+            "additionalValue": "5000.00",
+            "additionalInfo": "Minimum loan amount is $5,000"
+        }
+    ],
+    "fees": [
+        {
+            "name": "Late Payment Notification Fee",
+            "feeType": "EVENT",
+            "amount": "5.00",
+            "currency": "AUD",
+            "additionalInfo": "Charged when payment to a Personal Loan becomes overdue by 11 and 30 days",
+            "additionalInfoUri": "https://www.pnbank.com.au/help-support/fees-charges/#personal-loans"
+        },
+        {
+            "name": "Loan Establishment Fee",
+            "feeType": "UPFRONT",
+            "amount": "199.00",
+            "currency": "AUD"
+        },
+        {
+            "name": "Monthly Maintenance Fee",
+            "feeType": "PERIODIC",
+            "amount": "5.00",
+            "currency": "AUD",
+            "additionalValue": "P1M"
+        }
+    ],
+    "lendingRates": [
+        {
+            "lendingRateType": "FIXED",
+            "rate": "0.0999",
+            "comparisonRate": "0.1065",
+            "interestPaymentDue": "IN_ARREARS",
+            "additionalValue": "P1Y"
+        },
+        {
+            "lendingRateType": "FIXED",
+            "rate": "0.0999",
+            "comparisonRate": "0.1065",
+            "interestPaymentDue": "IN_ARREARS",
+            "additionalValue": "P2Y"
+        },
+        {
+            "lendingRateType": "FIXED",
+            "rate": "0.0999",
+            "comparisonRate": "0.1065",
+            "interestPaymentDue": "IN_ARREARS",
+            "additionalValue": "P3Y"
+        },
+        {
+            "lendingRateType": "FIXED",
+            "rate": "0.0999",
+            "comparisonRate": "0.1065",
+            "interestPaymentDue": "IN_ARREARS",
+            "additionalValue": "P4Y"
+        },
+        {
+            "lendingRateType": "FIXED",
+            "rate": "0.0999",
+            "comparisonRate": "0.1065",
+            "interestPaymentDue": "IN_ARREARS",
+            "additionalValue": "P5Y"
+        },
+        {
+            "lendingRateType": "FIXED",
+            "rate": "0.0999",
+            "comparisonRate": "0.1065",
+            "interestPaymentDue": "IN_ARREARS",
+            "additionalValue": "P6Y"
+        },
+        {
+            "lendingRateType": "FIXED",
+            "rate": "0.0999",
+            "comparisonRate": "0.1065",
+            "interestPaymentDue": "IN_ARREARS",
+            "additionalValue": "P7Y"
+        }
+    ]
+}

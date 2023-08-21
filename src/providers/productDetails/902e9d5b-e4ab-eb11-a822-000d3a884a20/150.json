@@ -1,0 +1,90 @@
+{
+    "productId": "150",
+    "effectiveFrom": "2020-04-15T14:30:00.0000000Z",
+    "lastUpdated": "2023-06-20T16:00:39.7448099Z",
+    "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+    "name": "Business iSaver",
+    "description": "Business iSaver",
+    "brand": "BCU",
+    "brandName": "bcu",
+    "isTailored": false,
+    "additionalInformation": {
+        "overviewUri": "https://www.bcu.com.au/business-access-and-savings/business-isaver",
+        "termsUri": "https://www.bcu.com.au/important-documents",
+        "feesAndPricingUri": "https://www.bcu.com.au/business-access-and-savings/business-isaver"
+    },
+    "features": [
+        {
+            "featureType": "DIGITAL_BANKING"
+        },
+        {
+            "featureType": "NPP_ENABLED"
+        },
+        {
+            "featureType": "UNLIMITED_TXNS"
+        }
+    ],
+    "eligibility": [
+        {
+            "eligibilityType": "BUSINESS"
+        }
+    ],
+    "fees": [
+        {
+            "name": "Auto Transfer Dishonour Fee",
+            "feeType": "EVENT",
+            "amount": "6.00",
+            "currency": "AUD",
+            "additionalInfo": "Charged where there are insufficient funds in your account when an external auto transfer payment is due to be made",
+            "additionalInfoUri": "https://www.bcu.com.au/help-support/fees-charges"
+        },
+        {
+            "name": "Overdrawn Acct Management Fee",
+            "feeType": "PERIODIC",
+            "amount": "10.00",
+            "currency": "AUD",
+            "additionalValue": "P1M",
+            "additionalInfo": "A fee of $10 payable in relation to any month where we allow you to overdraw your account by more than $50",
+            "additionalInfoUri": "https://www.bcu.com.au/help-support/fees-charges",
+            "discounts": [
+                {
+                    "description": "On a fee for maintaining a set balance",
+                    "discountType": "BALANCE",
+                    "feeRate": "1.0",
+                    "additionalValue": "50.00"
+                }
+            ]
+        }
+    ],
+    "depositRates": [
+        {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0145",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "tiers": [
+                {
+                    "name": "Floating Balance Tier 1",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 0.0,
+                    "maximumValue": 4999.99,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ]
+        },
+        {
+            "depositRateType": "VARIABLE",
+            "rate": "0.016",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "tiers": [
+                {
+                    "name": "Floating Balance Tier 2",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 5000.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE"
+                }
+            ]
+        }
+    ]
+}

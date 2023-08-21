@@ -1,0 +1,91 @@
+{
+    "productId": "10",
+    "effectiveFrom": "2001-07-02T14:30:00.0000000Z",
+    "lastUpdated": "2023-04-24T02:13:54.1034051Z",
+    "productCategory": "PERS_LOANS",
+    "name": "Unsecured Personal Loan (R)",
+    "description": "Unsecured Personal Loan (R)",
+    "brand": "Qudos Bank",
+    "applicationUri": "https://online.qudosbank.com.au/internetlending/public/financialsnapshot.aspx?productid=10031",
+    "isTailored": false,
+    "additionalInformation": {
+        "overviewUri": "https://www.qudosbank.com.au/Products/PersonalLoans/PersonalLoan",
+        "termsUri": "https://www.qudosbank.com.au/Support/TheFinePrint",
+        "eligibilityUri": "https://www.qudosbank.com.au/Products/PersonalLoans/PersonalLoan",
+        "feesAndPricingUri": "https://www.qudosbank.com.au/Products/PersonalLoans/PersonalLoan"
+    },
+    "features": [
+        {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "Our secure Online Banking service means access to your accounts 24 hours a day, seven days a week.",
+            "additionalInfoUri": "https://www.qudosbank.com.au/Support/WaysToBank/OnlineBanking"
+        },
+        {
+            "featureType": "NPP_ENABLED",
+            "additionalInfo": "This account is able to receive Osko payments",
+            "additionalInfoUri": "https://www.qudosbank.com.au/real-time-payments"
+        },
+        {
+            "featureType": "NPP_PAYID",
+            "additionalInfo": "PayIDs can be linked with this account",
+            "additionalInfoUri": "https://www.qudosbank.com.au/real-time-payments"
+        },
+        {
+            "featureType": "OTHER",
+            "additionalInfo": "Repayment options of weekly, fortnightly, or monthly\nA loan period of up to 7 years"
+        }
+    ],
+    "constraints": [
+        {
+            "constraintType": "MAX_LIMIT",
+            "additionalValue": "25000.00",
+            "additionalInfo": "You can borrow up to $25,000.",
+            "additionalInfoUri": "https://www.qudosbank.com.au/Products/PersonalLoans/PersonalLoan"
+        },
+        {
+            "constraintType": "MIN_LIMIT",
+            "additionalValue": "5000.00",
+            "additionalInfo": "Minimum amount $5,000",
+            "additionalInfoUri": "https://www.qudosbank.com.au/Products/PersonalLoans/PersonalLoan"
+        }
+    ],
+    "eligibility": [
+        {
+            "eligibilityType": "EMPLOYMENT_STATUS",
+            "additionalValue": "Full time, Part Time, Casual, Self Employed"
+        },
+        {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "18",
+            "additionalInfo": "18 years and above"
+        },
+        {
+            "eligibilityType": "NATURAL_PERSON"
+        },
+        {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalValue": "Customers who are Permanent Resident or Citizens may apply for the product"
+        }
+    ],
+    "fees": [
+        {
+            "name": "Establishment Fee",
+            "feeType": "UPFRONT",
+            "amount": "150.00",
+            "currency": "AUD",
+            "additionalInfo": "$150.00"
+        }
+    ],
+    "lendingRates": [
+        {
+            "lendingRateType": "VARIABLE",
+            "rate": "0.1124",
+            "comparisonRate": "0.1229",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "interestPaymentDue": "IN_ARREARS",
+            "additionalInfo": "11.24%",
+            "additionalInfoUri": "https://asset.qudosbank.com.au/files/factcast/InterestRates.pdf"
+        }
+    ]
+}

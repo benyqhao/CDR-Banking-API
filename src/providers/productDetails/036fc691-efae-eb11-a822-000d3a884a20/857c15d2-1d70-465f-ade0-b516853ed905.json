@@ -1,0 +1,279 @@
+{
+    "features": [
+        {
+            "featureType": "REDRAW",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "featureType": "BILL_PAYMENT",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        }
+    ],
+    "eligibility": [
+        {
+            "eligibilityType": "BUSINESS",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        }
+    ],
+    "fees": [
+        {
+            "name": "ACCOUNT_SERVICE_FEE_-_BUSINESS_TERM_LOAN",
+            "feeType": "PERIODIC",
+            "amount": "20.00",
+            "accrualFrequency": "P1M",
+            "currency": "AUD",
+            "additionalValue": "P1M",
+            "additionalInfo": "Payble to levy costs we incur in provding your account and its service",
+            "additionalInfoUri": "https://auswidebank.com.au/help/resources/fees-and-charges/"
+        },
+        {
+            "name": "ESTABLISHMENT_FEE_-_BUSINESS_LOANS",
+            "feeType": "UPFRONT",
+            "balanceRate": "0.005",
+            "accrualFrequency": "",
+            "currency": "AUD",
+            "additionalInfo": "To cover our costs associated with establishing your loan",
+            "additionalInfoUri": "https://auswidebank.com.au/help/resources/fees-and-charges/"
+        },
+        {
+            "name": "RATE_LOCK_FEE",
+            "feeType": "UPFRONT",
+            "balanceRate": "0.0015",
+            "accrualFrequency": "",
+            "currency": "AUD",
+            "additionalInfo": "If you elect to lock-in a fixed interest rate prior to commencement of the fixed rate term",
+            "additionalInfoUri": "https://auswidebank.com.au/help/resources/fees-and-charges/"
+        },
+        {
+            "name": "DEFAULT_ADMINISTRATION_FEE",
+            "feeType": "EVENT",
+            "amount": "40.00",
+            "accrualFrequency": "",
+            "currency": "AUD",
+            "additionalInfo": "Payable if there is an event of default under the terms of your loan",
+            "additionalInfoUri": "https://auswidebank.com.au/help/resources/fees-and-charges/"
+        },
+        {
+            "name": "RTGS_''SAME_DAY''_PAYMENT",
+            "feeType": "TRANSACTION",
+            "amount": "20.00",
+            "accrualFrequency": "",
+            "currency": "AUD",
+            "additionalInfo": "Payable when you request a high value, time critical payment from your account to another financial instituation on a real time basis for \"same day\" payment",
+            "additionalInfoUri": "https://auswidebank.com.au/help/resources/fees-and-charges/"
+        },
+        {
+            "name": "SWITCH_FEE",
+            "feeType": "EVENT",
+            "amount": "500.00",
+            "accrualFrequency": "",
+            "currency": "AUD",
+            "additionalInfo": "Payable when you change interest rate type or if we agree to your request to extend the term of a fixed interest rate period or to change the fixed interest rate. Break costs may also apply.",
+            "additionalInfoUri": "https://auswidebank.com.au/info/fees-and-charges/#businessLoans"
+        },
+        {
+            "name": "MORTGAGE_RELEASE_FEE",
+            "feeType": "EVENT",
+            "amount": "350.00",
+            "accrualFrequency": "P1D",
+            "currency": "AUD",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        }
+    ],
+    "lendingRates": [
+        {
+            "lendingRateType": "VARIABLE",
+            "rate": "0.0823",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "tiers": [
+                {
+                    "name": "Residential Security",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 20000.0,
+                    "maximumValue": 5000000.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE",
+                    "applicabilityConditions": {
+                        "additionalInfoUri": "",
+                        "additionalInfo": ""
+                    }
+                }
+            ],
+            "additionalInfo": "",
+            "additionalInfoUri": "https://auswidebank.com.au/info/rates/"
+        },
+        {
+            "lendingRateType": "VARIABLE",
+            "rate": "0.0853",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "tiers": [
+                {
+                    "name": "Commercial or Other Security - Var",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 20000.0,
+                    "maximumValue": 5000000.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE",
+                    "applicabilityConditions": {
+                        "additionalInfoUri": "",
+                        "additionalInfo": ""
+                    }
+                }
+            ],
+            "additionalInfo": "",
+            "additionalInfoUri": "https://auswidebank.com.au/info/rates/"
+        },
+        {
+            "lendingRateType": "FIXED",
+            "rate": "0.0704",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "tiers": [
+                {
+                    "name": "Residential Sec - 1 Yr Fix",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 20000.0,
+                    "maximumValue": 5000000.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE",
+                    "applicabilityConditions": {
+                        "additionalInfoUri": "",
+                        "additionalInfo": ""
+                    }
+                }
+            ],
+            "additionalValue": "P1Y",
+            "additionalInfo": "",
+            "additionalInfoUri": "https://auswidebank.com.au/info/rates/"
+        },
+        {
+            "lendingRateType": "FIXED",
+            "rate": "0.0704",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "tiers": [
+                {
+                    "name": "Residential Sec - 2 Yr Fix",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 20000.0,
+                    "maximumValue": 5000000.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE",
+                    "applicabilityConditions": {
+                        "additionalInfoUri": "",
+                        "additionalInfo": ""
+                    }
+                }
+            ],
+            "additionalValue": "P2Y",
+            "additionalInfo": "",
+            "additionalInfoUri": "https://auswidebank.com.au/info/rates/"
+        },
+        {
+            "lendingRateType": "FIXED",
+            "rate": "0.0714",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "tiers": [
+                {
+                    "name": "Residential Sec - 3 Yr Fix",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 20000.0,
+                    "maximumValue": 5000000.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE",
+                    "applicabilityConditions": {
+                        "additionalInfoUri": "",
+                        "additionalInfo": ""
+                    }
+                }
+            ],
+            "additionalValue": "P3Y",
+            "additionalInfo": "",
+            "additionalInfoUri": "https://auswidebank.com.au/info/rates/"
+        },
+        {
+            "lendingRateType": "FIXED",
+            "rate": "0.0744",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "tiers": [
+                {
+                    "name": "Commercial/Other Sec - 1 Yr Fix",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 20000.0,
+                    "maximumValue": 5000000.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE",
+                    "applicabilityConditions": {
+                        "additionalInfoUri": "",
+                        "additionalInfo": ""
+                    }
+                }
+            ],
+            "additionalValue": "P1Y",
+            "additionalInfo": "",
+            "additionalInfoUri": "https://auswidebank.com.au/info/rates/"
+        },
+        {
+            "lendingRateType": "FIXED",
+            "rate": "0.0744",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "tiers": [
+                {
+                    "name": "Commercial/Other Sec - 2 Yr Fix",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 20000.0,
+                    "maximumValue": 5000000.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE",
+                    "applicabilityConditions": {
+                        "additionalInfoUri": "",
+                        "additionalInfo": ""
+                    }
+                }
+            ],
+            "additionalValue": "P2Y",
+            "additionalInfo": "",
+            "additionalInfoUri": "https://auswidebank.com.au/info/rates/"
+        },
+        {
+            "lendingRateType": "FIXED",
+            "rate": "0.0754",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "tiers": [
+                {
+                    "name": "Commercial/Other Sec - 3 Yr Fix",
+                    "unitOfMeasure": "DOLLAR",
+                    "minimumValue": 20000.0,
+                    "maximumValue": 5000000.0,
+                    "rateApplicationMethod": "WHOLE_BALANCE",
+                    "applicabilityConditions": {
+                        "additionalInfoUri": "",
+                        "additionalInfo": ""
+                    }
+                }
+            ],
+            "additionalValue": "P3Y",
+            "additionalInfo": "",
+            "additionalInfoUri": "https://auswidebank.com.au/info/rates/"
+        }
+    ],
+    "productId": "857c15d2-1d70-465f-ade0-b516853ed905",
+    "lastUpdated": "2023-07-13T09:34:07.000+10:00",
+    "productCategory": "BUSINESS_LOANS",
+    "name": "BUSINESS TERM LOAN",
+    "description": "A business loan with competitive variable and fixed interest rates and the flexibility to redraw.",
+    "brand": "AUSWIDE BANK",
+    "brandName": "AUSWIDE BANK",
+    "applicationUri": "",
+    "isTailored": false,
+    "additionalInformation": {
+        "overviewUri": "https://auswidebank.com.au/business/loans-and-overdrafts/business-term-loan/",
+        "termsUri": "",
+        "eligibilityUri": "https://auswidebank.com.au/business/loans-and-overdrafts/business-term-loan/",
+        "feesAndPricingUri": "https://auswidebank.com.au/info/fees-and-charges/#businessLoans",
+        "bundleUri": ""
+    }
+}

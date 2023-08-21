@@ -1,0 +1,188 @@
+{
+    "depositRates": [
+        {
+            "applicationFrequency": "P1M",
+            "rate": "0.0000000000000000",
+            "depositRateType": "VARIABLE",
+            "tiers": [],
+            "calculationFrequency": "P1D",
+            "additionalInfoUri": "https://www.bendigobank.com.au/globalassets/documents/interestrates/schedule-of-interest-rates-for-business-accounts.pdf"
+        }
+    ],
+    "features": [
+        {
+            "additionalInfo": "*Age restrictions apply. Available subject to approval ",
+            "featureType": "OTHER",
+            "additionalValue": "Phone Banking*"
+        },
+        {
+            "additionalInfo": "*Age restrictions apply. Available subject to approval ",
+            "featureType": "DIGITAL_BANKING",
+            "additionalValue": "E-Banking*"
+        },
+        {
+            "additionalInfo": "*Age restrictions apply. Available subject to approval ",
+            "featureType": "OTHER",
+            "additionalValue": "Bulk Payments*"
+        },
+        {
+            "additionalInfo": "**BPAY View are only available if you have access to Bendigo E-Banking.",
+            "featureType": "OTHER",
+            "additionalValue": "BPAY & BPAY View**"
+        },
+        {
+            "additionalInfo": "**Pay Anyone is only available if you have access to Bendigo E-Banking",
+            "featureType": "OTHER",
+            "additionalValue": "Pay Anyone Service**"
+        },
+        {
+            "additionalInfo": "Automatic Payments ",
+            "featureType": "OTHER",
+            "additionalValue": "Automatic Payments "
+        },
+        {
+            "additionalInfo": "No Monthly Service Fee ",
+            "featureType": "OTHER",
+            "additionalValue": "No Monthly Service Fee "
+        },
+        {
+            "additionalInfo": "Available",
+            "featureType": "OTHER",
+            "additionalValue": "Telegraphic Transfers"
+        },
+        {
+            "additionalInfo": "Age restrictions apply. Subject to approval",
+            "featureType": "CARD_ACCESS",
+            "additionalValue": "Debit Card Availble"
+        }
+    ],
+    "lastUpdated": "2023-05-11T05:14:06.791Z",
+    "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+    "brandName": "Bendigo Bank",
+    "isTailored": false,
+    "bundles": [],
+    "cardArt": [],
+    "lendingRates": [],
+    "fees": [
+        {
+            "additionalInfoUri": "https://www.bendigobank.com.au/globalassets/documents/disclosures/business-fees-and-charges.pdf",
+            "feeType": "TRANSACTION",
+            "name": "BPAY Withdrawal",
+            "amount": "0.400000",
+            "discounts": [],
+            "currency": "AUD"
+        },
+        {
+            "additionalInfoUri": "https://www.bendigobank.com.au/globalassets/documents/disclosures/business-fees-and-charges.pdf",
+            "feeType": "TRANSACTION",
+            "name": "e-banking internal transfer",
+            "amount": "0.400000",
+            "discounts": []
+        },
+        {
+            "additionalInfoUri": "https://www.bendigobank.com.au/globalassets/documents/disclosures/business-fees-and-charges.pdf",
+            "feeType": "TRANSACTION",
+            "name": "Phone Banking transfer ",
+            "amount": "0.400000",
+            "discounts": []
+        },
+        {
+            "additionalInfoUri": "https://www.bendigobank.com.au/globalassets/documents/disclosures/business-fees-and-charges.pdf",
+            "feeType": "TRANSACTION",
+            "name": "e-banking Pay Anyone transfer, including Osko",
+            "amount": "0.400000",
+            "discounts": []
+        },
+        {
+            "additionalInfoUri": "https://www.bendigobank.com.au/globalassets/documents/disclosures/business-fees-and-charges.pdf",
+            "feeType": "TRANSACTION",
+            "name": "Cash withdrawal ",
+            "amount": "1.750000",
+            "discounts": []
+        },
+        {
+            "additionalInfoUri": "https://www.bendigobank.com.au/globalassets/documents/disclosures/business-fees-and-charges.pdf",
+            "feeType": "TRANSACTION",
+            "name": "Branch Transfer ",
+            "amount": "1.750000",
+            "discounts": []
+        },
+        {
+            "additionalInfoUri": "https://www.bendigobank.com.au/globalassets/documents/disclosures/business-fees-and-charges.pdf",
+            "feeType": "TRANSACTION",
+            "name": "Agency withdrawal ",
+            "amount": "1.750000",
+            "discounts": []
+        },
+        {
+            "additionalInfoUri": "https://www.bendigobank.com.au/globalassets/documents/disclosures/business-fees-and-charges.pdf",
+            "feeType": "TRANSACTION",
+            "name": "Collection item ",
+            "amount": "0.700000",
+            "discounts": []
+        },
+        {
+            "additionalInfoUri": "https://www.bendigobank.com.au/globalassets/documents/disclosures/business-fees-and-charges.pdf",
+            "feeType": "TRANSACTION",
+            "name": "EFTPOS withdrawal",
+            "amount": "0.700000",
+            "discounts": []
+        },
+        {
+            "additionalInfoUri": "https://www.bendigobank.com.au/globalassets/documents/disclosures/business-fees-and-charges.pdf",
+            "feeType": "TRANSACTION",
+            "name": "Bank@Post withdrawal",
+            "amount": "4.000000",
+            "discounts": []
+        },
+        {
+            "additionalInfoUri": "https://www.bendigobank.com.au/globalassets/documents/disclosures/business-fees-and-charges.pdf",
+            "feeType": "TRANSACTION",
+            "name": "Bank@Post deposit",
+            "amount": "4.000000",
+            "discounts": []
+        },
+        {
+            "additionalInfoUri": "https://www.bendigobank.com.au/globalassets/documents/disclosures/business-fees-and-charges.pdf",
+            "feeType": "TRANSACTION",
+            "name": "EFT Credit Transfer",
+            "amount": "4.000000",
+            "discounts": []
+        },
+        {
+            "additionalInfoUri": "https://www.bendigobank.com.au/globalassets/documents/disclosures/business-fees-and-charges.pdf",
+            "feeType": "TRANSACTION",
+            "name": "Periodical payment to other financial institution",
+            "amount": "3.750000",
+            "discounts": []
+        },
+        {
+            "additionalInfoUri": "https://www.bendigobank.com.au/globalassets/documents/disclosures/business-fees-and-charges.pdf",
+            "feeType": "TRANSACTION",
+            "name": "Bank Cheque Withdrawal",
+            "amount": "10.000000",
+            "discounts": []
+        }
+    ],
+    "description": "Businesses requiring less frequent transactions.",
+    "brand": "BENDIGO",
+    "productId": "9f51088a-d0b5-4e29-9214-f9d262f9569e",
+    "name": "Bendigo Business Basic Account",
+    "constraints": [
+        {
+            "additionalValue": "1.00",
+            "constraintType": "OPENING_BALANCE"
+        }
+    ],
+    "eligibility": [
+        {
+            "eligibilityType": "BUSINESS"
+        }
+    ],
+    "additionalInformation": {
+        "eligibilityUri": "https://www.bendigobank.com.au/disclosure-documents/",
+        "overviewUri": "https://www.bendigobank.com.au/business/business-transaction-accounts/",
+        "feesAndPricingUri": "https://www.bendigobank.com.au/globalassets/documents/disclosures/business-fees-and-charges.pdf",
+        "termsUri": "https://www.bendigobank.com.au/disclosure-documents/"
+    }
+}

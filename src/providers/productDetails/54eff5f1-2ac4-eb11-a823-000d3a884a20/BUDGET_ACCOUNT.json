@@ -1,0 +1,40 @@
+{
+    "features": [
+        {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        }
+    ],
+    "depositRates": [
+        {
+            "depositRateType": "VARIABLE",
+            "rate": "0.0",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "additionalInfo": "",
+            "additionalInfoUri": "https://www.orangecu.com.au/everyday-banking/rates-and-fees/savings-account-interest-rates"
+        }
+    ],
+    "productId": "BUDGET_ACCOUNT",
+    "lastUpdated": "2020-12-18T07:49:54.000+11:00",
+    "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+    "name": "BUDGET ACCOUNT",
+    "description": "BUDGET ACCOUNT",
+    "brand": "ORANGE CREDIT UNION LTD",
+    "brandName": "ORANGE CREDIT UNION LTD",
+    "applicationUri": "https://forms.orangecu.com.au/form.php?f=19",
+    "isTailored": false,
+    "additionalInformation": {
+        "overviewUri": "https://www.orangecu.com.au/savings/transaction-accounts/budget",
+        "termsUri": "https://www.orangecu.com.au/disclosure-documents",
+        "eligibilityUri": "https://www.orangecu.com.au/disclosure-documents",
+        "feesAndPricingUri": "https://www.orangecu.com.au/everyday-banking/rates-and-fees/fees-and-charges",
+        "bundleUri": "https://www.orangecu.com.au/everyday-banking/rates-and-fees/fees-and-charges"
+    }
+}

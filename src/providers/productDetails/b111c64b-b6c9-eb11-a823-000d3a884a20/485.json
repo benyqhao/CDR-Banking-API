@@ -1,0 +1,108 @@
+{
+    "productId": "485",
+    "effectiveTo": "9999-12-31T00:00:00Z",
+    "lastUpdated": "2023-05-03T14:30:00Z",
+    "productCategory": "RESIDENTIAL_MORTGAGES",
+    "name": "Bridging Loan",
+    "description": "A short-term home loan to help you buy your new home, before you've sold your old one.",
+    "brand": "People's Choice Credit Union",
+    "brandName": "People's Choice",
+    "applicationUri": "https://www.peopleschoice.com.au/borrowing-and-credit/home-loans/bridging-loan",
+    "isTailored": false,
+    "additionalInformation": {
+        "overviewUri": "https://www.peopleschoice.com.au/borrowing-and-credit/home-loans/standard-variable-home-loan",
+        "termsUri": "https://media.peopleschoice.com.au/-/media/project/peopleschoice/mainsite/files/brochures/brc-8-3-2-lending-terms-conditions.pdf",
+        "eligibilityUri": "https://www.peopleschoice.com.au/borrowing-and-credit/borrowing-for-a-life-event/buying-a-home/the-home-loan-requirements-you-need-to-apply",
+        "feesAndPricingUri": "https://www.peopleschoice.com.au/borrowing-and-credit/home-loans/standard-variable-home-loan"
+    },
+    "features": [
+        {
+            "featureType": "EXTRA_REPAYMENTS",
+            "additionalValue": "Additional Repayments",
+            "additionalInfo": "Freedom to make unlimited extra repayments \u2013 reduce your loan term and save money",
+            "additionalInfoUri": "https://media.peopleschoice.com.au/-/media/project/peopleschoice/mainsite/files/brochures/brc-8-3-2-lending-terms-conditions.pdf"
+        },
+        {
+            "featureType": "OFFSET",
+            "additionalValue": "Offset Account",
+            "additionalInfo": "Link your loan and transaction account to help reduce the interest and time taken to pay off your loan.",
+            "additionalInfoUri": "https://www.peopleschoice.com.au/managing-my-money/bank-accounts/transaction-accounts/offset-account"
+        },
+        {
+            "featureType": "OTHER",
+            "additionalInfo": "Ability to capitalise interest for 12 months",
+            "additionalInfoUri": "https://www.peopleschoice.com.au/borrowing-and-credit/home-loans/construction-loans"
+        }
+    ],
+    "fees": [
+        {
+            "name": "Settlement Fee",
+            "feeType": "UPFRONT",
+            "amount": "150.00",
+            "additionalInfoUri": "https://media.peopleschoice.com.au/-/media/project/peopleschoice/mainsite/files/brochures/brc-8-6-2-fees-and-charges.pdf"
+        },
+        {
+            "name": "Security Handling Fee",
+            "feeType": "EVENT",
+            "amount": "150.00",
+            "additionalInfo": "Charged per occurrence. Payable in the following circumstances; deed of priority, title production, variation of priority, consent or name change.",
+            "additionalInfoUri": "https://media.peopleschoice.com.au/-/media/project/peopleschoice/mainsite/files/brochures/brc-8-6-2-fees-and-charges.pdf"
+        },
+        {
+            "name": "Portability Fee",
+            "feeType": "EVENT",
+            "amount": "300.00",
+            "additionalInfo": "Charged per occasion when you wish to change the security(ies) against an existing loan(s) and there is no change to the existing loan(s) amount, loan interest rate or type, term of the loan(s), product type, borrowers or mortgagors. Discharge fees may also apply.",
+            "additionalInfoUri": "https://media.peopleschoice.com.au/-/media/project/peopleschoice/mainsite/files/brochures/brc-8-6-2-fees-and-charges.pdf"
+        },
+        {
+            "name": "Top Up Fee",
+            "feeType": "EVENT",
+            "amount": "400.00",
+            "additionalInfo": "Payable when you request and we approve additional funds to your existing borrowings and there is no change to the security or borrowers.",
+            "additionalInfoUri": "https://media.peopleschoice.com.au/-/media/project/peopleschoice/mainsite/files/brochures/brc-8-6-2-fees-and-charges.pdf"
+        },
+        {
+            "name": "Discharge of Mortgage",
+            "feeType": "EVENT",
+            "amount": "350.00",
+            "additionalInfo": "For the preparation of a discharge of mortgage.",
+            "additionalInfoUri": "https://media.peopleschoice.com.au/-/media/project/peopleschoice/mainsite/files/brochures/brc-8-6-2-fees-and-charges.pdf"
+        },
+        {
+            "name": "Documentation Fee",
+            "feeType": "EVENT",
+            "amount": "200.00",
+            "additionalInfo": "Payable in the following circumstances: preparation of an additional mortgage; preparation of a guarantee; or where documents have been cancelled or redone, at your request, after contracts have been issued.",
+            "additionalInfoUri": "https://media.peopleschoice.com.au/-/media/project/peopleschoice/mainsite/files/brochures/brc-8-6-2-fees-and-charges.pdf"
+        },
+        {
+            "name": "Valuation Fee",
+            "feeType": "EVENT",
+            "amount": "0.00",
+            "additionalInfo": "Valuation Fee at cost and payable by member.",
+            "additionalInfoUri": "https://media.peopleschoice.com.au/-/media/project/peopleschoice/mainsite/files/brochures/brc-8-6-2-fees-and-charges.pdf"
+        },
+        {
+            "name": "Nil End Debt Application Fee",
+            "feeType": "UPFRONT",
+            "amount": "850.00",
+            "additionalInfo": "For Bridging loans where there is no debt remaining once your existing property has been sold and the debts are paid in full at the end of the bridging period.",
+            "additionalInfoUri": "https://media.peopleschoice.com.au/-/media/project/peopleschoice/mainsite/files/brochures/brc-8-6-2-fees-and-charges.pdf"
+        }
+    ],
+    "lendingRates": [
+        {
+            "lendingRateType": "VARIABLE",
+            "rate": "0.0906",
+            "comparisonRate": "0.0883",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "interestPaymentDue": "IN_ARREARS",
+            "repaymentType": "INTEREST_ONLY",
+            "loanPurpose": "OWNER_OCCUPIED",
+            "additionalValue": "Standard Variable Interest Only Rate",
+            "additionalInfoUri": "https://www.peopleschoice.com.au/rates/home-loan-rates"
+        }
+    ]
+}

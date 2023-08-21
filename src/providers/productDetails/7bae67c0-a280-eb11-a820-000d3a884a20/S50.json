@@ -1,0 +1,106 @@
+{
+    "features": [
+        {
+            "featureType": "OTHER",
+            "additionalInfo": "Bonus interest earned for each month if you make no withdrawals during the month and the account has a deposit during that month.",
+            "additionalInfoUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-interest-rates/"
+        },
+        {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "featureType": "NPP_PAYID",
+            "additionalInfo": "",
+            "additionalInfoUri": "https://geelongbank.com.au/access/real-time-payments/"
+        },
+        {
+            "featureType": "NPP_ENABLED",
+            "additionalInfo": "",
+            "additionalInfoUri": "https://geelongbank.com.au/access/real-time-payments/"
+        },
+        {
+            "featureType": "NOTIFICATIONS",
+            "additionalInfo": "Track credits with SMS and email alerts",
+            "additionalInfoUri": ""
+        },
+        {
+            "featureType": "OTHER",
+            "additionalInfo": "eStatements available",
+            "additionalInfoUri": ""
+        },
+        {
+            "featureType": "OTHER",
+            "additionalInfo": "No monthly access fee",
+            "additionalInfoUri": ""
+        },
+        {
+            "featureType": "OTHER",
+            "additionalInfo": "24hr Phone Banking",
+            "additionalInfoUri": ""
+        }
+    ],
+    "constraints": [
+        {
+            "constraintType": "MIN_BALANCE",
+            "additionalValue": "1.00",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        }
+    ],
+    "eligibility": [
+        {
+            "eligibilityType": "OTHER",
+            "additionalInfo": "You must be a member and resident of Australia",
+            "additionalInfoUri": "https://geelongbank.com.au/about-us/why-join-geelong-bank/"
+        },
+        {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalValue": "Individuals must be citizens or permanent residents of Australia.",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "eligibilityType": "MAX_AGE",
+            "additionalValue": "18",
+            "additionalInfo": "",
+            "additionalInfoUri": "https://geelongbank.com.au/savings-loans/savings-investment-accounts/young-achievers-savings-account/"
+        }
+    ],
+    "depositRates": [
+        {
+            "depositRateType": "VARIABLE",
+            "rate": "0.012",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "depositRateType": "BONUS",
+            "rate": "0.017",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        }
+    ],
+    "productId": "S50",
+    "effectiveFrom": "2020-09-30T00:00:00.000+10:00",
+    "lastUpdated": "2023-06-05T10:59:11.000+10:00",
+    "productCategory": "TRANS_AND_SAVINGS_ACCOUNTS",
+    "name": "Young Achiever Savings",
+    "description": "Savings and banking solutions for young children and teenagers made simple and easy.",
+    "brand": "FORD COOPERATIVE CREDIT SOCIETY",
+    "brandName": "GEELONG BANK",
+    "applicationUri": "https://forms.geelongbank.com.au/form.php?f=904",
+    "isTailored": false,
+    "additionalInformation": {
+        "overviewUri": "https://geelongbank.com.au/savings-loans/savings-investment-accounts/young-achievers-savings-account/",
+        "termsUri": "https://geelongbank.com.au/savings-loans/savings-investment-accounts/young-achievers-savings-account/",
+        "eligibilityUri": "https://geelongbank.com.au/about-us/why-join-geelong-bank/",
+        "feesAndPricingUri": "https://geelongbank.com.au/savings-loans/rates-fees/deposit-account-interest-rates/",
+        "bundleUri": ""
+    }
+}

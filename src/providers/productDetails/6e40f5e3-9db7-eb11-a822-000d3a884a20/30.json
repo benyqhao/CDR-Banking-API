@@ -1,0 +1,96 @@
+{
+    "productId": "30",
+    "effectiveFrom": "2014-09-30T14:30:00.0000000Z",
+    "lastUpdated": "2023-05-10T08:00:07.3834583Z",
+    "productCategory": "RESIDENTIAL_MORTGAGES",
+    "name": "Standard Home Equity",
+    "description": "Line of credit secured by a mortgage over residential property",
+    "brand": "First Choice Credit Union",
+    "applicationUri": "https://www.firstchoicecu.com.au/online-application.html",
+    "isTailored": false,
+    "additionalInformation": {
+        "overviewUri": "https://www.firstchoicecu.com.au/home-equity-loans.html"
+    },
+    "features": [
+        {
+            "featureType": "BILL_PAYMENT"
+        },
+        {
+            "featureType": "CARD_ACCESS",
+            "additionalValue": "Visa Debit"
+        },
+        {
+            "featureType": "DIGITAL_BANKING"
+        },
+        {
+            "featureType": "NOTIFICATIONS",
+            "additionalValue": "SMS Notifications"
+        }
+    ],
+    "eligibility": [
+        {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "18"
+        }
+    ],
+    "fees": [
+        {
+            "name": "Mortgage Discharge Fee",
+            "feeType": "EVENT",
+            "amount": "100.00",
+            "currency": "AUD"
+        },
+        {
+            "name": "Real Estate Valuation",
+            "feeType": "UPFRONT",
+            "amount": "275.00",
+            "currency": "AUD",
+            "additionalInfo": "Charged by valuer - At Cost (Basic valuation currently $220.00)"
+        },
+        {
+            "name": "Solicitor Mortgage Prep Costs",
+            "feeType": "UPFRONT",
+            "amount": "440.00",
+            "currency": "AUD",
+            "additionalInfo": "Charged by solicitors - At Cost (Currently $583.00)"
+        },
+        {
+            "name": "Registration of Mortgage",
+            "feeType": "UPFRONT",
+            "amount": "141.60",
+            "currency": "AUD",
+            "additionalInfo": "Per docuemnt registered.  Charged by LPI - At Cost (Currently $146.40)"
+        },
+        {
+            "name": "Agent Costs for Lodging Docs",
+            "feeType": "UPFRONT",
+            "amount": "36.00",
+            "currency": "AUD",
+            "additionalInfo": "Charged by PEXA - At Cost (Approximately $57.20)"
+        },
+        {
+            "name": "Solicitor Discharge Fee",
+            "feeType": "EVENT",
+            "amount": "246.00",
+            "currency": "AUD",
+            "additionalInfo": "Charged by solicitor - At Cost (Currently $246.00)"
+        },
+        {
+            "name": "Home Equity Loan monthly account keeping fee",
+            "feeType": "PERIODIC",
+            "amount": "10.00",
+            "currency": "AUD",
+            "additionalValue": "P1M"
+        }
+    ],
+    "lendingRates": [
+        {
+            "lendingRateType": "VARIABLE",
+            "rate": "0.066",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "interestPaymentDue": "IN_ARREARS",
+            "additionalInfoUri": "https://www.firstchoicecu.com.au/loan-interet-rates.html"
+        }
+    ]
+}

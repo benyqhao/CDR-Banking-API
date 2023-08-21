@@ -1,0 +1,158 @@
+{
+    "cardArt": [],
+    "features": [
+        {
+            "additionalValue": "BPAY",
+            "featureType": "BILL_PAYMENT"
+        },
+        {
+            "featureType": "DIGITAL_BANKING"
+        },
+        {
+            "additionalValue": "An account of this product type can be used as the target of an NPP PayID",
+            "featureType": "NPP_PAYID"
+        },
+        {
+            "additionalValue": "An account of this product type can be used as the target of an NPP PayID",
+            "featureType": "NPP_ENABLED"
+        }
+    ],
+    "eligibility": [
+        {
+            "eligibilityType": "BUSINESS",
+            "additionalInfo": "Required to hold a trading account with Bendigo Bank to re-direct fees"
+        }
+    ],
+    "depositRates": [
+        {
+            "additionalInfoUri": "https://www.bendigobank.com.au/globalassets/documents/interestrates/schedule-of-interest-rates-for-business-accounts.pdf",
+            "depositRateType": "VARIABLE",
+            "tiers": [],
+            "rate": "0.0000000000000000"
+        }
+    ],
+    "description": "Businesses that receive money on behalf of their clients and are required by law to hold this money in trust.",
+    "fees": [
+        {
+            "additionalInfoUri": "https://www.bendigobank.com.au/globalassets/documents/disclosures/business-fees-and-charges.pdf",
+            "feeType": "TRANSACTION",
+            "amount": "0.400000",
+            "discounts": [],
+            "currency": "AUD",
+            "name": " BPAY withdrawal "
+        },
+        {
+            "additionalInfoUri": "https://www.bendigobank.com.au/globalassets/documents/disclosures/business-fees-and-charges.pdf",
+            "feeType": "TRANSACTION",
+            "amount": "0.400000",
+            "discounts": [],
+            "currency": "AUD",
+            "name": "E-banking internal transfer"
+        },
+        {
+            "additionalInfoUri": "https://www.bendigobank.com.au/globalassets/documents/disclosures/business-fees-and-charges.pdf",
+            "feeType": "TRANSACTION",
+            "amount": "0.400000",
+            "discounts": [],
+            "currency": "AUD",
+            "name": "Phone Banking transfer"
+        },
+        {
+            "additionalInfoUri": "https://www.bendigobank.com.au/globalassets/documents/disclosures/business-fees-and-charges.pdf",
+            "feeType": "TRANSACTION",
+            "amount": "0.400000",
+            "discounts": [],
+            "currency": "AUD",
+            "name": "E-banking Pay Anyone transfer, including Osko"
+        },
+        {
+            "additionalInfoUri": "https://www.bendigobank.com.au/globalassets/documents/disclosures/business-fees-and-charges.pdf",
+            "feeType": "TRANSACTION",
+            "amount": "1.750000",
+            "discounts": [],
+            "currency": "AUD",
+            "name": "Branch Cash withdrawal "
+        },
+        {
+            "additionalInfoUri": "https://www.bendigobank.com.au/globalassets/documents/disclosures/business-fees-and-charges.pdf",
+            "feeType": "TRANSACTION",
+            "amount": "1.750000",
+            "discounts": [],
+            "currency": "AUD",
+            "name": "Branch Transfer"
+        },
+        {
+            "additionalInfoUri": "https://www.bendigobank.com.au/globalassets/documents/disclosures/business-fees-and-charges.pdf",
+            "feeType": "TRANSACTION",
+            "amount": "1.750000",
+            "discounts": [],
+            "currency": "AUD",
+            "name": "Agency withdrawal"
+        },
+        {
+            "additionalInfoUri": "https://www.bendigobank.com.au/globalassets/documents/disclosures/business-fees-and-charges.pdf",
+            "feeType": "TRANSACTION",
+            "amount": "0.700000",
+            "discounts": [],
+            "currency": "AUD",
+            "name": "Collection item "
+        },
+        {
+            "additionalInfoUri": "https://www.bendigobank.com.au/globalassets/documents/disclosures/business-fees-and-charges.pdf",
+            "feeType": "TRANSACTION",
+            "amount": "0.700000",
+            "discounts": [],
+            "name": "EFTPOS withdrawal"
+        },
+        {
+            "additionalInfoUri": "https://www.bendigobank.com.au/globalassets/documents/disclosures/business-fees-and-charges.pdf",
+            "feeType": "TRANSACTION",
+            "amount": "10.000000",
+            "discounts": [],
+            "name": "Bank cheque withdrawal"
+        },
+        {
+            "additionalInfoUri": "https://www.bendigobank.com.au/globalassets/documents/disclosures/business-fees-and-charges.pdf",
+            "feeType": "TRANSACTION",
+            "amount": "4.000000",
+            "discounts": [],
+            "name": "EFT Credit Transfer"
+        },
+        {
+            "additionalInfoUri": "https://www.bendigobank.com.au/globalassets/documents/disclosures/business-fees-and-charges.pdf",
+            "feeType": "TRANSACTION",
+            "amount": "3.750000",
+            "discounts": [],
+            "additionalInfo": "Existing accounts only. Cheque facilities and Cheque books are not available on new accounts opened from 1 August 2023.)",
+            "name": "Periodical payment by cheque"
+        },
+        {
+            "additionalInfoUri": "https://www.bendigobank.com.au/globalassets/documents/disclosures/business-fees-and-charges.pdf",
+            "feeType": "TRANSACTION",
+            "amount": "3.750000",
+            "discounts": [],
+            "name": "Periodical payment to other financial institution"
+        }
+    ],
+    "productId": "63d5c384-d2f3-4c9e-9331-25c35fa8eaf8",
+    "lendingRates": [],
+    "additionalInformation": {
+        "overviewUri": "https://www.bendigobank.com.au/business/business-transaction-accounts/regulated-trust-accounts/",
+        "feesAndPricingUri": "https://www.bendigobank.com.au/globalassets/documents/disclosures/business-fees-and-charges.pdf",
+        "termsUri": "https://www.bendigobank.com.au/disclosure-documents/",
+        "eligibilityUri": "https://www.bendigobank.com.au/disclosure-documents/"
+    },
+    "lastUpdated": "2023-08-01T07:08:35.845Z",
+    "name": "Real Estate Trust",
+    "productCategory": "REGULATED_TRUST_ACCOUNTS",
+    "brand": "BENDIGO",
+    "brandName": "Bendigo Bank",
+    "constraints": [
+        {
+            "additionalValue": "1",
+            "constraintType": "OPENING_BALANCE"
+        }
+    ],
+    "isTailored": false,
+    "bundles": []
+}

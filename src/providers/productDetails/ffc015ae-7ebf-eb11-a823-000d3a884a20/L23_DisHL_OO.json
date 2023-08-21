@@ -1,0 +1,114 @@
+{
+    "features": [
+        {
+            "featureType": "DIGITAL_BANKING",
+            "additionalInfo": "SWSCU Internet Banking & App",
+            "additionalInfoUri": ""
+        },
+        {
+            "featureType": "REDRAW",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "featureType": "OFFSET",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "featureType": "NPP_ENABLED",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "featureType": "NOTIFICATIONS",
+            "additionalInfo": "Alerts",
+            "additionalInfoUri": ""
+        },
+        {
+            "featureType": "OTHER",
+            "additionalInfo": "Maximum loan term is 30 years",
+            "additionalInfoUri": ""
+        }
+    ],
+    "eligibility": [
+        {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "18",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalValue": "Australian citizen or permanent resident",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        },
+        {
+            "eligibilityType": "NATURAL_PERSON",
+            "additionalInfo": "",
+            "additionalInfoUri": ""
+        }
+    ],
+    "fees": [
+        {
+            "name": "LAND_TITLE_SEARCH_FEE",
+            "feeType": "EVENT",
+            "amount": "17.10",
+            "accrualFrequency": "",
+            "currency": "AUD",
+            "additionalInfo": "Payable to Third Party",
+            "additionalInfoUri": "https://www.swscu.com.au/products-rates-and-fees-fees-and-charges.html"
+        },
+        {
+            "name": "SERVICE_FEE",
+            "feeType": "EVENT",
+            "amount": "9.00",
+            "accrualFrequency": "",
+            "currency": "AUD",
+            "additionalInfo": "SWSCU service fee for searches",
+            "additionalInfoUri": "https://www.swscu.com.au/products-rates-and-fees-fees-and-charges.html"
+        }
+    ],
+    "lendingRates": [
+        {
+            "lendingRateType": "DISCOUNT",
+            "rate": "0.0489",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "additionalInfo": "",
+            "additionalInfoUri": "https://www.swscu.com.au/loans/owner-occupied-home-loans/discounted-standard-variable-home-loan-12-month-discount/",
+            "interestPaymentDue": "IN_ARREARS",
+            "comparisonRate": "0.062",
+            "repaymentType": "PRINCIPAL_AND_INTEREST",
+            "loanPurpose": "OWNER_OCCUPIED"
+        },
+        {
+            "lendingRateType": "VARIABLE",
+            "rate": "0.0635",
+            "calculationFrequency": "P1D",
+            "applicationFrequency": "P1M",
+            "additionalInfo": "",
+            "additionalInfoUri": "https://www.swscu.com.au/loans/owner-occupied-home-loans/discounted-standard-variable-home-loan-12-month-discount/",
+            "interestPaymentDue": "IN_ARREARS",
+            "repaymentType": "PRINCIPAL_AND_INTEREST",
+            "loanPurpose": "OWNER_OCCUPIED"
+        }
+    ],
+    "productId": "L23_DisHL_OO",
+    "lastUpdated": "2023-07-07T09:42:45.000+10:00",
+    "productCategory": "RESIDENTIAL_MORTGAGES",
+    "name": "Discounted Standard Variable Home Loan (12 month discount)",
+    "description": "Discounted Standard Variable Home Loan (12 month discount)",
+    "brand": "South West Slopes Credit Union",
+    "brandName": "South West Slopes Credit Union",
+    "applicationUri": "https://forms.sharedservices.com.au/form.php?c=165&f=49",
+    "isTailored": false,
+    "additionalInformation": {
+        "overviewUri": "https://www.swscu.com.au/loans/owner-occupied-home-loans/discounted-standard-variable-home-loan-12-month-discount/",
+        "termsUri": "",
+        "eligibilityUri": "",
+        "feesAndPricingUri": "",
+        "bundleUri": ""
+    }
+}

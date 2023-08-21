@@ -1,0 +1,105 @@
+{
+    "brand": "BENDIGO",
+    "name": "Bendigo Unsecured Personal Loan ",
+    "eligibility": [
+        {
+            "eligibilityType": "MIN_AGE",
+            "additionalValue": "18"
+        },
+        {
+            "eligibilityType": "EMPLOYMENT_STATUS",
+            "additionalValue": "Employed"
+        },
+        {
+            "eligibilityType": "PENSION_RECIPIENT",
+            "additionalValue": "Pension"
+        },
+        {
+            "eligibilityType": "STUDENT",
+            "additionalValue": "Student"
+        },
+        {
+            "eligibilityType": "RESIDENCY_STATUS",
+            "additionalValue": "Australian Resident"
+        }
+    ],
+    "additionalInformation": {
+        "termsUri": "https://www.bendigobank.com.au/globalassets/documents/disclosures/bendigo-personal-loan-terms-conditions.pdf",
+        "overviewUri": "https://apply.bendigobank.com.au/bendigoapply/servlet/SmartForm.html?formCode=personal-loan&applicationType=personalLoan",
+        "feesAndPricingUri": "https://www.bendigobank.com.au/globalassets/documents/disclosures/lending-fees-and-charges.pdf"
+    },
+    "fees": [
+        {
+            "currency": "AUD",
+            "discounts": [],
+            "name": "Monthly Fee",
+            "feeType": "PERIODIC",
+            "additionalValue": "P1M",
+            "amount": "5.000000"
+        },
+        {
+            "currency": "AUD",
+            "discounts": [],
+            "name": "Early Repayment Fee ",
+            "feeType": "EXIT",
+            "amount": "20.000000"
+        },
+        {
+            "currency": "AUD",
+            "discounts": [],
+            "name": "Establishment Fee",
+            "feeType": "UPFRONT",
+            "amount": "150.000000"
+        },
+        {
+            "currency": "AUD",
+            "discounts": [],
+            "name": "Default Fee",
+            "feeType": "EVENT",
+            "amount": "35.000000"
+        }
+    ],
+    "lastUpdated": "2023-04-20T14:30:22.195Z",
+    "brandName": "Bendigo Bank",
+    "applicationUri": "https://apply.bendigobank.com.au/bendigoapply/servlet/SmartForm.html?formCode=personal-loan&applicationType=personalLoan",
+    "description": "A personal loan for a number of purposes not requiring security to be offered",
+    "productId": "c98688d8-055d-494e-8866-b406374bdaf5",
+    "bundles": [],
+    "cardArt": [],
+    "depositRates": [],
+    "lendingRates": [
+        {
+            "tiers": [],
+            "interestPaymentDue": "IN_ARREARS",
+            "additionalInfo": "Unsecured",
+            "lendingRateType": "FIXED",
+            "additionalValue": "P7Y",
+            "comparisonRate": "0.1489000000000000",
+            "rate": "0.1279000000000000",
+            "calculationFrequency": "P1D"
+        }
+    ],
+    "isTailored": true,
+    "effectiveFrom": "2019-12-31T13:30:00.000Z",
+    "constraints": [
+        {
+            "constraintType": "OPENING_BALANCE",
+            "additionalValue": "2000"
+        },
+        {
+            "constraintType": "MIN_LIMIT",
+            "additionalValue": "1"
+        }
+    ],
+    "features": [
+        {
+            "additionalInfo": "Online redraw available",
+            "featureType": "REDRAW"
+        },
+        {
+            "additionalInfo": "Weekly, fortnightly or monthly repayments",
+            "featureType": "OTHER"
+        }
+    ],
+    "productCategory": "PERS_LOANS"
+}
