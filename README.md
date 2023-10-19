@@ -1,5 +1,5 @@
 # CDR Banking API
-In 2019, the Australian Government introduced the Consumer Data Right (CDR) legislative, regulatory, and standards framework for data portability _within_ australia.
+In 2019, the Australian Government introduced the Consumer Data Right (CDR) legislative, regulatory, and standards framework for data portability within australia.
 
 Australia’s CDR aimed to provide individuals more control over the data provided to institutions as well as enabling access and sharing of data with accredited third parties to access better deals on everyday products and services.
 
