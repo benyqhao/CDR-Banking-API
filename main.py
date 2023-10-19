@@ -17,7 +17,7 @@ logging.basicConfig(
 )
 
 
-@lru_cache(maxsize=None)
+# @lru_cache(maxsize=None)
 def call_and_handle(url, version, handle_type, provider_id, product_id):
     response = retrieveAPI.call(url, version)
     retrieveAPI.handleCall(response, handle_type, provider_id, product_id)
