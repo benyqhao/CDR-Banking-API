@@ -1,59 +1,93 @@
 import os
 import json
 import logging
+import concurrent.futures
 from api import config, retrieveAPI
+from functools import lru_cache
+from logging.handlers import RotatingFileHandler
+
 
 logging.basicConfig(
-    level=logging.INFO
-    , format="%(asctime)s, %(levelname)s %(message)s"
-    , datefmt="%Y-%m-%d %H:%M:%S"
-    , filename="record-keep.log"
-    )
+    level=logging.INFO,
+    format="%(asctime)s, %(levelname)s %(message)s",
+    datefmt="%Y-%m-%d %H:%M:%S",
+    handlers=[
+        RotatingFileHandler("record-keep.log", maxBytes=1000000, backupCount=5)
+    ]
+)
 
-def buildJSON(url, version, handleType, providerId, productId):
+
+@lru_cache(maxsize=None)
+def call_and_handle(url, version, handle_type, provider_id, product_id):
+    response = retrieveAPI.call(url, version)
+    retrieveAPI.handleCall(response, handle_type, provider_id, product_id)
+
+
+def build_json(url, version, handle_type, provider_id, product_id):
     try:
-        response = retrieveAPI.call(url, version)
-        retrieveAPI.handleCall(response, handleType, providerId, productId)
+        call_and_handle(url, version, handle_type, provider_id, product_id)
     except Exception as error:
         logging.critical(error)
 
-def buildProducts(read_json_location):
+
+def build_products(read_json_location):
     try:
-        with open(read_json_location, 'r') as jsonfile:
-            providerList = json.load(jsonfile)
-            jsonfile.close()
-        for provider in providerList:
-            url = f'{providerList[provider]["publicBaseUri"]}/cds-au/v1/banking/products?page-size=1000'
-            buildJSON(url, 3, 'product', provider, None)
-            # break
+        with open(read_json_location, 'r') as json_file:
+            provider_list = json.load(json_file)
+        with concurrent.futures.ThreadPoolExecutor() as executor:
+            futures = []
+            for provider, data in provider_list.items():
+                url = f"{data['publicBaseUri']}/cds-au/v1/banking/products?page-size=1000"
+                future = executor.submit(
+                    build_json, url, 3, "product", provider, None
+                )
+                futures.append(future)
+            concurrent.futures.wait(futures)
     except Exception as error:
         logging.critical(error)
 
-def buildProductDetails(read_json_location):
+
+def build_product_details(read_json_location):
     try:
-        for providerFileName in os.listdir(read_json_location):
-            providerId = os.path.splitext(providerFileName)[0]
-            provider_directory = './src/providers/providers.json'
-            write_directory = f'./src/providers/productDetails/{providerId}'
-            if not os.path.exists(write_directory):
-                os.makedirs(write_directory)
-            with open(f'{read_json_location}/{providerFileName}', 'r') as product_jsonfile:
-                productList = json.load(product_jsonfile)
-                product_jsonfile.close()
-            for productId in productList['products']:
-                try:
-                    with open(provider_directory, 'r') as provider_jsonfile:
-                        providerList = json.load(provider_jsonfile)
-                        provider_jsonfile.close()
-                    
-                    url = f"{providerList[providerId]['publicBaseUri']}/cds-au/v1/banking/products/{productId['productId']}"
-                    buildJSON(url, 3, 'productDetails', providerId, productId['productId'])
-                except Exception as error:
-                    logging.critical(error)
-            #     break
-            # break
+        provider_directory = "./src/providers/providers.json"
+        write_base_directory = "./src/providers/productDetails"
+        if not os.path.exists(write_base_directory):
+            os.makedirs(write_base_directory)
+        with concurrent.futures.ThreadPoolExecutor() as executor:
+            futures = []
+            for provider_file_name in os.listdir(read_json_location):
+                provider_id = os.path.splitext(provider_file_name)[0]
+                write_directory = os.path.join(write_base_directory, provider_id)
+                if not os.path.exists(write_directory):
+                    os.makedirs(write_directory)
+                with open(
+                    os.path.join(read_json_location, provider_file_name), 'r'
+                ) as product_json_file:
+                    product_list = json.load(product_json_file)
+                for product_id in product_list['products']:
+                    future = executor.submit(
+                        build_product_detail,
+                        provider_id,
+                        provider_directory,
+                        product_id
+                    )
+                    futures.append(future)
+            concurrent.futures.wait(futures)
     except Exception as error:
         logging.critical(error)
+
+
+# @lru_cache(maxsize=None)
+def build_product_detail(provider_id, provider_directory, product_id):
+    try:
+        with open(provider_directory, 'r') as provider_json_file:
+            provider_list = json.load(provider_json_file)
+        url = f"{provider_list[provider_id]['publicBaseUri']}/cds-au/v1/banking/products/{product_id['productId']}"
+        build_json(url, 3, "productDetails", provider_id, product_id['productId'])
+    except Exception as error:
+        print('failed')
+        logging.critical(error)
+
 
 def main():
     config.setupDirs()
@@ -65,7 +99,6 @@ def main():
     # buildJSON('https://product.api.heritage.com.au/cds-au/v1/banking/products?page-size=1000', 3, 'product', 'test', None)
     # buildJSON('https://digital-api.banksa.com.au/cds-au/v1/banking/products/BSACCAmplifySignaturecardRewards', 4, 'productDetails', 'test', 'BSACCAmplifySignaturecardRewards')
     # buildJSON('https://ib.bankvic.com.au/openbanking/cds-au/v1/banking/products/S40_Savings_SMSF', 3, 'productDetails', '01608f70-e4ae-eb11-a822-000d3a884a20', 'S40_Savings_SMSF')
-
 
 
 if __name__ == '__main__':
